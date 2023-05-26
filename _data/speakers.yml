@@ -1,0 +1,12 @@
+speakers:
+  - name:
+    type: # speaker | teacher
+    id:
+    company:
+    position:
+    image:
+    links:
+      - text:
+        icon: 
+        url:
+    bio:

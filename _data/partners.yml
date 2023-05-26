@@ -1,0 +1,18 @@
+main:
+  img:
+  url:
+  alt:
+  text:
+partners:
+  - img:
+    url:
+    alt:
+    text:
+collaborators:
+  - img:
+    url:
+    alt:
+patrons:
+  - alt:
+    img:
+    url:
