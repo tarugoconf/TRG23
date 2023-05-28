@@ -1,5 +1,4 @@
 ---
-layout:
 title: Código de conducta
 ---
 
