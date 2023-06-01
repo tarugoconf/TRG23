@@ -1,0 +1,24 @@
+.dots {
+  --size: 25;
+  --scale: 8px;
+  --color: var(--color-black);
+  --background-image: linear-gradient(transparent, transparent);
+  --background-position: 0px 0px;
+  --background-size: auto auto;
+  --point: calc((clamp(1, var(--size), 100) * 0.4%) + 10%);
+  
+  background-image: 
+    var(--background-image),
+    radial-gradient(var(--color) var(--point), transparent var(--point)),
+    radial-gradient(var(--color) var(--point), transparent var(--point));
+
+  background-position:
+    var(--background-position),
+    0px 0px,
+    calc(var(--scale) / 2) calc(var(--scale) / 2);
+
+  background-size:
+    var(--background-size),
+    var(--scale) var(--scale),
+    var(--scale) var(--scale);
+}

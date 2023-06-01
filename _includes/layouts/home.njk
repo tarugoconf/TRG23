@@ -1,0 +1,58 @@
+---
+layout: ./base.njk
+styles: /styles/home.css
+scripts: /js/home.js
+---
+<div class="home-splash dots">
+
+</div>
+
+<main class="ly-wrapper">
+  <section class="home-section is-about">
+    <header>
+      <h2>{{ about.title }}</h2>
+    </header>
+
+    {{ about.content | md | safe }}
+
+    <trg-video id="video-resume" data-id="829383642">
+      <img src="/img/trg22-poster.jpg">
+    </trg-video>
+  </section>
+
+  <section class="home-section is-contact" id="contacto">
+    <header>
+      <h2>{{ contact.title }}</h2>
+    </header>
+
+    {% for item in contact.items %}
+    <address>
+      <h3>{{ item.title }}</h3>
+      {{ item.info | md | safe }}
+
+      <ul>
+      {% for link in item.links %}
+        <li><a href="{{ link.url }}">{{ link.text }}</a></li>
+      {% endfor %}
+      </ul>
+    </address>
+    {% endfor %}
+  </section>
+
+  <section class="home-section is-faq" id="faq">
+    <header>
+      <h2>{{ faq.title }}</h2>
+    </header>
+
+    <div class="faq">
+      {% for item in faq.questions %}
+      <details class="faq-question">
+        <summary>{{ item.question }}</summary>
+        <div class="faq-answer">
+          {{ item.answer | md | safe }}
+        </div>
+      </details>
+      {% endfor %}
+    </div>
+  </section>
+</main>

@@ -1,0 +1,4 @@
+.home-splash {
+  --background-image: linear-gradient(to bottom, transparent, var(--color-sepia));
+  height: min(500px, 60vh);
+}

@@ -1,0 +1,52 @@
+title: TRG23
+layout: layouts/home.njk
+about:
+  title: ¿Qué es la TRG?
+  content: |
+    La Tarugoconf es una conferencia sobre diseño, construcción y comercialización de productos y servicios digitales que nace alrededor de la heterogénea Comunidad de suscriptores y suscriptoras de La Bonilista, la newsletter semanal sobre emprendimiento tecnológico escrita por David Bonilla.
+
+    Organizada con un único objetivo: cuidar cada detalle del evento de forma enfermiza —desde las acreditaciones hasta la oferta gastronómica— para transformar la asistencia en una experiencia, sin olvidar nunca que lo más importante de la Tarugoconf, lo que verdaderamente la diferencia, son sus charlas.
+
+menu_local:
+  - text: Contacto
+    url: "#contacto"
+  - text: FAQ
+    url: "#faq"
+
+contact:
+  title: Contacto
+  items:
+    - title: Candela Milán Dopico
+      info: Event manager
+      links:
+        - text: tarugoconf@bonillaware.com
+          url: mailto:tarugoconf@bonillaware.com
+        - text: "@candelamd"
+          icon: /img/icons/twitter.svg
+          url: https://twitter.com/candelamd
+
+    - title: Bonillaware SLU
+      info: Castellana 194, Cink Coworking<br>28046 Madrid (España)
+      links:
+        - text: Ver mapa
+          icon: /img/icons/googlemaps.svg
+          url: https://g.page/cink-coworking?share
+        - text: tarugoconf.slack.com
+          icon: /img/icons/slack.svg
+          url: https://tarugoconf.slack.com
+        - text: "@tarugoconf"
+          icon: /img/icons/twitter.svg
+          url: https://twitter.com/tarugoconf
+
+faq:
+  title: What the FAQ?
+  questions:
+    - question: Si finalmente no puedo asistir ¿podré cancelar mi entrada?
+      answer: |
+        Claro. Podrás cancelar tu entrada **hasta 30 días antes del evento**.
+    - question: Si finalmente no puedo asistir ¿podré cancelar mi entrada?
+      answer: |
+        Claro. Podrás cancelar tu entrada **hasta 30 días antes del evento**.
+    - question: Si finalmente no puedo asistir ¿podré cancelar mi entrada?
+      answer: |
+        Claro. Podrás cancelar tu entrada **hasta 30 días antes del evento**.

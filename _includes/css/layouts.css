@@ -1,0 +1,6 @@
+.ly-wrapper {
+  max-width: 1224px;
+  width: calc(100% - 10vw);
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,9 @@
+html {
+  background-color: var(--color-sepia);
+  color: var(--color-black);
+  scroll-behavior: smooth;
+  text-rendering: auto;
+  overflow-wrap: break-word;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
