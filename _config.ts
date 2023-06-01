@@ -15,6 +15,10 @@ const site = lume()
   .remoteFile(
     "js/deps/vimeo-player.js",
     "https://unpkg.com/@vimeo/player@2.20.1/dist/player.es.js",
+  )
+  .remoteFile(
+    "js/deps/typed.js",
+    "https://unpkg.com/typed.js@2.0.16/dist/typed.module.js",
   );
 
 export default site;
