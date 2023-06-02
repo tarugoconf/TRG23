@@ -1,0 +1,15 @@
+<footer class="footer">
+  <div>
+    {{ footer.copyright | md | safe }}
+  </div>
+
+  <ul>
+    {% for item in footer.menu %}
+    <li>
+        <a href="{{ item.href }}">
+            {{ item.text }}
+        </a>
+    </li>
+    {% endfor %}
+  </ul>
+</footer>

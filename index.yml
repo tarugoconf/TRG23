@@ -1,11 +1,9 @@
 title: TRG23
 layout: layouts/home.njk
 about:
-  title: ¿Qué es la TRG?
-  content: |
+  title: Tecnología, relaciones y gastromonía.
+  intro: |
     La Tarugoconf es una conferencia sobre diseño, construcción y comercialización de productos y servicios digitales que nace alrededor de la heterogénea Comunidad de suscriptores y suscriptoras de La Bonilista, la newsletter semanal sobre emprendimiento tecnológico escrita por David Bonilla.
-
-    Organizada con un único objetivo: cuidar cada detalle del evento de forma enfermiza —desde las acreditaciones hasta la oferta gastronómica— para transformar la asistencia en una experiencia, sin olvidar nunca que lo más importante de la Tarugoconf, lo que verdaderamente la diferencia, son sus charlas.
 
 menu_local:
   - text: Contacto
@@ -21,21 +19,22 @@ contact:
       links:
         - text: tarugoconf@bonillaware.com
           url: mailto:tarugoconf@bonillaware.com
+          icon: /img/icons/envelope-duotone.svg
         - text: "@candelamd"
-          icon: /img/icons/twitter.svg
+          icon: /img/icons/twitter-logo-duotone.svg
           url: https://twitter.com/candelamd
 
     - title: Bonillaware SLU
       info: Castellana 194, Cink Coworking<br>28046 Madrid (España)
       links:
         - text: Ver mapa
-          icon: /img/icons/googlemaps.svg
+          icon: /img/icons/map-pin-duotone.svg
           url: https://g.page/cink-coworking?share
         - text: tarugoconf.slack.com
-          icon: /img/icons/slack.svg
+          icon: /img/icons/slack-logo-duotone.svg
           url: https://tarugoconf.slack.com
         - text: "@tarugoconf"
-          icon: /img/icons/twitter.svg
+          icon: /img/icons/twitter-logo-duotone.svg
           url: https://twitter.com/tarugoconf
 
 faq:

@@ -1,0 +1,12 @@
+.footer {
+  display: grid;
+  column-gap: var(--column-gap);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  font-size: var(--font-0-size);
+  line-height: var(--line-height-text);
+
+  & ul {
+    list-style: none;
+    padding: 0;
+  }
+}

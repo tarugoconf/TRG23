@@ -4,3 +4,13 @@
   margin-left: auto;
   margin-right: auto;
 }
+.ly-wrapper-grid {
+  display: grid;
+  grid-template-columns: 0 minmax(0, 1224px) 0;
+  justify-content: space-between;
+  column-gap: 5vw;
+
+  & > * {
+    grid-column: 2;
+  }
+}

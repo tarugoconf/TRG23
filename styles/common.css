@@ -1,8 +1,12 @@
 @import "css/normalize.css";
+@import "css/fonts.css";
 @import "css/variables.css";
 @import "css/base.css";
 @import "css/layouts.css";
 @import "css/utils.css";
 
 @import "css/components/navbar.css";
+@import "css/components/footer.css";
 @import "css/components/trg-video.css";
+@import "css/components/faq.css";
+@import "css/components/text.css";

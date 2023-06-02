@@ -1,0 +1,15 @@
+.faq {
+
+}
+.faq-question {
+  border: none;
+
+  & summary {
+    font-size: var(--font-3-size);
+    font-weight: bold;
+    line-height: var(--line-height-text);
+    letter-spacing: var(--font-3-spacing);
+    margin: 0;
+    padding-left: 0;
+  }
+}

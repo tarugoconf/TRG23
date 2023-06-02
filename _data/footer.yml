@@ -1,0 +1,11 @@
+copyright: |
+  © 2022<br>
+  Gestionado con ♥ e inconsciencia por Bonillaware SLU.<br>
+  Web creada con [Lume](https://lume.land)
+menu:
+- text: Aviso legal
+  href: /aviso-legal/
+- text: Política de privacidad
+  href: /politica-de-privacidad/
+- text: Código de conducta
+  href: /codigo-de-conducta/
