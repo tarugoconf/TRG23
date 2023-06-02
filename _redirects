@@ -1,0 +1,6 @@
+[[redirects]]
+  from = "/blog"
+  to = "https://www.tarugoconf.com/blog/"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
