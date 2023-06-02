@@ -1,8 +1,7 @@
 ---
+layout: layouts/text.njk
 title: Código de conducta
 ---
-
-# Código de conducta
 
 La Tarugoconf pretende ser **una experiencia agradable para todos los
 asistentes,** independientemente de su planeta de origen, género, orientación

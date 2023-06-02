@@ -1,14 +1,12 @@
 ---
-title: Aviso legal
+layout: layouts/text.njk
+title: Política de privacidad
+subtitle: Madrid, 24 de mayo de 2018
 ---
-
-# Política de privacidad
-
-Madrid, 24 de mayo de 2018
-
 ## Titular y Responsable del tratamiento de los Datos
 
-Bonillaware SLU / CIF ESB86232956<br> Cink Emprende. Paseo de la Castellana 194,
+**Bonillaware SLU / CIF ESB86232956**  
+Cink Emprende. Paseo de la Castellana 194,
 28046 (Madrid) España.
 
 Correo electrónico de contacto:

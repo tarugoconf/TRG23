@@ -1,0 +1,16 @@
+main {
+  --row-gap: min(100px, 20vh);
+  padding-bottom: var(--row-gap);
+}
+.text {
+  padding-bottom: var(--row-gap);
+  padding-top: var(--row-gap);
+}
+
+.text-body {
+  background-color: var(--color-sepia);
+  position: relative;
+  padding: 2rem 0 0 5vw;
+  margin-left: -5vw;
+  margin-top: -2rem;
+}

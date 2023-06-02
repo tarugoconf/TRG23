@@ -1,10 +1,8 @@
 ---
+layout: layouts/text.njk
 title: Aviso legal
+subtitle: Madrid, 24 de mayo de 2018
 ---
-
-# Aviso legal
-
-Madrid, 24 de mayo de 2018
 
 ## 1. Propiedad del sitio
 

@@ -12,6 +12,26 @@
   align-items: center;
 }
 
+.navbar-back {
+  font-size: var(--font-2-size);
+  font-weight: bold;
+  border-bottom: solid 2px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+
+  & a {
+    text-decoration: none;
+    color: inherit;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
 .navbar-menu-local {
   list-style: none;
   margin: 0;

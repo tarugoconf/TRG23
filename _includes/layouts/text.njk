@@ -1,0 +1,26 @@
+---
+layout: ./base.njk
+styles: /styles/texts.css
+---
+
+<main class="ly-wrapper-grid">
+  <nav class="navbar-back">
+    <a href="/">← Ir a la portada</a>
+  </nav>
+
+  <article class="text ly-document">
+    <header class="ly-document-header">
+      <h1 class="text-title">{{ title }}</h1>
+
+      {% if subtitle %}
+      <p class="text-intro">{{ subtitle }}</p>
+      {% endif %}
+    </header>
+
+    <div class="text-body ly-document-body">
+      {{ content | safe }}
+    </div>
+  </article>
+
+  {% include "templates/footer.njk" %}
+</main>

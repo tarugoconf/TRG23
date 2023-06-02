@@ -14,3 +14,17 @@
     grid-column: 2;
   }
 }
+.ly-document {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  column-gap: 5vw;
+  align-items: start;
+}
+.ly-document-header {
+  grid-column: 1 / 2;
+  position: sticky;
+  top: 100px;
+}
+.ly-document-body {
+  grid-column: 2 / 4;
+}
