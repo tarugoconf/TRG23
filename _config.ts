@@ -8,7 +8,6 @@ const site = lume()
   .ignore("README.md")
   .copy("js")
   .copy("img")
-  .copy("_redirects")
   .remoteFile(
     "_includes/css/normalize.css",
     "https://unpkg.com/ui-normalize@0.3.0/ui-normalize.css",
