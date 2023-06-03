@@ -3,14 +3,16 @@ layout: ./base.njk
 styles: /styles/texts.css
 ---
 
-<main class="ly-wrapper-grid">
-  <nav class="navbar-back">
-    <a href="/">← Ir a la portada</a>
-  </nav>
+<main class="ly-wrapper-grid has-navbar-menu-local">
+  <ul class="navbar-menu-local" id="menu">
+    <li>
+        <a href="/">Ir a la portada</a>
+    </li>
+  </ul>
 
   <article class="text ly-document">
     <header class="ly-document-header">
-      <h1 class="text-title">{{ title }}</h1>
+      <h1 class="text-title has-dotsShadow">{{ title }}</h1>
 
       {% if subtitle %}
       <p class="text-intro">{{ subtitle }}</p>

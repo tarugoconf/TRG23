@@ -4,7 +4,7 @@ styles: /styles/home.css
 scripts: /js/home.js
 ---
 
-<main class="ly-wrapper-grid home-container dots">
+<main class="ly-wrapper-grid home-container dots has-navbar-menu-local">
   <ul class="navbar-menu-local" id="menu">
     {% for item in menu_local %}
     <li>
@@ -37,8 +37,10 @@ scripts: /js/home.js
     </div>
 
     <figure class="home-section-media">
-      <trg-video id="video-resume" data-id="829383642" class="is-flexible">
-        <img src="/img/trg22-poster.jpg">
+      <trg-video id="video-resume" data-id="829383642">
+        <div class="has-dotsShadow">
+          <img src="/img/trg22-poster.jpg">
+        </div>
       </trg-video>
     </figure>
   </section>

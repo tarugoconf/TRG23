@@ -5,8 +5,13 @@
   --color-white: white;
   --color-black: #000;
   --color-gray: #444;
+  --color-gray-light: #0005;
 
   --scale: 1.25;
+  @media (max-width: 1200px) { --scale: 1.2; }
+  @media (max-width: 800px) { --scale: 1.15; }
+  @media (max-width: 450px) { --scale: 1.1; }
+
   --font-0-size: .85rem;
   --font-0-spacing: 0;
   --font-1-size: 1rem;

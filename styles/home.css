@@ -42,25 +42,51 @@
 }
 
 .home-section.is-about {
-  grid-column: 2 / -1;
   display: grid;
   column-gap: var(--column-gap);
-  grid-template-columns: 500px 1fr;
 
-  & .home-section-content {
-    border-bottom: solid 2px;
-    padding-bottom: var(--row-gap);
+  & .text-title-big {
+    max-width: 9em;
   }
 
   & trg-video img {
-    border-radius: var(--border-radius) 0 0 var(--border-radius);
+    border-radius: var(--border-radius);
+    position: relative;
+    z-index: 1;
+  }
+  .has-dotsShadow::after {
+    border-radius: var(--border-radius);
+    transition: transform 200ms;
+  }
+  .has-dotsShadow:hover::after {
+    transform: translate(-1em, 1em);
+    border: solid 1px var(--color-gray-light);
+  }
+
+  @media (min-width: 1000px) {
+    grid-column: 2 / -1;
+    grid-template-columns: min(500px, 40vw) 1fr;
+    align-items: start;
+
+    & .home-section-content {
+      border-bottom: solid 2px;
+      padding-bottom: var(--row-gap);
+    }
+
+    & trg-video img {
+      border-radius: var(--border-radius) 0 0 var(--border-radius);
+    }
+    .home-section-media {
+      position: sticky;
+      top: 100px;
+    }
   }
 }
 
 .home-section.is-contact {
   display: grid;
   column-gap: var(--column-gap);
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  row-gap: 2em;
 
   & address {
     font-style: normal;
@@ -80,18 +106,40 @@
   & img {
     vertical-align: middle;
   }
+
+  @media (min-width: 700px) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    & header {
+      grid-column: 1 / -1;
+    }
+  }
+  @media (min-width: 1050px) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+
+    & header {
+      grid-column: 1;
+    }
+  }
 }
 
 .home-section.is-faq {
   display: grid;
   column-gap: var(--column-gap);
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  row-gap: 2em;
   border-top: solid 2px;
   padding-top: var(--row-gap);
 
   & .faq {
-    grid-column: 2 / 4;
     border-bottom: solid 2px;
     padding-bottom: var(--row-gap);
+  }
+
+  @media (min-width: 1050px) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+
+    & .faq {
+      grid-column: 2 / 4;
+    }
   }
 }

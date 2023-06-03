@@ -16,15 +16,28 @@
 }
 .ly-document {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
   column-gap: 5vw;
+  row-gap: 5vw;
   align-items: start;
 }
-.ly-document-header {
-  grid-column: 1 / 2;
-  position: sticky;
-  top: 100px;
+
+@media (min-width: 700px) {
+  .ly-document {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .ly-document-header {
+    grid-column: 1 / 2;
+    position: sticky;
+    top: calc(5vw + 1em);
+  }
+  .ly-document-body {
+    grid-column: 2 / 4;
+  }
 }
-.ly-document-body {
-  grid-column: 2 / 4;
+@media (min-width: 1200px) {
+  .ly-document-header {
+    border-left: solid 2px;
+    padding-left: 2em;
+    min-height: 33vh;
+  }
 }

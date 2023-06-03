@@ -4,13 +4,29 @@ main {
 }
 .text {
   padding-bottom: var(--row-gap);
-  padding-top: var(--row-gap);
+  padding-top: calc(5vw + 1em);
 }
 
-.text-body {
-  background-color: var(--color-sepia);
-  position: relative;
-  padding: 2rem 0 0 5vw;
-  margin-left: -5vw;
-  margin-top: -2rem;
+@media (min-width: 700px) {
+  .text-body {
+    background-color: var(--color-sepia);
+    position: relative;
+    padding: 2rem 0 0 5vw;
+    margin-left: -5vw;
+    margin-top: -2rem;
+  }
+}
+.text-title.has-dotsShadow::after {
+  --size: 10;
+  
+  width: 300px;
+  height: 300px;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  top: -50px;
+  left: -25vw;
+}
+@media (max-width: 700px) {
+  .text-title.has-dotsShadow::after {
+    --size: 8;
+  }
 }
