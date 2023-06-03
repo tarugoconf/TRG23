@@ -27,7 +27,7 @@
   }
   .ly-document-header {
     grid-column: 1 / 2;
-    position: sticky;
+    position: sticky !important;
     top: calc(5vw + 1em);
   }
   .ly-document-body {

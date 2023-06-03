@@ -6,6 +6,7 @@ const color = primaryColor.replace("#", "").trim();
 
 class Video extends HTMLElement {
   connectedCallback() {
+    this.classList.add("has-dotsShadow");
     this.addEventListener("click", () => {
       this.classList.add("is-loaded");
       new Player(this.id, {

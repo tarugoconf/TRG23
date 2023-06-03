@@ -1,5 +1,5 @@
 trg-video {
-  display: flex;
+  display: flex !important;
   align-items: center;
   justify-content: center;
   position: relative;
@@ -8,7 +8,7 @@ trg-video {
   &.is-loaded {
     background: var(--color-black);
     
-    &:before,
+    &:after,
     & img {
       display: none;
     }
@@ -33,31 +33,24 @@ trg-video {
     opacity: 0;
   }
 
-  &::before {
+  &::after {
+    --size: 20;
+    --color: var(--color-red);
     content: "";
     display: block;
     position: absolute;
     z-index: 2;
     cursor: pointer;
-    background: var(--color-red);
     clip-path: polygon(0 0, 100% 50%, 0 100%);
-    width: min(120px, 10vw);
-    height: min(120px, 10vw);
-    transition: transform 0.2s;
-    mix-blend-mode: multiply;
+    width: min(120px, 10vw) !important;
+    height: min(120px, 10vw) !important;
+    top: auto !important;
+    left: auto !important;
+    bottom: auto !important;
+    right: auto !important;
   }
 
-  &:hover::before {
-    transform: scale(1.2);
-  }
-
-  &.is-flexible {
-    aspect-ratio: none;
-    width: 100%;
-    height: 100%;
-
-    & img {
-      object-fit: cover;
-    }
+  &:hover::after {
+    --size: 70;
   }
 }

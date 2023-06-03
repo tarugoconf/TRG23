@@ -54,11 +54,11 @@
     position: relative;
     z-index: 1;
   }
-  .has-dotsShadow::after {
+  & trg-video > .has-dotsShadow::after {
     border-radius: var(--border-radius);
     transition: transform 200ms;
   }
-  .has-dotsShadow:hover::after {
+  & trg-video > .has-dotsShadow:hover::after {
     transform: translate(-1em, 1em);
     border: solid 1px var(--color-gray-light);
   }
@@ -141,5 +141,15 @@
     & .faq {
       grid-column: 2 / 4;
     }
+  }
+
+  .has-dotsShadow::after {
+    animation: anim-shape-1 5s linear infinite alternate both;
+    height: 200px;
+    width: 250px;
+    top: -120px;
+    left: -100px;
+    --color: var(--color-gray);
+    --border-color: var(--color-gray-light);
   }
 }

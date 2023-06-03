@@ -9,6 +9,9 @@ const site = lume()
   .copy("js")
   .copy("img")
   .copy("fonts")
+  .copy("favicon.ico")
+  .copy("favicon-32x32.png")
+  .copy("favicon-16x16.png")
   .remoteFile(
     "_includes/css/normalize.css",
     "https://unpkg.com/ui-normalize@0.3.0/ui-normalize.css",
