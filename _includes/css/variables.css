@@ -5,7 +5,7 @@
   --color-white: white;
   --color-black: #000;
   --color-gray: #444;
-  --color-gray-light: #0005;
+  --color-gray-light: #0004;
 
   --scale: 1.25;
   @media (max-width: 1200px) { --scale: 1.2; }
