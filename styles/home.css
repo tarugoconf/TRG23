@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
 .home-container {
   --background-image: linear-gradient(to bottom, transparent, var(--color-sepia) min(60vh, 500px));
   --row-gap: min(100px, 20vh);
@@ -6,7 +8,32 @@
 }
 
 .home-splash {
-  height: min(500px, 60vh);
+  grid-column: 1 / -1;
+}
+.home-splash-figure {
+  width: min(800px, 90vw);
+  margin-left: auto;
+  position: relative;
+
+  & img {
+    width: 100%;
+    height: 650px;
+    display: block;
+    object-fit: cover;
+    object-position: bottom left;
+  }
+}
+.home-splash-name {
+  position: absolute;
+  bottom: 140px;
+  left: max(16%, 120px);
+  font-family: 'Permanent Marker', cursive;
+  color: var(--color-red);
+  font-size: 24px;
+
+  .typed-cursor {
+    display: none;
+  }
 }
 
 .home-section-media {

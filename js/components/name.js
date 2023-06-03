@@ -208,8 +208,8 @@ class Name extends HTMLElement {
     this.typed = new Typed(this, {
       strings,
       typeSpeed: 75,
-      smartBackspace: true,
       backSpeed: 50,
+      backDelay: 2000,
       startDelay: 1000,
       loop: true,
     });
