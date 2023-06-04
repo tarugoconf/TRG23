@@ -5,6 +5,7 @@
   border: none;
 
   & summary {
+    --marker-image: url("/img/icons/caret-down-duotone.svg");
     font-size: var(--font-3-size);
     font-weight: bold;
     line-height: var(--line-height-intro);

@@ -2,11 +2,6 @@ html {
   font-family: var(--font-family);
   background-color: var(--color-sepia);
   color: var(--color-black);
-  scroll-behavior: smooth;
-  text-rendering: auto;
-  overflow-wrap: break-word;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
 }
 hr {
   width: 100%;
@@ -20,4 +15,7 @@ a {
     color: var(--color-black);
     text-decoration: none;
   }
+}
+:focus-visible {
+  outline-color: currentColor;
 }
