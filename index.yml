@@ -3,7 +3,8 @@ layout: layouts/home.njk
 about:
   title: Personas, tecnología y negocios.
   intro: |
-    La TRG es una conferencia sobre diseño, desarollo y comercialización de productos y servicios digitales que nace alrededor de la heterogénea Comunidad de suscriptores y suscriptoras de La Bonilista.
+    La TRG es un evento sobre diseño, desarollo y comercialización de productos y servicios digitales que nace alrededor de la heterogénea Comunidad de suscriptores y suscriptoras 
+    de La Bonilista con la idea de crear la mejor conferencia técnica del mundo (o, al menos, la más divertida).
 
 menu_local:
   - text: Contacto
