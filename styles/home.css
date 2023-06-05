@@ -11,13 +11,13 @@
   grid-column: 1 / -1;
 }
 .home-splash-figure {
-  width: min(800px, 90vw);
-  margin-left: auto;
+  width: min(700px, calc(90vw - 100px));
+  margin: 0 auto;
   position: relative;
 
   & img {
     width: 100%;
-    height: 650px;
+    height: auto;
     display: block;
     object-fit: cover;
     object-position: bottom left;
@@ -25,11 +25,12 @@
 }
 .home-splash-name {
   position: absolute;
-  bottom: 140px;
-  left: max(16%, 120px);
+  bottom: 8%;
+  left: 20%;
+  right: 8%;
   font-family: 'Permanent Marker', cursive;
   color: var(--color-red);
-  font-size: 24px;
+  font-size: min(35px, 4vw);
 
   .typed-cursor {
     display: none;
