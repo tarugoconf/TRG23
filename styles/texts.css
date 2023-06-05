@@ -20,8 +20,8 @@ main {
   --size: 10;
   animation: anim-shape-2 5s linear infinite alternate both;
 
-  width: 300px;
-  height: 300px;
+  width: max(300px, 30vw);
+  height: max(300px, 30vw);
   top: -50px;
   left: -20vw;
 }
