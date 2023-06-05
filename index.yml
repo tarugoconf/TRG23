@@ -1,9 +1,9 @@
 title: TRG23
 layout: layouts/home.njk
 about:
-  title: Tecnología, relaciones y gastromonía.
+  title: Personas, tecnología y negocios.
   intro: |
-    La Tarugoconf es una conferencia sobre diseño, construcción y comercialización de productos y servicios digitales que nace alrededor de la heterogénea Comunidad de suscriptores y suscriptoras de La Bonilista, la newsletter semanal sobre emprendimiento tecnológico escrita por David Bonilla.
+    La TRG es una conferencia sobre diseño, desarollo y comercialización de productos y servicios digitales que nace alrededor de la heterogénea Comunidad de suscriptores y suscriptoras de La Bonilista.
 
 menu_local:
   - text: Contacto
