@@ -11,9 +11,19 @@
   grid-column: 1 / -1;
 }
 .home-splash-figure {
-  width: min(700px, calc(90vw - 100px));
+  width: 90vw;
   margin: 0 auto;
   position: relative;
+  margin-top: -55px;
+  animation-name: bounceInDown;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  transform-origin: top center;
+
+  @media (min-width: 550px) {
+    width: min(700px, calc(90vw - 100px));
+    margin-top: 0;
+  }
 
   & img {
     width: 100%;
@@ -21,16 +31,34 @@
     display: block;
     object-fit: cover;
     object-position: bottom left;
+    position: relative;
+    z-index: 2;
+  }
+
+  &::after {
+    --size: 50;
+    --border-color: transparent;
+
+    height: 55%;
+    top: auto;
+    bottom: 0;
+    border-radius: 20px;
+    animation-name: showShadow;
+    animation-duration: .6s;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+    background-color: var(--color-sepia);
   }
 }
 .home-splash-name {
   position: absolute;
+  z-index: 2;
   bottom: 8%;
   left: 20%;
   right: 8%;
   font-family: 'Permanent Marker', cursive;
   color: var(--color-red);
-  font-size: min(35px, 4vw);
+  font-size: clamp(18px, 4vw, 35px);
 
   .typed-cursor {
     display: none;
@@ -62,6 +90,14 @@
   & trg-video > .has-dotsShadow:hover::after {
     transform: translate(-1em, 1em);
     border: solid 1px var(--color-gray-light);
+  }
+  & trg-video::after {
+    --size: 40;
+    background-color: var(--color-red);
+    mix-blend-mode: multiply;
+  }
+  & trg-video:hover::after {
+    background-color: transparent;
   }
 
   @media (min-width: 1000px) {
@@ -152,5 +188,51 @@
     left: -100px;
     --color: var(--color-gray);
     --border-color: var(--color-gray-light);
+  }
+}
+
+/* https://github.com/animate-css/animate.css/blob/main/source/bouncing_entrances/bounceInDown.css */
+@keyframes bounceInDown {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -3000px, 0) rotate(5deg);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) rotate(0deg);
+  }
+
+  75% {
+    transform: translate3d(0, -35px, 0) rotate(2deg);
+  }
+
+  90% {
+    transform: translate3d(0, -20px, 0) rotate(-1deg);
+  }
+
+  to {
+    transform: translate3d(0, -25px, 0) rotate(0deg);
+  }
+}
+
+
+@keyframes showShadow {
+  from {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(-50px, 50px);
+  }
+  to {
+    transform: translate(-10px, 10px);
   }
 }

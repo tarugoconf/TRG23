@@ -34,8 +34,6 @@ trg-video {
   }
 
   &::after {
-    --size: 20;
-    --color: var(--color-red);
     content: "";
     display: block;
     position: absolute;
