@@ -45,7 +45,7 @@ faq:
         Dentro de poco, aparecerá un botón «Comprar Entrada» en el menú de la web. 
         Te llevará a una página donde podrás comparar todos los tipos de entrada. 
         <br><br>
-        **El día 25 de junio, se pondrán a la venta para los suscriptores de la Bonilista**; y, el día 26, para el resto del mundo.
+        **El día 25 de junio, se pondrán a la venta para los suscriptores de [la Bonilista](https://www.bonilista.com/){target=_blank}**; y, el día 26, para el resto del mundo.
     - question: Si finalmente no puedo asistir ¿podré cancelar mi entrada?
       answer: |
         Claro. Podrás cancelar tu entrada **hasta 30 días antes del evento**.
@@ -56,6 +56,11 @@ faq:
       answer: |
         Lamentablemente, sí. **Sacaremos un máximo de 575 entradas a la venta para el evento principal** porque, 
         contando con ponentes y patrocinadores, llenaremos el aforo del auditorio de La Nave: 636 personas.
+    - question:  ¿Cómo puedo estar al día de todas las noticias y novedades del evento?
+      answer: |
+        Tenemos un [Blog](https://tarugoconf.com/blog){target=_blank} donde iremos colgando toda la información relevante, 
+        pero no dejes de seguir [la cuenta en Twitter de la TRG](https://twitter.com/tarugoconf){target=_blank} y, 
+        especialmente, el hashtag [#trg23](https://twitter.com/search?q=%23trg23&src=typed_query&f=live){target=_blank}.        
     - question: ¿Tenéis Código de Conducta?
       answer: |
         Por supuesto que tenemos [Código de Conducta](https://tarugoconf.com/codigo-de-conducta).
