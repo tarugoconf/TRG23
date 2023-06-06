@@ -201,9 +201,10 @@ const surnames = [
 class Name extends HTMLElement {
   connectedCallback() {
     const strings = [];
-    for (let n = 0; n < 1000; n++) {
+    for (let n = 0; n < 2; n++) {
       strings.push(`${getItem(names)} ${getItem(surnames)}`);
     }
+    strings.push("TU NOMBRE");
 
     this.typed = new Typed(this, {
       strings,
@@ -211,7 +212,6 @@ class Name extends HTMLElement {
       backSpeed: 50,
       backDelay: 2000,
       startDelay: 1000,
-      loop: true,
     });
   }
 }
