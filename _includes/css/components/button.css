@@ -1,0 +1,30 @@
+a[role="button"] {
+  padding: 0;
+  border: none;
+  font-size: var(--font-2-size);
+
+  & strong {
+    border-radius: var(--border-radius);
+    background-color: var(--color-red);
+    position: relative;
+    z-index: 2;
+    color: var(--color-white);
+    display: block;
+    padding: .5em 1em;
+  }
+
+  &::after {
+    transform: translate(-5px, 5px);
+    border-radius: var(--border-radius);
+    transition: transform .2s;
+  }
+  &:hover {
+    & strong {
+      background-color: color-mix(in srgb, var(--color-red), black 20%);
+    }
+
+    &::after {
+      transform: translate(-10px, 10px);
+    }
+  }
+}
