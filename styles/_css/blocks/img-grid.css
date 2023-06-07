@@ -1,0 +1,34 @@
+.block-imgGrid {
+  --width: 240px;
+  --img-size: 150px;
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, var(--width));
+  grid-column-gap: 2em;
+  grid-row-gap: 4em;
+  justify-content: space-around;
+  text-align: center;
+
+  & h3 {
+    font-size: var(--font-2-size);
+    letter-spacing: var(--font-2-spacing);
+    font-weight: bold;
+    margin: 1em 0 .3em;
+  }
+
+  & p {
+    font: var(--font-small);
+    margin: 0;
+  }
+
+  & img {
+    width: var(--img-size);
+    height: var(--img-size);
+    object-fit: cover;
+    filter: saturate(0);
+    border-radius: var(--border-radius);
+  }
+}

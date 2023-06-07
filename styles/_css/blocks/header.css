@@ -1,0 +1,29 @@
+.block-header-title {
+    font-size: var(--font-9-size);
+    letter-spacing: var(--font-9-spacing);
+    line-height: var(--line-height-title);
+    font-weight: bold;
+    text-align: center;
+    max-width: 10em;
+    margin: auto;
+}
+.block-header-subtitle {
+    font-size: var(--font-6-size);
+    letter-spacing: var(--font-6-spacing);
+    line-height: var(--line-height-title);
+    font-weight: bold;
+    text-align: center;
+    max-width: 10em;
+    margin: auto;
+}
+.block-header-intro {
+    font-size: var(--font-2-size);
+    letter-spacing: var(--font-2-spacing);
+    line-height: var(--line-height-text);
+    max-width: 30em;
+    margin: auto;
+
+    p {
+        margin: 0 0 1em;
+    }
+}

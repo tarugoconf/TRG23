@@ -1,0 +1,77 @@
+.over-dotsShadow {
+  --offset: min(0.1em, 3px);
+  ---offset: calc(min(0.1em, 3px) * -1);
+  position: relative;
+  z-index: 1;
+  text-shadow:
+    0 var(--offset) 0 var(--color-sepia),
+    0 var(--offset) 0 var(--color-sepia),
+    var(--offset) 0 0 var(--color-sepia),
+    var(---offset) 0 0 var(--color-sepia),
+    var(--offset) var(--offset) 0 var(--color-sepia),
+    var(---offset) var(---offset) 0 var(--color-sepia),
+    var(--offset) var(---offset) 0 var(--color-sepia),
+    var(---offset) var(--offset) 0 var(--color-sepia);
+}
+
+[role="button"],
+.has-dotsShadow {
+  display: block;
+  position: relative;
+  --border-color: var(--color-gray-light);
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border: solid 1px var(--border-color);
+    pointer-events: none;
+  }
+}
+[role="button"]::after,
+.has-dotsShadow::after,
+.dots {
+  --size: 25;
+  --scale: 8px;
+  --color: var(--color-black);
+  --background-image: linear-gradient(transparent, transparent);
+  --background-position: 0px 0px;
+  --background-size: auto auto;
+  --point: calc((clamp(1, var(--size), 100) * 0.4%) + 10%);
+  
+  background-image: 
+    var(--background-image),
+    radial-gradient(var(--color) var(--point), transparent var(--point)),
+    radial-gradient(var(--color) var(--point), transparent var(--point));
+
+  background-position:
+    var(--background-position),
+    0px 0px,
+    calc(var(--scale) / 2) calc(var(--scale) / 2);
+
+  background-size:
+    var(--background-size),
+    var(--scale) var(--scale),
+    var(--scale) var(--scale);
+}
+
+@keyframes anim-shape-1 {
+  from {
+    border-radius: 57% 43% 39% 61% / 61% 30% 70% 39%;
+  }
+  to {
+    border-radius: 41% 59% 79% 21% / 29% 72% 28% 71% ;
+  }
+}
+
+@keyframes anim-shape-2 {
+  from {
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  }
+  to {
+    border-radius: 41% 59% 79% 21% / 29% 72% 28% 71% ;
+  }
+}

@@ -39,13 +39,8 @@ scripts: /js/home.js
       </div>
     </div>
 
-    <figure class="home-section-media">
-      <trg-video id="video-resume" data-id="829383642">
-        <div class="has-dotsShadow">
-          <img src="/img/trg22-poster.jpg">
-        </div>
-      </trg-video>
-    </figure>
+    {% set block = video %}
+    {% include "templates/blocks/video.njk" %}
   </section>
 
   <section class="home-section is-contact" id="contacto">

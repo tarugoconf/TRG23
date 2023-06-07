@@ -1,0 +1,30 @@
+.faq {
+
+}
+.faq-question {
+  border: none;
+
+  & summary {
+    --marker-image: url("/img/icons/caret-down-duotone.svg");
+    font-size: var(--font-3-size);
+    font-weight: bold;
+    line-height: var(--line-height-intro);
+    letter-spacing: var(--font-3-spacing);
+    margin: 0;
+    padding-left: 0;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+.faq-answer {
+  padding-left: 38px;
+  font-size: var(--font-1-size);
+  line-height: var(--line-height-text);
+  letter-spacing: var(--font-1-spacing);
+
+  & p {
+    margin-top: 0;
+  }
+}

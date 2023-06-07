@@ -1,0 +1,27 @@
+.footer {
+  display: grid;
+  column-gap: var(--column-gap);
+  row-gap: 2em;
+  font-size: var(--font-0-size);
+  line-height: var(--line-height-text);
+  grid-template-columns: 1fr auto;
+
+  & ul,
+  & p {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  @media (max-width: 999px) {
+    & ul {
+      grid-row: 2;
+    }
+  }
+  @media (min-width: 1000px) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+.footer-logo {
+  justify-self: end;
+}

@@ -1,0 +1,53 @@
+a[role="button"] {
+  padding: 0;
+  border: none;
+  font-size: var(--font-2-size);
+
+  & strong {
+    border-radius: var(--border-radius-small);
+    background-color: var(--color-red);
+    position: relative;
+    z-index: 2;
+    color: var(--color-white);
+    display: block;
+    padding: .5em 1em;
+    transition: background-color .5s;
+  }
+
+  &::after {
+    border-radius: var(--border-radius-small);
+    animation-name: hideButtonShadow;
+    animation-fill-mode: both;
+    animation-duration: .5s;
+  }
+  &:hover {
+    & strong {
+      background-color: color-mix(in srgb, var(--color-red), black 20%);
+    }
+
+    &::after {
+      animation-name: showButtonShadow;
+    }
+  }
+}
+
+@keyframes hideButtonShadow {
+  from {
+    transform: translate(-10px, 10px);
+  }
+  to {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes showButtonShadow {
+  from {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(-30px, 30px);
+  }
+  to {
+    transform: translate(-10px, 10px);
+  }
+}

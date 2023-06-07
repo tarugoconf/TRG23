@@ -1,0 +1,79 @@
+---
+layout: ./base.njk
+styles: /styles/speakers.css
+---
+
+<main class="ly-wrapper-grid speakers-container has-navbar-menu-local">
+  <ul class="navbar-menu-local" id="menu">
+    {% for item in menu_local %}
+    <li>
+        <a href="{{ item.url }}">
+            {{ item.text }}
+        </a>
+    </li>
+    {% endfor %}
+  </ul>
+
+  {% set block = header %}
+  {% include "templates/blocks/header.njk" %}
+
+  <div class="highlights">
+      <ul>
+          {% for item in highlights %}
+          <li>
+            <h3>{{ item.title | safe }}</h3>
+            {{ item.description | md | safe }}
+          </li>
+          {% endfor %}
+      </ul>
+  </div>
+
+  {% set block = image %}
+  {% include "templates/blocks/big-img.njk" %}
+
+  <section class="intro" id="las-charlas">
+    <h2 class="intro-title">{{ intro.title }}</h2>
+    <div class="intro-aside">{{ intro.aside | md(true) | safe }}</div>
+
+    <div class="intro-text has-links">
+      {{ intro.text | md | safe }}
+    </div>
+
+  </section>
+
+  {% set block = video %}
+  {% include "templates/blocks/video.njk" %}
+
+  <section class="benefits" id="beneficios">
+      {% set block = benefits %}
+      {% include "templates/blocks/header.njk" %}
+
+      {% set block = benefits.items %}
+      {% include "templates/blocks/img-grid.njk" %}
+  </section>
+
+  <div>
+      {% set block = speakers %}
+      {% include "templates/blocks/header.njk" %}
+
+      {% set block = speakers.quotes %}
+      {% include "templates/blocks/quotes.njk" %}
+  </div>
+
+  {% set block = speakers.speakers %}
+  {% include "templates/blocks/img-grid.njk" %}
+
+  <section class="resources" id="recursos">
+    <h2 class="resources-title">{{ resources.title }}</h2>
+
+    <ul class="resources-links has-links">
+      {% for item in resources.links %}
+      <li>
+        <a href="{{ item.href }}">
+          {{ item.text }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+</main>

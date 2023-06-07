@@ -1,0 +1,19 @@
+<header class="block-header">
+  {% if block.title %}  
+  <h1 class="block-header-title">
+    {{ block.title }}
+  </h1>
+  {% endif %}
+
+  {% if block.subtitle %}  
+  <h2 class="block-header-subtitle">
+    {{ block.subtitle }}
+  </h2>
+  {% endif %}
+
+  {% if block.intro %}  
+  <div class="block-header-intro">
+    {{ block.intro | md | safe }}
+  </div>
+  {% endif %}
+</header>

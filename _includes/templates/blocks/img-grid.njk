@@ -1,0 +1,21 @@
+<ul class="block-imgGrid">
+    {% for item in block %}
+    <li>
+        <img src="{{ item.img }}" alt="{{ item.title }}">
+
+        <h3>{{ item.title }}</h3>
+
+        {{ item.description | md | safe }}
+
+        {% if item.links %}
+        <address class="speaker-social">
+            {% for link in item.links %}
+            <a href="{{ link.href }}" title="{{ link.title }}">
+                <img src="{{ link.icon }}" alt="{{ link.title }}">
+            </a>
+            {% endfor %}
+        </address>
+        {% endif %}
+    </li>
+    {% endfor %}
+</ul>

@@ -1,0 +1,19 @@
+<figure class="block-bigImg">
+  <picture>
+    <source srcset="{{ block.src }}-3200px.webp" media="(min-width:2400px)" type="image/webp">
+    <source srcset="{{ block.src }}-3200px.jpg" media="(min-width:2400px)">
+    <source srcset="{{ block.src }}-2400px.webp" media="(min-width:1600px)" type="image/webp">
+    <source srcset="{{ block.src }}-2400px.jpg" media="(min-width:1600px)">
+    <source srcset="{{ block.src }}-1600px.webp" media="(min-width:800px)" type="image/webp">
+    <source srcset="{{ block.src }}-1600px.jpg" media="(min-width:800px)">
+    <source srcset="{{ block.src }}-800px.webp" type="image/webp">
+
+    <img
+      src="{{ block.src }}-800px.jpg"
+      alt="{{ block.alt }}"
+      width="{{ block.width }}"
+      height="{{ block.height }}"
+      loading="lazy"
+      >
+  </picture>
+  </figure>

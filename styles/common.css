@@ -1,13 +1,20 @@
-@import "css/normalize.css";
-@import "css/fonts.css";
-@import "css/variables.css";
-@import "css/base.css";
-@import "css/layouts.css";
-@import "css/utils.css";
+@import "normalize.css";
+@import "fonts.css";
+@import "variables.css";
+@import "base.css";
+@import "layouts.css";
+@import "utils.css";
 
-@import "css/components/navbar.css";
-@import "css/components/footer.css";
-@import "css/components/trg-video.css";
-@import "css/components/faq.css";
-@import "css/components/text.css";
-@import "css/components/button.css";
+@import "components/navbar.css";
+@import "components/footer.css";
+@import "components/trg-video.css";
+@import "components/trg-carousel.css";
+@import "components/faq.css";
+@import "components/text.css";
+@import "components/button.css";
+
+@import "blocks/header.css";
+@import "blocks/video.css";
+@import "blocks/img-grid.css"; 
+@import "blocks/quotes.css"; 
+@import "blocks/big-img.css"; 

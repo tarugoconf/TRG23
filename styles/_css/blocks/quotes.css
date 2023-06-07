@@ -1,0 +1,49 @@
+.block-quotes-items {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.block-quotes-item {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 2em;
+  margin: 0;
+  flex: 0 0 auto;
+  scroll-snap-align: center;
+
+  & blockquote {
+    font-size: var(--font-4-size);
+    letter-spacing: var(---font-4-spacing);
+    line-height: var(--line-height-intro);
+    background-image: url('data:image/svg+xml;utf8,<svg width="223" height="194" viewBox="0 0 223 194" xmlns="http://www.w3.org/2000/svg"><g fill="%23f0e300" fill-rule="evenodd"><path d="M111.5 0v64.13l-56 32.333v64.618L0 193.125V64.375z"/><path d="M223 0v64.13l-56 32.333v64.618l-55.5 32.044V64.375z"/></g></svg>');
+    background-repeat: no-repeat;
+    padding-left: 3rem;
+    padding-top: 2rem;
+    margin: 0;
+
+    & p {
+      margin: .5em 0;
+    }
+  }
+
+  & figcaption {
+    font-size: var(--font-1-size);
+    letter-spacing: var(---font-1-spacing);
+    line-height: var(--line-height-intro);
+    display: flex;
+    align-items: center;
+    color: var(--color-gray);
+    padding-left: 3rem;
+  }
+  & cite {
+    font-style: normal;
+    font-weight: bold;
+  }
+  & img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    flex: 0 0 auto;
+    margin-right: 1em;
+  }
+}

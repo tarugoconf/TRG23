@@ -1,0 +1,23 @@
+<div class="block-quotes">
+  <trg-carousel class="block-quotes-items" id="carousel" role="region" aria-label="Quotes" tabindex="0">
+    {% for item in block %}
+    <figure class="block-quotes-item">
+      <blockquote>
+        {{ item.quote | md | safe }}
+      </blockquote>
+      <figcaption>
+        <img src="{{ item.img }}">
+        <p>
+          <cite>{{ item.name }}</cite><br>
+          {{ item.position }}
+        </p>
+      </figcaption>
+    </figure>
+    {% endfor %}
+  </trg-carousel>
+
+  <trg-carousel-navigation for="carousel" class="block-quotes-nav">
+    <button type="button" value="prev" class="js-carousel-prev">Anterior</button>
+    <button type="button" value="next" class="js-carousel-next">Siguiente</button>
+  </trg-carousel-navigation>
+</div>
