@@ -2,7 +2,7 @@
   <trg-carousel class="block-quotes-items" id="carousel" role="region" aria-label="Quotes" tabindex="0">
     {% for item in block %}
     <figure class="block-quotes-item">
-      <blockquote>
+      <blockquote class="has-dotsShadow">
         {{ item.quote | md | safe }}
       </blockquote>
       <figcaption>

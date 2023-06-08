@@ -16,7 +16,7 @@
 
   > li {
     --size: 5;
-    --color: var(--color-gray);
+    --color: var(--color-red);
     width: 250px;
     height: 250px;
     display: flex;
@@ -24,7 +24,6 @@
     justify-content: center;
     text-align: center;
     padding: 2rem;
-    border: solid 1px var(--color-gray-light);
 
     & h3 {
       font-size: var(--font-3-size);
@@ -53,6 +52,10 @@
       border-radius: 48% 52% 30% 70% / 66% 47% 53% 34%;
     }
   }
+}
+
+.benefits .block-imgGrid {
+  --img-size: 100px;
 }
 
 .speakers-intro {
