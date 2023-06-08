@@ -87,7 +87,7 @@
       position: sticky;
       top: 100px;
 
-      img {
+      & img {
         border-radius: var(--border-radius) 0 0 var(--border-radius);
       }
     }
