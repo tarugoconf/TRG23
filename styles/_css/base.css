@@ -2,6 +2,7 @@ html {
   font-family: var(--font-family);
   background-color: var(--color-sepia);
   color: var(--color-black);
+  scroll-padding-top: 5vh;
 }
 hr {
   width: 100%;

@@ -6,11 +6,11 @@ description: >
   servicios digitales más awesómica del mundo.
 menu_local:
   - text: Las charlas
-    href: "#las-charlas"
+    url: "#las-charlas"
   - text: Beneficios
-    href: "#beneficios"
+    url: "#beneficios"
   - text: Recursos
-    href: "#recursos"
+    url: "#recursos"
 
 header:
   title: Ser speaker en la Tarugoconf
