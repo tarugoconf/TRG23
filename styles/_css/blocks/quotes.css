@@ -3,6 +3,10 @@
   margin: 0 auto;
 }
 
+.block-quotes-nav {
+  margin-top: 2em;
+}
+
 .block-quotes-item {
   width: 100%;
   box-sizing: border-box;

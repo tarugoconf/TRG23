@@ -5,15 +5,7 @@ scripts: /js/home.js
 ---
 
 <main class="ly-wrapper-grid home-container dots has-navbar-menu-local">
-  <ul class="navbar-menu-local" id="menu">
-    {% for item in menu_local %}
-    <li>
-        <a href="{{ item.url }}">
-            {{ item.text }}
-        </a>
-    </li>
-    {% endfor %}
-  </ul>
+  {% include "templates/navbar.njk" %}
 
   <div class="home-splash">
     <div class="home-splash-figure has-dotsShadow">

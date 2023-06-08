@@ -48,12 +48,12 @@ image:
   height: 3207
 intro:
   title: Las charlas
-  aside: |-
-    **1** solo track\
-    **30** minutos de charla\
-    **+15** de Q&A\
-    **Sketchnoting** en directo\
-    **Control** de difusión audiovisual
+  aside: |
+    - **1** solo track
+    - **30** minutos de charla
+    - **+15** de Q&A
+    - **Sketchnoting** en directo
+    - **Control** de difusión audiovisual
   text: >
     «Ningún discurso es demasiado corto». En la Tarugo creemos en las enseñanzas
     de los legendarios Kenneth Roman y Joel Raphaelson, por eso nuestras charlas

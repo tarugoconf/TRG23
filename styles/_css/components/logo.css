@@ -1,0 +1,8 @@
+.logo {
+  display: flex;
+  justify-content: center;
+  padding: 2em 2em 1em;
+  border-bottom: solid 1px;
+  width: fit-content;
+  margin: 0 auto;
+}

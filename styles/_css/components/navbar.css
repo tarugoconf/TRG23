@@ -2,8 +2,6 @@
   position: sticky;
   top: 0;
   grid-column: 1 / -1;
-  /* background-color: color-mix(in srgb, var(--color-sepia), transparent 20%);
-  backdrop-filter: blur(8px); */
 }
 
 .navbar-content {
@@ -49,7 +47,8 @@
   padding: 1em;
   position: fixed;
   top: 5vw;
-  left: 5vw;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 10;
   border-radius: var(--border-radius);
   display: flex;
@@ -62,6 +61,7 @@
   backdrop-filter: blur(8px);
 
   @media (min-width: 550px) {
+    left: 5vw;
     transform: rotate(-90deg) translateX(-100%);
     transform-origin: 0 0;
   }

@@ -4,41 +4,33 @@ styles: /styles/speakers.css
 ---
 
 <main class="ly-wrapper-grid speakers-container has-navbar-menu-local">
-  <ul class="navbar-menu-local" id="menu">
-    {% for item in menu_local %}
-    <li>
-        <a href="{{ item.url }}">
-            {{ item.text }}
-        </a>
-    </li>
-    {% endfor %}
-  </ul>
+  {% include "templates/logo.njk" %}
+  {% include "templates/navbar.njk" %}
 
   {% set block = header %}
   {% include "templates/blocks/header.njk" %}
 
-  <div class="highlights">
-      <ul>
-          {% for item in highlights %}
-          <li>
-            <h3>{{ item.title | safe }}</h3>
-            {{ item.description | md | safe }}
-          </li>
-          {% endfor %}
-      </ul>
-  </div>
+  <ul class="speakers-highlights">
+      {% for item in highlights %}
+      <li class="dots">
+        <div class="over-dotsShadow">
+          <h3>{{ item.title | safe }}</h3>
+          {{ item.description | md | safe }}
+        </div>
+      </li>
+      {% endfor %}
+  </ul>
 
   {% set block = image %}
   {% include "templates/blocks/big-img.njk" %}
 
-  <section class="intro" id="las-charlas">
+  <section class="speakers-intro" id="las-charlas">
     <h2 class="intro-title">{{ intro.title }}</h2>
-    <div class="intro-aside">{{ intro.aside | md(true) | safe }}</div>
+    <div class="intro-aside">{{ intro.aside | md | safe }}</div>
 
     <div class="intro-text has-links">
       {{ intro.text | md | safe }}
     </div>
-
   </section>
 
   {% set block = video %}
@@ -76,4 +68,6 @@ styles: /styles/speakers.css
       {% endfor %}
     </ul>
   </section>
+
+  {% include "templates/footer.njk" %}
 </main>

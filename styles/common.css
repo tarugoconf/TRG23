@@ -5,6 +5,7 @@
 @import "layouts.css";
 @import "utils.css";
 
+@import "components/logo.css";
 @import "components/navbar.css";
 @import "components/footer.css";
 @import "components/trg-video.css";
