@@ -154,7 +154,31 @@ speakers:
       name: Eva Belmonte
       position: Directora de Civio
       img: /img/past-speakers/eva-belmonte.jpg
-  speakers:
+  speakers:  
+    - title: Justyna Adamczyk
+      description: Head of People en Sketch
+      img: /img/past-speakers/justyna-adamczyk.jpeg
+      social:
+        - icon: /img/icons/twitter.svg
+          title: "@justyna_adam"
+          href: https://twitter.com/Justyna_Adam
+    - title: Jaime Gómez-Obregón
+      description: Activista
+      img: /img/past-speakers/jaime-gomez.jpeg
+      social:
+        - icon: /img/icons/twitter.svg
+          title: "@JaimeObregon"
+          href: https://twitter.com/JaimeObregon
+    - title: Paz Gimeno
+      description: Primera programadora española
+      img: /img/past-speakers/paz-gimeno.jpg      
+    - title: Jaime Gómez-Obregón
+      description: Activista
+      img: /img/past-speakers/jaime-gomez.jpeg
+      social:
+        - icon: /img/icons/twitter.svg
+          title: "@JaimeObregon"
+          href: https://twitter.com/JaimeObregon
     - title: Justyna Adamczyk
       description: Head of People en Sketch
       img: /img/past-speakers/justyna-adamczyk.jpeg
@@ -163,7 +187,7 @@ speakers:
           title: "@justyna_adam"
           href: https://twitter.com/Justyna_Adam
     - title: Diego Mariño
-      description: Desarrollador de Videojuegos
+      description: Scrum Master
       img: /img/past-speakers/diego-marino.jpeg
       social:
         - icon: /img/icons/twitter.svg
