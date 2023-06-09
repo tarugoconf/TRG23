@@ -155,30 +155,30 @@ speakers:
       position: Directora de Civio
       img: /img/past-speakers/eva-belmonte.jpg
   speakers:  
-    - title: Justyna Adamczyk
-      description: Head of People en Sketch
-      img: /img/past-speakers/justyna-adamczyk.jpeg
+    - title: Luz Sancho
+      description: Cofundadora del estudio de videojuegos Tequila Works
+      img: /img/past-speakers/luz-sancho.jpg
       social:
         - icon: /img/icons/twitter.svg
-          title: "@justyna_adam"
-          href: https://twitter.com/Justyna_Adam
+          title: "@luzmsancho"
+          href: https://twitter.com/luzmsancho
     - title: Jaime Gómez-Obregón
       description: Activista
       img: /img/past-speakers/jaime-gomez.jpeg
       social:
         - icon: /img/icons/twitter.svg
           title: "@JaimeObregon"
-          href: https://twitter.com/JaimeObregon
-    - title: Paz Gimeno
-      description: Primera programadora española
-      img: /img/past-speakers/paz-gimeno.jpg      
-    - title: Jaime Gómez-Obregón
-      description: Activista
-      img: /img/past-speakers/jaime-gomez.jpeg
+          href: https://twitter.com/JaimeObregon    
+    - title: Andrea Barber
+      description: Cofundadora de Rated Power
+      img: /img/past-speakers/andrea-barber.jpg
       social:
         - icon: /img/icons/twitter.svg
-          title: "@JaimeObregon"
-          href: https://twitter.com/JaimeObregon
+          title: "@andreabarberl"
+          href: https://twitter.com/andreabarberl
+    - title: Joan Viñallonga
+      description: Creador del Calippo y el Frigopié
+      img: /img/past-speakers/joan-vinallonga.jpg
     - title: Justyna Adamczyk
       description: Head of People en Sketch
       img: /img/past-speakers/justyna-adamczyk.jpeg
@@ -193,13 +193,9 @@ speakers:
         - icon: /img/icons/twitter.svg
           title: "@diegomarino"
           href: https://twitter.com/diegomarino
-    - title: Andrea Barber
-      description: Cofundadora de Rated Power
-      img: /img/past-speakers/andrea-barber.jpg
-      social:
-        - icon: /img/icons/twitter.svg
-          title: "@andreabarberl"
-          href: https://twitter.com/andreabarberl
+    - title: Paz Gimeno
+      description: Primera programadora española
+      img: /img/past-speakers/paz-gimeno.jpg
     - title: Álvaro Videla
       description: Azure Advocate / RabbitMQ Dev
       img: /img/past-speakers/alvaro-videla.jpg
