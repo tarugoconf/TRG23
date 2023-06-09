@@ -158,3 +158,19 @@
         margin-top: .5em;
     }
 }
+.img-tentacle-container {
+  grid-column: 1 / -1;
+
+  @media (min-width: 1500px) {
+    position: absolute;
+    right: 0;
+    top: 40vh;
+  }
+}
+.img-tentacle {
+  display: block;
+  width: 400px;
+  max-width: 66vw;
+  margin: calc(var(--row-gap) * -1) 0 calc(var(--row-gap) * -1) auto;
+
+}

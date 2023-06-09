@@ -65,6 +65,10 @@
   }
 }
 
+.home-section {
+  position: relative;
+}
+
 .home-section.is-about {
   display: grid;
   column-gap: var(--column-gap);
@@ -162,6 +166,17 @@
     left: -100px;
     --color: var(--color-gray);
     --border-color: var(--color-gray-light);
+  }
+}
+
+.img-glasses {
+  width: 400px;
+  max-width: 100%;
+
+  @media (min-width: 1050px) {
+    position: absolute;
+    right: 60vw;
+    top: 200px;
   }
 }
 
