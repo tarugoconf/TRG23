@@ -1,7 +1,7 @@
 layout: layouts/speakers.njk
 title: Speakers
 description: >
-  Todas los requisitos y ventajas que conlleva ser speaker de la Tarugoconf, la
+  Todas los requisitos y ventajas que conlleva ser speaker de la TRG, la
   conferencia sobre diseño, construcción y comercialización de productos y
   servicios digitales más awesómica del mundo.
 menu_local:
@@ -13,16 +13,16 @@ menu_local:
     url: "#recursos"
 
 header:
-  title: Ser speaker en la Tarugoconf
+  title: Ser speaker en la TRG
   intro: >
-    Ser ponente de la Tarugoconf es una experiencia diferente. Empezando porque
+    Ser ponente de la TRG es una experiencia diferente. Empezando porque
     **la única forma de convertirte en uno/a de ellos es mediante invitación** y
     terminando porque no eligirás el tema sobre el que vas a hablar, solo cómo
     vas a desarrollarlo :)
 
     Una de las cosas más peculiares de la conferencia es que tiene «línea editorial». Primero **seleccionamos los temas que nos parecen más interesantes y, después, a las personas que creemos más apropiadas para hacerlo.** Por ejemplo, a ti. No hay *call for papers* ni charlas patrocinadas, todos los contenidos son planificados y cuidados con detalle.
 
-    En esta ocasión queremos que todas las temáticas giren alrededor de **sectores, empresas y profesionales que se han adaptado y sobrepuesto al COVID-19** y otras grandes crisis.
+    En esta ocasión queremos que todas las charlas giren alrededor de **buenas prácticas para el desarrollo y venta de tecnología**, pero desde un punto de vista diferente al habitual.
 
 video:
   id: 305100749
@@ -31,7 +31,7 @@ video:
 
 highlights:
   - title: Quién
-    description: Recibirás una invitación personal para participar en la Tarugoconf.
+    description: Recibirás una invitación personal para participar en la TRG.
   - title: Por qué
     description: Si aceptas, nos reuniremos para explicarte nuestra idea y
       consensuar la visión de tu charla.
@@ -55,9 +55,9 @@ intro:
     - **Sketchnoting** en directo
     - **Control** de difusión audiovisual
   text: >
-    «Ningún discurso es demasiado corto». En la Tarugo creemos en las enseñanzas
+    «Ningún discurso es demasiado corto». En la TRG creemos en las enseñanzas
     de los legendarios Kenneth Roman y Joel Raphaelson, por eso nuestras charlas
-    «solo» duran 20 minutos. Eso sí, tenemos un turno de preguntas de 10 minutos
+    «solo» duran 30 minutos. Eso sí, tenemos un turno de preguntas de 15 minutos
     —desarrollado en formato entrevista, sentado en un sofá, como en un *late
     night show*— que SIEMPRE se nos queda corto. ¡La interactuación con el
     público suele ser tan interesante como la charla en sí!
@@ -77,7 +77,7 @@ benefits:
     pero el esfuerzo invertido en preparar una charla es igual que el esfuerzo
     invertido en preparar un evento —nunca es rentable desde el punto de vista
     económico— así que, lo menos que podemos hacer es compensarlos en su justa
-    medida. Ellos son las verdaderas estrellas de la Tarugoconf.
+    medida. Ellos son las verdaderas estrellas de la TRG.
   items:
     - title: Viaje
       img: /img/benefits/plane.svg
@@ -97,15 +97,15 @@ benefits:
         datos y los hechos, para cautivar a la audiencia.
     - title: Acceso VIP
       img: /img/benefits/vip.svg
-      description: Tu entrada te dará acceso a todas las actividades de la Tarugoconf,
-        desde los talleres hasta el Open Space del sábado.
+      description: Tu entrada te dará acceso a todas las actividades de la TRG,
+        desde los talleres del jueves hasta el Open Space del sábado.
     - title: Regalo
       img: /img/benefits/gift.svg
-      description: Somos gallegos, así que, cuenta con un regalo de cortesía y,
+      description: Somos gallegos, así que, cuenta con un regalo de cortesía,
         probablemente, relacionado con la gastronomía...
     - title: Entradas
       img: /img/benefits/tickets.svg
-      description: Todos los ponentes de la Tarugoconf tienen garantizada una entrada
+      description: Todos los ponentes de la TRG tienen garantizada una entrada
         para la siguiente edición. Sin coste.
     - title: Sketchnoting
       img: /img/benefits/blueprint.svg
@@ -137,20 +137,20 @@ speakers:
       position: Fundador y CSO - Singular Solving
       img: /img/past-speakers/javier-recuenco.jpg
     - quote: >
-        La Tarugoconf es la conferencia donde más he disfrutado el turno de
+        La TRG es la conferencia donde más he disfrutado el turno de
         preguntas. 
       name: Jimena Catalina
       position: Creadora de Slides Carnival
       img: /img/past-speakers/jimena-catalina.jpg
     - quote: >
-        Después de 4 años, aun me sigue recordando la charla que di en la
-        primera Tarugoconf incluso gente que no estuvo allí.
+        Después de 7 años, aun me siguen recordando la charla que di en la
+        primera TRG. Incluso gente que no estuvo allí.
       name: Javi Santana
       position: Jugador de eSports
       img: /img/past-speakers/javi-santana.jpeg
     - quote: >
         El número de socios de Civio subió exponencialmente desde que di mi
-        charla en la Tarugo.
+        charla en la TRG.
       name: Eva Belmonte
       position: Directora de Civio
       img: /img/past-speakers/eva-belmonte.jpg
@@ -216,7 +216,9 @@ resources:
   links:
     - text: El postmortem, con todas las cifras de la edición anterior
       href: https://bonillaware.com/postmortem-tarugo4
-    - text: Vídeo-resumen de la última edición (2019)
+    - text: Vídeo-resumen de la última edición (2022)
+      href: https://vimeo.com/384584744
+    - text: Vídeo-resumen de la tarugo4, primera en La Nave (2019)
       href: https://vimeo.com/384584744
     - text: Vídeo-resumen de la tarugo3 (2018)
       href: https://vimeo.com/304015791
