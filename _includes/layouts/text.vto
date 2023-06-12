@@ -1,5 +1,5 @@
 ---
-layout: ./base.njk
+layout: ./base.vto
 styles: /styles/texts.css
 ---
 
@@ -14,15 +14,15 @@ styles: /styles/texts.css
     <header class="ly-document-header has-dotsShadow">
       <h1 class="text-title over-dotsShadow">{{ title }}</h1>
 
-      {% if subtitle %}
+      {{ if it.subtitle }}
       <p class="text-subtitle over-dotsShadow">{{ subtitle }}</p>
-      {% endif %}
+      {{ /if }}
     </header>
 
     <div class="text-body ly-document-body">
-      {{ content | safe }}
+      {{ content }}
     </div>
   </article>
 
-  {% include "templates/footer.njk" %}
+  {{ include "templates/footer.vto" }}
 </main>

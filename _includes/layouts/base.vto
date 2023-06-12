@@ -13,11 +13,11 @@
 
   <link href="/styles/common.css" rel="stylesheet">
   <script src="/js/common.js" type="module"></script>
-  {% if styles %}<link href="{{ styles }}" rel="stylesheet">{% endif %}
-  {% if scripts %}<script src="{{ scripts }}" type="module"></script>{% endif %}
+  {{ if it.styles }}<link href="{{ styles }}" rel="stylesheet">{{ /if }}
+  {{ if it.scripts }}<script src="{{ scripts }}" type="module"></script>{{ /if }}
 </head>
 
-<body id="top" class="{{ body_class }}">
-  {{ content | safe }}
+<body id="top" class="{{ it.body_class }}">
+  {{ content }}
 </body>
 </html>

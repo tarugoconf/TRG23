@@ -1,5 +1,5 @@
 ---
-layout: layouts/text.njk
+layout: layouts/text.vto
 title: Código de conducta
 ---
 
