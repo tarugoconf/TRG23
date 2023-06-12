@@ -35,6 +35,14 @@ scripts: /js/home.js
     {% include "templates/blocks/video.njk" %}
   </section>
 
+  <section class="home-section is-speakers" id="speakers">
+    {% set block = block_speakers %}
+    {% include "templates/blocks/header.njk" %}
+
+    {% set block = speakers.speakers %}
+    {% include "templates/blocks/speaker-grid.njk" %}
+  </section>
+
   <section class="home-section is-contact" id="contacto">
     <header>
       <h2 class="text-title">{{ contact.title }}</h2>

@@ -169,6 +169,15 @@
   }
 }
 
+.home-section.is-speakers {
+  display: grid;
+  row-gap: 2em;
+  border-bottom: solid 2px;
+  padding-bottom: var(--row-gap);
+
+
+}
+
 .img-glasses {
   width: 400px;
   max-width: 100%;

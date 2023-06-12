@@ -20,6 +20,11 @@ menu_local:
   - text: Speakers
     url: "/speakers/"
 
+block_speakers:
+  title: Speakers
+  intro: |
+    El «speaker» o ponente de la TRGCON no nace, [SE HACE](/speakers/). Estos son los awesómicos invitados con los que contaremos este año:
+
 contact:
   title: Contacto
   items:
