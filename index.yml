@@ -19,6 +19,8 @@ menu_local:
     url: "#faq"
   - text: Speakers
     url: "/speakers/"
+  - text: Blog
+    url: "/blog/"
 
 contact:
   title: Contacto
