@@ -28,6 +28,14 @@ scripts: /js/home.js
 
       <div class="text-intro">
         {{ about.intro | md | safe }}
+
+        <p>
+          <a href="{{about.cta.url}}" role="button" target=_blank>
+            <strong>{{ about.cta.text }}</strong>
+          </a>
+          <br>
+          <span class="text-base">{{ about.cta.footer | md(true) | safe }}</span>
+        </p>
       </div>
     </div>
 
