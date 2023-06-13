@@ -25,6 +25,11 @@
     position: relative;
     z-index: 2;
     background: var(--color-sepia);
+    transition: background-color 200ms;
+  }
+
+  &:hover .speaker-image {
+    background-color: var(--color-red);
   }
 
   .speaker-name {

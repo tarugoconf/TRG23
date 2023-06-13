@@ -26,7 +26,7 @@ speakers:
     id: pablo
     company: Unity Technologies
     position: Principal Engineer
-    img: /img/speakers/sergio-rodriguez.png
+    img: /img/speakers/pablo-santos.png
     links:
       - text: Linkedin
         icon: 
@@ -37,7 +37,7 @@ speakers:
     id: unknown
     company: ACME
     position: CXO
-    img: /img/speakers/sergio-rodriguez.png
+    img: /img/speakers/placeholder.png
     links:
       - text: Linkedin
         icon: 
