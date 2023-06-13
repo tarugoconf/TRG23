@@ -1,5 +1,5 @@
 <ul class="block-speakerGrid">
-  {% for speaker in block %}
+  {{ for speaker of block }}
   <li>
   <button class="speaker-button">
     <div class="has-dotsShadow">
@@ -9,12 +9,12 @@
     <h4 class="speaker-name">{{ speaker.name }}</h4>
 
     <p class="speaker-description">
-      {% if speaker.company %}
+      {{ if speaker.company }}
       {{ speaker.company }}<br>
-      {% endif %}
+      {{ /if }}
       <em class="speaker-position">{{ speaker.position }}</em>
     </p>
   </button>
   </li>
-  {% endfor %}
+  {{ /for }}
 </ul>

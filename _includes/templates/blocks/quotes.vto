@@ -1,9 +1,9 @@
 <div class="block-quotes">
   <trg-carousel class="block-quotes-items" id="carousel" role="region" aria-label="Quotes" tabindex="0">
-    {% for item in block %}
+    {{ for item of block }}
     <figure class="block-quotes-item">
       <blockquote class="has-dotsShadow">
-        {{ item.quote | md | safe }}
+        {{ item.quote |> md }}
       </blockquote>
       <figcaption>
         <img src="{{ item.img }}">
@@ -13,7 +13,7 @@
         </p>
       </figcaption>
     </figure>
-    {% endfor %}
+    {{ /for }}
   </trg-carousel>
 
   <trg-carousel-navigation for="carousel" class="block-quotes-nav">

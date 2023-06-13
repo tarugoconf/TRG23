@@ -1,5 +1,5 @@
 title: TRG23
-layout: layouts/home.njk
+layout: layouts/home.vto
 about:
   title: Personas, tecnología y negocio.
   intro: |
