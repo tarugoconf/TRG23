@@ -33,7 +33,6 @@ const site = lume()
   .remoteFile(
     "js/deps/navigation.js",
     "https://unpkg.com/@oom/carousel@4.2.0/src/navigation.js",
-  )
-  ;
+  );
 
 export default site;
