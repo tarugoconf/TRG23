@@ -25,11 +25,14 @@
     position: relative;
     z-index: 2;
     background: var(--color-sepia);
-    transition: background-color 1s;
+    transition: background;
   }
 
   &:hover .speaker-image {
-    background-color: var(--color-red);
+    background: repeating-conic-gradient(from 30deg, var(--color-red) 0deg 30deg, var(--color-sepia) 30deg 60deg);
+    animation: backgroundSpeakerHover 1s;
+    animation-iteration-count: infinite;
+    animation-timing-funcion: steps(2);
   }
 
   .speaker-name {
@@ -54,5 +57,14 @@
 
   &:hover .has-dotsShadow::after {
     animation-name: showButtonShadow;
+  }
+}
+
+@keyframes backgroundSpeakerHover {
+  from {
+    background-image: repeating-conic-gradient(from 0deg, var(--color-red) 0deg 30deg, var(--color-sepia) 30deg 60deg);
+  }
+  to {
+    background-image: repeating-conic-gradient(from 30deg, var(--color-red) 0deg 30deg, var(--color-sepia) 30deg 60deg);
   }
 }
