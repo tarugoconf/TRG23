@@ -216,11 +216,11 @@
     text-transform: uppercase;
     font-weight: bold;
     border-bottom: solid 2px;
-    padding: 1rem 0;
+    padding: 1rem 2rem;
     margin: 0;
 
     @media (min-width: 1100px) {
-      padding-left: 1rem;
+      padding-left: 3rem;
       padding-right: 1rem;
     }
   }
