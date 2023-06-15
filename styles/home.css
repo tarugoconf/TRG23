@@ -174,8 +174,16 @@
   row-gap: 2em;
   border-bottom: solid 2px;
   padding-bottom: var(--row-gap);
+}
+.img-tentaculo {
+  position: absolute;
+  left: 0;
+  width: max(200px, 80vw);
+  margin-top: -5vh;
 
-
+  @media (min-width: 800px) {
+    width: clamp(200px, 50vw, 800px);
+  }
 }
 
 .img-glasses {
@@ -187,6 +195,84 @@
     right: 60vw;
     top: 200px;
   }
+}
+
+.calendar-days {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  margin-top: calc(var(--row-gap) / 2);
+
+  @media (min-width: 1100px) {
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+  }
+}
+.calendar-day {
+  & h4 {
+    font-size: var(--font-2-size);
+    letter-spacing: var(--font-2-spacing);
+    line-height: var(--line-height-title);
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: solid 2px;
+    padding: 1rem 0;
+    margin: 0;
+
+    @media (min-width: 1100px) {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  }
+
+  & dl {
+    margin: 0;
+    padding: 1.5rem 0;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+    @media (min-width: 1100px) {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  }
+
+  & dt {
+    & time {
+      display: inline-block;
+      background: var(--color-red);
+      font-size: var(--font-0-size);
+      letter-spacing: var(--font-0-spacing);
+      padding: 0.1em 0.5em;
+      color: white;
+      border-radius: var(--border-radius-small);
+      font-weight: bold;
+    }
+    & strong {
+      display: block;
+      font-size: var(--font-2-size);
+      letter-spacing: var(--font-2-spacing);
+      margin-top: 0.2em;
+    }
+  }
+  & dd {
+    margin: 0;
+    font-size: var(--font-1-size);
+    letter-spacing: var(--font-1-spacing);
+    line-height: var(--line-height-text);
+  }
+
+  & p {
+    margin-bottom: 0;
+  }
+}
+.calendar-event {
+  background: var(--color-white);
+  padding: 2rem;
+  border-radius: var(--border-radius);
+  border: solid 1px #0001;
+  margin: 0;
 }
 
 /* https://github.com/animate-css/animate.css/blob/main/source/bouncing_entrances/bounceInDown.css */

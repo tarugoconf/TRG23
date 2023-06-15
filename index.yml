@@ -31,6 +31,48 @@ block_speakers:
   intro: |
     El «speaker» o ponente de la TRGCON no nace, [SE HACE](/speakers/). Estos son los awesómicos invitados con los que contaremos este año:
 
+block_calendar:
+  title: Agenda
+  intro: |
+    El **viernes 27 de octubre** se celebra el evento principal, el **jueves 26** se impartirán talleres y disfrutaremos de nuestro divertido networking. Finalmente, el **sábado 28** celebraremos nuestro Día de la Comunidad, al que los asistentes podrán acudir con familia y amigos.
+  days:
+    - title: Jueves 26
+      items:
+        - time: 15:30-18:00h
+          title: Talleres
+          description: |
+            Talleres prácticos (requieren una entrada complementaria a la del evento principal) impartidos por profesionales con una amplia experiencia que enseñarán a los asistentes un nuevo superpoder que aplicar en su trabajo. Y este año, como novedad contaremos con talleres patrocinados por nuestros sponsors (requieren invitación de los mismos para poder acceder).
+        - time: 18:00-20:00h
+          title: Networking
+          description: |
+            Actividades y dinámicas para que los asistentes se conozcan entre sí. Si no conoces a nadie, saldrás con un grupo con el que pasar el resto de la conferencia y, si vienes acompañado, ampliarás el circulo con el que te disfrutarás el evento.
+    - title: Viernes 27
+      items:
+        - time: 9:00-10:00h
+          title:  Apertura de puertas
+          description: |
+            Acude pronto para acreditarte sin prisas, tomarte un café y poder elegir tu sitio en el auditorio con tranquilidad antes de que empiece la Keynote del evento.
+        - time: 10:00-20:30h
+          title: Conferencias
+          description: |
+            Agenda principal del evento, con 8 charlas, 2 coffee breaks (a las 12:00h y a las 18:15), comida (a las 14:30h), concursos, sorteos y muchas más sorpresas.
+        - time: 20:30-22:30h
+          title: Legendaria Fiesta
+          description: |
+            Convertiremos La Nave en una auténtica "Verbena de la Paloma" con comida y bebida, churros, juegos, música y las mejores conversaciones del planeta porque... LA VIDA PUEDE SER MARAVILLOSA.
+    - title: Sábado 28
+      items:
+        - time: 11:00-18:00h
+          title: Community Day
+          description: |
+            Como ya es tradición, el día después del evento principal, disfrutaremos de una jornada relajada y abierta a todo el mundo, a la que podréis acudir acompañados por familiares, amigos y hasta inteligencias artificiales para que tengáis una oportunidad de abrirles una ventana a vuestra profesión y a la increíble Comunidad que hay alrededor de la misma. 
+
+            Los más mayores contarán con la TarugOff, el open space de la TRG, donde los propios asistentes propondrán y votarán los contenidos del mismo. Además, nuestra zona de stands seguirá activa con muchas, MUCHAS sorpresas que nuestros partners se han currado para aportar valor a los asistentes.
+
+            Los más pequeños contarán con talleres STEM, actividades y juegos supervisados por monitores especializados que podrán disfrutar solos junto a sus familiares. 
+
+            Además, vamos a intentar que haya opciones de restauración variadas y asequibles para todo el mundo.
+
 contact:
   title: Contacto
   items:
