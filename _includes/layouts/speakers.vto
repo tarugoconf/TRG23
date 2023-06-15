@@ -1,0 +1,69 @@
+---
+layout: ./base.vto
+styles: /styles/speakers.css
+---
+
+<main class="ly-wrapper-grid speakers-container has-navbar-menu-local">
+  {{ include "templates/logo.vto" }}
+  {{ include "templates/navbar.vto" }}
+
+  {{ include "templates/blocks/header.vto" { block: header } }}
+
+  <div class="img-tentacle-container">
+    <img src="/img/tentaculo1.png" class="img-tentacle">
+  </div>
+
+  <ul class="speakers-highlights">
+      {{ for item of highlights }}
+      <li class="dots">
+        <div class="over-dotsShadow">
+          <h3>{{ item.title }}</h3>
+          {{ item.description |> md }}
+        </div>
+      </li>
+      {{ /for }}
+  </ul>
+
+  {{ include "templates/blocks/big-img.vto" { block: image }}}
+
+  <section class="speakers-intro" id="las-charlas">
+    <h2 class="intro-title">{{ intro.title }}</h2>
+    <div class="intro-aside">{{ intro.aside |> md }}</div>
+
+    <div class="intro-text has-links">
+      {{ intro.text |> md }}
+    </div>
+  </section>
+
+  {{ include "templates/blocks/video.vto" {block: video} }}
+
+  <section class="benefits" id="beneficios">
+      {{ include "templates/blocks/header.vto" {block: benefits} }}
+
+      {{ include "templates/blocks/img-grid.vto" {block: benefits.items} }}
+  </section>
+
+  <div>
+      {{ include "templates/blocks/header.vto" {block: speakers}}}
+
+      { include "templates/blocks/quotes.vto" {block: speakers.quotes} }
+  </div>
+
+  {{ include "templates/blocks/img-grid.vto" {block: speakers.speakers} }}
+
+  <section class="resources" id="recursos">
+    <h2 class="resources-title">{{ resources.title }}</h2>
+
+    <ul class="resources-links has-links">
+      {{ for item of resources.links }}
+      <li>
+        <a href="{{ item.href }}">
+          {{ item.text }}
+        </a>
+      </li>
+      {{ /for }}
+    </ul>
+  </section>
+
+  {{ include "templates/footer.vto" }}
+</main>

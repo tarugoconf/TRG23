@@ -1,19 +1,19 @@
 <header class="block-header">
-  {% if block.title %}  
+  {{ if block.title }}
   <h1 class="block-header-title">
     {{ block.title }}
   </h1>
-  {% endif %}
+  {{ /if }}
 
-  {% if block.subtitle %}  
+  {{ if block.subtitle }}
   <h2 class="block-header-subtitle">
     {{ block.subtitle }}
   </h2>
-  {% endif %}
+  {{ /if }}
 
-  {% if block.intro %}  
+  {{ if block.intro }}
   <div class="block-header-intro">
-    {{ block.intro | md | safe }}
+    {{ block.intro |> md }}
   </div>
-  {% endif %}
+  {{ /if }}
 </header>

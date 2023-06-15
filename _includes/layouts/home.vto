@@ -1,11 +1,11 @@
 ---
-layout: ./base.njk
+layout: ./base.vto
 styles: /styles/home.css
 scripts: /js/home.js
 ---
 
 <main class="ly-wrapper-grid home-container dots has-navbar-menu-local">
-  {% include "templates/navbar.njk" %}
+  {{ include "templates/navbar.vto" }}
 
   <div class="home-splash">
     <div class="home-splash-figure has-dotsShadow">
@@ -27,42 +27,47 @@ scripts: /js/home.js
       </header>
 
       <div class="text-intro">
-        {{ about.intro | md | safe }}
+        {{ about.intro |> md }}
 
         <p>
           <a href="{{about.cta.url}}" role="button" target=_blank>
             <strong>{{ about.cta.text }}</strong>
           </a>
           <br>
-          <span class="text-base">{{ about.cta.footer | md(true) | safe }}</span>
+          <span class="text-base">{{ about.cta.footer |> md(true) }}</span>
         </p>
       </div>
     </div>
 
-    {% set block = video %}
-    {% include "templates/blocks/video.njk" %}
+    {{ include "templates/blocks/video.vto" {block: video} }}
   </section>
+
+  {{# <section class="home-section is-speakers" id="speakers">
+    {{ include "templates/blocks/header.vto" {block: block_speakers} }}
+
+    {{ include "templates/blocks/speaker-grid.vto" {block: speakers.speakers} }}
+  </section> #}}
 
   <section class="home-section is-contact" id="contacto">
     <header>
       <h2 class="text-title">{{ contact.title }}</h2>
     </header>
 
-    {% for item in contact.items %}
+    {{ for item of contact.items }}
     <address class="text-base">
       <h3 class="text-intro">{{ item.title }}</h3>
-      {{ item.info | md | safe }}
+      {{ item.info |> md }}
 
       <ul>
-      {% for link in item.links %}
+      {{ for link of item.links }}
         <li>
           <img src="{{ link.icon }}" width=24 height=24>
           <a href="{{ link.url }}">{{ link.text }}</a>
         </li>
-      {% endfor %}
+      {{ /for }}
       </ul>
     </address>
-    {% endfor %}
+    {{ /for }}
   </section>
 
   <section class="home-section is-faq" id="faq">
@@ -71,18 +76,18 @@ scripts: /js/home.js
     </header>
 
     <div class="faq">
-      {% for item in faq.questions %}
+      {{ for item of faq.questions }}
       <details class="faq-question">
         <summary>{{ item.question }}</summary>
         <div class="faq-answer">
-          {{ item.answer | md | safe }}
+          {{ item.answer |> md }}
         </div>
       </details>
-      {% endfor %}
+      {{ /for }}
     </div>
 
     <img src="/img/gafas.png" class="img-glasses">
   </section>
 
-  {% include "templates/footer.njk" %}
+  {{ include "templates/footer.vto" }}
 </main>

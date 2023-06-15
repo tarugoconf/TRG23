@@ -1,12 +1,45 @@
 speakers:
-  - name:
-    type: # speaker | teacher
-    id:
-    company:
-    position:
-    image:
+  - name: Sergio Rodriguez Vaamonde
+    type: speaker
+    id: sergio
+    company: Alpine F1 Team
+    position: Head of Data Science & Data Engineering
+    img: /img/speakers/sergio-rodriguez.png
     links:
-      - text:
+      - text: Linkedin
         icon: 
-        url:
+        url: https://www.linkedin.com/in/sergio-rodriguez-vaamonde-0591b021/
+    bio:
+  - name: Sandra Hernandez
+    type: speaker
+    id: sandra
+    company: NASA Jet Propulsion Laboratory
+    position: Systems Testbed Engineer
+    img: /img/speakers/sandra-hernandez.png
+    links:
+      - text: Linkedin
+        icon: 
+        url: https://www.linkedin.com/in/sandra-hernandez-13257b153/
+    bio:
+  - name: Pablo Santos Luaces
+    type: speaker
+    id: pablo
+    company: Unity Technologies
+    position: Principal Engineer
+    img: /img/speakers/pablo-santos.png
+    links:
+      - text: Linkedin
+        icon: 
+        url: https://www.linkedin.com/in/psantosl/
+    bio:
+  - name: Speaker sorpresa
+    type: speaker
+    id: unknown
+    company: ACME
+    position: CXO
+    img: /img/speakers/placeholder.png
+    links:
+      - text: Linkedin
+        icon: 
+        url: https://www.linkedin.com/in/psantosl/
     bio:

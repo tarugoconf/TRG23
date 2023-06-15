@@ -1,4 +1,4 @@
-layout: layouts/speakers.njk
+layout: layouts/speakers.vto
 title: Speakers
 description: >
   Todas los requisitos y ventajas que conlleva ser speaker de la TRG, la

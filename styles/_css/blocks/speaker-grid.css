@@ -1,0 +1,70 @@
+.block-speakerGrid {
+  --width: 240px;
+  --img-size: 150px;
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, var(--width));
+  grid-column-gap: 2em;
+  grid-row-gap: 4em;
+  justify-content: space-around;
+  text-align: center;
+}
+.speaker-button {
+  flex-direction: column;
+  padding: 0;
+  border: none;
+  gap: 1rem;
+
+  .speaker-image {
+    display: block;
+    width: 100%;
+    border: solid 4px;
+    position: relative;
+    z-index: 2;
+    background: var(--color-sepia);
+    transition: background;
+  }
+
+  &:hover .speaker-image {
+    background: repeating-conic-gradient(from 30deg, var(--color-red) 0deg 30deg, var(--color-sepia) 30deg 60deg);
+    animation: backgroundSpeakerHover 1s;
+    animation-iteration-count: infinite;
+    animation-timing-funcion: steps(2);
+  }
+
+  .speaker-name {
+    font-size: var(--font-4-size);
+    letter-spacing: var(--font-4-spacing);
+    line-height: var(--line-height-intro);
+    margin: 0;
+  }
+  .speaker-description {
+    font-size: var(--font-1-size);
+    letter-spacing: var(--font-1-spacing);
+    line-height: var(--line-height-text);
+    margin: 0;
+  }
+
+  .has-dotsShadow::after {
+    animation-name: hideButtonShadow;
+    animation-fill-mode: both;
+    animation-duration: .5s;
+    border: none;
+  }
+
+  &:hover .has-dotsShadow::after {
+    animation-name: showButtonShadow;
+  }
+}
+
+@keyframes backgroundSpeakerHover {
+  from {
+    background-image: repeating-conic-gradient(from 0deg, var(--color-red) 0deg 30deg, var(--color-sepia) 30deg 60deg);
+  }
+  to {
+    background-image: repeating-conic-gradient(from 30deg, var(--color-red) 0deg 30deg, var(--color-sepia) 30deg 60deg);
+  }
+}

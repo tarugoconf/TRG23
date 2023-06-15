@@ -1,0 +1,17 @@
+<footer class="footer">
+  <div>
+    {{ footer.copyright |> md }}
+  </div>
+
+  <ul>
+    {{ for item of footer.menu }}
+    <li>
+        <a href="{{ item.href }}">
+            {{ item.text }}
+        </a>
+    </li>
+    {{ /for }}
+  </ul>
+
+  <img class="footer-logo" src="/img/icons/trg-duotone.svg" width="40" height="40">
+</footer>

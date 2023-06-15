@@ -1,21 +1,21 @@
 <ul class="block-imgGrid">
-    {% for item in block %}
+    {{ for item of block }}
     <li>
         <img src="{{ item.img }}" alt="{{ item.title }}">
 
         <h3>{{ item.title }}</h3>
 
-        {{ item.description | md | safe }}
+        {{ item.description |> md }}
 
-        {% if item.links %}
+        {{ if item.links }}
         <address class="speaker-social">
-            {% for link in item.links %}
+            {{ for link of item.links }}
             <a href="{{ link.href }}" title="{{ link.title }}">
                 <img src="{{ link.icon }}" alt="{{ link.title }}">
             </a>
-            {% endfor %}
+            {{ /for }}
         </address>
-        {% endif %}
+        {{ /if }}
     </li>
-    {% endfor %}
+    {{ /for }}
 </ul>

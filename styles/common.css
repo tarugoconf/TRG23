@@ -17,5 +17,6 @@
 @import "blocks/header.css";
 @import "blocks/video.css";
 @import "blocks/img-grid.css"; 
+@import "blocks/speaker-grid.css"; 
 @import "blocks/quotes.css"; 
 @import "blocks/big-img.css"; 

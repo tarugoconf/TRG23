@@ -1,5 +1,5 @@
 ---
-layout: layouts/text.njk
+layout: layouts/text.vto
 title: Política de privacidad
 subtitle: Madrid, 24 de mayo de 2018
 ---

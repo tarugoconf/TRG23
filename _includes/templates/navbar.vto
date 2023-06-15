@@ -1,9 +1,9 @@
 <ul class="navbar-menu-local" id="menu">
-  {% for item in menu_local %}
+  {{ for item of menu_local }}
   <li>
       <a href="{{ item.url }}">
           {{ item.text }}
       </a>
   </li>
-  {% endfor %}
+  {{ /for }}
 </ul>

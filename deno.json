@@ -2,10 +2,14 @@
   "tasks": {
     "lume": "echo \"import 'lume/cli.ts'\" | deno run --unstable -A -",
     "build": "deno task lume",
-    "serve": "deno task lume -s"
+    "serve": "deno task lume -s",
+    "update-vento": "deno cache -r https://raw.githubusercontent.com/lumeland/experimental-plugins/main/vento/mod.ts"
   },
   "lock": false,
   "imports": {
     "lume/": "https://deno.land/x/lume@v1.17.5/"
+  },
+  "fmt": {
+    "exclude": ["_site"]
   }
 }

@@ -1,5 +1,5 @@
 title: TRG23
-layout: layouts/home.njk
+layout: layouts/home.vto
 about:
   title: Personas, tecnología y negocio.
   intro: |
@@ -25,6 +25,11 @@ menu_local:
     url: "/speakers/"
   - text: Blog
     url: "/blog/"
+
+block_speakers:
+  title: Speakers
+  intro: |
+    El «speaker» o ponente de la TRGCON no nace, [SE HACE](/speakers/). Estos son los awesómicos invitados con los que contaremos este año:
 
 contact:
   title: Contacto
