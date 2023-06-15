@@ -46,7 +46,7 @@ styles: /styles/speakers.css
   <div>
       {{ include "templates/blocks/header.vto" {block: speakers}}}
 
-      { include "templates/blocks/quotes.vto" {block: speakers.quotes} }
+      {{ include "templates/blocks/quotes.vto" {block: speakers.quotes} }}
   </div>
 
   {{ include "templates/blocks/img-grid.vto" {block: speakers.speakers} }}
