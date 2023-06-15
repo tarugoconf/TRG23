@@ -34,11 +34,11 @@ scripts: /js/home.js
     {{ include "templates/blocks/video.vto" {block: video} }}
   </section>
 
-  <section class="home-section is-speakers" id="speakers">
+  {{# <section class="home-section is-speakers" id="speakers">
     {{ include "templates/blocks/header.vto" {block: block_speakers} }}
 
     {{ include "templates/blocks/speaker-grid.vto" {block: speakers.speakers} }}
-  </section>
+  </section> #}}
 
   <section class="home-section is-contact" id="contacto">
     <header>

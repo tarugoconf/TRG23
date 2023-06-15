@@ -1,7 +1,7 @@
 import lume from "lume/mod.ts";
 import date from "lume/plugins/date.ts";
 import postcss from "lume/plugins/postcss.ts";
-import vento from "https://raw.githubusercontent.com/lumeland/experimental-plugins/61d2eb2155529ec2aced58200aaea5458210958f/vento/mod.ts";
+import vento from "https://raw.githubusercontent.com/lumeland/experimental-plugins/main/vento/mod.ts";
 
 const site = lume()
   .use(date())
