@@ -41,7 +41,9 @@ block_calendar:
         - time: 15:30-18:00h
           title: Talleres
           description: |
-            Talleres prácticos (requieren la compra de una entrada complementaria a la del evento principal) impartidos por profesionales con una amplia experiencia que enseñarán a los asistentes un nuevo superpoder que aplicar en su día a día. Y este año, **como novedad, contaremos con talleres patrocinados por nuestros sponsors** (requieren invitación de los mismos para poder acceder).
+            Talleres prácticos (requieren la compra de una entrada complementaria a la del evento principal) impartidos por profesionales con una amplia experiencia que enseñarán a los asistentes un nuevo superpoder para usar en su día a día.
+            
+            Y este año, **como novedad, contaremos con talleres patrocinados por nuestros sponsors** (requieren invitación de los mismos para poder acceder).
         - time: 18:00-20:00h
           title: Networking
           description: |
