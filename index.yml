@@ -47,7 +47,9 @@ block_calendar:
         - time: 18:00-20:00h
           title: Networking
           description: |
-            Actividades y dinámicas para que los asistentes se conozcan entre sí. Si no conoces a nadie, saldrás con un grupo con el que pasar el resto de la conferencia y, si vienes acompañado, ampliarás el circulo con el que te disfrutarás el evento.
+            Actividades y dinámicas divertidas para que los asistentes se conozcan entre sí en un ambiente distendido y seguro.
+            
+            Si no conoces a nadie, saldrás con un grupo con el que compartir el resto de la conferencia y, si vienes acompañado, ampliarás el circulo con el que interactuarás durante el resto del evento.
     - title: Viernes 27
       items:
         - time: 9:00-10:00h
