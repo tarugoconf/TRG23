@@ -50,6 +50,10 @@ block_calendar:
             Actividades y dinámicas divertidas para que los asistentes se conozcan entre sí en un ambiente distendido y seguro.
             
             Si no conoces a nadie, saldrás con un grupo con el que compartir el resto de la conferencia y, si vienes acompañado, ampliarás el circulo con el que interactuarás durante el resto del evento.
+        - time: 20:00-21:30h
+          title: Podcast en Directo
+          description: |
+            Grabación en directo de uno de los podcast más populares ——y divertidos—— de la Comunidad, en el que se repasarán las noticias tecnológicas más interesantes del año con una constante interacción con el público ¡No te lo pierdas! 
     - title: Viernes 27
       items:
         - time: 9:00-10:00h
