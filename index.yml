@@ -59,11 +59,11 @@ block_calendar:
         - time: 9:00-10:00h
           title:  Apertura de puertas
           description: |
-            Acude pronto para acreditarte sin prisas, tomarte un café y poder elegir tu sitio en el auditorio con tranquilidad antes de que empiece la Keynote del evento.
+            Acude pronto para acreditarte sin prisas, tomarte un café y poder elegir tu sitio en el auditorio antes de que empiece la Keynote del evento.
         - time: 10:00-20:30h
           title: Conferencias
           description: |
-            Agenda principal del evento, con 8 charlas, 2 coffee breaks (a las 12:00h y a las 18:15), comida (a las 14:30h), concursos, sorteos y muchas más sorpresas.
+            Agenda principal del evento, con 8 charlas, 2 coffee breaks de 45 minutos (a las 12:00h y a las 18:15), comida (a las 14:30h), concursos, sorteos y muchas, MUCHAS más sorpresas.
         - time: 20:30-22:30h
           title: Legendaria Fiesta
           description: |
