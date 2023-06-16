@@ -61,11 +61,11 @@ block_calendar:
           description: |
             Acude pronto para acreditarte sin prisas, tomarte un café y poder elegir tu sitio en el auditorio antes de que empiece la Keynote del evento.
         - time: 10:00-20:30h
-          title: Conferencias
+          title: Conferencia
           description: |
             Agenda principal del evento, con 8 charlas, 2 coffee breaks de 45 minutos (a las 12:00h y a las 18:15), comida (a las 14:30h), concursos, sorteos y muchas, MUCHAS más sorpresas.
         - time: 20:30-22:30h
-          title: Legendaria Fiesta
+          title: Fiesta
           description: |
             Convertiremos La Nave en una auténtica "Verbena de la Paloma" con comida y bebida, churros, juegos, música y las mejores conversaciones del planeta porque... LA VIDA PUEDE SER MARAVILLOSA.
     - title: Sábado 28
@@ -73,7 +73,7 @@ block_calendar:
         - time: 11:00-18:00h
           title: Community Day
           description: |
-            Como ya es tradición, el día después del evento principal, disfrutaremos de una jornada relajada y abierta a todo el mundo, a la que podréis acudir acompañados por familiares, amigos y hasta inteligencias artificiales para que tengáis una oportunidad de abrirles una ventana a vuestra profesión y a la increíble Comunidad que hay alrededor de la misma. 
+            Como ya es tradición, el día después del evento principal, disfrutaremos de una **jornada relajada y abierta a todo el mundo, a la que podréis acudir acompañados por vuestra familia y/o amigos** para que tengáis una oportunidad de abrirles una ventana a vuestra profesión y a la increíble Comunidad que hay alrededor de la misma. 
 
             Los más mayores contarán con la TarugOff, el open space de la TRG, donde los propios asistentes propondrán y votarán los contenidos del mismo. Además, nuestra zona de stands seguirá activa con muchas, MUCHAS sorpresas que nuestros partners se han currado para aportar valor a los asistentes.
 
