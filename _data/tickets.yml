@@ -1,5 +1,141 @@
-tickets:
-  - name:
-    pricing:
+features:
+  conferences: 
+    title: Acceso presencial a la conferencia (3 días)
     description:
-    stock:
+  streaming: 
+    title: Acceso al streaming online (2 días)
+    description:
+  workshop: 
+    title: Entrada a un taller práctico (jueves)
+    description:
+  dinner: 
+    title: Entrada a la cena de mecenas, patrocinadores y ponentes (jueves)
+    description:
+  food: 
+    title: Comida y bebida ilimitada durante la jornada principal (viernes)
+    description:
+  party: 
+    title: Entrada a la fiesta (viernes)
+    description:
+  community_day: 
+    title: Acceso al Community Day (sábado)
+    description:
+  tshirt: 
+    title: Camiseta del evento
+    description:
+  welcome_pack: 
+    title: Welcome Pack
+    description:
+  goodie: 
+    title: Goodie exclusivo para mecenas
+    description:
+  networking: 
+    title: Acceso a la plataforma de networking
+    description:
+  senate: 
+    title: Acceso al «Senado»
+    description:
+  photo: 
+    title: Foto en la web del evento (si lo desean)
+    description:
+  extra: 
+    title: Ventajas exclusivas
+    description:
+
+tickets:
+  - name: Early Bird
+    pricing: 165€ + IVA
+    conferences: true
+    streaming: false
+    workshop: false
+    dinner: false
+    food: true
+    party: true
+    community_day: true
+    tshirt: true
+    welcome_pack: true
+    goodie: false
+    networking: true
+    senate: false
+    photo: false
+
+  - name: Normal
+    pricing: 250€ + IVA
+    conferences: true
+    streaming: false
+    workshop: false
+    dinner: false
+    food: true
+    party: true
+    community_day: true
+    tshirt: true
+    welcome_pack: true
+    goodie: false
+    networking: true
+    senate: false
+    photo: false
+
+  - name: Killer Combo
+    pricing: 350€ + IVA
+    conferences: true
+    streaming: false
+    workshop: true
+    dinner: false
+    food: true
+    party: true
+    community_day: true
+    tshirt: true
+    welcome_pack: true
+    goodie: false
+    networking: true
+    senate: false
+    photo: false
+
+  - name: Online
+    pricing: 75€ + IVA
+    conferences: false
+    streaming: true
+    workshop: false
+    dinner: false
+    food: false
+    party: false
+    community_day: true
+    tshirt: true
+    welcome_pack: false
+    goodie: false
+    networking: true
+    senate: false
+    photo: false
+
+  - name: Taller
+    pricing: 150€ + IVA
+    conferences: false
+    streaming: false
+    workshop: true
+    dinner: false
+    food: false
+    party: false
+    community_day: false
+    tshirt: false
+    welcome_pack: false
+    goodie: false
+    networking: false
+    senate: false
+    photo: false
+
+  - name: Mecenas
+    pricing: 150€ + IVA
+    conferences: true
+    streaming: true
+    workshop: true
+    dinner: true
+    food: true
+    party: true
+    community_day: true
+    tshirt: true
+    welcome_pack: true
+    goodie: true
+    networking: true
+    senate: true
+    photo: true
+    extra: 20% de descuento en talleres
