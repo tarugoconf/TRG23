@@ -170,14 +170,17 @@ faq:
       answer: |
         Lamentablemente, sí. **Sacaremos un máximo de 575 entradas a la venta para el evento principal** porque, 
         contando con ponentes y patrocinadores, llenaremos el aforo del auditorio de La Nave: 636 personas.
-    - question:  ¿Cómo puedo estar al día de todas las noticias y novedades del evento?
+    - question:  ¿Qué diferencia hay entre la entrada early bird y la normal?
       answer: |
-        Tenemos un [Blog](https://tarugoconf.com/blog){target=_blank} donde iremos colgando toda la información relevante, 
-        pero no dejes de seguir [la cuenta en Twitter de la TRG](https://twitter.com/tarugoconf){target=_blank} y, 
-        especialmente, el hashtag [#trg23](https://twitter.com/search?q=%23trg23&src=typed_query&f=live){target=_blank}.        
-    - question: ¿Tenéis Código de Conducta?
+        Ninguna... excepto el precio. Lanzamos un número limitado de entradas a precio reducido para los suscriptores de la Bonilista más fieles y que antes apuestan por el evento haciéndose con su entrada. Por eso tienen acceso a la venta de entradas un día antes, para que tengan acceso a esas entradas early bird antes que nadie.
+    - question: ¿Por qué diferenciáis la camiseta del evento del Welcome Pack?
       answer: |
-        Por supuesto que tenemos [Código de Conducta](/codigo-de-conducta).
+        Porque el Welcome Pack incluye todos los goodies que los patrocinadores quieran regalar a los asistentes a la conferencia presencial.
+        <br><br>
+        Nosotros nos compremetemos a **dar o enviar la camiseta del evento a TODOS los asistentes**, ya sea en formato presencial u online.
+    - question: ¿Qué es eso del «Senado»?
+      answer: |
+        Un canal exclusivo en el Slack de la TRG donde los patrocinadores y ponentes serán informados y consultados sobre todas las decisiones relevantes del evento, desde el tipo de catering al diseño de camisetas.
     - question: Sigo teniendo dudas ¿qué hago?
       answer: |
         No problemo. Visita la sección de [Contacto](/#contacto) de esta misma web 
