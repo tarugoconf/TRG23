@@ -17,6 +17,8 @@ video:
   cover: /img/trg22-poster.jpg
 
 menu_local:
+  - text: Entradas
+    url: "/tickets/"
   - text: Contacto
     url: "#contacto"
   - text: FAQ
@@ -112,20 +114,10 @@ faq:
   questions:
     - question: ¿Cómo puedo comprar una entrada? 🎟️
       answer: |
-        Dentro de poco, aparecerá un botón «Comprar Entrada» en el menú de la web. 
-        Te llevará a una página donde podrás comparar todos los tipos de entrada. 
+        En la página [Tickets](/tickets/) podrás comparar todos los tipos de entrada. 
         <br><br>
-        **El día 25 de junio, se pondrán a la venta para los suscriptores de [la Bonilista](https://www.bonilista.com/){target=_blank}**; y, el día 26, para el resto del mundo.
-    - question: Si finalmente no puedo asistir ¿podré cancelar mi entrada?
-      answer: |
-        Claro. Podrás cancelar tu entrada **hasta 30 días antes del evento**.
-    - question: ¿Hasta cuándo puedo comprar entradas?
-      answer: |
-        Podrás comprar tu entrada **hasta el miércoles 25 de octubre**, un día antes del evento... si quedan, claro. Normalmente, **se agotan mucho antes** 🤞
-    - question: Ah, pero es que ¿hay un número máximo de entradas?
-      answer: |
-        Lamentablemente, sí. **Sacaremos un máximo de 575 entradas a la venta para el evento principal** porque, 
-        contando con ponentes y patrocinadores, llenaremos el aforo del auditorio de La Nave: 636 personas.
+        El **25 de junio** los suscriptores de [la Bonilista](https://www.bonilista.com/){target=_blank} recibirán un código e instrucciones para comprar sus entradas el **2 de julio**, un día antes que el resto del mundo.
+        Finalmente, el 3 de julio las entradas se pondrán a la venta para el público general.        
     - question:  ¿Cómo puedo estar al día de todas las noticias y novedades del evento?
       answer: |
         Tenemos un [Blog](https://tarugoconf.com/blog){target=_blank} donde iremos colgando toda la información relevante, 
