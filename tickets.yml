@@ -3,7 +3,7 @@ title: Entradas
 
 header:
   title: Entradas
-  intro: Las entradas se pondrán a la venta el día 2 de julio a las 11:00h GMT (Galician Mean Time) para los suscriptores de [La Bonilista](https://www.bonilista.com/) y un día después para el público general ¡Corre si no te quieres quedar sin la tuya!
+  intro: Las entradas se pondrán a la venta el día 2 de julio a las 11:00h GMT (Galician Mean Time) para los suscriptores de [La Bonilista](https://www.bonilista.com/){target=_blank} y un día después para el público general ¡Corre si no te quieres quedar sin la tuya!
 
 features:
   conferences: 
@@ -152,13 +152,17 @@ faq:
   questions:
     - question: ¿Cómo puedo comprar una entrada? 🎟️
       answer: |
-        Dentro de poco, aparecerá un botón «Comprar Entrada» en el menú de la web. 
-        Te llevará a una página donde podrás comparar todos los tipos de entrada. 
+        Dentro de poco, aparecerá un botón «Comprar» en esta misma página
+        Te llevará a nuestro sistema de ticketing en Eventbrite donde podrás comparar tus entradas. 
         <br><br>
-        **El día 25 de junio, se pondrán a la venta para los suscriptores de [la Bonilista](https://www.bonilista.com/){target=_blank}**; y, el día 26, para el resto del mundo.
+        El **25 de junio** los suscriptores de [la Bonilista](https://www.bonilista.com/){target=_blank} recibirán un código e instrucciones para comprar sus entradas el **2 de julio**, un día antes que el resto del mundo.
+        Finalmente, el 3 de julio las entradas se pondrán a la venta para el público general.
     - question: Si finalmente no puedo asistir ¿podré cancelar mi entrada?
       answer: |
         Claro. Podrás cancelar tu entrada **hasta 30 días antes del evento**.
+    - question: ¿A partir de cuándo puedo comprar entradas?
+      answer: |
+        Si estás suscrito a [la Bonilista](https://www.bonilista.com/){target=_blank} podrás comprar tu entrada **a partir del domingo 2 de julio**. El público general podrá comprarlas un día después, el lunes 3 de julio.
     - question: ¿Hasta cuándo puedo comprar entradas?
       answer: |
         Podrás comprar tu entrada **hasta el miércoles 25 de octubre**, un día antes del evento... si quedan, claro. Normalmente, **se agotan mucho antes** 🤞
