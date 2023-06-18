@@ -169,9 +169,18 @@ faq:
       answer: |
         Lamentablemente, sí. **Sacaremos un máximo de 575 entradas a la venta para el evento principal** porque, 
         contando con ponentes y patrocinadores, llenaremos el aforo del auditorio de La Nave: 636 personas.
-    - question:  ¿Qué diferencia hay entre la entrada early bird y la normal?
+    - question:  ¿Qué diferencia hay entre la entrada Early Bird y la Normal?
       answer: |
         Ninguna... excepto el precio. Lanzamos un número limitado de entradas a precio reducido para los suscriptores de la Bonilista más fieles y que antes apuestan por el evento haciéndose con su entrada. Por eso tienen acceso a la venta de entradas un día antes, para que tengan acceso a esas entradas early bird antes que nadie.
+    - question:  ¿Qué diferencia hay entre la entrada Killer Combo y la Normal?
+      answer: |
+        La entrada Killer Combo combina todas las ventajas de la entrada Normal y la de Taller. Es decir, te permitirá acceder a la conferencia presencial el viernes y, además, a uno de los talleres prácticos del jueves. Y, por supuesto, al Community Day del sábado.
+    - question: ¿La entrada Taller me permite asistir a la conferencia presencialmente u online?
+      answer: |
+        No. La entrada Taller te da acceso exclusivamente a uno de los talleres prácticos del jueves.
+    - question: ¿Las entradas de tipo Early Bird, Normal, Online o Mecenas permite acceder a los talleres del jueves?
+      answer: |
+        No. Solo las entradas de tipo Taller o Killer Combo permiten el acceso a un taller el jueves.
     - question: ¿Por qué diferenciáis la camiseta del evento del Welcome Pack?
       answer: |
         Porque el Welcome Pack incluye todos los goodies que los patrocinadores quieran regalar a los asistentes a la conferencia presencial.
