@@ -3,6 +3,7 @@ a[role="button"] {
   padding: 0;
   border: none;
   font-size: var(--font-2-size);
+  line-height: var(--line-height-text);
 
   & strong {
     border-radius: var(--border-radius-small);
@@ -13,6 +14,7 @@ a[role="button"] {
     display: block;
     padding: .5em 1em;
     transition: background-color .5s;
+    flex: 1 1 auto;
   }
 
   &::after {

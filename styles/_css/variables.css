@@ -7,13 +7,14 @@
   --color-black: #000;
   --color-gray: #444;
   --color-gray-light: #0004;
+  --color-gray-xlight: #0001;
 
   --scale: 1.25;
   @media (max-width: 1200px) { --scale: 1.2; }
   @media (max-width: 800px) { --scale: 1.15; }
   @media (max-width: 450px) { --scale: 1.1; }
 
-  --font-0-size: .85rem;
+  --font-0-size: .875rem;
   --font-0-spacing: 0;
   --font-1-size: 1rem;
   --font-1-spacing: -0.01em;
@@ -42,6 +43,7 @@
 
 
   --column-gap: 5vw;
+  --row-gap: min(100px, 20vh);
   --border-radius: 12px;
   --border-radius-small: 8px;
 }

@@ -2,7 +2,6 @@
 
 .home-container {
   --background-image: linear-gradient(to bottom, transparent, var(--color-sepia) min(60vh, 500px));
-  --row-gap: min(100px, 20vh);
   row-gap: var(--row-gap);
   padding-bottom: var(--row-gap);
 }
@@ -271,7 +270,7 @@
   background: var(--color-white);
   padding: 2rem;
   border-radius: var(--border-radius);
-  border: solid 1px #0001;
+  border: solid 1px var(--color-gray-xlight);
   margin: 0;
 }
 

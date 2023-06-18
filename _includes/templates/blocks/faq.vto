@@ -1,0 +1,16 @@
+<section class="block-faq" id="faq">
+  <header>
+    <h2 class="text-title"><span>{{ block.title }}</span></h2>
+  </header>
+
+  <div class="faq">
+    {{ for item of block.questions }}
+    <details class="faq-question">
+      <summary>{{ item.question }}</summary>
+      <div class="faq-answer">
+        {{ item.answer |> md }}
+      </div>
+    </details>
+    {{ /for }}
+  </div>
+</section>

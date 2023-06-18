@@ -1,5 +1,4 @@
 main {
-  --row-gap: min(100px, 20vh);
   padding-bottom: var(--row-gap);
 }
 .text {

@@ -1,0 +1,94 @@
+---
+layout: ./base.vto
+styles: /styles/tickets.css
+---
+
+<main class="ly-wrapper-grid tickets-container">
+  {{ include "templates/logo.vto" }}
+
+  {{ include "templates/blocks/header.vto" { block: {...header, is_center: true} } }}
+
+  <table class="tickets-table">
+    <thead>
+      <tr>
+        <th></th>
+        {{ for ticket of tickets }}
+        <th class="ticket-header">
+          <p>
+            <strong class="ticket-name">{{ ticket.name }}</strong>
+            <em class="ticket-pricing">{{ ticket.pricing }}</em>
+          </p>
+
+          <a href="" role="button"><strong>Comprar</strong></a>
+        </th>
+        {{ /for }}
+      </tr>
+    </thead>
+
+    <tbody>
+      {{ for key, feature of features }}
+      <tr class="ticket-feature">
+        <th class="ticket-feature-title">
+          {{ feature.title }}
+          {{ if feature.description }}
+          {{ feature.description }}
+          {{ /if }}
+        </th>
+
+        {{ for ticket of tickets }}
+        <td class="ticket-feature-value">
+          {{ if ticket[key] === true }}
+          <img src="/img/icons/check-circle-duotone.svg" alt="Si" width="32px" class="ticket-feature-yes" inline>
+          {{ else if ticket[key] === false }}
+          <img src="/img/icons/x.svg" alt="No" width="18px" class="ticket-feature-no" inline>
+          {{ else }}
+          {{ ticket[key] }}
+          {{ /if }}
+        </td>
+        {{ /for }}
+      </tr>
+      {{ /for }}
+    </tbody>
+  </table>
+
+  <ul class="tickets-list">
+    {{ for ticket of tickets }}
+    <li>
+      <div class="ticket-header">
+        <p>
+          <strong class="ticket-name">{{ ticket.name }}</strong>
+          <em class="ticket-pricing">{{ ticket.pricing }}</em>
+        </p>
+
+        <a href="" role="button"><strong>Comprar</strong></a>
+      </div>
+
+      <ul class="tickets-features">
+        {{ for key, feature of features }}
+        <li class="ticket-feature">
+          <div class="ticket-feature-title">
+            {{ feature.title }}
+            {{ if feature.description }}
+            {{ feature.description }}
+            {{ /if }}
+          </div>
+
+          <div class="ticket-feature-value">
+            {{ if ticket[key] === true }}
+            <img src="/img/icons/check-circle-duotone.svg" alt="Si" width="32px" class="ticket-feature-yes" inline>
+            {{ else if ticket[key] === false }}
+            <img src="/img/icons/x.svg" alt="No" width="18px" class="ticket-feature-no" inline>
+            {{ else }}
+            {{ ticket[key] }}
+            {{ /if }}
+          </div>
+        </li>
+        {{ /for }}
+      </ul>
+    </li>
+    {{ /for }}
+  </ul>
+
+  {{ include "templates/blocks/faq.vto" { block: faq } }}
+  {{ include "templates/footer.vto" }}
+</main>

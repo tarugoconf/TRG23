@@ -1,6 +1,13 @@
+layout: layouts/tickets.vto
+title: Entradas
+
+header:
+  title: Entradas
+  intro: Las entradas se pondrán a la venta el día XX a las 11:00h GMT (Galician Mean Time) ¡Corre si no te quieres quedar sin la tuya!
+
 features:
   conferences: 
-    title: Acceso presencial a la conferencia (3 días)
+    title: Acceso presencial a las conferencias (3 días)
     description:
   streaming: 
     title: Acceso al streaming online (2 días)
@@ -139,3 +146,37 @@ tickets:
     senate: true
     photo: true
     extra: 20% de descuento en talleres
+
+faq:
+  title: What the FAQ?
+  questions:
+    - question: ¿Cómo puedo comprar una entrada? 🎟️
+      answer: |
+        Dentro de poco, aparecerá un botón «Comprar Entrada» en el menú de la web. 
+        Te llevará a una página donde podrás comparar todos los tipos de entrada. 
+        <br><br>
+        **El día 25 de junio, se pondrán a la venta para los suscriptores de [la Bonilista](https://www.bonilista.com/){target=_blank}**; y, el día 26, para el resto del mundo.
+    - question: Si finalmente no puedo asistir ¿podré cancelar mi entrada?
+      answer: |
+        Claro. Podrás cancelar tu entrada **hasta 30 días antes del evento**.
+    - question: ¿Hasta cuándo puedo comprar entradas?
+      answer: |
+        Podrás comprar tu entrada **hasta el miércoles 25 de octubre**, un día antes del evento... si quedan, claro. Normalmente, **se agotan mucho antes** 🤞
+    - question: Ah, pero es que ¿hay un número máximo de entradas?
+      answer: |
+        Lamentablemente, sí. **Sacaremos un máximo de 575 entradas a la venta para el evento principal** porque, 
+        contando con ponentes y patrocinadores, llenaremos el aforo del auditorio de La Nave: 636 personas.
+    - question:  ¿Cómo puedo estar al día de todas las noticias y novedades del evento?
+      answer: |
+        Tenemos un [Blog](https://tarugoconf.com/blog){target=_blank} donde iremos colgando toda la información relevante, 
+        pero no dejes de seguir [la cuenta en Twitter de la TRG](https://twitter.com/tarugoconf){target=_blank} y, 
+        especialmente, el hashtag [#trg23](https://twitter.com/search?q=%23trg23&src=typed_query&f=live){target=_blank}.        
+    - question: ¿Tenéis Código de Conducta?
+      answer: |
+        Por supuesto que tenemos [Código de Conducta](/codigo-de-conducta).
+    - question: Sigo teniendo dudas ¿qué hago?
+      answer: |
+        No problemo. Visita la sección de [Contacto](/#contacto) de esta misma web 
+        donde encontrarás la información necesaria para contactar con nosotros por múltiples canales.
+        </br></br>
+        ¡Estaremos encantados de resolverte cualquier duda!

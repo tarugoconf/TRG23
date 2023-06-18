@@ -1,10 +1,12 @@
 import lume from "lume/mod.ts";
 import date from "lume/plugins/date.ts";
 import postcss from "lume/plugins/postcss.ts";
+import inline from "lume/plugins/inline.ts";
 import vento from "https://raw.githubusercontent.com/lumeland/experimental-plugins/main/vento/mod.ts";
 
 const site = lume()
   .use(date())
+  .use(inline())
   .use(postcss({
     includes: "styles/_css",
   }))

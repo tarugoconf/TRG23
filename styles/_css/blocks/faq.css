@@ -1,0 +1,13 @@
+.block-faq {
+  display: grid;
+  column-gap: var(--column-gap);
+  row-gap: 2em;
+
+  @media (min-width: 1050px) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+
+    & .faq {
+      grid-column: 2 / 4;
+    }
+  }
+}

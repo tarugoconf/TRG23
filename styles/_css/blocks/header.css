@@ -23,7 +23,12 @@
     max-width: 30em;
     margin: auto;
 
-    p {
-        margin: 0 0 1em;
+    & p {
+        margin: 1em 0;
+    }
+}
+.block-header.is-center {
+    .block-header-intro {
+        text-align: center;
     }
 }
