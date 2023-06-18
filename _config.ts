@@ -18,6 +18,7 @@ const site = lume()
   .copy("favicon.ico")
   .copy("favicon-32x32.png")
   .copy("favicon-16x16.png")
+  .data("cache", Date.now())
   .remoteFile(
     "styles/_css/normalize.css",
     "https://unpkg.com/ui-normalize@0.3.0/ui-normalize.css",

@@ -65,21 +65,26 @@ styles: /styles/tickets.css
 
       <ul class="tickets-features">
         {{ for key, feature of features }}
+
+        {{> if (key === "extra" && !ticket[key]) continue }}
+
         <li class="ticket-feature">
           <div class="ticket-feature-title">
-            {{ feature.title }}
-            {{ if feature.description }}
-            {{ feature.description }}
+            {{ if key === "extra" && ticket[key] }}
+              {{ ticket[key] }}
+            {{ else }}
+              {{ feature.title }}
+              {{ if feature.description }}
+              {{ feature.description }}
+              {{ /if }}
             {{ /if }}
           </div>
 
           <div class="ticket-feature-value">
-            {{ if ticket[key] === true }}
+            {{ if ticket[key] === true || key === "extra" }}
             <img src="/img/icons/check-circle-duotone.svg" alt="Si" width="32px" class="ticket-feature-yes" inline>
             {{ else if ticket[key] === false }}
             <img src="/img/icons/x.svg" alt="No" width="18px" class="ticket-feature-no" inline>
-            {{ else }}
-            {{ ticket[key] }}
             {{ /if }}
           </div>
         </li>

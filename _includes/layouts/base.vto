@@ -11,10 +11,10 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 
-  <link href="/styles/common.css" rel="stylesheet">
-  <script src="/js/common.js" type="module"></script>
-  {{ if it.styles }}<link href="{{ styles }}" rel="stylesheet">{{ /if }}
-  {{ if it.scripts }}<script src="{{ scripts }}" type="module"></script>{{ /if }}
+  <link href="/styles/common.css?{{ cache }}" rel="stylesheet">
+  <script src="/js/common.js?{{ cache }}" type="module"></script>
+  {{ if it.styles }}<link href="{{ styles + "?" + cache }}" rel="stylesheet">{{ /if }}
+  {{ if it.scripts }}<script src="{{ scripts + "?" + cache }}" type="module"></script>{{ /if }}
 </head>
 
 <body id="top" class="{{ it.body_class }}">
