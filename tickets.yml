@@ -134,7 +134,7 @@ tickets:
     pricing: 500€ + IVA
     conferences: true
     streaming: true
-    workshop: true
+    workshop: false
     dinner: true
     food: true
     party: true
