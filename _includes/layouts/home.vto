@@ -72,6 +72,31 @@ scripts: /js/home.js
     </ul>
   </section>
 
+  <section class="home-section is-tickets dots" id="tickets">
+    <div class="home-section-content">
+      <div class="tickets-text">
+        <h2 class="text-title">{{ tickets.title }}</h2>
+
+        <div class="text-body">
+          {{ tickets.intro |> md }}
+        </div>
+
+        <a href="{{tickets.cta.url}}" role="button">
+          <strong>{{ tickets.cta.text }}</strong>
+        </a>
+      </div>
+
+      {{> const data = search.data("/tickets/") }}
+      
+      <div class="tickets-img">
+      {{ for ticket of data.tickets }}
+        <img src="{{ ticket.img }}" alt="{{ ticket.name }}" width="150">
+      {{ /for }}
+      </div>
+
+    </div>
+  </section>
+
   <section class="home-section is-contact" id="contacto">
     <header>
       <h2 class="text-title">{{ contact.title }}</h2>
