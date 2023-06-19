@@ -14,6 +14,8 @@ styles: /styles/tickets.css
         <th></th>
         {{ for ticket of tickets }}
         <th class="ticket-header">
+          <img class="ticket-img" src="{{ ticket.img }}" alt="{{ ticket.name }}">
+
           <p>
             <strong class="ticket-name">{{ ticket.name }}</strong>
             <em class="ticket-pricing">{{ ticket.pricing }}</em>
@@ -55,11 +57,12 @@ styles: /styles/tickets.css
     {{ for ticket of tickets }}
     <li>
       <div class="ticket-header">
+        <img class="ticket-img" src="{{ ticket.img }}" alt="{{ ticket.name }}">
         <p>
           <strong class="ticket-name">{{ ticket.name }}</strong>
           <em class="ticket-pricing">{{ ticket.pricing }}</em>
         </p>
-
+        
         <strong class="ticket-comingsoon">Próximamente</strong>
       </div>
 

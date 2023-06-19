@@ -52,6 +52,7 @@ features:
 tickets:
   - name: Early Bird
     pricing: 165€ + IVA
+    img: "/img/tickets/early-bird.svg"
     conferences: true
     streaming: false
     workshop: false
@@ -68,6 +69,7 @@ tickets:
 
   - name: Normal
     pricing: 250€ + IVA
+    img: "/img/tickets/normal.svg"
     conferences: true
     streaming: false
     workshop: false
@@ -84,6 +86,7 @@ tickets:
 
   - name: Killer Combo
     pricing: 350€ + IVA
+    img: "/img/tickets/killer-combo.svg"
     conferences: true
     streaming: false
     workshop: true
@@ -100,6 +103,7 @@ tickets:
 
   - name: Online
     pricing: 75€ + IVA
+    img: "/img/tickets/online.svg"
     conferences: false
     streaming: true
     workshop: false
@@ -116,6 +120,7 @@ tickets:
 
   - name: Taller
     pricing: 150€ + IVA
+    img: "/img/tickets/taller.svg"
     conferences: false
     streaming: false
     workshop: true
@@ -132,6 +137,7 @@ tickets:
 
   - name: Mecenas
     pricing: 500€ + IVA
+    img: "/img/tickets/mecenas.svg"
     conferences: true
     streaming: true
     workshop: false
