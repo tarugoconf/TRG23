@@ -131,7 +131,7 @@ tickets:
     photo: false
 
   - name: Mecenas
-    pricing: 150€ + IVA
+    pricing: 500€ + IVA
     conferences: true
     streaming: true
     workshop: true
