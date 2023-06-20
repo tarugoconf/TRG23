@@ -38,7 +38,7 @@ features:
     description:
   networking: 
     title: Acceso a la plataforma de networking
-    description: Plataforma online donde podrás conocer a otros asistentes y concertar reuniones con ellos.
+    description:
   senate: 
     title: Acceso al «Senado»
     description:
