@@ -9,9 +9,6 @@ features:
   conferences: 
     title: Acceso presencial a las conferencias (3 días)
     description:
-  networking:
-    title: Acceso presencial a las plataforma de networking
-    description: plataforma online donde podrás conocer a otros asistentes y concertar reuniones con ellos
   streaming: 
     title: Acceso al streaming online (2 días)
     description:
@@ -41,7 +38,7 @@ features:
     description:
   networking: 
     title: Acceso a la plataforma de networking
-    description:
+    description:Pplataforma online donde podrás conocer a otros asistentes y concertar reuniones con ellos.
   senate: 
     title: Acceso al «Senado»
     description:
@@ -57,7 +54,6 @@ tickets:
     pricing: 165€ + IVA
     img: "/img/tickets/early-bird.svg"
     conferences: true
-    networking: true
     streaming: false
     workshop: false
     dinner: false
@@ -75,7 +71,6 @@ tickets:
     pricing: 250€ + IVA
     img: "/img/tickets/normal.svg"
     conferences: true
-    networking: true
     streaming: false
     workshop: false
     dinner: false
@@ -93,7 +88,6 @@ tickets:
     pricing: 350€ + IVA
     img: "/img/tickets/killer-combo.svg"
     conferences: true
-    networking: true
     streaming: false
     workshop: true
     dinner: false
@@ -111,7 +105,6 @@ tickets:
     pricing: 75€ + IVA
     img: "/img/tickets/online.svg"
     conferences: false
-    networking: true
     streaming: true
     workshop: false
     dinner: false
@@ -129,7 +122,6 @@ tickets:
     pricing: 150€ + IVA
     img: "/img/tickets/taller.svg"
     conferences: false
-    networking: false
     streaming: false
     workshop: true
     dinner: false
@@ -147,7 +139,6 @@ tickets:
     pricing: 500€ + IVA
     img: "/img/tickets/mecenas.svg"
     conferences: true
-    networking: true
     streaming: true
     workshop: false
     dinner: true
