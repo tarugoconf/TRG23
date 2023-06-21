@@ -12,11 +12,14 @@
   justify-content: space-around;
   text-align: center;
 }
-.speaker-button {
+.speaker-link {
   flex-direction: column;
   padding: 0;
   border: none;
   gap: 1rem;
+  text-decoration: none;
+  display: flex;
+  color: currentColor;
 
   .speaker-image {
     display: block;
@@ -38,7 +41,7 @@
   .speaker-name {
     font-size: var(--font-4-size);
     letter-spacing: var(--font-4-spacing);
-    line-height: var(--line-height-intro);
+    line-height: var(--line-height-title);
     margin: 0;
   }
   .speaker-description {

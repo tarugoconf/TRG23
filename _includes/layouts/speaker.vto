@@ -1,0 +1,55 @@
+---
+layout: ./base.vto
+styles: /styles/speaker.css
+---
+
+<main class="ly-wrapper-grid speaker-container">
+  {{ include "templates/logo.vto" }}
+
+  <div class="speaker-info">
+    <img class="speaker-image" src="{{ img }}" alt="Retrato de {{ title }}">
+
+    <header class="speaker-header">
+      <h1 class="text-title">{{ title }}</h1>
+
+      <p class="speaker-role">
+        {{ role }}<br>
+        <a href="{{company.url}}">{{company.name}}</a>
+      </p>
+    </header>
+
+    <address class="speaker-links text-base">
+      <ul>
+        {{ for link of links }}
+        <li>
+          <a href="{{ link.url }}">
+            <img src="{{ link.icon }}" alt="{{ link.text }}" width="40" height="40" target="_blank">
+          </a>
+        </li>
+        {{ /for }}
+      </ul>
+    </address>
+  </div>
+
+  <div class="speaker-bio text-body">
+    {{ bio |> md}}
+  </div>
+
+  <section>
+    <h2>{{ conference.title }}</h2>
+
+    {{ conference.description |> md }}
+  </section>
+
+  <aside>
+    <ul>
+      {{ for speaker of search.pages(`type=speaker url!=${url}`) }}
+      <li>
+        <a href="{{ speaker.url }}">{{ speaker.title }}</a>
+      </li>
+      {{ /for }}
+    </ul>
+  </aside>
+
+  {{ include "templates/footer.vto" }}
+</main>

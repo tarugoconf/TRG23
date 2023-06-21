@@ -1,0 +1,22 @@
+title: Sandra Hernandez
+type: speaker
+id: sandra
+role: Systems Testbed Engineer
+company:
+  name: NASA Jet Propulsion Laboratory
+  url: https://www.jpl.nasa.gov/
+img: /img/speakers/sandra-hernandez.png
+links:
+  - text: Linkedin
+    icon: /img/icons/linkedin-logo-duotone.svg
+    url: https://www.linkedin.com/in/sandra-hernandez-13257b153/
+bio: |
+  Sandra es Ingeniera Mecánica y tiene un master en Ingeniería Electrónica. Orientó su carrera al mundo del testing y la validación de sistemas en compañías como Honelywell y Boeign hasta que entró a trabajar en el laboratorio de propulsión de la NASA, donde formó parte del equipo de tests de la misión Mars 2020.
+
+  Actualmente, trabaja diseñando el sistema de pruebas de la Europa Clipper, una sonda espacial interplanetaria actualmente en desarrollo que, en 2024, se lanzará para estudiar la luna Europa que orbita alrededor de Júpiter.
+conference:
+  title: Cómo hacer testing cuando tu código se ejecuta a 600 millones de kilómetros de distancia.
+  description: |
+    Si Sandra es capaz de probar, actualizar y ejecutar software en una sonda que navega por el espacio, seguro que tú también puedes hacerlo en tu aplicación.
+
+    Cuando tus logs no tienen que cruzar medio Sistema Solar a lo mejor no es imprescindible desarrollar una lista exhaustiva de códigos de error, pero en esta charla conoceréis procesos, metodologías y buenas prácticas empleadas en la industría aeronaútica y descubriréis si podéis aplicarlas en vuestro día a día para ayudaros a diseñar y desarrollar software más robusto.

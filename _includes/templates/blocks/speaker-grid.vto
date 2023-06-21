@@ -1,20 +1,18 @@
 <ul class="block-speakerGrid">
   {{ for speaker of block }}
   <li>
-  <button class="speaker-button">
-    <div class="has-dotsShadow">
-      <img class="speaker-image" src="{{ speaker.img }}">
-    </div>
-    
-    <h4 class="speaker-name">{{ speaker.name }}</h4>
+    <a href="{{ speaker.url }}" class="speaker-link">
+      <div class="has-dotsShadow">
+        <img class="speaker-image" src="{{ speaker.img }}">
+      </div>
+      
+      <h4 class="speaker-name">{{ speaker.title }}</h4>
 
-    <p class="speaker-description">
-      {{ if speaker.company }}
-      {{ speaker.company }}<br>
-      {{ /if }}
-      <em class="speaker-position">{{ speaker.position }}</em>
-    </p>
-  </button>
+      <p class="speaker-description">
+        <strong class="speaker-position">{{ speaker.role }}</strong><br>
+        {{ speaker.company.name }}
+      </p>
+    </a>
   </li>
   {{ /for }}
 </ul>

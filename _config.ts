@@ -4,7 +4,9 @@ import postcss from "lume/plugins/postcss.ts";
 import inline from "lume/plugins/inline.ts";
 import vento from "https://raw.githubusercontent.com/lumeland/experimental-plugins/main/vento/mod.ts";
 
-const site = lume()
+const site = lume({
+  location: new URL("https://trgcon.com/"),
+}, { search: { returnPageData: true }})
   .use(date())
   .use(inline())
   .use(postcss({
