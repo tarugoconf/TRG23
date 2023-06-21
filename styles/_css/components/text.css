@@ -18,7 +18,7 @@
 }
 .text-intro {
   font-size: var(--font-3-size);
-  line-height: var(--line-height-text);
+  line-height: var(--line-height-medium);
   letter-spacing: var(--font-3-spacing);
   margin: 0;
 }

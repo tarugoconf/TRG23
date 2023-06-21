@@ -16,6 +16,7 @@ bio: |
   Actualmente, trabaja diseñando el sistema de pruebas de la Europa Clipper, una sonda espacial interplanetaria actualmente en desarrollo que, en 2024, se lanzará para estudiar la luna Europa que orbita alrededor de Júpiter.
 conference:
   title: Cómo hacer testing cuando tu código se ejecuta a 600 millones de kilómetros de distancia.
+  day: Viernes 27
   description: |
     Si Sandra es capaz de probar, actualizar y ejecutar software en una sonda que navega por el espacio, seguro que tú también puedes hacerlo en tu aplicación.
 

@@ -5,7 +5,7 @@ role: VP of Product
 company:
   name: Landbot
   url: https://landbot.io/
-img: /img/speakers/sergio-rodriguez.png
+img: /img/speakers/isabel-garate.png
 links:
   - text: Linkedin
     icon: /img/icons/linkedin-logo-duotone.svg
@@ -19,6 +19,7 @@ bio: |
   Actualmente, trabaja como VP de Producto en Landbot, donde maneka el rumbo de una plataforma que permite desarrollar potentes chatbots con No-Code.
 conference:
   title: Show me the money!
+  day: Viernes 27
   description: |
     ¿De verdad crees que la única manera de saber si algo tendrá buena acogida comercial es construirlo, lanzarlo y ver qué pasa? En esta charla, Isabel nos enseñará las procesos, metodologías y buenas prácticas de Product Management para minorar el riesgo de pegarnos una hostia construyendo algo —un producto completo o una funcionalidad concreta—, recoger el mayor número de evidencias posibles de la éxistencia de oportunidades de negocio y hacer seguimiento para comprobar hasta que punto se cumplen nuestras hipótesis.
 

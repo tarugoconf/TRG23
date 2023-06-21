@@ -53,6 +53,9 @@
   border-radius: var(--border-radius);
   overflow: hidden;
   display: flex;
+  flex-wrap: wrap;
+  max-width: calc(90vw);
+  justify-content: center;
   width: max-content;
   font-size: var(--font-size-1);
   font-weight: 900;

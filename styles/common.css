@@ -13,6 +13,7 @@
 @import "components/faq.css";
 @import "components/text.css";
 @import "components/button.css";
+@import "components/badge.css";
 
 @import "blocks/header.css";
 @import "blocks/video.css";

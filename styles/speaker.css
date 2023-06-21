@@ -2,58 +2,123 @@
   row-gap: var(--row-gap);
 }
 
-.speaker-image {
-  grid-area: img;
-  border-radius: 50%;
-  border: solid 3px;
-  width: 400px;
-  margin: 0 auto;
-  background: repeating-conic-gradient(from 30deg, var(--color-red) 0deg 30deg, var(--color-sepia) 30deg 60deg);
-}
-
-.speaker-info {
+.speaker-article {
   display: grid;
-  column-gap: 2rem;
+  column-gap: var(--column-gap);
   row-gap: 2rem;
-  grid-template-columns: auto 1fr;
-  grid-template-areas: "img header"
-                      "img links"
-}
-.speaker-role {
-  font-size: var(--font-3-size);
-  line-height: var(--line-height-medium);
-  letter-spacing: var(--font-3-spacing);
-  margin: .5em 0 0;
-}
-.speaker-header {
-  grid-area: header;
-  align-self: end;
-}
-.speaker-links {
-  grid-area: links;
-  align-self: start;
-  font-style: normal;
+  border-bottom: solid 3px;
+  grid-template-columns: 1fr 200px 1fr;
+  padding-bottom: var(--row-gap);
+  grid-template-areas:". img ." 
+                      "header header header"
+                      "links links links"
+                      "bio bio bio"
+                      "conference conference conference";
 
-  & ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    gap: 1em;
+  @media (min-width: 600px) {
+    grid-template-columns: 200px 1fr;
+    grid-template-areas: "img header"
+                      "img links"
+                      "bio bio"
+                      "conference conference";
   }
 
-  & a {
-    display: block;
-    padding: .6em;
-    background: var(--color-gray-xlight);
-    text-decoration: none;
-    border-radius: var(--border-radius);
-
-    & img {
-      display: block;
+  @media (min-width: 900px) {
+    grid-template-columns: 300px 1fr;
+    grid-template-areas: "img header"
+                      "img links"
+                      "img bio"
+                      "conference conference";
+  }
+  
+  @media (min-width: 1201px) {
+    grid-template-columns: 400px 1fr;
+    grid-template-areas: "img header"
+                      "img links"
+                      "img bio"
+                      "img conference"
+                      "other other";
+    .speaker-image {
+      position: sticky;
+      top: 50px;
     }
-    &:hover {
-      background: var(--color-white);
+  }
+
+  .speaker-image {
+    grid-area: img;
+    border-radius: var(--border-radius);
+    border: solid 4px;
+    margin: 0 auto;
+    background: repeating-conic-gradient(from 30deg, var(--color-red) 0deg 30deg, var(--color-sepia) 30deg 60deg);
+    max-width: 100%;
+  }
+
+  .speaker-bio {
+    grid-area: bio;
+  }
+  .speaker-conference {
+    grid-area: conference;
+    display: grid;
+    row-gap: 1em;
+    background: var(--color-white);
+    color: var(--color-black);
+    padding: var(--column-gap);
+    border: solid 1px var(--color-gray-xlight);
+    border-radius: var(--border-radius);
+  }
+  .speaker-conference-header {
+    & p {
+      margin: 0;
+      color: var(--color-gray);
+    }
+  }
+
+  .speaker-role {
+    font-size: var(--font-3-size);
+    line-height: var(--line-height-medium);
+    letter-spacing: var(--font-3-spacing);
+    margin: .5em 0 0;
+  }
+  .speaker-header {
+    grid-area: header;
+    align-self: end;
+    text-align: center;
+
+    @media (min-width: 600px) {
+      text-align: left;
+    }
+  }
+  .speaker-links {
+    grid-area: links;
+    align-self: start;
+    font-style: normal;
+
+    & ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      gap: 1em;
+      justify-content: center;
+
+      @media (min-width: 600px) {
+        justify-content: start;
+      }
+    }
+
+    & a {
+      display: block;
+      padding: .6em;
+      background: var(--color-gray-xlight);
+      text-decoration: none;
+      border-radius: var(--border-radius);
+
+      & img {
+        display: block;
+      }
+      &:hover {
+        background: var(--color-white);
+      }
     }
   }
 }

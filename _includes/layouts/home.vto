@@ -62,7 +62,7 @@ scripts: /js/home.js
         <dl>
           {{ for item of day.items }}
           <div class="calendar-event">
-            <dt><time>{{ item.time }}</time> <strong>{{ item.title }}</strong></dt>
+            <dt><time class="badge">{{ item.time }}</time> <strong>{{ item.title }}</strong></dt>
             <dd>{{ item.description |> md }}</dd>
           </div>
           {{ /for }}

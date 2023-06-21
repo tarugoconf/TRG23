@@ -6,9 +6,7 @@ styles: /styles/speaker.css
 <main class="ly-wrapper-grid speaker-container">
   {{ include "templates/logo.vto" }}
 
-  <div class="speaker-info">
-    <img class="speaker-image" src="{{ img }}" alt="Retrato de {{ title }}">
-
+  <article class="speaker-article">
     <header class="speaker-header">
       <h1 class="text-title">{{ title }}</h1>
 
@@ -17,6 +15,8 @@ styles: /styles/speaker.css
         <a href="{{company.url}}">{{company.name}}</a>
       </p>
     </header>
+
+    <img class="speaker-image" src="{{ img }}" alt="Retrato de {{ title }}">
 
     <address class="speaker-links text-base">
       <ul>
@@ -29,26 +29,25 @@ styles: /styles/speaker.css
         {{ /for }}
       </ul>
     </address>
-  </div>
 
-  <div class="speaker-bio text-body">
-    {{ bio |> md}}
-  </div>
+    <div class="speaker-bio text-body">
+      {{ bio |> md}}
+    </div>
 
-  <section>
-    <h2>{{ conference.title }}</h2>
+    <section class="speaker-conference">
+      <header class="speaker-conference-header">
+        <p><time class="badge">{{ conference.day }}</time></p>
+        <h2 class="text-subtitle">{{ conference.title }}</h2>
+      </header>
 
-    {{ conference.description |> md }}
-  </section>
+      <div class="speaker-conference-body text-body">
+        {{ conference.description |> md }}
+      </div>
+    </section>
+  </article>
 
-  <aside>
-    <ul>
-      {{ for speaker of search.pages(`type=speaker url!=${url}`) }}
-      <li>
-        <a href="{{ speaker.url }}">{{ speaker.title }}</a>
-      </li>
-      {{ /for }}
-    </ul>
+  <aside class="speaker-other">
+    {{ include "templates/blocks/speaker-grid.vto" {block: search.pages(`type=speaker url!=${url}`)} }}
   </aside>
 
   {{ include "templates/footer.vto" }}
