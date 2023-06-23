@@ -6,7 +6,7 @@ import vento from "https://raw.githubusercontent.com/lumeland/experimental-plugi
 
 const site = lume({
   location: new URL("https://trgcon.com/"),
-}, { search: { returnPageData: true }})
+}, { search: { returnPageData: true } })
   .use(date())
   .use(inline())
   .use(postcss({

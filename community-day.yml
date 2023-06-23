@@ -1,0 +1,166 @@
+layout: layouts/community-day.vto
+title: 🎉 Community day
+
+menu_local:
+  - text: FAQ
+    url: "#faq"
+
+header:
+  title: 🎉<br>Community day
+  intro: >
+    Después de las emociones fuertes del viernes, el Sábado Tarugo es una jornada diseñada para que los asistentes puedan disfrutar relajadamente sin una agenda marcada. No solo podrán participar en la TarugOff —nuestro Open Space— sino también traer a familia, amigos y compañeros de trabajo para pasar un buen rato con todas las actividades que hemos preparado y que disfrutarán por igual, mayores y pequeños.
+
+activities:
+  tags:
+    peque: Niños <span>🧒</span>
+    joven: Jóvenes <span>🧑</span>
+    mayor: Mayores <span>👨‍🦳</span>
+  items:
+    - title: TarugOff
+      tags:
+        - mayor
+      img: /img/tar_tarugoff.jpg
+      description: El Open Space de la Tarugo, donde los asistentes podréis proponer
+        vuestros propios contenidos y votar los que mas os interesen.
+    - title: Scalextric Gigante
+      description: Compite en el circuito que siempre soñaste montar en tu salón.
+      img: /img/tar_excalextric.jpg
+      tags:
+        - peque
+        - joven
+        - mayor
+    - title: Set de podcasting
+      description: Podrás participar en la grabación en directo de algunos de tus
+        podcast favoritos como **Heavy Mental** o **Code on the Rocks**.
+      img: /img/tar_podcast.jpg
+      tags:
+        - mayor
+    - title: Ludoteca
+      description: Zona para que los niños de 3 a 6 años puedan jugar vigilados por
+        monitores titulados.
+      img: /img/tar_ludoteca.jpg
+      tags:
+        - peque
+    - title: Taller de Sketchnoting
+      description: Impartido por el mítico sketchnoter Javier "Oyabun" Alonso, de <a
+        href="https://dibujandocharlas.com/"
+        target="_blank">dibujandocharlas.com</a>
+      img: /img/tar_sketchnoting.jpg
+      tags:
+        - joven
+        - mayor
+    - title: Twister Gigante
+      description: Podrás espanzurrarte con tus colegas y seres queridos. El único
+        juego donde esperamos que realmente seas retorcido.
+      img: /img/tar_twister.jpg
+      tags:
+        - peque
+        - joven
+        - mayor
+    - title: Cineclub de Informática
+      description: Proyectaremos en el auditorio películas y documentales sobre
+        tecnología durante todo el día, como «The Internet’s Own Boy», sobre la
+        vida de Aaron Schwartz o el clásico de 1982, «TRON».
+      img: /img/tar_auditorio.jpg
+      tags:
+        - joven
+        - mayor
+    - title: Jenga Gigante
+      description: "El juego del Jenga va a ser MUY importante en la #tarugo22... el
+        sábado, también :)"
+      img: /img/tar_jenga.jpg
+      tags:
+        - peque
+        - joven
+        - mayor
+    - title: Juegos de mesa
+      description: "Partidas organizadas de juegos de mesa para TODAS las edades,
+        desde el Parchís a MoneyLand, el juego que enseña finanzas personales. "
+      img: /img/tar_juegos_mesa.jpg
+      tags:
+        - peque
+        - joven
+        - mayor
+    - title: Taller de fundamentos de la Programación
+      description: David Bonilla explicará a los más pequeños (a partir de 4 años) los
+        fundamentos básicos de la programación con la ayuda de un buen amigo...
+        ¡Cubetto!
+      img: /img/tar_cubetto.jpg
+      tags:
+        - peque
+    - title: Taller de iniciación al ajedrez
+      description: Grandes y pequeños aprenderán a dar sus primeros pasos en el mundo
+        del ajedrez.
+      img: /img/tar_chess.jpg
+      tags:
+        - peque
+        - joven
+        - mayor
+    - title: Taller de dibujo para pequeños grandes artistas
+      description: Aprende técnicas básicas de dibujo de la mano de Hugo Tobio ¡El
+        mismísimo ilustrador de la Bonilista!
+      img: /img/tar_hugo.jpg
+      tags:
+        - joven
+        - mayor
+    - title: Taller de personalización de chapas
+      description: ¡Fabrica chapas con tus propios diseños! Un taller gestionado por
+        nuestros amigos de Autentia.
+      img: /img/tar_chapas.jpg
+      tags:
+        - peque
+        - joven
+    - title: Pintacaras
+      description: Un clásico que nunca falla.
+      img: /img/tar_pintacaras.jpg
+      tags:
+        - peque
+    - title: Juegos «Desenchufados»
+      description: Juegos tradicionales para que las nuevas generaciones conozcan la
+        vida que hay más allá de la consola ¿Jugamos a las chapas?
+      img: /img/tar_chapas_carreras.jpg
+      tags:
+        - peque
+        - joven
+    - title: "Debriefing de la #Tarugo22"
+      tags:
+        - mayor
+      img: /img/tar_debriefing.jpg
+      description: Comenta y conoce todos los detalles del evento, charlando
+        relajadamente con sus principales protagonistas —ponentes,
+        patrocinadores y organizadores— en un ambiente relajado y amigable.
+
+faq:
+  title: FAQ
+  questions:
+    - question: ¿Es una jornada solo para familias con niños?
+      answer: ¡N﻿o! Hay actividades para grandes y pequeños, pero si quieres pasarte
+        con tus hijos, padres o amigos para acercarles un poco más a la realidad
+        de tu profesión, se lo pasarán PIRATA :)
+    - question: ¿Quién puede ir al Sábado Tarugo?
+      answer: >-
+        Pueden ir todos los asistentes con entrada del evento principal y,
+        además, traer consigo a los acompañantes que quieran: amigos,
+        familiares, compañeros de trabajo...
+
+
+        No podrán acceder personas *random* que no acompañen a un asistente de la Tarugoconf.
+    - question: ¿Cuesta algo?
+      answer: No, al contrario que en pasadas ediciones, **el Sábado Tarugo es
+        completamente gratuito**. Solo tendréis que pagar los servicios de
+        restauración (comida y bebida) gestionados por terceros que consumáis.
+    - question: ¿Habrá comida y bebida?
+      answer: Sí. Tendréis varias opciones de catering (de pago) para beber y comer
+        durante toda la jornada.
+    - question: ¿Qué horario tiene?
+      answer: A partir de las 11:00h de la mañana y hasta después de comer (a las
+        17:00h, tiene que estar todo recogido).
+    - question: ¿Habrá sitio para aparcar?
+      answer: Al lado de La Nave hay MUCHO sitio para aparcar y un sábado aun más.
+    - question: ¿Hay un límite de aforo?
+      answer: Sí, 1.000 personas. Si llegamos a ese límite, el próximo año alquilamos
+        la Plaza de Toros.
+    - question: ¡Tengo más dudas!
+      answer: No pasa nada. Como siempre, escribe a
+        [tarugoconf@bonillaware.com](mailto:tarugoconf@bonillaware.com) y allí
+        estaremos encantados de atenderte.
