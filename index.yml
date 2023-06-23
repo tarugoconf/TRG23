@@ -85,7 +85,7 @@ block_calendar:
 
 tickets:
   title: Entradas
-  intro: Las entradas se pondrán a la venta el día 2 de julio a las 11:00h GMT (Galician Mean Time) para los suscriptores de [La Bonilista](https://www.bonilista.com/){target=_blank} y un día después para el público general.
+  intro: Las entradas se pondrán a la venta el día 2 de julio a las 11:00h GMT (Galician Mean Time). Los suscriptores de [La Bonilista](https://www.bonilista.com/){target=_blank} podrán acceder a las entradas *early bird* desde ese mismo momento y, un día después, el público general.
   cta:
     text: Ver los tipos de entrada
     url: /tickets/
