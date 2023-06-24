@@ -11,9 +11,9 @@ links:
     icon: /img/icons/linkedin-logo-duotone.svg
     url: https://www.linkedin.com/in/sandra-hernandez-13257b153/
 bio: |
-  Sandra es Ingeniera Mecánica y tiene un master en Ingeniería Electrónica. Orientó su carrera al mundo del testing y la validación de sistemas en compañías como Honelywell y Boeign hasta que entró a trabajar en el laboratorio de propulsión de la NASA, donde formó parte del equipo de tests de la misión Mars 2020.
-
-  Actualmente, trabaja diseñando el sistema de pruebas de la Europa Clipper, una sonda espacial interplanetaria actualmente en desarrollo que, en 2024, se lanzará para estudiar la luna Europa que orbita alrededor de Júpiter.
+  Sandra es Ingeniera Mecánica y esta estudiando un master en Ingeniería Electrónica. Orientó su carrera al mundo del testing y la validación de sistemas en compañías como Honeywell y Boeing, hasta que entró a trabajar en el laboratorio de propulsión de la NASA, donde formó parte del equipo de tests de la misión Perseverance.
+  
+  Actualmente, trabaja diseñando el sistema de pruebas de la Europa Clipper, una sonda espacial interplanetaria en desarrollo que, en 2024, se lanzará para estudiar la luna Europa que orbita alrededor de Júpiter.
 conference:
   title: Cómo hacer testing cuando tu código se ejecuta a 600 millones de kilómetros de distancia.
   day: Viernes 27
