@@ -24,7 +24,7 @@ menu_local:
   - text: FAQ
     url: "#faq"
   - text: Speakers
-    url: "/speakers/"
+    url: "#speakers"
   - text: Blog
     url: "/blog/"
 
