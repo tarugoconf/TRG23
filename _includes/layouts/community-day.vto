@@ -3,9 +3,9 @@ layout: ./base.vto
 styles: /styles/community-day.css
 ---
 
-<main class="ly-wrapper-grid community-container has-navbar-menu-local">
+<main class="ly-wrapper-grid community-container">
   {{ include "templates/logo.vto" }}
-  {{ include "templates/navbar.vto" }}
+  {{# {{ include "templates/navbar.vto" }} #}}
 
   {{ include "templates/blocks/header.vto" { block: header } }}
   {{ include "templates/blocks/activity-grid.vto" { block: activities } }}

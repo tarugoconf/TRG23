@@ -1,6 +1,7 @@
 <ul class="block-activityGrid">
   {{ for activity of block.items }}
   <li data-tags="{{ activity.tags |> JSON.stringify }}">
+    <div>
     <img src="{{ activity.img }}" alt="" class="activity-image">
 
     <div class="activity-content">
@@ -16,6 +17,7 @@
       <div class="activity-description">
         {{ activity.description |> md }}
       </div>
+    </div>
     </div>
   </li>
   {{ /for }}
