@@ -1,0 +1,22 @@
+<ul class="block-activityGrid">
+  {{ for activity of block.items }}
+  <li data-tags="{{ activity.tags |> JSON.stringify }}">
+    <img src="{{ activity.img }}" alt="" class="activity-image">
+
+    <div class="activity-content">
+      <header>
+        <p class="activity-tags">
+        {{ for tag of activity.tags }}
+          <span class="badge">{{ block.tags[tag]  }}</span>
+        {{ /for }}
+        </p>
+        <h2 class="activity-title">{{ activity.title }}</h2>
+      </header>
+
+      <div class="activity-description">
+        {{ activity.description |> md }}
+      </div>
+    </div>
+  </li>
+  {{ /for }}
+</ul>

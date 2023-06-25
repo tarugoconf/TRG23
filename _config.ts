@@ -2,6 +2,7 @@ import lume from "lume/mod.ts";
 import date from "lume/plugins/date.ts";
 import postcss from "lume/plugins/postcss.ts";
 import inline from "lume/plugins/inline.ts";
+import metas from "lume/plugins/metas.ts";
 import vento from "https://raw.githubusercontent.com/lumeland/experimental-plugins/main/vento/mod.ts";
 
 const site = lume({
@@ -9,6 +10,7 @@ const site = lume({
 }, { search: { returnPageData: true } })
   .use(date())
   .use(inline())
+  .use(metas())
   .use(postcss({
     includes: "styles/_css",
   }))

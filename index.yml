@@ -1,3 +1,5 @@
+metas:
+  description: =about.title
 title: TRG23
 layout: layouts/home.vto
 about:

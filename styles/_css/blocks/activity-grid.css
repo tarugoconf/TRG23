@@ -1,0 +1,42 @@
+.block-activityGrid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 2em;
+  justify-content: space-around;
+
+  > li {
+    background: white;
+    border: solid 1px var(--color-gray-xlight);
+    border-radius: var(--border-radius);
+    display: flex;
+    overflow: hidden;
+  }
+  .activity-content {
+    padding: 1rem;
+  }
+
+  .activity-tags {
+    margin: 0 0 .3em 0;
+  }
+
+  .activity-image {
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    max-width: 200px;
+  }
+
+  .activity-title {
+    font-size: var(--font-2-size);
+    line-height: var(--line-height-intro);
+    letter-spacing: var(--font-2-spacing);
+    margin: 0;
+  }
+  .activity-description {
+    font-size: var(--font-1-size);
+    line-height: var(--line-height-text);
+    letter-spacing: var(--font-1-spacing);
+  }
+}

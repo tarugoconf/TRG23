@@ -1,1 +1,5 @@
 layout: layouts/base.vto
+metas:
+  title: =title
+  description: =description
+  image: /img/social.jpg
