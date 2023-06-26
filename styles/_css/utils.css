@@ -27,6 +27,7 @@
     height: 100%;
     top: 0;
     left: 0;
+    box-sizing: border-box;
     border: solid 1px var(--border-color);
     pointer-events: none;
   }

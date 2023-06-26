@@ -62,6 +62,19 @@
   &:hover .has-dotsShadow::after {
     animation-name: showButtonShadow;
   }
+
+  .speaker-type {
+    position: absolute;
+    z-index: 3;
+    background: var(--color-red);
+    padding: .5em .75em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: var(--font-0-size);
+    color: var(--color-white);
+    left: 0;
+    border-top-left-radius: var(--border-radius);
+  }
 }
 
 @keyframes backgroundSpeakerHover {

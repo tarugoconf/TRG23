@@ -3,6 +3,9 @@
   <li>
     <a href="{{ speaker.url }}" class="speaker-link">
       <div class="has-dotsShadow">
+        {{ if speaker.type === "teacher" }}
+        <span class="speaker-type">Teacher</span>
+        {{ /if }}
         <img class="speaker-image" src="{{ speaker.img }}">
       </div>
       
