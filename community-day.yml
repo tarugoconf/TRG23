@@ -31,7 +31,7 @@ activities:
         - mayor
     - title: Set de podcasting
       description: Podrás participar en la grabación en directo de algunos de tus
-        podcast favoritos como **Heavy Mental** o **Code on the Rocks**.
+        podcast favoritos como **Mixx.io** o **Code on the Rocks**.
       img: /img/community-day/tar_podcast.jpg
       tags:
         - mayor
@@ -56,15 +56,7 @@ activities:
       tags:
         - peque
         - joven
-        - mayor
-    - title: Cineclub de Informática
-      description: Proyectaremos en el auditorio películas y documentales sobre
-        tecnología durante todo el día, como «The Internet’s Own Boy», sobre la
-        vida de Aaron Schwartz o el clásico de 1982, «TRON».
-      img: /img/community-day/tar_auditorio.jpg
-      tags:
-        - joven
-        - mayor
+        - mayor    
     - title: Jenga Gigante
       description: "El juego del Jenga va a ser MUY importante en la #tarugo22... el
         sábado, también :)"
@@ -75,7 +67,7 @@ activities:
         - mayor
     - title: Juegos de mesa
       description: "Partidas organizadas de juegos de mesa para TODAS las edades,
-        desde el Parchís a MoneyLand, el juego que enseña finanzas personales. "
+        desde el Parchís a Scape Rooms de bolsillo."
       img: /img/community-day/tar_juegos_mesa.jpg
       tags:
         - peque
