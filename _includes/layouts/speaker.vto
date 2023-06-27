@@ -11,8 +11,12 @@ styles: /styles/speaker.css
       <h1 class="text-title">{{ title }}</h1>
 
       <p class="speaker-role">
-        {{ role }}<br>
+        {{ role }}
+
+        {{ if it.company }}
+        <br>
         <a href="{{company.url}}">{{company.name}}</a>
+        {{ /if }}
       </p>
     </header>
 
@@ -38,7 +42,7 @@ styles: /styles/speaker.css
       {{ if it.workshop }}  
       <section class="speaker-conference">
         <header class="speaker-conference-header">
-          <p><time class="badge">{{ workshop.day }}</time></p>
+          <p><span class="badge">Taller</span> <time class="badge">{{ workshop.day }}</time></p>
           <h2 class="text-subtitle">{{ workshop.title }}</h2>
         </header>
 
@@ -64,7 +68,7 @@ styles: /styles/speaker.css
   </article>
 
   <aside class="speaker-other">
-    {{ include "templates/blocks/speaker-grid.vto" {block: search.pages(`type=speaker|teacher url!=${url}`)} }}
+    {{ include "templates/blocks/speaker-grid.vto" {block: search.pages(`type=speaker url!=${url}`)} }}
   </aside>
 
   {{ include "templates/footer.vto" }}

@@ -47,7 +47,7 @@
   .speaker-image {
     grid-area: img;
     border-radius: var(--border-radius);
-    border: solid 4px;
+    box-shadow: 0 0 0 2px currentColor;
     margin: 0 auto;
     background: repeating-conic-gradient(from 30deg, var(--color-red) 0deg 30deg, var(--color-sepia) 30deg 60deg);
     max-width: 100%;

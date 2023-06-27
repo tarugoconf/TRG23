@@ -5,10 +5,10 @@
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, var(--width));
+  grid-template-columns: repeat(auto-fit, var(--width));
   grid-column-gap: 2em;
   grid-row-gap: 4em;
-  justify-content: space-around;
+  justify-content: center;
   text-align: center;
 }
 .speaker-link {
@@ -23,7 +23,7 @@
   .speaker-image {
     display: block;
     width: 100%;
-    border: solid 4px;
+    box-shadow: 0 0 0 2px currentColor;
     position: relative;
     z-index: 2;
     background: var(--color-sepia);
@@ -61,19 +61,6 @@
 
   &:hover .has-dotsShadow::after {
     animation-name: showButtonShadow;
-  }
-
-  .speaker-type {
-    position: absolute;
-    z-index: 3;
-    background: var(--color-red);
-    padding: .5em .75em;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: var(--font-0-size);
-    color: var(--color-white);
-    left: 0;
-    border-top-left-radius: var(--border-radius);
   }
 }
 
