@@ -6,9 +6,9 @@ menu_local:
     url: "#faq"
 
 header:
-  title: 🎉<br>Community day
+  title: 🎉<br>Community Day
   intro: >
-    Después de las emociones fuertes del viernes, el Sábado Tarugo es una jornada diseñada para que los asistentes puedan disfrutar relajadamente sin una agenda marcada. No solo podrán participar en la TarugOff —nuestro Open Space— sino también traer a familia, amigos y compañeros de trabajo para pasar un buen rato con todas las actividades que hemos preparado y que disfrutarán por igual, mayores y pequeños.
+    Después de la intensidad del viernes, el «Día de la Comunidad» es una jornada diseñada para que disfrutar relajadamente, sin una agenda marcada. No solo podrás participar en **la TarugOff** —nuestro *open space*— sino también **traer a tu familia, amigos y compañeros de trabajo** para compartir con ellos un buen rato con todas las actividades que hemos preparado y que disfrutarán por igual, mayores y pequeños.<br>Aquí tienes [un video-resumen de la edición anterior](https://vimeo.com/836780949) para que sepas que puedes esperar.
 
 activities:
   tags:
@@ -20,7 +20,7 @@ activities:
       tags:
         - mayor
       img: /img/community-day/tar_tarugoff.jpg
-      description: El Open Space de la Tarugo, donde los asistentes podréis proponer
+      description: El Open Space de la TRG, donde los asistentes podréis proponer
         vuestros propios contenidos y votar los que mas os interesen.
     - title: Scalextric Gigante
       description: Compite en el circuito que siempre soñaste montar en tu salón.
