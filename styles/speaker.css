@@ -56,13 +56,17 @@
   .speaker-bio {
     grid-area: bio;
   }
-  .speaker-conference {
+  .speaker-conferences {
     grid-area: conference;
+    display: grid;
+    row-gap: 1em;
+  }
+  .speaker-conference {
     display: grid;
     row-gap: 1em;
     background: var(--color-white);
     color: var(--color-black);
-    padding: var(--column-gap);
+    padding: min(var(--column-gap), 4rem);
     border: solid 1px var(--color-gray-xlight);
     border-radius: var(--border-radius);
   }

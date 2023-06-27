@@ -1,0 +1,28 @@
+title: Pablo santos
+type: speaker
+id: pablo
+draft: true
+role: --
+company:
+  name: --
+  url: --
+img: /img/speakers/pablo-santos.png
+links:
+  - text: Linkedin
+    icon: /img/icons/linkedin-logo-duotone.svg
+    url: --
+  - text: Twitter
+    icon: /img/icons/twitter-logo-duotone.svg
+    url: --
+bio: |
+  Bio aqui
+conference:
+  title: Título
+  day: Viernes 27
+  description: |
+    descripción
+workshop:
+  title: Título
+  day: Jueves 26
+  description: |
+    descripción
