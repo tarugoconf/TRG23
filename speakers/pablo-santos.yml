@@ -1,8 +1,8 @@
 title: Pablo santos
 type: speaker
 id: pablo
-draft: true
-role: --
+draft: false
+role: Informático
 company:
   name: --
   url: --
@@ -10,19 +10,29 @@ img: /img/speakers/pablo-santos.png
 links:
   - text: Linkedin
     icon: /img/icons/linkedin-logo-duotone.svg
-    url: --
+    url: https://www.linkedin.com/in/psantosl/
   - text: Twitter
     icon: /img/icons/twitter-logo-duotone.svg
-    url: --
+    url: https://twitter.com/psluaces
 bio: |
-  Bio aqui
+  Pablo es gallego e Ingeniero en Informática, ha sido profesor en la Universidad de Burgos, Decano del Colegio Profesional de Ingenieros en Informática de Castilla y León, fundó Plastic SCM un control de versiones que fue adquirido por Unity, donde ha estado trabajando hasta hace dos días.
+  
+  Actualmente entrena para ser el mejor speaker posible de la TRG.
 conference:
-  title: Título
+  title: Cómo sobrevivir en la empresa que fundaste y te acaban de comprar
   day: Viernes 27
   description: |
-    descripción
+    En el mundillo del emprendimiento digital, las historias de éxito siempre acaban con el mismo «final feliz» la compra de la valiente startup por parte de otra empresa tecnológica que —en mayor o menor medida— llena los bolsillos de fundadores y empleados, pero ¿qué pasa después? Cuando Cenicienta se casa con el príncipe. Cuando Pinocho vuelve con Geppetto. Cuando pasas a reportar a una tipa que vive en Wisconsin y jamás se ha comido un polvorón.
+    
+    En esta charla, Pablo nos contará las lecciones aprendidas en su propia experiencia, nos demostrará que los cuentos de Hadas no se parecen con la realidad y nos dará valiosos consejos para sobrevivir y prosperar en un entorno «alienígena» para la mayoría de nosotros.
 workshop:
-  title: Título
+  title: Cómo diseñar la arquitectura de tus repositorios de código
   day: Jueves 26
   description: |
-    descripción
+    No es que Pablo sea un experto en sistemas de control de versiones es que ha desarrollado uno desde cero que acabó comprándole Unity.
+    
+    En este taller, repasaremos los distintos repositorios que existen en el mercado —hay vida más allá de Git— y aprenderemos cuál elegir, dependiendo de nuestras necesidades. Además, conoceremos las ventajas y los inconvenientes de trabajar con un único repositorio o con múltiples así como las mejores estrategias para estructurarlos.
+    
+    Pablo también nos planteará diferentes escenarios de proyectos reales y nos retará para que planteemos la mejor arquitectura de repositorios para resolverlos ¡Aprenderemos haciendo (y divirtiéndonos)! Además, repasaremos las diferentes estrategias de trabajo con repositorios y cuando aplicarlas.
+    
+    Nos marcharemos con nuevas herramientas y ejemplos instalados en nuestro ordenador, para que podamos seguir experimentando y aprendiendo por nuestra cuenta en un entorno de pruebas.
