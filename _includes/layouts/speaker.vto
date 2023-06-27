@@ -34,16 +34,33 @@ styles: /styles/speaker.css
       {{ bio |> md}}
     </div>
 
-    <section class="speaker-conference">
-      <header class="speaker-conference-header">
-        <p><time class="badge">{{ conference.day }}</time></p>
-        <h2 class="text-subtitle">{{ conference.title }}</h2>
-      </header>
+    <div class="speaker-conferences">
+      {{ if it.workshop }}  
+      <section class="speaker-conference">
+        <header class="speaker-conference-header">
+          <p><time class="badge">{{ workshop.day }}</time></p>
+          <h2 class="text-subtitle">{{ workshop.title }}</h2>
+        </header>
 
-      <div class="speaker-conference-body text-body">
-        {{ conference.description |> md }}
-      </div>
-    </section>
+        <div class="speaker-conference-body text-body">
+          {{ workshop.description |> md }}
+        </div>
+      </section>
+      {{ /if }}
+
+      {{ if it.conference }}  
+      <section class="speaker-conference">
+        <header class="speaker-conference-header">
+          <p><time class="badge">{{ conference.day }}</time></p>
+          <h2 class="text-subtitle">{{ conference.title }}</h2>
+        </header>
+
+        <div class="speaker-conference-body text-body">
+          {{ conference.description |> md }}
+        </div>
+      </section>
+      {{ /if }}
+    </div>
   </article>
 
   <aside class="speaker-other">
