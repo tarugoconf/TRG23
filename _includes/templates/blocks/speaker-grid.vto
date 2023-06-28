@@ -7,7 +7,7 @@
           {{ if speaker.conference }}
           <span class="badge">Speaker</span>
           {{ else if speaker.workshop }}
-          <span class="badge is-black">Profesor</span>
+          <span class="badge is-black">{{ speaker.tag || "Profesor" }}</span>
           {{ /if }}
         </div>
         <img class="speaker-image" src="{{ speaker.img }}">
