@@ -42,7 +42,10 @@ styles: /styles/speaker.css
       {{ if it.workshop }}  
       <section class="speaker-conference">
         <header class="speaker-conference-header">
-          <p><span class="badge">Taller</span> <time class="badge">{{ workshop.day }}</time></p>
+          <p>
+            <span class="badge is-black">Taller</span>
+            <time class="badge is-white">{{ workshop.day }}</time>
+          </p>
           <h2 class="text-subtitle">{{ workshop.title }}</h2>
         </header>
 
@@ -55,7 +58,10 @@ styles: /styles/speaker.css
       {{ if it.conference }}  
       <section class="speaker-conference">
         <header class="speaker-conference-header">
-          <p><time class="badge">{{ conference.day }}</time></p>
+          <p>
+            <span class="badge">Charla</span>
+            <time class="badge is-white">{{ conference.day }}</time>
+          </p>
           <h2 class="text-subtitle">{{ conference.title }}</h2>
         </header>
 
