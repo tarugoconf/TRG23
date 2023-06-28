@@ -2,14 +2,17 @@ title: Cris Busquets
 id: cris
 draft: false
 role: Senior Product Designer
+company:
+  name: Automattic
+  url: https://automattic.com/
 img: /img/speakers/cris-busquets.png
 links:
   - text: Linkedin
     icon: /img/icons/linkedin-logo-duotone.svg
-    url: 
+    url: https://www.linkedin.com/in/cbusquets/
   - text: Twitter
     icon: /img/icons/twitter-logo-duotone.svg
-    url: 
+    url: https://twitter.com/cbusquets
 bio: |
   Bio
 workshop:
