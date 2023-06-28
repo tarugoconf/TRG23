@@ -3,7 +3,7 @@ import date from "lume/plugins/date.ts";
 import postcss from "lume/plugins/postcss.ts";
 import inline from "lume/plugins/inline.ts";
 import metas from "lume/plugins/metas.ts";
-import vento from "https://raw.githubusercontent.com/lumeland/experimental-plugins/main/vento/mod.ts";
+import vento from "lume/plugins/vento.ts";
 
 const site = lume({
   location: new URL("https://trgcon.com/"),

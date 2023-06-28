@@ -7,9 +7,11 @@
   },
   "lock": false,
   "imports": {
-    "lume/": "https://deno.land/x/lume@v1.17.5/"
+    "lume/": "https://deno.land/x/lume@v1.18.0/"
   },
   "fmt": {
-    "exclude": ["_site"]
+    "exclude": [
+      "_site"
+    ]
   }
 }
