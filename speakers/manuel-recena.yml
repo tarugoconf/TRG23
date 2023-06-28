@@ -22,7 +22,11 @@ bio: |
   
   Desde principios de 2023, Manuel trabaja en SUSE como Director of Product Management & Engineering, cuidando a los equipos técnicos y ayudándoles a ser más efectivos en su día a día.
 workshop:
-  title: --
+  title: Herramientas y procesos para equipos de desarrollo de alto rendimiento 🛠️
   day: Jueves 26
   description: |
-    Texto
+    El año pasado, este taller LO PETÓ, así que, hemos decidido repetirlo. Conoceremos las herramientas y procesos necesarios para **conseguir que nuestro ciclo de desarrollo de software sea lo más productivo posible**.
+    
+    Desde definir OKRs que nos ayuden a medir nuestro progreso hasta establecer el flujo de trabajo necesario para **conseguir que el despliegue en producción de nuestro software sea tan frecuente como ABURRIDO** —porque nunca pase nada— pasando por los radiadores de información necesarios para que todo el mundo sepa lo que está pasando en cada momento.
+    
+    Da igual si tu equipo de desarrollo es mejor o peor, de este taller te llevarás un montón de ideas y buenas prácticas para que sea MEJOR.
