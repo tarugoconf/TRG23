@@ -1,12 +1,13 @@
 .speaker-container {
   row-gap: var(--row-gap);
+  padding-bottom: var(--row-gap);
 }
 
 .speaker-article {
   display: grid;
   column-gap: var(--column-gap);
   row-gap: 2rem;
-  border-bottom: solid 3px;
+  border-bottom: solid 2px;
   grid-template-columns: 1fr 200px 1fr;
   padding-bottom: var(--row-gap);
   grid-template-areas:". img ." 
