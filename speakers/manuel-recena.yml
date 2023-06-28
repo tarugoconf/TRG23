@@ -1,6 +1,6 @@
 title: Manuel Recena
 id: manuel
-draft: true
+draft: false
 role: Director of Product Management & Engineering
 company:
   name: SUSE
@@ -9,12 +9,18 @@ img: /img/speakers/manuel-recena.png
 links:
   - text: Linkedin
     icon: /img/icons/linkedin-logo-duotone.svg
-    url: 
+    url: https://www.linkedin.com/in/recena/
   - text: Twitter
     icon: /img/icons/twitter-logo-duotone.svg
-    url: 
+    url: https://twitter.com/recena/
 bio: |
-  Bio
+  Manuel comenzó su carrera profesional en el año 2001 vinculado a la Universidad de Sevilla donde tuvo la oportunidad de conocer, entender y adoptar los valores y principios del FOSS. Sin lugar a dudas, esta primera etapa profesional marcó el rumbo de su trayectoria profesional donde resultaría extraño que sus propuestas e iniciativas no estuvieran claramente influenciadas.
+  
+  Apasionado del orden, los procedimientos, la productividad, las métricas y la automatización, lo que mejor resume su forma de ver su profesión es la orientación al detalle y resultados.
+  
+  Su verdadero conocimiento lo ha encontrado tras su paso por la administración pública, participación en proyectos de consultoría y servicios de tecnología, y su actividad como emprendedor en la que ha fundado y liderado varios productos.
+  
+  Desde principios de 2023, Manuel trabaja en SUSE como Director of Product Management & Engineering, cuidando a los equipos técnicos y ayudándoles a ser más efectivos en su día a día.
 workshop:
   title: --
   day: Jueves 26
