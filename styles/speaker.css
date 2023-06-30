@@ -23,22 +23,13 @@
                       "bio bio"
                       "conference conference";
   }
-
-  @media (min-width: 900px) {
-    grid-template-columns: 300px 1fr;
-    grid-template-areas: "img header"
-                      "img links"
-                      "img bio"
-                      "conference conference";
-  }
   
   @media (min-width: 1201px) {
     grid-template-columns: 400px 1fr;
     grid-template-areas: "img header"
                       "img links"
                       "img bio"
-                      "img conference"
-                      "other other";
+                      "img conference";
     .speaker-image {
       position: sticky;
       top: 50px;

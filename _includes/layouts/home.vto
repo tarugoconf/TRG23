@@ -45,7 +45,7 @@ scripts: /js/home.js
   <section class="home-section is-speakers" id="speakers">
     {{ include "templates/blocks/header.vto" {block: block_speakers} }}
 
-    {{ include "templates/blocks/speaker-grid.vto" {block: search.pages("type=speaker")} }}
+    {{ include "templates/blocks/speaker-grid.vto" {block: search.pages("type=speaker", "order title")} }}
   </section>
 
   <div class="img-tentacle-container">

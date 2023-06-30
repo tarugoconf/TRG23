@@ -74,7 +74,7 @@ styles: /styles/speaker.css
   </article>
 
   <aside class="speaker-other">
-    {{ include "templates/blocks/speaker-grid.vto" {block: search.pages(`type=speaker url!=${url}`)} }}
+    {{ include "templates/blocks/speaker-grid.vto" {block: search.pages(`type=speaker url!=${url}`, "order title")} }}
   </aside>
 
   {{ include "templates/footer.vto" }}

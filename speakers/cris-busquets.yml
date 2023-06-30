@@ -3,6 +3,7 @@ tag: Profesora
 id: cris
 draft: false
 role: Senior Product Designer
+order: 2
 company:
   name: Automattic
   url: https://automattic.com/

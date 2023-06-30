@@ -1,6 +1,7 @@
 title: Sergio Rodriguez
 id: sergio
 role: Head of Data Science & Data Engineering
+order: 1
 company:
   name: Alpine F1 Team
   url: https://www.alpinecars.es/formula-1.html
