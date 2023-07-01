@@ -54,7 +54,7 @@ main_cta: null
 buy_cta:
   text_table: Comprar
   text_list: Comprar entrada
-  url: https://trgcon23.eventbrite.es/
+  url: https://trg23.eventbrite.es/
 
 tickets:
   - name: Early Bird
