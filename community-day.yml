@@ -87,21 +87,21 @@ activities:
         - joven
         - mayor
     - title: Taller de dibujo para pequeños grandes artistas
-      description: Aprende técnicas básicas de dibujo de la mano de Hugo Tobio ¡El
+      description: Aprende técnicas básicas de dibujo de la mano de [Hugo Tobio](https://twitter.com/HugoTobio){target=_blank} ¡El
         mismísimo ilustrador de la Bonilista!
       img: /img/community-day/tar_hugo.jpg
       tags:
         - joven
         - mayor
     - title: Taller de personalización de chapas
-      description: ¡Fabrica chapas con tus propios diseños! Puedes traer una foto, un diseño impreso... o hacer un dibujo :)
+      description: ¡Fabrica chapas con tus propios diseños!<br><br>Puedes traer una foto, un diseño impreso... o hacer un dibujo :)
       img: /img/community-day/TRG23_chapas.jpg
       tags:
         - peque
         - joven
     - title: Pintacaras
-      description: Un clásico que nunca falla.
-      img: /img/community-day/tar_pintacaras.jpg
+      description: Un clásico que nunca falla entre los más pequeños.
+      img: /img/community-day/TRG23_pintacaras.jpeg
       tags:
         - peque
     - title: Juegos «Desenchufados»
