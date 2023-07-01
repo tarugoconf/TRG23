@@ -24,14 +24,14 @@ activities:
         vuestros propios contenidos y votar los que mas os interesen.
     - title: Scalextric Gigante
       description: Compite en el circuito que siempre soñaste montar en tu salón.
-      img: /img/community-day/tar_excalextric.jpg
+      img: /img/community-day/scalextric.jpeg
       tags:
         - peque
         - joven
         - mayor
     - title: Set de podcasting
       description: Podrás participar en la grabación en directo de algunos de tus
-        podcast favoritos como [Code on the Rocks](http://codeontherocks.fm/) o [Realworld](https://www.runroom.com/ca/realworld/podcast-realworld-todos-los-episodios).
+        podcast favoritos como [Code on the Rocks](http://codeontherocks.fm/){target=_blank} o [Realworld](https://www.runroom.com/ca/realworld/podcast-realworld-todos-los-episodios){target=_blank}.
       img: /img/community-day/TRG23_coderocks.png
       tags:
         - mayor
