@@ -49,6 +49,13 @@ features:
     title: Ventajas exclusivas
     description:
 
+main_cta: null
+
+buy_cta:
+  text_table: Comprar
+  text_list: Comprar entrada
+  url: https://trgcon23.eventbrite.es/
+
 tickets:
   - name: Early Bird
     pricing: 165€ + IVA

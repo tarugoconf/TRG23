@@ -19,8 +19,6 @@ video:
   cover: /img/trg22-poster.jpg
 
 menu_local:
-  - text: Entradas
-    url: "/tickets/"
   - text: Contacto
     url: "#contacto"
   - text: FAQ
