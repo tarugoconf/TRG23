@@ -77,7 +77,7 @@ activities:
       description: David Bonilla explicará a los más pequeños (a partir de 4 años) los
         fundamentos básicos de la programación con la ayuda de un buen amigo...
         ¡Cubetto!
-      img: /img/community-day/peques_pixelados.jpg
+      img: /img/community-day/peques_pixelados2.jpg
       tags:
         - peque
     - title: Taller de iniciación al ajedrez
@@ -114,11 +114,11 @@ activities:
       tags:
         - peque
         - joven
-    - title: "Debriefing de la #Tarugo22"
+    - title: "Debriefing de la #TRG23"
       tags:
         - mayor
       img: /img/community-day/tar_debriefing.jpg
-      description: Comenta y conoce todos los detalles del evento, charlando
+      description: Conoce y comenta todos los detalles del evento, charlando
         relajadamente con sus principales protagonistas —ponentes,
         patrocinadores y organizadores— en un ambiente relajado y amigable.
 
@@ -129,18 +129,14 @@ faq:
       answer: ¡No! Hay actividades para grandes y pequeños, pero si quieres pasarte
         con tus hijos, padres o amigos para acercarles un poco más a la realidad
         de tu profesión, se lo pasarán PIRATA :)
-    - question: ¿Quién puede ir al Sábado Tarugo?
-      answer: >-
-        Pueden ir todos los asistentes con entrada del evento principal y,
-        además, traer consigo a los acompañantes que quieran: amigos,
-        familiares, compañeros de trabajo...
-
+    - question: ¿Quién puede ir al Community Day?
+      answer: Pueden ir todos los asistentes con entrada del evento principal y, además, traer consigo a los acompañantes que quieran: amigos, familiares, compañeros de trabajo...
 
         No podrán acceder personas *random* que no acompañen a un asistente de la Tarugoconf.
     - question: ¿Cuesta algo?
-      answer: No, al contrario que en pasadas ediciones, **el Sábado Tarugo es
+      answer: No, al contrario que en otras ediciones, **el Community Day es
         completamente gratuito**. Solo tendréis que pagar los servicios de
-        restauración (comida y bebida) gestionados por terceros que consumáis.
+        restauración (comida y bebida) que consumáis.
     - question: ¿Habrá comida y bebida?
       answer: Sí. Tendréis varias opciones de catering (de pago) para beber y comer
         durante toda la jornada.
@@ -148,10 +144,10 @@ faq:
       answer: A partir de las 11:00h de la mañana y hasta después de comer (a las
         17:00h, tiene que estar todo recogido).
     - question: ¿Habrá sitio para aparcar?
-      answer: Al lado de La Nave hay MUCHO sitio para aparcar y un sábado aun más.
+      answer: Sí claro. Al lado de La Nave hay MUCHO sitio para aparcar y un sábado aun más.
     - question: ¿Hay un límite de aforo?
-      answer: Sí, 1.000 personas. Si llegamos a ese límite, el próximo año alquilamos
-        la Plaza de Toros.
+      answer: Sí, 1.000 personas. Pero si llegamos a ese límite, el próximo año alquilamos
+        un estadio de fútbol.
     - question: ¡Tengo más dudas!
       answer: No pasa nada. Como siempre, escribe a
         [tarugoconf@bonillaware.com](mailto:tarugoconf@bonillaware.com) y allí
