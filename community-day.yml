@@ -113,6 +113,13 @@ activities:
       tags:
         - peque
         - joven
+    - title: "Arcades Clásicos"
+      tags:
+        - peque
+        - joven
+        - mayor
+      img: /img/community-day/TRG23_arcades.jpg
+      description: "Disfruta de alguno de los primeros videojuegos de la historia en encarnizados campeonatos improvisados con otros asistentes."
     - title: "Debriefing de la #TRG23"
       tags:
         - mayor
