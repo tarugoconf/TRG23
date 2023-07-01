@@ -123,6 +123,12 @@ activities:
       description: Conoce y comenta todos los detalles del evento, charlando
         relajadamente con sus principales protagonistas —ponentes,
         patrocinadores y organizadores— en un ambiente relajado y amigable.
+    - title: "Taller de DJs"
+      tags:
+        - joven
+        - mayor
+      img: /img/community-day/TRG23_dj.jpg
+      description: Taller de iniciación al pinchazo de discos, a cargo de [Guillermo Montoya](https://twitter.com/Gmfdsr){target=_blank} y el DJ oficial de la TRG ¡[Don Robot](https://twitter.com/xRx0xMx){target=_blank}!
 
 faq:
   title: FAQ
