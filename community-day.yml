@@ -65,9 +65,8 @@ activities:
         - joven
         - mayor
     - title: Juegos de mesa
-      description: "Partidas organizadas de juegos de mesa para TODAS las edades,
-        desde el Parchís a Scape Rooms de bolsillo."
-      img: /img/community-day/tar_juegos_mesa.jpg
+      description: Partidas organizadas de juegos de mesa para TODAS las edades, a cargo de los profesionales de [Perro Loko Games](https://www.perrolokogames.com/){target=_blank}
+      img: /img/community-day/TRG23_juegosmesa.jpg
       tags:
         - peque
         - joven
