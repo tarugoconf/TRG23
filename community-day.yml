@@ -42,10 +42,8 @@ activities:
       tags:
         - peque
     - title: Taller de Sketchnoting
-      description: Impartido por el mítico sketchnoter Javier "Oyabun" Alonso, de <a
-        href="https://dibujandocharlas.com/"
-        target="_blank">dibujandocharlas.com</a>
-      img: /img/community-day/tar_sketchnoting.jpg
+      description: Impartido por el mítico [Javier «Oyabun» Alonso](https://twitter.com/oyabun){target=_blank} ¡sketchnoter oficial de la TRG!
+      img: /img/community-day/TRG23_sketchnoting.jpeg
       tags:
         - joven
         - mayor
@@ -65,7 +63,7 @@ activities:
         - joven
         - mayor
     - title: Juegos de mesa
-      description: Partidas organizadas de juegos de mesa para TODAS las edades, a cargo de los profesionales de [Perro Loko Games](https://www.perrolokogames.com/){target=_blank}
+      description: Partidas organizadas de juegos de mesa para TODAS las edades, a cargo de los profesionales de [Perro Loko Games](https://www.perrolokogames.com/){target=_blank}.
       img: /img/community-day/TRG23_juegosmesa.jpg
       tags:
         - peque
