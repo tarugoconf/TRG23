@@ -8,7 +8,7 @@ menu_local:
 header:
   title: 🎉<br>Community Day
   intro: >
-    Después de la intensidad del viernes, el **sábado 26 de octubre —a partir de las 11:00h—** celebraremos el «Día de la Comunidad», una jornada diseñada para que disfrutar relajadamente, sin agenda marcada. No solo podrás participar en la TarugOff —nuestro *open space*— sino también **traer a tu familia, amigos y compañeros de trabajo** para compartir con ellos un buen rato con todas las actividades que hemos preparado y que disfrutarán por igual, mayores y pequeños.<br><br>Aquí tienes [un video-resumen de la edición anterior](https://vimeo.com/836780949) para que sepas que puedes esperar.
+    Después de la intensidad del viernes, el **sábado 28 de octubre —a partir de las 11:00h—** celebraremos el «Día de la Comunidad», una jornada diseñada para que disfrutar relajadamente, sin agenda marcada. No solo podrás participar en la TarugOff —nuestro *open space*— sino también **traer a tu familia, amigos y compañeros de trabajo** para compartir con ellos un buen rato con todas las actividades que hemos preparado y que disfrutarán por igual, mayores y pequeños.<br><br>Aquí tienes [un video-resumen de la edición anterior](https://vimeo.com/836780949) para que sepas que puedes esperar.
 
 activities:
   tags:
@@ -95,9 +95,8 @@ activities:
         - joven
         - mayor
     - title: Taller de personalización de chapas
-      description: ¡Fabrica chapas con tus propios diseños! Un taller gestionado por
-        nuestros amigos de Autentia.
-      img: /img/community-day/tar_chapas.jpg
+      description: ¡Fabrica chapas con tus propios diseños! Puedes traer una foto, un diseño impreso... o hacer un dibujo :)
+      img: /img/community-day/TRG23_chapas.jpg
       tags:
         - peque
         - joven
@@ -109,7 +108,7 @@ activities:
     - title: Juegos «Desenchufados»
       description: Juegos tradicionales para que las nuevas generaciones conozcan la
         vida que hay más allá de la consola ¿Jugamos a las chapas?
-      img: /img/community-day/tar_chapas_carreras.jpg
+      img: /img/community-day/TRG23_desenchufados.jpg
       tags:
         - peque
         - joven
