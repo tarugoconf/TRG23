@@ -17,6 +17,11 @@
     justify-content: center;
   }
 
+  > li > a {
+    display: block;
+    text-decoration: none;
+  }
+
   & h3 {
     font-size: var(--font-2-size);
     letter-spacing: var(--font-2-spacing);
