@@ -8,7 +8,7 @@ menu_local:
 header:
   title: 🎉<br>Community Day
   intro: >
-    Después de la intensidad del viernes, el «Día de la Comunidad» es una jornada diseñada para que disfrutar relajadamente, sin una agenda marcada. No solo podrás participar en **la TarugOff** —nuestro *Open Space*— sino **también traer a tu familia, amigos y compañeros de trabajo** para compartir con ellos un buen rato con todas las actividades que hemos preparado y que disfrutarán por igual, mayores y pequeños.<br><br>Aquí tienes [un video-resumen de la edición anterior](https://vimeo.com/836780949) para que sepas que puedes esperar.
+    Después de la intensidad del viernes, el **sábado 28 de octubre —a partir de las 11:00h—** celebraremos el «Día de la Comunidad», una jornada diseñada para que disfrutar relajadamente, sin agenda marcada. No solo podrás participar en la TarugOff —nuestro *open space*— sino también **traer a tu familia, amigos y compañeros de trabajo** para compartir con ellos un buen rato con todas las actividades que hemos preparado y que disfrutarán por igual, mayores y pequeños.<br><br>Aquí tienes [un video-resumen de la edición anterior](https://vimeo.com/836780949) para que sepas que puedes esperar.
 
 activities:
   tags:
@@ -20,19 +20,19 @@ activities:
       tags:
         - mayor
       img: /img/community-day/TRG23_tarugoff.jpg
-      description: El *Open Space* de la TRG, donde los asistentes podréis proponer
+      description: El *open space* de la TRG, donde los asistentes podréis proponer
         vuestros propios contenidos y votar los que mas os interesen.
     - title: Scalextric Gigante
       description: Compite en el circuito que siempre soñaste montar en tu salón.
-      img: /img/community-day/tar_excalextric.jpg
+      img: /img/community-day/scalextric.jpeg
       tags:
         - peque
         - joven
         - mayor
     - title: Set de podcasting
       description: Podrás participar en la grabación en directo de algunos de tus
-        podcast favoritos como **Mixx.io** o **Code on the Rocks**.
-      img: /img/community-day/tar_podcast.jpg
+        podcast favoritos como [Code on the Rocks](http://codeontherocks.fm/){target=_blank} o [Realworld](https://www.runroom.com/ca/realworld/podcast-realworld-todos-los-episodios){target=_blank}.
+      img: /img/community-day/TRG23_coderocks.png
       tags:
         - mayor
     - title: Ludoteca
@@ -42,10 +42,8 @@ activities:
       tags:
         - peque
     - title: Taller de Sketchnoting
-      description: Impartido por el mítico sketchnoter Javier "Oyabun" Alonso, de <a
-        href="https://dibujandocharlas.com/"
-        target="_blank">dibujandocharlas.com</a>
-      img: /img/community-day/tar_sketchnoting.jpg
+      description: Impartido por el mítico [Javier «Oyabun» Alonso](https://twitter.com/oyabun){target=_blank} ¡sketchnoter oficial de la TRG!
+      img: /img/community-day/TRG23_sketchnoting.jpeg
       tags:
         - joven
         - mayor
@@ -58,17 +56,15 @@ activities:
         - joven
         - mayor    
     - title: Jenga Gigante
-      description: "El juego del Jenga va a ser MUY importante en la #tarugo22... el
-        sábado, también :)"
-      img: /img/community-day/tar_jenga.jpg
+      description: "El juego de toda la vida, pero más divertido que nunca."
+      img: /img/community-day/TRG23_jenga.jpeg
       tags:
         - peque
         - joven
         - mayor
     - title: Juegos de mesa
-      description: "Partidas organizadas de juegos de mesa para TODAS las edades,
-        desde el Parchís a Scape Rooms de bolsillo."
-      img: /img/community-day/tar_juegos_mesa.jpg
+      description: Partidas organizadas de juegos de mesa para TODAS las edades, a cargo de los profesionales de [Perro Loko Games](https://www.perrolokogames.com/){target=_blank}.
+      img: /img/community-day/TRG23_juegosmesa.jpg
       tags:
         - peque
         - joven
@@ -77,50 +73,62 @@ activities:
       description: David Bonilla explicará a los más pequeños (a partir de 4 años) los
         fundamentos básicos de la programación con la ayuda de un buen amigo...
         ¡Cubetto!
-      img: /img/community-day/tar_cubetto.jpg
+      img: /img/community-day/peques_pixelados2.jpg
       tags:
         - peque
     - title: Taller de iniciación al ajedrez
       description: Grandes y pequeños aprenderán a dar sus primeros pasos en el mundo
-        del ajedrez.
-      img: /img/community-day/tar_chess.jpg
+        del ajedrez, impartido por el ex-futbolista Pablo Miñor.
+      img: /img/community-day/TRG23_ajedrez.jpeg
       tags:
         - peque
         - joven
         - mayor
     - title: Taller de dibujo para pequeños grandes artistas
-      description: Aprende técnicas básicas de dibujo de la mano de Hugo Tobio ¡El
+      description: Aprende técnicas básicas de dibujo de la mano de [Hugo Tobio](https://twitter.com/HugoTobio){target=_blank} ¡El
         mismísimo ilustrador de la Bonilista!
       img: /img/community-day/tar_hugo.jpg
       tags:
         - joven
         - mayor
     - title: Taller de personalización de chapas
-      description: ¡Fabrica chapas con tus propios diseños! Un taller gestionado por
-        nuestros amigos de Autentia.
-      img: /img/community-day/tar_chapas.jpg
+      description: ¡Fabrica chapas con tus propios diseños!<br><br>Puedes traer una foto, un diseño impreso... o hacer un dibujo :)
+      img: /img/community-day/TRG23_chapas.jpg
       tags:
         - peque
         - joven
     - title: Pintacaras
-      description: Un clásico que nunca falla.
-      img: /img/community-day/tar_pintacaras.jpg
+      description: Un clásico que nunca falla entre los más pequeños.
+      img: /img/community-day/TRG23_pintacaras.jpeg
       tags:
         - peque
     - title: Juegos «Desenchufados»
       description: Juegos tradicionales para que las nuevas generaciones conozcan la
         vida que hay más allá de la consola ¿Jugamos a las chapas?
-      img: /img/community-day/tar_chapas_carreras.jpg
+      img: /img/community-day/TRG23_desenchufados.jpeg
       tags:
         - peque
         - joven
-    - title: "Debriefing de la #Tarugo22"
+    - title: "Arcades Clásicos"
+      tags:
+        - peque
+        - joven
+        - mayor
+      img: /img/community-day/TRG23_arcades.jpg
+      description: Disfruta de alguno de los primeros videojuegos de la historia en encarnizados campeonatos improvisados con otros asistentes.<br><br>Round 1... FIGHT !!!
+    - title: "Debriefing de la #TRG23"
       tags:
         - mayor
       img: /img/community-day/tar_debriefing.jpg
-      description: Comenta y conoce todos los detalles del evento, charlando
+      description: Conoce y comenta todos los detalles del evento, charlando
         relajadamente con sus principales protagonistas —ponentes,
         patrocinadores y organizadores— en un ambiente relajado y amigable.
+    - title: "Taller de DJs"
+      tags:
+        - joven
+        - mayor
+      img: /img/community-day/TRG23_dj.jpg
+      description: Taller de iniciación al pinchazo de discos, a cargo de [Guillermo Montoya](https://twitter.com/Gmfdsr){target=_blank} y el DJ oficial de la TRG ¡[Don Robot](https://twitter.com/xRx0xMx){target=_blank}!
 
 faq:
   title: FAQ
@@ -129,18 +137,12 @@ faq:
       answer: ¡No! Hay actividades para grandes y pequeños, pero si quieres pasarte
         con tus hijos, padres o amigos para acercarles un poco más a la realidad
         de tu profesión, se lo pasarán PIRATA :)
-    - question: ¿Quién puede ir al Sábado Tarugo?
-      answer: >-
-        Pueden ir todos los asistentes con entrada del evento principal y,
-        además, traer consigo a los acompañantes que quieran: amigos,
-        familiares, compañeros de trabajo...
-
-
-        No podrán acceder personas *random* que no acompañen a un asistente de la Tarugoconf.
+    - question: ¿Quién puede ir al Community Day?
+      answer: "Pueden ir todos los asistentes con entrada del evento principal y, además, traer consigo a los acompañantes que quieran: amigos, familiares, compañeros de trabajo...<br><br>No podrán acceder personas *random* que no acompañen a un asistente de la TRG."
     - question: ¿Cuesta algo?
-      answer: No, al contrario que en pasadas ediciones, **el Sábado Tarugo es
+      answer: No, al contrario que en otras ediciones, **el Community Day es
         completamente gratuito**. Solo tendréis que pagar los servicios de
-        restauración (comida y bebida) gestionados por terceros que consumáis.
+        restauración (comida y bebida) que consumáis.
     - question: ¿Habrá comida y bebida?
       answer: Sí. Tendréis varias opciones de catering (de pago) para beber y comer
         durante toda la jornada.
@@ -148,10 +150,10 @@ faq:
       answer: A partir de las 11:00h de la mañana y hasta después de comer (a las
         17:00h, tiene que estar todo recogido).
     - question: ¿Habrá sitio para aparcar?
-      answer: Al lado de La Nave hay MUCHO sitio para aparcar y un sábado aun más.
+      answer: Sí claro. Al lado de La Nave hay MUCHO sitio para aparcar y un sábado aun más.
     - question: ¿Hay un límite de aforo?
-      answer: Sí, 1.000 personas. Si llegamos a ese límite, el próximo año alquilamos
-        la Plaza de Toros.
+      answer: Sí, 1.000 personas. Pero si llegamos a ese límite, el próximo año alquilamos
+        un estadio de fútbol.
     - question: ¡Tengo más dudas!
       answer: No pasa nada. Como siempre, escribe a
         [tarugoconf@bonillaware.com](mailto:tarugoconf@bonillaware.com) y allí

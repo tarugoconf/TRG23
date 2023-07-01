@@ -1,12 +1,13 @@
 .speaker-container {
   row-gap: var(--row-gap);
+  padding-bottom: var(--row-gap);
 }
 
 .speaker-article {
   display: grid;
   column-gap: var(--column-gap);
   row-gap: 2rem;
-  border-bottom: solid 3px;
+  border-bottom: solid 2px;
   grid-template-columns: 1fr 200px 1fr;
   padding-bottom: var(--row-gap);
   grid-template-areas:". img ." 
@@ -22,22 +23,13 @@
                       "bio bio"
                       "conference conference";
   }
-
-  @media (min-width: 900px) {
-    grid-template-columns: 300px 1fr;
-    grid-template-areas: "img header"
-                      "img links"
-                      "img bio"
-                      "conference conference";
-  }
   
   @media (min-width: 1201px) {
     grid-template-columns: 400px 1fr;
     grid-template-areas: "img header"
                       "img links"
                       "img bio"
-                      "img conference"
-                      "other other";
+                      "img conference";
     .speaker-image {
       position: sticky;
       top: 50px;

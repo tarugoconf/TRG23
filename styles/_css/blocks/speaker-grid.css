@@ -30,6 +30,14 @@
     transition: background;
     border-radius: var(--border-radius);
   }
+  .speaker-badges {
+    position: absolute;
+    z-index: 3;
+    top: 4px;
+    left: 4px;
+    gap: 4px;
+    display: flex;
+  }
 
   &:hover .speaker-image {
     background: repeating-conic-gradient(from 30deg, var(--color-red) 0deg 30deg, var(--color-sepia) 30deg 60deg);

@@ -7,4 +7,13 @@
   color: white;
   border-radius: var(--border-radius-small);
   font-weight: bold;
+
+  &.is-black {
+    background: var(--color-black);
+  }
+  &.is-white {
+    background: var(--color-white);
+    color: var(--color-gray);
+    border: solid 1px var(--color-gray-xlight);
+  }
 }

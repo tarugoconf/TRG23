@@ -1,0 +1,33 @@
+title: Cris Busquets
+tag: Profesora
+id: cris
+draft: false
+role: Senior Product Designer
+order: 2
+company:
+  name: Automattic
+  url: https://automattic.com/
+img: /img/speakers/cris-busquets.png
+links:
+  - text: Linkedin
+    icon: /img/icons/linkedin-logo-duotone.svg
+    url: https://www.linkedin.com/in/cbusquets/
+  - text: Twitter
+    icon: /img/icons/twitter-logo-duotone.svg
+    url: https://twitter.com/cbusquets
+  - text: Web
+    icon: /img/icons/rocket-launch-duotone.svg
+    url: https://www.uifrommars.com/  
+bio: |
+  Cris estudió un ciclo formativo en Gráfica Publicitaria y se graduó en Publicidad y Relaciones Públicas. También tiene un Máster en Aplicaciones Multimedia. Ha trabajado como diseñadora de producto en compañías como Twitter y Holaluz, ha sido docente en la UOC y la escuela de diseño LABASAD y comparte toda su experiencia con la Comunidad a través de la fantástica newsletter uiFromMars y su libro Diseño desde Marte.
+  
+  Actualmente trabaja en Automattic, donde se encarga del diseño de la nueva funcionalidad de WordPress.com: Newsletters.
+workshop:
+  title: Product Design para no-diseñadores
+  day: Jueves 26
+  description: |
+    En este taller, Cris nos enseñará los fundamentos de la disciplina, pero —sobre todo— como implementar procesos de diseño de producto que involucren a los diferentes roles necesarios para desarrollar con éxito un producto digital, desde Product Managers a desarrolladores.
+    
+    Trabajaremos con **casos prácticos** para aprender a colaborar de forma efectiva con un diseñador y cómo debe entregarnos este su trabajo. Acabaremos, a golpe de **plantillas y ejemplos**, con el mito de que los programadores son de Venus, los diseñadores de Marte y jamás podrán entenderse.
+    
+    Este **NO es un taller de diseño**, pero nos llevaremos, instaladas en nuestro ordenador, las **herramientas** necesarias para empezar a hacer Product Design en nuestro equipo; y **documentación y bibliografía** para seguir ampliando nuestros conocimientos.
