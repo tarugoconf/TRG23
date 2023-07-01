@@ -45,14 +45,14 @@ block_calendar:
         - time: 15:30-18:00h
           title: <a href="/blog/talleres-trg23/">Talleres</a>
           description: |
-            Talleres prácticos (requieren la compra de una entrada complementaria a la del evento principal)<br>
-            - Product Design para no-diseñadores por Cris Busquets
-            - Cómo diseñar la arquitectura de tus repositorios de código por Pablo Santos
-            - Herramientas y procesos para equipos de desarrollo de alto rendimiento por Manuel Recena
+            Talleres prácticos (requieren la compra de una entrada complementaria a la del evento principal).<br><br>
+            - **Product Design para no-diseñadores** por [Cris Busquets](https://trgcon.com/speakers/cris-busquets/){target=_blank}
+            - **Cómo diseñar la arquitectura de tus repositorios de código** por [Pablo Santos](https://trgcon.com/speakers/pablo-santos/){target=_blank}
+            - **Herramientas y procesos para equipos de desarrollo de alto rendimiento** por [Manuel Recena](https://trgcon.com/speakers/manuel-recena/){target=_blank}
 
             Podréis reservar vuestra plaza al comprar vuestra entrada. Tenéis toda la info [aquí](https://www.trgcon.com/blog/talleres-trg23/){target=_blank}.
             
-            Y este año, **como novedad, contaremos con talleres patrocinados por nuestros sponsors** (requieren invitación de los mismos para poder acceder).
+            Y este año, como novedad, **contaremos con talleres patrocinados por nuestros sponsors** (requieren invitación de los mismos para poder acceder).
         - time: 18:00-20:00h
           title: Networking
           description: |
