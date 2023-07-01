@@ -43,9 +43,11 @@ block_calendar:
     - title: Jueves 26
       items:
         - time: 15:30-18:00h
-          title: Talleres
+          title: [Talleres](https://www.trgcon.com/blog/talleres-trg23/)
           description: |
             Talleres prácticos (requieren la compra de una entrada complementaria a la del evento principal) impartidos por profesionales con una amplia experiencia que enseñarán a los asistentes un nuevo superpoder para usar en su día a día.
+
+            Podréis reservar vuestra plaza al comprar vuestra entrada. Tenéis toda la info [aquí](https://www.trgcon.com/blog/talleres-trg23/){target=_blank}
             
             Y este año, **como novedad, contaremos con talleres patrocinados por nuestros sponsors** (requieren invitación de los mismos para poder acceder).
         - time: 18:00-20:00h
