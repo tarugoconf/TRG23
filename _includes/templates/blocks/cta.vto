@@ -1,0 +1,11 @@
+<div class="block-cta">
+  <a href="{{block.cta.url}}" role="button" target=_blank>
+    <strong>{{ block.cta.text }}</strong>
+  </a>
+
+  {{ if block.footer }}
+  <footer class="block-cta-footer">
+    {{ block.footer |> md(true) }}
+  </footer>
+  {{ /if }}
+</div>

@@ -48,6 +48,26 @@ scripts: /js/home.js
     {{ include "templates/blocks/speaker-grid.vto" {block: search.pages("type=speaker", "order title")} }}
   </section>
 
+  <section class="home-section is-partners" id="partners">
+    {{ include "templates/blocks/header.vto" {block: partners} }}
+
+    {{ include "templates/blocks/partners-grid.vto" {block: partners.items} }}
+  </section>
+
+  <hr class="dots">
+
+  <section class="home-section is-patron" id="patrons">
+    <header>
+      <h2 class="home-section-title">{{ patrons.title }}</h2>
+
+      <div class="home-section-intro">
+        {{ patrons.intro |> md }}
+      </div>
+    </header>
+
+    {{ include "templates/blocks/img-grid.vto" {block: patrons.items, variant: "center"} }}
+  </section>
+
   <div class="img-tentacle-container">
     <img src="/img/tentaculo2.png" class="img-tentaculo">
   </div>

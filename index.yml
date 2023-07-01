@@ -35,6 +35,34 @@ block_speakers:
   intro: |
     El «speaker» o ponente de la TRGCON no nace, [SE HACE](/speakers/). Estos son los awesómicos invitados con los que contaremos este año:
 
+partners:
+  title: Partners
+  intro: |
+    Estas son las compañías que hacen que todo esto sea posible. Cada una de estas empresas ha decidido apoyarnos para que la Tarugoconf pueda volver a la presencialidad con una mínima seguridad económica y así podamos centrarnos en ofrecer a la Comunidad la calidad y el espíritu de siempre. Si quieres ser parte de este esfuerzo, [consulta nuestras *awesómicas* oportunidades de patrocinio](/sponsors/) ¡graciñas!
+
+  items:
+    - img: /img/partners/panel.png
+      url: https://www.panel.es/
+      alt: Panel
+      description: Creación Inteligente de software, sistemas y servicios TI.
+    - img: /img/partners/deiser.svg
+      url: https://www.deiser.com/
+      alt: Deiser
+      description: Te ayudamos con tus apps de Atlassian.
+
+patrons:
+  title: Mecenas
+  intro: |
+    Estas personas han contribuido con su mecenazgo a que la
+    #tarugo22 sea posible, asegurando la sostenibilidad del evento.
+  items:
+  - title: Daniel Ramos
+    url: https://twitter.com/danielramosl
+    img: /img/patrons/danielramos.jpg
+  - title: David Pardo
+    url: https://twitter.com/dei_biz
+    img: /img/patrons/davidpardo.jpg
+
 block_calendar:
   title: Agenda
   intro: |

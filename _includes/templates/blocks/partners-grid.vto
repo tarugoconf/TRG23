@@ -1,0 +1,11 @@
+<ul class="block-partnersGrid">
+    {{ for item of block }}
+    <li>
+        <a href="{{ item.url }}" target="_blank">
+            <img src="{{ item.img }}" alt="{{ item.alt }}">
+
+            {{ item.description |> md }}
+        </a>
+    </li>
+    {{ /for }}
+</ul>

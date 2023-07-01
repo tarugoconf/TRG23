@@ -1,4 +1,4 @@
-<ul class="block-imgGrid">
+<ul class="block-imgGrid {{ it.variant ? `is-${variant}` : "" }}">
     {{ for item of block }}
     <li>
         <img src="{{ item.img }}" alt="{{ item.title }}">

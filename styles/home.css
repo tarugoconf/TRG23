@@ -177,8 +177,6 @@
 .home-section.is-communityday {
   display: grid;
   row-gap: 2em;
-  border-top: solid 2px;
-  padding-top: var(--row-gap);
 
   .text-body {
     margin: 1.5rem 0;
@@ -289,6 +287,37 @@
   border-radius: var(--border-radius);
   border: solid 1px var(--color-gray-xlight);
   margin: 0;
+}
+
+.home-section.is-patron {
+  display: grid;
+  column-gap: 2rem;
+  row-gap: 4rem;
+  text-align: center;
+
+  @media (min-width: 1200px) {
+    grid-template-columns: 300px 1fr;
+    text-align: left;
+  }
+
+  .home-section-title {
+    font-size: var(--font-3-size);
+    letter-spacing: var(--font-3-spacing);
+    line-height: var(--line-height-title);
+    margin: 0;
+  }
+  .home-section-intro {
+    font-size: var(--font-2-size);
+    letter-spacing: var(--font-2-spacing);
+    line-height: var(--line-height-medium);
+    max-width: 30em;
+    margin: 0 auto;
+  }
+
+  .block-imgGrid {
+    --width: 150px;
+    --img-size: 120px;
+  }
 }
 
 .home-section.is-tickets {
