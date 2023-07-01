@@ -75,7 +75,7 @@ block_calendar:
     - title: Sábado 28
       items:
         - time: 11:00-18:00h
-          title: [Community Day](/community-day/)
+          title: <a href="/community-day/">Community Day</a>
           description: |
             Como ya es tradición, el día después del evento principal, disfrutaremos de una **jornada relajada y abierta a todo el mundo, a la que podréis acudir acompañados por vuestra familia y/o amigos** para que tengáis una oportunidad de abrirles una ventana a vuestra profesión y a la increíble Comunidad que hay alrededor de la misma. 
 
