@@ -31,8 +31,8 @@ activities:
         - mayor
     - title: Set de podcasting
       description: Podrás participar en la grabación en directo de algunos de tus
-        podcast favoritos como **Code on the Rocks**.
-      img: /img/community-day/TRG23_coderocks.png
+        podcast favoritos como [Code on the Rocks](http://codeontherocks.fm/) o [Realworld](https://www.runroom.com/ca/realworld/podcast-realworld-todos-los-episodios).
+      img: /img/community-day/TRG23_coderocks2.png
       tags:
         - mayor
     - title: Ludoteca
