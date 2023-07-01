@@ -21,7 +21,7 @@ styles: /styles/tickets.css
             <em class="ticket-pricing">{{ ticket.pricing }}</em>
           </p>
 
-          <strong class="ticket-comingsoon">Próximamente</strong>
+          <a role="button" class="is-small" href="{{ buy_cta.url }}"><strong>{{ buy_cta.text_table }}</strong></a>
         </th>
         {{ /for }}
       </tr>
@@ -63,7 +63,7 @@ styles: /styles/tickets.css
           <em class="ticket-pricing">{{ ticket.pricing }}</em>
         </p>
         
-        <strong class="ticket-comingsoon">Próximamente</strong>
+        <a role="button" class="is-small" href="{{ buy_cta.url }}"><strong>{{ buy_cta.text_list }}</strong></a>
       </div>
 
       <ul class="tickets-features">

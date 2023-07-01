@@ -30,7 +30,7 @@ scripts: /js/home.js
         {{ about.intro |> md }}
 
         <p>
-          <a href="{{about.cta.url}}" role="button" target=_blank>
+          <a href="{{about.cta.url}}" role="button" class="has-dotsShadow" target=_blank>
             <strong>{{ about.cta.text }}</strong>
           </a>
           <br>
@@ -81,7 +81,7 @@ scripts: /js/home.js
           {{ community_day.intro |> md }}
         </div>
 
-        <a href="{{community_day.cta.url}}" role="button">
+        <a href="{{community_day.cta.url}}" role="button" class="has-dotsShadow">
           <strong>{{ community_day.cta.text }}</strong>
         </a>
       </div>
@@ -98,7 +98,7 @@ scripts: /js/home.js
           {{ tickets.intro |> md }}
         </div>
 
-        <a href="{{tickets.cta.url}}" role="button">
+        <a href="{{tickets.cta.url}}" role="button" class="has-dotsShadow">
           <strong>{{ tickets.cta.text }}</strong>
         </a>
       </div>

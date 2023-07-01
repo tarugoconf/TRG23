@@ -18,6 +18,14 @@
 </head>
 
 <body id="top" class="{{ it.body_class }}">
+  {{ if it.main_cta }}
+  <nav class="navbar-mainCta">
+    <a role="button" href="{{ main_cta.url }}">
+      <strong>{{ main_cta.text }}</strong>
+    </a>
+  </nav>
+  {{ /if }}
+
   {{ content }}
 </body>
 </html>
