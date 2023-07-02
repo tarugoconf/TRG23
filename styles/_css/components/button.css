@@ -26,7 +26,7 @@ a[role="button"] {
     border-radius: var(--border-radius-small);
     animation-name: hideButtonShadow;
     animation-fill-mode: both;
-    animation-duration: .5s;
+    animation-duration: .3s;
   }
   &:hover {
     & strong {
