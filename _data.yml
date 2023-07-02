@@ -3,3 +3,7 @@ metas:
   title: =title
   description: =description
   image: /img/social.jpg
+
+main_cta:
+  text: Comprar entradas
+  url: /tickets/

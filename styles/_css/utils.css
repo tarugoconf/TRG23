@@ -14,7 +14,6 @@
     var(---offset) var(--offset) 0 var(--color-sepia);
 }
 
-[role="button"],
 .has-dotsShadow {
   display: block;
   position: relative;
@@ -32,7 +31,7 @@
     pointer-events: none;
   }
 }
-[role="button"]::after,
+
 .has-dotsShadow::after,
 .dots {
   --size: 25;

@@ -4,6 +4,11 @@ a[role="button"] {
   border: none;
   font-size: var(--font-2-size);
   line-height: var(--line-height-text);
+  border-radius: var(--border-radius-small);
+
+  &.is-small {
+    font-size: var(--font-1-size);
+  }
 
   & strong {
     border-radius: var(--border-radius-small);
@@ -21,7 +26,7 @@ a[role="button"] {
     border-radius: var(--border-radius-small);
     animation-name: hideButtonShadow;
     animation-fill-mode: both;
-    animation-duration: .5s;
+    animation-duration: .3s;
   }
   &:hover {
     & strong {
