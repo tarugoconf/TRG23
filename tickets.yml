@@ -60,6 +60,7 @@ tickets:
   - name: Early Bird
     pricing: 165€ + IVA
     img: "/img/tickets/early-bird.svg"
+    sold_out: true
     conferences: true
     streaming: false
     workshop: false

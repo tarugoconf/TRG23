@@ -21,7 +21,11 @@ styles: /styles/tickets.css
             <em class="ticket-pricing">{{ ticket.pricing }}</em>
           </p>
 
+          {{ if ticket.sold_out }}
+          <strong class="badge ticket-disabled">Agotadas</strong>
+          {{ else }}
           <a role="button" class="is-small" href="{{ buy_cta.url }}"><strong>{{ buy_cta.text_table }}</strong></a>
+          {{ /if }}
         </th>
         {{ /for }}
       </tr>
@@ -62,8 +66,12 @@ styles: /styles/tickets.css
           <strong class="ticket-name">{{ ticket.name }}</strong>
           <em class="ticket-pricing">{{ ticket.pricing }}</em>
         </p>
-        
-        <a role="button" class="is-small" href="{{ buy_cta.url }}"><strong>{{ buy_cta.text_list }}</strong></a>
+
+        {{ if ticket.sold_out }}
+          <strong class="badge ticket-disabled">Agotadas</strong>
+        {{ else }}
+          <a role="button" class="is-small" href="{{ buy_cta.url }}"><strong>{{ buy_cta.text_list }}</strong></a>
+        {{ /if }}
       </div>
 
       <ul class="tickets-features">

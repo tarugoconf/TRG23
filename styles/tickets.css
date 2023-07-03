@@ -87,7 +87,7 @@
     background: var(--color-sepia);
     grid-template-areas: "img title" "img cta";
 
-    .ticket-comingsoon {
+    .ticket-disabled {
       grid-area: cta;
     }
     .ticket-img {
@@ -185,13 +185,12 @@
   fill: var(--color-red);
 }
 
-.ticket-comingsoon {
+.ticket-disabled {
   background: var(--color-gray-xlight);
   color: var(--color-gray);
   font-size: var(--font-1-size);
-  line-height: var(--line-height-title);
-  display: flex;
-  align-items: center;
-  padding: .5em;
-  border-radius: var(--border-radius);
+  line-height: var(--line-height-text);
+  
+  padding: .5em 1em;
+  
 }
