@@ -93,6 +93,12 @@ partners:
   intro: |
     Estas son las compañías que hacen que todo esto sea posible. Cada una de estas empresas ha decidido apoyarnos para que la Tarugoconf pueda volver a la presencialidad con una mínima seguridad económica y así podamos centrarnos en ofrecer a la Comunidad la calidad y el espíritu de siempre. Si quieres ser parte de este esfuerzo, [consulta nuestras *awesómicas* oportunidades de patrocinio](/sponsors/) ¡graciñas!
 
+  # main:
+  #   img: /img/partners/google-for-startups.png
+  #   url: https://campus.co/madrid/
+  #   alt: Google for Startups
+  #   description: Para los que nunca dejan de emprender.
+
   items:
     - img: /img/partners/panel.png
       url: https://www.panel.es/
@@ -102,6 +108,11 @@ partners:
       url: https://www.deiser.com/
       alt: Deiser
       description: Te ayudamos con tus apps de Atlassian.
+
+collaborators:
+  - img: /img/collaborators/manfred.png
+    url: https://www.getmanfred.com/
+    alt: Manfred
 
 patrons:
   title: Mecenas

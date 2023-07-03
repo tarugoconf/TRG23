@@ -8,6 +8,8 @@ styles: /styles/sponsors.css
 
   {{ include "templates/blocks/header.vto" { block: header } }}
   {{ include "templates/blocks/cta.vto" { block: dossier } }}
+  {{ if it.highlights }}
   {{ include "templates/blocks/highlights.vto" { block: highlights } }}
+  {{ /if }}
   {{ include "templates/footer.vto" }}
 </main>

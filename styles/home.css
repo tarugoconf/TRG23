@@ -322,6 +322,38 @@
   }
 }
 
+.home-section.is-partners {
+  display: grid;
+  row-gap: 4rem;
+
+  .main-partner {
+    display: block;
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+    text-decoration: none;
+
+    & img {
+      width: 800px;
+      max-width: 100%;
+      display: block;
+      filter: saturate(0%);
+    }
+
+    &:hover img {
+      filter: none;
+    }
+  }
+
+  & hr.dots {
+    margin: 0;
+
+    + .block-partnersGrid {
+      --width: 150px;
+    }
+  }
+}
+
 .home-section.is-tickets {
   padding: 5vw;
 

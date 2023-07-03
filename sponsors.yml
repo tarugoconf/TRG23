@@ -6,7 +6,7 @@ header:
   intro: >
     En la tarugo intentamos huir de la figura del «sponsor» habitual y convertimos a nuestros patrocinadores en verdaderos socios que son una parte más del evento: nos preocupamos por entender sus objetivos y personalizamos los paquetes de patrocinio para intentar alcanzarlos, trabajando mano a mano con ellos y creando relaciones que perduran a lo largo de los años.
 
-    Si quieres ser parte de la próxima #tarugo22, echa un vistazo a nuestro deck de patrocinio y mándanos un mail a tarugoconf@bonillaware.com ¡Estaremos encantados de hablar contigo!
+    Si quieres ser parte de la próxima [#TRG23](https://twitter.com/hashtag/TRG23), echa un vistazo a nuestro deck de patrocinio y mándanos un mail a [tarugoconf@bonillaware.com](mailto:tarugoconf@bonillaware.com) ¡Estaremos encantados de hablar contigo!
 
 dossier:
   cta:
@@ -15,12 +15,12 @@ dossier:
   footer: |
     [Do you want to read it in English?](https://www.dropbox.com/s/5z5fzh5gjaz43px/TRG23_sponsorship_deck_EN.pdf?dl=0){target=_blank}
 
-highlights:
-  - title: Quién
-    description: --
-  - title: Por qué
-    description: --
-  - title: Qué
-    description: --
-  - title: Cómo
-    description: --
+# highlights:
+#   - title: Quién
+#     description: --
+#   - title: Por qué
+#     description: --
+#   - title: Qué
+#     description: --
+#   - title: Cómo
+#     description: --

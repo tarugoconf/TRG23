@@ -75,10 +75,19 @@ scripts: /js/home.js
   <section class="home-section is-partners" id="partners">
     {{ include "templates/blocks/header.vto" {block: partners} }}
 
-    {{ include "templates/blocks/partners-grid.vto" {block: partners.items} }}
-  </section>
+    {{ if partners.main }}
+    <a class="main-partner" href="{{ partners.main.url }}" target="_blank">
+        <img src="{{ partners.main.img }}" alt="{{ partners.main.alt }}">
 
-  <hr class="dots">
+        {{ partners.main.description |> md }}
+    </a>
+    {{ /if }}
+
+    {{ include "templates/blocks/partners-grid.vto" {block: partners.items} }}
+  
+    <hr class="dots">
+    {{ include "templates/blocks/partners-grid.vto" {block: collaborators} }}
+  </section>
 
   <section class="home-section is-patron" id="patrons">
     <header>
