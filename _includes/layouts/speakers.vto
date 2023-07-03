@@ -13,17 +13,7 @@ styles: /styles/speakers.css
     <img src="/img/tentaculo1.png" class="img-tentacle">
   </div>
 
-  <ul class="speakers-highlights">
-      {{ for item of highlights }}
-      <li class="dots">
-        <div class="over-dotsShadow">
-          <h3>{{ item.title }}</h3>
-          {{ item.description |> md }}
-        </div>
-      </li>
-      {{ /for }}
-  </ul>
-
+  {{ include "templates/blocks/highlights.vto" { block: highlights } }}
   {{ include "templates/blocks/big-img.vto" { block: image }}}
 
   <section class="speakers-intro" id="las-charlas">

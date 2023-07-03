@@ -1,9 +1,11 @@
-<ul class="block-imgGrid">
+<ul class="block-imgGrid {{ it.variant ? `is-${variant}` : "" }}">
     {{ for item of block }}
     <li>
+        {{ if item.url }}<a href="{{ item.url }}" target="_blank">{{ /if }}
         <img src="{{ item.img }}" alt="{{ item.title }}">
 
         <h3>{{ item.title }}</h3>
+        {{ if item.url }}</a>{{ /if }}
 
         {{ item.description |> md }}
 

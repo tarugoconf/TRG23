@@ -1,0 +1,10 @@
+<ul class="block-highlights">
+    {{ for item of block }}
+    <li class="dots">
+      <div class="over-dotsShadow">
+        <h3>{{ item.title }}</h3>
+        {{ item.description |> md }}
+      </div>
+    </li>
+    {{ /for }}
+</ul>

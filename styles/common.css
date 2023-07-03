@@ -19,7 +19,10 @@
 @import "blocks/video.css";
 @import "blocks/img-grid.css"; 
 @import "blocks/speaker-grid.css"; 
+@import "blocks/partners-grid.css"; 
 @import "blocks/activity-grid.css"; 
 @import "blocks/quotes.css"; 
 @import "blocks/big-img.css"; 
 @import "blocks/faq.css"; 
+@import "blocks/highlights.css"; 
+@import "blocks/cta.css"; 

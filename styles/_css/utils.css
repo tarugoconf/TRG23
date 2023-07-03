@@ -75,3 +75,8 @@
     border-radius: 41% 59% 79% 21% / 29% 72% 28% 71% ;
   }
 }
+
+hr.dots {
+  border: none;
+  height: 1rem;
+}
