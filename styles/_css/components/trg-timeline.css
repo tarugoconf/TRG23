@@ -1,0 +1,34 @@
+trg-timeline {
+  display: block;
+  background-color: var(--color-black);
+  padding: 1rem;
+
+  .vis-timeline {
+    border: none;
+  }
+  .vis-item.vis-range {
+    background-color: var(--color-red);
+    border: none;
+    padding: .5rem;
+    color: white;
+  }
+  .vis-time-axis {
+    .vis-grid.vis-minor {
+      border: none;
+      border-left: solid 1px var(--color-gray);
+    }
+    .vis-text {
+      padding: .5rem;
+      font-size: var(--font-0-size);
+      color: var(--color-sepia);
+
+      & > div {
+        font-weight: bold;
+        font-size: var(--font-1-size);
+      }
+    }
+  }
+  .vis-panel.vis-center {
+    border-bottom: solid 1px var(--color-gray);
+  }
+}

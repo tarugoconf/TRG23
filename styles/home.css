@@ -354,6 +354,15 @@
   }
 }
 
+.home-section.is-timeline {
+  grid-column: 1 / -1;
+
+  & trg-timeline {
+    border-top-left-radius: var(--border-radius);
+    border-bottom-left-radius: var(--border-radius);
+  }
+}
+
 .home-section.is-tickets {
   padding: 5vw;
 
