@@ -1,4 +1,4 @@
-import f from "https://deno.land/x/netlify_cms_config@v0.3.1/mod.ts";
+import f from "https://deno.land/x/netlify_cms_config@v0.3.2/mod.ts";
 
 // Set defaults
 f.defaultRequired = false;
@@ -22,6 +22,7 @@ const speakers = f.folder("Speakers", "speakers")
   .description("Invitados (profesores y conferencistas)")
   .sortableFields("title")
   .preview(false)
+  .format("yaml")
   .fields([
     f.string("Title"),
     f.string("Tag"),
@@ -53,7 +54,7 @@ const speakers = f.folder("Speakers", "speakers")
   ]);
 
 config.collections.push(
-  {format: "yml", ...speakers.toJSON()}
+  speakers.toJSON()
 );
 
 export default config;
