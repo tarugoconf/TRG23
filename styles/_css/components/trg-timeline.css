@@ -8,14 +8,31 @@ trg-timeline {
   }
   .vis-item.vis-range {
     background-color: var(--color-red);
-    border: none;
+    border: solid 1px var(--color-black);
     padding: .5rem;
     color: white;
+    border-radius: var(--border-radius-small);
+    font-size: var(--font-1-size);
+    letter-spacing: var(--font-1-spacing);
+    line-height: var(--line-height-text);
+    box-shadow: 0 1px 5px #0003;
+
+    &:hover {
+      z-index: 2;
+    }
+
+    & strong {
+      display: block;
+      white-space: break-spaces;
+    }
+    & a {
+      color: inherit;
+    }
   }
   .vis-time-axis {
     .vis-grid.vis-minor {
       border: none;
-      border-left: solid 1px var(--color-gray);
+      border-left: solid 1px #fff2;
     }
     .vis-text {
       padding: .5rem;

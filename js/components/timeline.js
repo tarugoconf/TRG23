@@ -6,17 +6,26 @@ class TRGTimeline extends HTMLElement {
       {
         start: "2013-10-26 15:30",
         end: "2013-10-26 18:00",
-        content: "Taller 1",
+        content: `
+        <strong>Taller: Product design para no-diseñadores</strong>
+        Por <a href="#">Cris Busquets</a>
+        `,
       },
       {
         start: "2013-10-26 15:30",
         end: "2013-10-26 18:00",
-        content: "Taller 2",
+        content: `
+        <strong>Taller: Cómo diseñar la arquitectura de tus repositorios de código</strong>
+        Por <a href="#">Pablo Santos</a>
+        `,
       },
       {
         start: "2013-10-26 15:30",
         end: "2013-10-26 18:00",
-        content: "Taller 3",
+        content: `
+        <strong>Taller: Herramientas y procesos para equipos de desarrollo de alto rendimiento</strong>
+        Por <a href="#">Manuel Recena</a>
+        `,
       },
       {
         start: "2013-10-26 18:00",
