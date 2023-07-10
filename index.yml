@@ -108,6 +108,10 @@ partners:
       url: https://www.deiser.com/
       alt: Deiser
       description: Te ayudamos con tus apps de Atlassian.
+    - img: /img/partners/sngular-logo-big.png
+      url: https://www.sngular.com/
+      alt: SNGULAR
+      description: Ecosistema global de talento y tecnología.
 
 collaborators:
   - img: /img/collaborators/manfred.png
