@@ -91,7 +91,7 @@ block_calendar:
 partners:
   title: Partners
   intro: |
-    Estas son las compañías que hacen que todo esto sea posible. Cada una de estas empresas ha decidido apoyarnos para que la Tarugoconf pueda volver a la presencialidad con una mínima seguridad económica y así podamos centrarnos en ofrecer a la Comunidad la calidad y el espíritu de siempre. Si quieres ser parte de este esfuerzo, [consulta nuestras *awesómicas* oportunidades de patrocinio](/sponsors/) ¡graciñas!
+    Estas son las compañías que hacen que todo esto sea posible. Cada una de estas empresas ha decidido apoyarnos para que la TRG pueda contar con una mínima seguridad económica y así podamos centrarnos en ofrecer a la Comunidad la calidad y el espíritu de siempre. Si quieres ser parte de este esfuerzo, [consulta nuestras *awesómicas* oportunidades de patrocinio](/sponsors/) ¡graciñas!
 
   # main:
   #   img: /img/partners/google-for-startups.png
@@ -112,6 +112,14 @@ partners:
       url: https://www.sngular.com/
       alt: SNGULAR
       description: Ecosistema global de talento y tecnología.
+    - img: /img/partners/velneo.svg
+      url: https://www.velneo.com/
+      alt: Velneo
+      description: Desarrolla la aplicación que tu empresa necesita.
+    - img: /img/partners/autentia.png
+      url: https://www.autentia.com/
+      alt: Autentia
+      description: Pasión por el desarrollo de software.
 
 collaborators:
   - img: /img/collaborators/manfred.png
@@ -128,7 +136,7 @@ patrons:
   title: Mecenas
   intro: |
     Estas personas han contribuido con su mecenazgo a que la
-    #tarugo22 sea posible, asegurando la sostenibilidad del evento.
+    #TRG23 sea posible, asegurando la sostenibilidad del evento.
   items:
   - title: Daniel Ramos
     url: https://twitter.com/danielramosl
