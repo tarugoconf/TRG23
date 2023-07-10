@@ -116,6 +116,9 @@ collaborators:
   - img: /img/collaborators/google.png
     url: https://www.campus.co/intl/es_es/madrid/
     alt: Google for Startups
+  - img: /img/collaborators/logo_str.png
+    url: https://www.strsistemas.com/
+    alt: STR Sistemas
 
 patrons:
   title: Mecenas
