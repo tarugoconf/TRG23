@@ -113,6 +113,9 @@ collaborators:
   - img: /img/collaborators/manfred.png
     url: https://www.getmanfred.com/
     alt: Manfred
+  - img: /img/collaborators/google.png
+    url: https://www.campus.co/intl/es_es/madrid/
+    alt: Google for Startups
 
 patrons:
   title: Mecenas
