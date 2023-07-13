@@ -51,9 +51,17 @@
   font-size: var(--font-2-size);
   line-height: var(--line-height-text);
   border-radius: var(--border-radius-small);
+  font-weight: bold;
+  color: var(--color-gray);
 
   &:hover {
-    opacity: 0.5;
+    text-decoration: underline;
+  }
+
+  @media (max-width: 340px) {
+    > span {
+      display: none;
+    }
   }
 }
 
@@ -85,7 +93,7 @@
   }
 }
 .navbar.is-responsive {
-  @media (max-width: 1050px) {
+  @media (max-width: 1200px) {
     .navbar-menu {
       position: absolute;
       flex-direction: column;
@@ -107,7 +115,7 @@
   }
 }
 body:not(.has-navbar-open) .navbar.is-responsive {
-  @media (max-width: 1050px) {
+  @media (max-width: 1200px) {
     .navbar-menu {
       display: none;
     }
