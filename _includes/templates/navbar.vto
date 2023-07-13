@@ -1,9 +1,27 @@
-<ul class="navbar-menu-local" id="menu">
-  {{ for item of menu_local }}
-  <li>
-      <a href="{{ item.url }}">
-          {{ item.text }}
-      </a>
-  </li>
-  {{ /for }}
-</ul>
+<nav class="navbar is-{{ it.menu.position }} {{ it.menu.responsive && "is-responsive" }}">
+  <a href="/" class="navbar-logo">
+    <img src="/img/logo-duotono.svg" width="180" height="55">
+  </a>
+
+  <button id="menu-button" class="navbar-menu-button" label="Menú">
+    <img src="/img/icons/dots-three-circle-vertical-duotone.svg" width="48" height="48">
+    <span>Menú</span>
+  </button>
+  <ul class="navbar-menu" id="menu">
+    {{ for item of it.menu.items }}
+    <li>
+        <a href="{{ item.url }}">
+            {{ item.text }}
+        </a>
+    </li>
+    {{ /for }}
+  </ul>
+
+  {{ if it.menu.cta }}
+  <nav class="navbar-mainCta">
+    <a role="button" href="{{ menu.cta.url }}">
+      <strong>{{ menu.cta.text }}</strong>
+    </a>
+  </nav>
+  {{ /if }}
+</nav>

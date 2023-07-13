@@ -1,5 +1,6 @@
 .speaker-container {
   row-gap: var(--row-gap);
+  padding-top: var(--row-gap);
   padding-bottom: var(--row-gap);
 }
 
@@ -32,7 +33,7 @@
                       "img conference";
     .speaker-image {
       position: sticky;
-      top: 50px;
+      top: 150px;
     }
   }
 

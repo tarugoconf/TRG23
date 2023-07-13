@@ -1,6 +1,6 @@
 .tickets-container {
   row-gap: var(--row-gap);
-  padding-bottom: var(--row-gap);
+  padding: var(--row-gap) 0;
 }
 
 .tickets-table {

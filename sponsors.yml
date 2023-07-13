@@ -8,6 +8,11 @@ header:
 
     Si quieres ser parte de la próxima [#TRG23](https://twitter.com/hashtag/TRG23), echa un vistazo a nuestro deck de patrocinio y mándanos un mail a [tarugoconf@bonillaware.com](mailto:tarugoconf@bonillaware.com) ¡Estaremos encantados de hablar contigo!
 
+menu:
+  items:
+  - text: Portada
+    url: "/"
+
 dossier:
   cta:
     text: Descarga el deck de patrocinio

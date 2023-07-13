@@ -1,6 +1,10 @@
 ---
 layout: layouts/text.vto
 title: Código de conducta
+menu:
+  items:
+  - text: Portada
+    url: "/"
 ---
 
 La Tarugoconf pretende ser **una experiencia agradable para todos los
