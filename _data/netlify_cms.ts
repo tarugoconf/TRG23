@@ -54,7 +54,7 @@ const speakers = f.folder("Speakers", "speakers")
   ]);
 
 config.collections.push(
-  speakers.toJSON()
+  speakers.toJSON(),
 );
 
 export default config;

@@ -4,9 +4,10 @@ description: >
   Todas los requisitos y ventajas que conlleva ser speaker de la TRG, la
   conferencia sobre diseño, construcción y comercialización de productos y
   servicios digitales más awesómica del mundo.
-menu_local:
-  - text: Las charlas
-    url: "#las-charlas"
+menu:
+  items:
+  - text: Portada
+    url: "/"
   - text: Beneficios
     url: "#beneficios"
   - text: Recursos

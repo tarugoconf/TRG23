@@ -18,15 +18,17 @@ video:
   id: 829383642
   cover: /img/trg22-poster.jpg
 
-menu_local:
-  - text: Contacto
-    url: "#contacto"
-  - text: FAQ
-    url: "#faq"
-  - text: Speakers
-    url: "#speakers"
-  - text: Blog
-    url: "/blog/"
+menu:
+  position: fixed
+  items:
+    - text: Contacto
+      url: "#contacto"
+    - text: FAQ
+      url: "#faq"
+    - text: Speakers
+      url: "#speakers"
+    - text: Blog
+      url: "/blog/"
 
 block_speakers:
   title: Speakers

@@ -1,7 +1,10 @@
 layout: layouts/community-day.vto
 title: 🎉 Community day
 
-menu_local:
+menu:
+  items:
+  - text: Portada
+    url: /
   - text: FAQ
     url: "#faq"
 

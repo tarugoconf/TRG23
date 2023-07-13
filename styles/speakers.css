@@ -1,6 +1,7 @@
 .speakers-container {
   --row-gap: min(150px, 25vh);
   row-gap: var(--row-gap);
+  padding-top: var(--row-gap);
   padding-bottom: var(--row-gap);
 }
 

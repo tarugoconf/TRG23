@@ -28,7 +28,7 @@
   .ly-document-header {
     grid-column: 1 / 2;
     position: sticky !important;
-    top: calc(5vw + 1em);
+    top: calc(150px + 1em);
   }
   .ly-document-body {
     grid-column: 2 / 4;
