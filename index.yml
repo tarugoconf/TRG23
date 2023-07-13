@@ -120,6 +120,10 @@ partners:
       url: https://www.autentia.com/
       alt: Autentia
       description: Pasión por el desarrollo de software.
+    - img: /img/partners/PRDG_logo_Horizontal_Blue.png
+      url: https://www.paradigmadigital.com/
+      alt: Paradigma
+      description: Tecnología con propósito para mejorar el mundo.
 
 collaborators:
   - img: /img/collaborators/manfred.png
