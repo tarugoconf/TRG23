@@ -126,6 +126,11 @@ partners:
       url: https://www.paradigmadigital.com/
       alt: Paradigma
       description: Tecnología con propósito para mejorar el mundo.
+    - img: /img/partners/stackscale-aire.png
+      url: https://www.stackscale.com/es/
+      alt: Stackscale
+      description: Soluciones de nube privada. Rendimiento predecible, libre de vecinos ruidosos.
+    
 
 collaborators:
   - img: /img/collaborators/manfred.png
