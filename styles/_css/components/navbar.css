@@ -5,7 +5,8 @@
   top: 1rem;
   grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
   align-items: center;
-  padding: 1rem;
+  padding: 0 1rem;
+  min-height: 82px;
   z-index: 4;
   background-color: color-mix(in srgb, var(--color-sepia), transparent 15%);
   backdrop-filter: blur(8px);
