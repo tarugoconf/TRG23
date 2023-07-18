@@ -194,8 +194,15 @@ patrons:
   - title: Juan Carlos Vez Vázquez
     url: https://www.linkedin.com/in/juancarlosvezvazquez/
     img: /img/patrons/juan-carlos.jpeg
-
-
+  - title: Jordi Mon Companys
+    url: https://twitter.com/JordiMonPMM
+    img: /img/patrons/jordi.jpeg
+  - title: Boris Gragera
+    url: https://www.linkedin.com/in/borisgragera/
+    img: /img/patrons/boris.jpeg
+  - title: Francisco José Gómez Rojo
+    url: www.linkedin.com/in/fjgomez/
+    img: /img/patrons/francisco-jose.jpeg
     
 
 tickets:
