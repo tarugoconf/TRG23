@@ -145,6 +145,12 @@ collaborators:
   - img: /img/collaborators/logo_billingham.png
     url: https://www.grupobillingham.com/
     alt: Grupo Billingham
+  - img: /img/collaborators/siteground.png
+    url: https://www.siteground.es/
+    alt: Siteground
+  - img: /img/collaborators/report-logo-metricool-1.png
+    url: https://metricool.com/es/
+    alt: Metricool
 
 patrons:
   title: Mecenas
