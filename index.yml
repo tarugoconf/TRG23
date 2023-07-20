@@ -129,7 +129,19 @@ partners:
     - img: /img/partners/stackscale-aire.png
       url: https://www.stackscale.com/es/
       alt: Stackscale
-      description: Soluciones de nube privada que te dan un rendimiento predecible.
+      description: Soluciones de nube privada que te dan un rendimiento predecible.    
+    - img: /img/partners/stackscale-aire.png
+      url: http://www.avantgardeit.es/
+      alt: Avantgarde
+      description: Ayudamos a empresas que están transformando el mundo a resolver sus necesidades tecnológicas e ir más allá.
+    - img: /img/partners/stackscale-aire.png
+      url: https://www.tinybird.co/
+      alt: Tinybird
+      description: Construye proyectos de software basados en datos de forma sencilla y escalable.
+    - img: /img/partners/stackscale-aire.png
+      url: https://www.eventbrite.es/
+      alt: Eventbrite
+      description: Proveedor Oficial de Ticketing de la TRG.
     
 
 collaborators:
