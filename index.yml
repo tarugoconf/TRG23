@@ -137,6 +137,10 @@ partners:
     - img: /img/partners/tinybird.png
       url: https://www.tinybird.co/
       alt: Tinybird
+      description: El socio tecnológico de referencia en el mercado español.
+    - img: /img/partners/logo_alten.png
+      url: https://alten.es/
+      alt: Alten
       description: Construye proyectos de software basados en datos de forma sencilla y escalable.
     - img: /img/partners/eventbrite_logo.png
       url: https://www.eventbrite.es/
