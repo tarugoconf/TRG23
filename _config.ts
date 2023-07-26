@@ -16,7 +16,9 @@ const site = lume({
     includes: "styles/_css",
   }))
   .use(vento())
-  .use(cms())
+  .use(cms({
+    netlifyIdentity: true,
+  }))
   .ignore("README.md")
   .copy("js")
   .copy("img")
