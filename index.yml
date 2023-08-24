@@ -233,13 +233,12 @@ patrons:
   - title: Francisco José Gómez Rojo
     url: https://www.linkedin.com/in/fjgomez/
     img: /img/patrons/francisco-jose.jpeg
+  - title: Pablo Lara
+    url: https://twitter.com/_pablolc
+    img: /img/patrons/pablo_lara.jpeg
   - title: Jose Luis Cases
     url: http://twitter.com/jlcasesES
     img: /img/patrons/jose-luis-cases.jpeg
- - title: Pablo Lara
-    url: https://twitter.com/_pablolc
-    img: /img/patrons/pablo_lara.jpeg
-    
 
 tickets:
   title: Entradas
