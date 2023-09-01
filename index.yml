@@ -149,6 +149,7 @@ partners:
     - img: /img/partners/logo_540_negro.png
       url: https://www.540deg.com/
       alt: 540
+      description: Desarrollo de software con pragmatismo.
     - img: /img/partners/doit_logo.png
       url: https://www.doit.com/
       alt: DoIT
