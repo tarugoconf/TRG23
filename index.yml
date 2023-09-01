@@ -184,7 +184,7 @@ collaborators:
     url: https://metricool.com/es/
     alt: Metricool
   - img: /img/collaborators/logo_vyootrip.png
-    url: https://www.vyootrip.com/
+    url: https://www.vyootrip.com/trgcon/
     alt: Vyootrip
 
 patrons:
@@ -304,6 +304,9 @@ faq:
     - question:  Soy suscriptor/a de La Bonilista ¿tendré algún tipo de ventaja o descuento?
       answer: |
         Pues sí :) **El 25 de junio**, los suscriptores de [La Bonilista](https://www.bonilista.com/){target=_blank} recibireis instrucciones sobre cómo **acceder desde el mismo 2 de julio a las entradas *early bird***, que son limitadas y cuestan solo 165€. Un día después, —si quedan disponibles— se pondrán a disposición del público general.        
+    - question: ¿Ofrecéis descuentos en viajes y/o hoteles?
+      answer: |
+        Sí, gracias a nuestro partnership con Vyootrip, podéis reservar vuestro viaje y estancia con interesantes descuentos. Tenéis más info en [esta página](https://www.vyootrip.com/trgcon/){target=_blank}.
     - question:  ¿Cómo puedo estar al día de todas las noticias y novedades del evento?
       answer: |
         Tenemos un [Blog](https://tarugoconf.com/blog){target=_blank} donde iremos colgando toda la información relevante, 
