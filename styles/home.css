@@ -343,6 +343,13 @@
     &:hover img {
       filter: none;
     }
+
+    & p {
+      font-size: var(--font-3-size);
+      letter-spacing: var(--font-3-spacing);
+      font-weight: bold;
+      margin-top: 1.5em;
+    }
   }
 
   & hr.dots {
