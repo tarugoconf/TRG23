@@ -22,7 +22,7 @@ menu:
   position: fixed
   items:
     - text: Agenda
-      url: "#contacto"
+      url: "#agenda"
     - text: Speakers
       url: "#speakers"
     - text: Partners
