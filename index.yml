@@ -21,12 +21,12 @@ video:
 menu:
   position: fixed
   items:
-    - text: Contacto
+    - text: Agenda
       url: "#contacto"
-    - text: FAQ
-      url: "#faq"
     - text: Speakers
       url: "#speakers"
+    - text: Partners
+      url: "#partners"
     - text: Blog
       url: "/blog/"
 
@@ -106,10 +106,6 @@ partners:
       url: https://www.panel.es/
       alt: Panel
       description: El cambio empieza en TI.
-    - img: /img/partners/deiser.svg
-      url: https://www.deiser.com/
-      alt: Deiser
-      description: Te ayudamos con tus apps de Atlassian.
     - img: /img/partners/sngular-logo-big.png
       url: https://www.sngular.com/
       alt: SNGULAR
