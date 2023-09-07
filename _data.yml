@@ -4,6 +4,12 @@ metas:
   description: =description
   image: /img/social.jpg
 
-main_cta:
-  text: Comprar entradas
-  url: /tickets/
+menu:
+  position: sticky
+  responsive: true
+  cta:
+    text: Comprar entradas
+    url: /tickets/
+
+mergedKeys:
+  menu: object

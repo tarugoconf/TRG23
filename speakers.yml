@@ -4,9 +4,10 @@ description: >
   Todas los requisitos y ventajas que conlleva ser speaker de la TRG, la
   conferencia sobre diseño, construcción y comercialización de productos y
   servicios digitales más awesómica del mundo.
-menu_local:
-  - text: Las charlas
-    url: "#las-charlas"
+menu:
+  items:
+  - text: Portada
+    url: "/"
   - text: Beneficios
     url: "#beneficios"
   - text: Recursos
@@ -237,7 +238,9 @@ resources:
     - text: El postmortem de la última edición (2022)
       href: https://bonillaware.com/postmortem-tarugo22
     - text: Making-Of de la última edición (2022)
-      href: https://vimeo.com/384584744
+      href: https://vimeo.com/834634746
+    - text: Vídeo-resumen de la Tarugo22 (2022)
+      href: https://vimeo.com/829383642
     - text: Vídeo-resumen de la Tarugo4, primera en La Nave (2019)
       href: https://vimeo.com/384584744
     - text: El postmortem, con todas las cifras de la Tarugo4 (2019)

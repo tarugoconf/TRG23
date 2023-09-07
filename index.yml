@@ -18,15 +18,17 @@ video:
   id: 829383642
   cover: /img/trg22-poster.jpg
 
-menu_local:
-  - text: Contacto
-    url: "#contacto"
-  - text: FAQ
-    url: "#faq"
-  - text: Speakers
-    url: "#speakers"
-  - text: Blog
-    url: "/blog/"
+menu:
+  position: fixed
+  items:
+    - text: Agenda
+      url: "#calendar"
+    - text: Speakers
+      url: "#speakers"
+    - text: Partners
+      url: "#partners"
+    - text: Blog
+      url: "/blog/"
 
 block_speakers:
   title: Speakers
@@ -91,34 +93,101 @@ block_calendar:
 partners:
   title: Partners
   intro: |
-    Estas son las compañías que hacen que todo esto sea posible. Cada una de estas empresas ha decidido apoyarnos para que la Tarugoconf pueda volver a la presencialidad con una mínima seguridad económica y así podamos centrarnos en ofrecer a la Comunidad la calidad y el espíritu de siempre. Si quieres ser parte de este esfuerzo, [consulta nuestras *awesómicas* oportunidades de patrocinio](/sponsors/) ¡graciñas!
+    Estas son las compañías que hacen que todo esto sea posible. Cada una de estas empresas ha decidido apoyarnos para que la TRG pueda contar con una mínima seguridad económica y así podamos centrarnos en ofrecer a la Comunidad la calidad y el espíritu de siempre. Si quieres ser parte de este esfuerzo, [consulta nuestras *awesómicas* oportunidades de patrocinio](https://www.dropbox.com/s/s7u9tmlnipx84zf/TRG23_sponsorship_deck_ES.pdf?dl=0){target=_blank} ¡graciñas!
 
-  # main:
-  #   img: /img/partners/google-for-startups.png
-  #   url: https://campus.co/madrid/
-  #   alt: Google for Startups
-  #   description: Para los que nunca dejan de emprender.
+  main:
+     img: /img/partners/Logo_DEISER_RGB_Positivo_1.svg
+     url: https://www.deiser.com/
+     alt: Deiser
+     description: Impulsamos tu éxito con Atlassian
 
   items:
     - img: /img/partners/panel.png
       url: https://www.panel.es/
       alt: Panel
-      description: Creación Inteligente de software, sistemas y servicios TI.
-    - img: /img/partners/deiser.svg
-      url: https://www.deiser.com/
-      alt: Deiser
-      description: Te ayudamos con tus apps de Atlassian.
+      description: El cambio empieza en TI.
+    - img: /img/partners/sngular-logo-big.png
+      url: https://www.sngular.com/
+      alt: SNGULAR
+      description: Ecosistema global de talento y tecnología.
+    - img: /img/partners/velneo.svg
+      url: https://www.velneo.com/
+      alt: Velneo
+      description: Desarrolla la aplicación que tu empresa necesita.
+    - img: /img/partners/autentia.png
+      url: https://www.autentia.com/
+      alt: Autentia
+      description: Pasión por el desarrollo de software.
+    - img: /img/partners/PRDG_logo_Horizontal_Blue.png
+      url: https://www.paradigmadigital.com/
+      alt: Paradigma
+      description: Tecnología con propósito para mejorar el mundo.
+    - img: /img/partners/stackscale-aire.png
+      url: https://www.stackscale.com/es/
+      alt: Stackscale
+      description: Soluciones de nube privada que te dan un rendimiento predecible.    
+    - img: /img/partners/avantgarde.png
+      url: http://www.avantgardeit.es/
+      alt: Avantgarde
+      description: Ayudamos a empresas que están transformando el mundo a resolver sus necesidades tecnológicas e ir más allá.
+    - img: /img/partners/tinybird.png
+      url: https://www.tinybird.co/
+      alt: Tinybird
+      description: Construye proyectos de software basados en datos de forma sencilla y escalable.
+    - img: /img/partners/logo_alten.png
+      url: https://alten.es/
+      alt: Alten
+      description: Apoyamos a las empresas en sus transformaciones tecnológicas, construyendo juntos el mundo del mañana.
+    - img: /img/partners/cabify-logo-moradul-rgb.png
+      url: https://cabify.com/
+      alt: Cabify
+      description: Cabify es una plataforma de multi-movilidad. Tratamos de mejorar las ciudades reduciendo el uso del vehículo privado.
+    - img: /img/partners/logo_540_negro.png
+      url: https://www.540deg.com/
+      alt: 540
+      description: Desarrollo de software con pragmatismo.
+    - img: /img/partners/doit_logo.png
+      url: https://www.doit.com/
+      alt: DoIT
+      description: The true promise of the cloud with ease, not cost.
+    - img: /img/partners/lanave_logo_footer.png
+      url: https://www.lanavemadrid.com/
+      alt: Ayuntamiento de Madrid
+      description: Ayuntamiento de Madrid.
+    - img: /img/partners/eventbrite_logo.png
+      url: https://www.eventbrite.es/
+      alt: Eventbrite
+      description: Proveedor Oficial de Ticketing de la TRG.
+    
 
 collaborators:
   - img: /img/collaborators/manfred.png
     url: https://www.getmanfred.com/
     alt: Manfred
+  - img: /img/collaborators/google.png
+    url: https://www.campus.co/intl/es_es/madrid/
+    alt: Google for Startups
+  - img: /img/collaborators/logo2_str.png
+    url: https://www.strsistemas.com/
+    alt: STR Sistemas
+  - img: /img/collaborators/logo_billingham.png
+    url: https://www.grupobillingham.com/
+    alt: Grupo Billingham
+  - img: /img/collaborators/siteground.png
+    url: https://www.siteground.es/
+    alt: Siteground
+  - img: /img/collaborators/report-logo-metricool-1.png
+    url: https://metricool.com/es/
+    alt: Metricool
+  - img: /img/collaborators/logo_vyootrip.png
+    url: https://www.vyootrip.com/trgcon/
+    alt: Vyootrip
 
 patrons:
   title: Mecenas
   intro: |
     Estas personas han contribuido con su mecenazgo a que la
-    #tarugo22 sea posible, asegurando la sostenibilidad del evento.
+    #TRG23 sea posible, asegurando la sostenibilidad del evento.
   items:
   - title: Daniel Ramos
     url: https://twitter.com/danielramosl
@@ -126,6 +195,60 @@ patrons:
   - title: David Pardo
     url: https://twitter.com/dei_biz
     img: /img/patrons/davidpardo.jpg
+  - title: Daniel Torres-Burriel
+    url: https://twitter.com/torresburriel
+    img: /img/patrons/torres-burriel.png
+  - title: Guillermo Montoya
+    url: https://twitter.com/Gmfdsr
+    img: /img/patrons/GuillermoTRG_2.jpg
+  - title: Dimas Suarez
+    url: https://massuarez.es/
+    img: /img/patrons/dimas.jpg
+  - title: Fátima Ballesteros
+    url: https://www.linkedin.com/in/fatima-ballesteros-11b1183b/
+    img: /img/patrons/fatima.jpg
+  - title: Alejandro San Nicolás
+    url: https://www.linkedin.com/in/alejandrosnicolas/
+    img: /img/patrons/alejandro.jpg
+  - title: Juán Gil Miqueo
+    url: https://twitter.com/juan_miqueo
+    img: /img/patrons/juan-miqueo.jpeg
+  - title: Roberto Canales
+    url: https://www.linkedin.com/in/rcanales/
+    img: /img/patrons/roberto_canales.jpg
+  - title: Diego Mariño
+    url: https://twitter.com/diegomarino
+    img: /img/patrons/diego-marino.jpeg
+  - title: Jorge Galindo
+    url: https://twitter.com/Jorge__Galindo
+    img: /img/patrons/jorge-galindo.jpeg
+  - title: Jesús López
+    url: https://www.linkedin.com/in/jsulopzs
+    img: /img/patrons/jesus-lopez.jpeg
+  - title: Toño de la Torre
+    url: https://twitter.com/adelatorrefoss
+    img: /img/patrons/tono-de-la-torre.jpeg
+  - title: Juan Carlos Vez Vázquez
+    url: https://www.linkedin.com/in/juancarlosvezvazquez/
+    img: /img/patrons/juan-carlos.jpeg
+  - title: Jordi Mon Companys
+    url: https://twitter.com/JordiMonPMM
+    img: /img/patrons/jordi.jpeg
+  - title: Boris Gragera
+    url: https://www.linkedin.com/in/borisgragera/
+    img: /img/patrons/boris.jpeg
+  - title: Francisco José Gómez Rojo
+    url: https://www.linkedin.com/in/fjgomez/
+    img: /img/patrons/francisco-jose.jpeg
+  - title: Pablo Lara
+    url: https://twitter.com/_pablolc
+    img: /img/patrons/pablo_lara.jpeg
+  - title: Jose Luis Cases
+    url: http://twitter.com/jlcasesES
+    img: /img/patrons/jose-luis-cases.jpeg
+  - title: Daniel López
+    url: http://twitter.com/vomkriege
+    img: /img/patrons/daniel-lopez.jpeg
 
 tickets:
   title: Entradas
@@ -177,6 +300,9 @@ faq:
     - question:  Soy suscriptor/a de La Bonilista ¿tendré algún tipo de ventaja o descuento?
       answer: |
         Pues sí :) **El 25 de junio**, los suscriptores de [La Bonilista](https://www.bonilista.com/){target=_blank} recibireis instrucciones sobre cómo **acceder desde el mismo 2 de julio a las entradas *early bird***, que son limitadas y cuestan solo 165€. Un día después, —si quedan disponibles— se pondrán a disposición del público general.        
+    - question: ¿Ofrecéis descuentos en viajes y/o hoteles?
+      answer: |
+        Sí, gracias a nuestro partnership con Vyootrip, podéis reservar vuestro viaje y estancia con interesantes descuentos. Tenéis más info en [esta página](https://www.vyootrip.com/trgcon/){target=_blank}.
     - question:  ¿Cómo puedo estar al día de todas las noticias y novedades del evento?
       answer: |
         Tenemos un [Blog](https://tarugoconf.com/blog){target=_blank} donde iremos colgando toda la información relevante, 

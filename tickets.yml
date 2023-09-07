@@ -49,7 +49,12 @@ features:
     title: Ventajas exclusivas
     description:
 
-main_cta: null
+menu:
+  cta: null
+  position: static
+  items:
+  - text: Portada
+    url: "/"
 
 buy_cta:
   text_table: Comprar
