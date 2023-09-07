@@ -317,3 +317,49 @@ faq:
         donde encontrarás la información necesaria para contactar con nosotros por múltiples canales.
         </br></br>
         ¡Estaremos encantados de resolverte cualquier duda!
+
+timeline:
+  - day: 26
+    events:
+      - start: "15:30"
+        end: "18:00"
+        type: workshop
+        speaker: cris-busquets
+      - start: "15:30"
+        end: "18:00"
+        type: workshop
+        speaker: manuel-recena
+      - start: "15:30"
+        end: "18:00"
+        type: workshop
+        speaker: pablo-santos
+  - day: 27
+    events:
+      - start: "9:00"
+        end: "10:00"
+        type: org
+        content: Apertura de puertas y acreditación
+      - start: "10:00"
+        end: "10:15"
+        type: event
+        content: "Keynote: un año en tecnología"
+      - start: "10:15"
+        end: "11:00"
+        type: conference
+        speaker: isabel-garate
+      - start: "11:00"
+        end: "11:45"
+        type: conference
+        speaker: pablo-santos
+      - start: "11:45"
+        end: "12:00"
+        type: event
+        content: "<strong>Bonga!</strong>"
+      - start: "13:00"
+        end: "13:45"
+        type: conference
+        speaker: sandra-hernandez
+      - start: "13:45"
+        end: "14:30"
+        type: conference
+        speaker: sergio-rodriguez

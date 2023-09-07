@@ -1,0 +1,48 @@
+{{> const data = [];
+
+for (let day of timeline) {
+  const date = `2023-10-${day.day}`
+
+  for (let event of day.events) {
+    const entry = {
+      start: `${date} ${event.start}`,
+      end: `${date} ${event.end}`,
+      className: `is-${event.type}`,
+    };
+
+    const speaker = event.speaker
+      ? search.data(`/speakers/${event.speaker}/`)
+      : undefined;
+
+    switch (event.type) {
+      case "workshop":
+        entry.content = `
+        <a href="${speaker.url}#taller">
+          <strong>${speaker.workshop.title}</strong>
+          por ${speaker?.title}
+        </a>
+        `;
+        break;
+      case "conference":
+        entry.content = `
+        <a href="${speaker.url}#charla">
+          <strong>${speaker.conference.title}</strong>
+          por ${speaker?.title}
+        </a>
+        `;
+        break;
+      case "org":
+        entry.content = `<p>${event.content}</p>`;
+        break;
+      case "event":
+        entry.content = `<p>${event.content}</p>`;
+        break;
+    }
+    
+    data.push(entry);
+  }
+}
+}}
+<section class="home-section is-timeline" id="timeline">
+  <trg-timeline data-events="{{ data |> JSON.stringify |> escape }}"></trg-timeline>
+</section>

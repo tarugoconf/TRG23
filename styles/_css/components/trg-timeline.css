@@ -1,51 +1,84 @@
 trg-timeline {
   display: block;
-  background-color: var(--color-black);
-  padding: 1rem;
+  background-color: var(--color-sepia-dark);
 
   .vis-timeline {
     border: none;
   }
   .vis-item.vis-range {
-    background-color: var(--color-red);
-    border: solid 1px var(--color-black);
-    padding: .5rem;
+    border: none;
     color: white;
     border-radius: var(--border-radius-small);
     font-size: var(--font-1-size);
     letter-spacing: var(--font-1-spacing);
     line-height: var(--line-height-text);
-    box-shadow: 0 1px 5px #0003;
+    box-shadow: 0 0 0 1px #0002;
+    transition: background-color 200ms;
+    min-height: 60px;
+
+    &.is-conference,
+    &.is-workshop {
+      background-color: var(--color-red);
+
+      &:hover {
+        background-color: color-mix(in srgb, var(--color-red), black 20%);
+        box-shadow: 0 1px 2px #0002,
+                    0 2px 4px #0002,
+                    0 4px 8px #0002;
+      }
+    }
+
+    &.is-event {
+      background-color: var(--color-black);
+      padding: .5rem;
+    }
+    &.is-org {
+      background-color: var(--color-white);
+      color: var(--color-black);
+      padding: .5rem;
+    }
 
     &:hover {
       z-index: 2;
     }
-
+    & p {
+      white-space: break-spaces;
+      margin: 0;
+    }
     & strong {
       display: block;
       white-space: break-spaces;
     }
     & a {
       color: inherit;
+      display: block;
+      text-decoration: none;
+      padding: .5rem;
     }
   }
   .vis-time-axis {
     .vis-grid.vis-minor {
       border: none;
-      border-left: solid 1px #fff2;
+      border-left: solid 1px var(--color-sepia);
     }
     .vis-text {
-      padding: .5rem;
+      padding: .5rem 0;
       font-size: var(--font-0-size);
-      color: var(--color-sepia);
+      color: var(--color-gray);
+      margin-left: -16px;
 
       & > div {
+        margin-left: 16px;
+        padding-left: 16px;
         font-weight: bold;
         font-size: var(--font-1-size);
       }
     }
   }
   .vis-panel.vis-center {
-    border-bottom: solid 1px var(--color-gray);
+    border-bottom: solid 4px var(--color-sepia);
+  }
+  .vis-time-axis.vis-foreground {
+    background-color: var(--color-sepia);
   }
 }
