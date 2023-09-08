@@ -1,9 +1,45 @@
+{{ function workshop (speaker) }}
+  <section class="speaker-conference" id="taller">
+    <header class="speaker-conference-header">
+      <p>
+        <span class="badge is-black">Taller</span>
+        <time class="badge is-white">{{ speaker.workshop.day }}</time>
+      </p>
+
+      <h2 class="text-subtitle">{{ speaker.workshop.title }}</h2>
+    </header>
+
+    <div class="speaker-conference-body text-body">
+      {{ speaker.workshop.description |> md }}
+    </div>
+  </section>
+{{ /function }}
+
+{{ function conference (speaker) }}
+  <section class="speaker-conference" id="taller">
+    <header class="speaker-conference-header">
+      <p>
+        <span class="badge">Charla</span>
+        <time class="badge is-white">{{ speaker.conference.day }}</time>
+      </p>
+
+      <h2 class="text-subtitle">{{ speaker.conference.title }}</h2>
+    </header>
+
+    <div class="speaker-conference-body text-body">
+      {{ speaker.conference.description |> md }}
+    </div>
+  </section>
+{{ /function }}
+
 {{> const data = [];
+let id = 0;
 
 for (let day of timeline) {
   const date = `2023-10-${day.day}`
 
   for (let event of day.events) {
+    id++;
     const entry = {
       start: `${date} ${event.start}`,
       end: `${date} ${event.end}`,
@@ -17,18 +53,30 @@ for (let day of timeline) {
     switch (event.type) {
       case "workshop":
         entry.content = `
-        <a href="${speaker.url}#taller">
-          <strong>${speaker.workshop.title}</strong>
+        <button onclick="document.getElementById('dialog-${id}').showModal()">
+          <strong>${speaker.workshop.title}</strong><br>
           por ${speaker?.title}
-        </a>
-        `;
+        </button>
+        <dialog id="dialog-${id}" class="timeline-modal">
+          <button class="timeline-modal-close" onclick="document.getElementById('dialog-${id}').close()" aria-label="Close">
+            <img src="/img/icons/x.svg">
+          </button>
+          ${workshop(speaker)}
+        </dialog>
+        `
         break;
       case "conference":
         entry.content = `
-        <a href="${speaker.url}#charla">
-          <strong>${speaker.conference.title}</strong>
+        <button onclick="document.getElementById('dialog-${id}').showModal()">
+          <strong>${speaker.conference.title}</strong><br>
           por ${speaker?.title}
-        </a>
+        </button>
+        <dialog id="dialog-${id}" class="timeline-modal">
+          <button class="timeline-modal-close" onclick="document.getElementById('dialog-${id}').close()" aria-label="Close">
+            <img src="/img/icons/x.svg">
+          </button>
+          ${conference(speaker)}
+        </dialog>
         `;
         break;
       case "org":
