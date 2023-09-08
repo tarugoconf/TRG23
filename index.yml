@@ -320,6 +320,7 @@ faq:
 
 timeline:
   - day: 26
+    title: Jueves 26
     events:
       - start: "15:30"
         end: "18:00"
@@ -334,6 +335,7 @@ timeline:
         type: workshop
         speaker: pablo-santos
   - day: 27
+    title: Viernes 27
     events:
       - start: "9:00"
         end: "10:00"
@@ -363,3 +365,10 @@ timeline:
         end: "14:30"
         type: conference
         speaker: sergio-rodriguez
+  - day: 28
+    title: Sábado 28
+    events: 
+      - start: "11:00"
+        end: "18:00"
+        type: event
+        content: "<strong>Community Day</strong>"

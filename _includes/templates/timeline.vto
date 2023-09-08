@@ -32,65 +32,80 @@
   </section>
 {{ /function }}
 
-{{> const data = [];
-let id = 0;
+<trg-tabs role="region" class="home-section is-timeline">
+  <ul role="tablist">
+    {{ for index, day of timeline }}
+    {{ set date = `2023-10-${day.day}` }}
+    <li role="presentation">
+      <a href="#timeline-{{ date }}" role="tab" id="timeline-{{ date }}-link" {{ if index == 0}}aria-selected="true"{{ /if }}>
+        {{ day.title }}
+      </a>
+    </li>
+    {{ /for }}
+  </ul>
 
-for (let day of timeline) {
-  const date = `2023-10-${day.day}`
+  {{ for day of timeline }}
+    {{ set data = [] }}
+    {{ set date = `2023-10-${day.day}` }}
 
-  for (let event of day.events) {
-    id++;
-    const entry = {
-      start: `${date} ${event.start}`,
-      end: `${date} ${event.end}`,
-      className: `is-${event.type}`,
-    };
+    {{ for index, event of day.events }}
 
-    const speaker = event.speaker
-      ? search.data(`/speakers/${event.speaker}/`)
-      : undefined;
+      {{> const entry = {
+        start: `${date} ${event.start}`,
+        end: `${date} ${event.end}`,
+        className: `is-${event.type}`,
+      };
+      }}
 
-    switch (event.type) {
-      case "workshop":
-        entry.content = `
-        <button onclick="document.getElementById('dialog-${id}').showModal()">
-          <strong>${speaker.workshop.title}</strong><br>
-          por ${speaker?.title}
-        </button>
-        <dialog id="dialog-${id}" class="timeline-modal">
-          <button class="timeline-modal-close" onclick="document.getElementById('dialog-${id}').close()" aria-label="Close">
-            <img src="/img/icons/x.svg">
-          </button>
-          ${workshop(speaker)}
-        </dialog>
-        `
-        break;
-      case "conference":
-        entry.content = `
-        <button onclick="document.getElementById('dialog-${id}').showModal()">
-          <strong>${speaker.conference.title}</strong><br>
-          por ${speaker?.title}
-        </button>
-        <dialog id="dialog-${id}" class="timeline-modal">
-          <button class="timeline-modal-close" onclick="document.getElementById('dialog-${id}').close()" aria-label="Close">
-            <img src="/img/icons/x.svg">
-          </button>
-          ${conference(speaker)}
-        </dialog>
-        `;
-        break;
-      case "org":
-        entry.content = `<p>${event.content}</p>`;
-        break;
-      case "event":
-        entry.content = `<p>${event.content}</p>`;
-        break;
-    }
-    
-    data.push(entry);
-  }
-}
-}}
-<section class="home-section is-timeline" id="timeline">
-  <trg-timeline data-events="{{ data |> JSON.stringify |> escape }}"></trg-timeline>
-</section>
+      {{ set speaker = event.speaker
+        ? search.data(`/speakers/${event.speaker}/`)
+        : undefined
+      }}
+
+      {{ set id = `${day}-${index}` }}
+
+      {{> switch (event.type) {
+          case "workshop":
+            entry.content = `
+            <button onclick="document.getElementById('dialog-${id}').showModal()">
+              <strong>${speaker.workshop.title}</strong><br>
+              por ${speaker?.title}
+            </button>
+            <dialog id="dialog-${id}" class="timeline-modal">
+              <button class="timeline-modal-close" onclick="document.getElementById('dialog-${id}').close()" aria-label="Close">
+                <img src="/img/icons/x.svg">
+              </button>
+              ${workshop(speaker)}
+            </dialog>
+            `
+            break;
+          case "conference":
+            entry.content = `
+            <button onclick="document.getElementById('dialog-${id}').showModal()">
+              <strong>${speaker.conference.title}</strong><br>
+              por ${speaker?.title}
+            </button>
+            <dialog id="dialog-${id}" class="timeline-modal">
+              <button class="timeline-modal-close" onclick="document.getElementById('dialog-${id}').close()" aria-label="Close">
+                <img src="/img/icons/x.svg">
+              </button>
+              ${conference(speaker)}
+            </dialog>
+            `;
+            break;
+          case "org":
+            entry.content = `<p>${event.content}</p>`;
+            break;
+          case "event":
+            entry.content = `<p>${event.content}</p>`;
+            break;
+        }
+        data.push(entry);
+      }}
+    {{ /for }}
+
+    <section id="timeline-{{ date }}" aria-labelledby="timeline-{{ date }}-link" role="tabpanel">
+      <trg-timeline data-starts="{{ date }}" data-events="{{ data |> JSON.stringify |> escape }}"></trg-timeline>
+    </section>
+  {{ /for }}
+</trg-tabs>
