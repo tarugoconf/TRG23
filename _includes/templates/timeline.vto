@@ -44,7 +44,7 @@
     {{ /for }}
   </ul>
 
-  {{ for day of timeline }}
+  {{ for index, day of timeline }}
     {{ set data = [] }}
     {{ set date = `2023-10-${day.day}` }}
 
@@ -62,7 +62,7 @@
         : undefined
       }}
 
-      {{ set id = `${day}-${index}` }}
+      {{ set id = `${date}-${index}` }}
 
       {{> switch (event.type) {
           case "workshop":
