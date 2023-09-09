@@ -341,6 +341,10 @@ timeline:
         end: "10:00"
         type: org
         content: Apertura de puertas y acreditación
+      - start: "11:00"
+        end: "18:00"
+        type: org
+        content: Networking en la zona X
       - start: "10:00"
         end: "10:15"
         type: event

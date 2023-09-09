@@ -36,15 +36,17 @@ trg-timeline {
 
     &.is-conference,
     &.is-workshop {
-      background-color: var(--color-red);
+      background-color: var(--color-white);
+      color: var(--color-black);
     }
 
     &.is-event {
       background-color: var(--color-black);
     }
     &.is-org {
-      background-color: var(--color-white);
+      background-color: var(--color-sepia);
       color: var(--color-black);
+      box-shadow: none;
     }
 
     &:hover {
@@ -82,7 +84,14 @@ trg-timeline {
   .vis-time-axis.vis-foreground {
     background-color: var(--color-sepia);
   }
+
+  .vis-custom-time {
+    color: var(--color-red);
+    background-color: currentColor;
+    box-shadow: 0 0 8px #0003;
+  }
 }
+
 
 .timeline-modal {
   width: 800px;

@@ -289,6 +289,10 @@
   border-radius: var(--border-radius);
   border: solid 1px var(--color-gray-xlight);
   margin: 0;
+
+  & ul {
+    padding-left: 1em;
+  }
 }
 
 .home-section.is-patron {

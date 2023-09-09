@@ -4,10 +4,18 @@ class TRGTimeline extends HTMLElement {
   connectedCallback() {
     const data = JSON.parse(this.dataset.events);
     const items = new DataSet(data);
-    const start = new Date(data[0].start);
-    start.setTime(start.getTime() - 1000 * 60 * 15);
+    const first = new Date(data[0].start);
+    const hours = window.innerWidth / 400;
+
+    // Fake now
+    const now = new Date();
+    now.setDate(first.getDate());
+    now.setMonth(first.getMonth());
+    now.setFullYear(first.getFullYear());
+
+    const start = new Date(now);
+    start.setTime(now.getTime() - 1000 * 60 * 60 * (hours / 2));
     const end = new Date(start);
-    const hours = window.innerWidth / 400; // 1 hour every 400px
     end.setTime(start.getTime() + 1000 * 60 * 60 * hours);
     const options = {
       zoomable: false,
@@ -15,7 +23,7 @@ class TRGTimeline extends HTMLElement {
       end,
       height: 400,
       groupHeightMode: "fixed",
-      order: (a, b) => a.start.getTime() - b.start.getTime(),
+      // order: (a, b) => a.start.getTime() - b.start.getTime(),
       orientation: {
         axis: "top",
         item: "top",
@@ -24,10 +32,12 @@ class TRGTimeline extends HTMLElement {
       xss: {
         disabled: true,
       },
+      stackSubgroups: true,
       showMajorLabels: false,
     };
 
     this.timeline = new Timeline(this, items, options);
+    this.timeline.addCustomTime(now);
   }
 }
 

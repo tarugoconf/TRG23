@@ -68,6 +68,7 @@
           case "workshop":
             entry.content = `
             <button onclick="document.getElementById('dialog-${id}').showModal()">
+              <span class="badge is-black">Taller</span>
               <strong>${speaker.workshop.title}</strong><br>
               por ${speaker?.title}
             </button>
@@ -82,6 +83,7 @@
           case "conference":
             entry.content = `
             <button onclick="document.getElementById('dialog-${id}').showModal()">
+              <span class="badge">Charla</span>
               <strong>${speaker.conference.title}</strong><br>
               por ${speaker?.title}
             </button>
