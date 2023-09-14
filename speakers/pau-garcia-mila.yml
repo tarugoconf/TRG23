@@ -7,6 +7,9 @@ company:
   url: https://founderz.com/es
 img: /img/speakers/pau.png
 links:
+  - text: Twitter
+    icon: /img/icons/twitter-logo-duotone.svg
+    url: https://twitter.com/pau
   - text: Linkedin
     icon: /img/icons/linkedin-logo-duotone.svg
     url: https://www.linkedin.com/in/paugarciamila/
