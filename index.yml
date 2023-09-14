@@ -150,6 +150,10 @@ partners:
       url: https://www.doit.com/
       alt: DoIT
       description: The true promise of the cloud with ease, not cost.
+    - img: /img/partners/devengo-logo.png
+      url: https://devengo.com/
+      alt: Devengo
+      description: Incorpora pagos en tiempo real en tus productos para crear experiencias extraordinarias.
     - img: /img/partners/lanave_logo_footer.png
       url: https://www.lanavemadrid.com/
       alt: Ayuntamiento de Madrid
