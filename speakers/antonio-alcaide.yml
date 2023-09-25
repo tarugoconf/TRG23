@@ -1,0 +1,19 @@
+title: Antonio Alcaide
+id: antonio
+role: Director Técnico
+order: 1
+company:
+  name: Aurora Intelligent Nutrition
+  url: https://www.aurorainutrition.com/es/
+img: /img/speakers/antonio-alcaide.png
+links:
+  - text: Linkedin
+    icon: /img/icons/linkedin-logo-duotone.svg
+    url: https://www.linkedin.com/in/antonio-alcaide-molina-b39b3469/
+bio: |
+  Antonio es tecnólogo de los alimentos, biólogo y Doctor en Farmacia, cuenta además con un máster en Genética Molecular y Biotecnología. Después de una etapa de investigación en el ámbito universitario, dio el salto a la industria alimentaria donde aplica sus conocimientos en proyectos de I+D y la búsqueda de nuevas oportunidades de desarrollo de productos que respondan a las nuevas necesidades de los consumidores.
+conference:
+  title: Del polvorón al snack de proteína de insecto
+  day: Viernes 27
+  description: |
+    En esta charla, Antonio nos explicará cómo la inversión en I+D llevó pequeña fábrica local de algo tan cercano y —aparentemente, artesanal— como un polvorón, a exportar millones de euros siendo fiel a sus valores, sin tener que abandonar sus orígenes y generando un verdadero impacto económico y social en su entorno.
