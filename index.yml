@@ -266,6 +266,12 @@ patrons:
   - title: Álvaro Amor
     url: https://www.linkedin.com/in/alvaroamor/
     img: /img/patrons/alvaro-amor.jpeg
+  - title: Elisardo González
+    url: https://twitter.com/odrasile
+    img: /img/patrons/elisardo.jpg
+  - title: Guillermo de Haro
+    url: https://www.linkedin.com/in/guillermodeharo/
+    img: /img/patrons/guillermo-de-haro.jpeg
 
 tickets:
   title: Entradas
