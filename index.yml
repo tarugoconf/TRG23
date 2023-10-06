@@ -9,10 +9,8 @@ about:
     de La Bonilista, con la idea de crear la mejor conferencia técnica del mundo (o, al menos, la más divertida).
 
   cta:
-    text: Descarga el deck de patrocinio
-    url: https://www.dropbox.com/s/s7u9tmlnipx84zf/TRG23_sponsorship_deck_ES.pdf?dl=0
-    footer: |
-      [Do you want to read it in English?](https://www.dropbox.com/s/5z5fzh5gjaz43px/TRG23_sponsorship_deck_EN.pdf?dl=0){target=_blank}
+    text: Comprar últimas entradas
+    url: /tickets/
 
 video:
   id: 829383642
@@ -34,6 +32,36 @@ block_speakers:
   title: Speakers
   intro: |
     El «speaker» o ponente de la TRGCON no nace, [SE HACE](/speakers/). Estos son los awesómicos invitados con los que contaremos este año:
+
+block_location:
+  title: ¿Dónde?
+  embed: |
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3040.763262250109!2d-3.698572022579844!3d40.34759737145079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4226dc6a64c46b%3A0x23e1b239d4aea935!2sLa%20Nave!5e0!3m2!1sgl!2ses!4v1696602708281!5m2!1sgl!2ses" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  intro: |
+    Las tres jornadas del evento se celebrarán íntegramente [en La Nave,](https://www.lanavemadrid.com/) un awesómico espacio cubierto que acogerá todas las actividades.
+  address: |
+    ### La nave
+    Calle Cifuentes 5<br>
+    28021 Madrid<br>
+    [lanavemadrid.com](https://www.lanavemadrid.com/)
+  directions:
+    title: ¿Cómo llegar?
+    items:
+      - title: En metro
+        icon: /img/icons/train-simple-duotone.svg
+        description: A 5 minutos andando de la parada [Villaverde Bajo - Cruce](https://www.metromadrid.es/es/linea/linea-3#estacion-355) <span class="badge" style="background:#fdd700;color:#005fa9">Línea 3</span>
+      - title: En tren
+        icon: /img/icons/train-duotone.svg
+        description: A 7 minutos andando de la [estación Puente Alcocer](https://es.wikipedia.org/wiki/Estaci%C3%B3n_de_Puente_Alcocer) <span class="badge" style="background:#fdd700;color:black">Línea C5</span>
+      - title: En taxi
+        icon: /img/icons/taxi-duotone.svg
+        description: |
+          Por teléfono: 123456789<br>
+
+          También puedes llamar desde [Cabify](https://cabify.com/es/pasajeros), [Bold](https://bolt.eu/es-es/cities/madrid/) o [Uber](https://www.uber.com/).
+      - title: En coche
+        icon: /img/icons/car-duotone.svg
+        description: Tienes sitio de sobra para aparcar.
 
 block_calendar:
   title: Agenda

@@ -40,6 +40,33 @@ scripts: /js/home.js
     {{ include "templates/blocks/video.vto" {block: video} }}
   </section>
 
+  <section class="home-section is-location" id="location">
+    {{ include "templates/blocks/header.vto" {block: block_location} }}
+
+    <figure>
+      {{ block_location.embed }}
+
+      <figcaption>
+        <h2>{{ block_location.directions.title }}</h2>
+        <address>
+          <img src="/img/icons/map-pin-duotone.svg" alt="" width="32" height="32">
+          <div>{{ block_location.address |> md }}</div>
+        </address>
+        <ul class="locations">
+        {{ for item of block_location.directions.items }}
+          <li>
+            <img src="{{ item.icon }}" alt="" width="32" height="32">
+            <div>
+              <h3>{{ item.title }}</h3>
+              {{ item.description |> md }}
+            </div>
+          </li>
+        {{ /for }}
+        </ul>
+      </figcaption>
+    </figure>
+  </section>
+
   <section class="home-section is-speakers" id="speakers">
     {{ include "templates/blocks/header.vto" {block: block_speakers} }}
 
