@@ -4,7 +4,7 @@ import postcss from "lume/plugins/postcss.ts";
 import inline from "lume/plugins/inline.ts";
 import metas from "lume/plugins/metas.ts";
 import vento from "lume/plugins/vento.ts";
-import cms from "lume/plugins/netlify_cms.ts";
+import favicon from "lume/plugins/favicon.ts";
 
 const site = lume({
   location: new URL("https://trgcon.com/"),
@@ -16,9 +16,7 @@ const site = lume({
     includes: "styles/_css",
   }))
   .use(vento())
-  .use(cms({
-    netlifyIdentity: true,
-  }))
+  .use(favicon())
   .ignore("README.md")
   .copy("js")
   .copy("img")
