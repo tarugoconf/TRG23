@@ -44,7 +44,13 @@ scripts: /js/home.js
     {{ include "templates/blocks/header.vto" {block: block_location} }}
 
     <figure>
-      {{ block_location.embed }}
+      <div class="location-embed">
+        {{ block_location.embed }}
+
+        {{ if block_location.caption }}
+          {{ block_location.caption |> md }}
+        {{ /if }}
+      </div>
 
       <figcaption>
         <h2>{{ block_location.directions.title }}</h2>
