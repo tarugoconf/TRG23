@@ -10,6 +10,10 @@
   grid-row-gap: 4em;
   justify-content: center;
   text-align: center;
+
+  @media (min-width: 1000px) {
+    justify-content: space-between;
+  }
 }
 .speaker-link {
   flex-direction: column;
