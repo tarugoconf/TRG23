@@ -259,6 +259,8 @@
   align-items: center;
   justify-content: center;
   justify-items: center;
+  border-bottom: solid 2px;
+  padding-bottom: var(--row-gap);
 
   .text-body {
     margin: 1.5rem 0;
@@ -378,6 +380,12 @@
   @media (min-width: 1200px) {
     grid-template-columns: 300px 1fr;
     text-align: left;
+
+    > header {
+      align-self: start;
+      position: sticky;
+      top: 140px;
+    }
   }
 
   .home-section-title {

@@ -103,6 +103,23 @@ scripts: /js/home.js
     </ul>
   </section>
 
+  <section class="home-section is-communityday" id="community-day">
+    <div class="home-section-content">
+      <div class="communityday-text">
+        <h2 class="text-title">{{ community_day.title }}</h2>
+
+        <div class="text-body">
+          {{ community_day.intro |> md }}
+        </div>
+
+        <a href="{{community_day.cta.url}}" role="button" class="has-dotsShadow">
+          <strong>{{ community_day.cta.text }}</strong>
+        </a>
+      </div>
+    </div>
+    <img src="/img/cubo.png" class="communityday-img">
+  </section>
+
   <section class="home-section is-partners" id="partners">
     {{ include "templates/blocks/header.vto" {block: partners} }}
 
@@ -130,23 +147,6 @@ scripts: /js/home.js
     </header>
 
     {{ include "templates/blocks/img-grid.vto" {block: patrons.items, variant: "center"} }}
-  </section>
-
-  <section class="home-section is-communityday" id="community-day">
-    <div class="home-section-content">
-      <div class="communityday-text">
-        <h2 class="text-title">{{ community_day.title }}</h2>
-
-        <div class="text-body">
-          {{ community_day.intro |> md }}
-        </div>
-
-        <a href="{{community_day.cta.url}}" role="button" class="has-dotsShadow">
-          <strong>{{ community_day.cta.text }}</strong>
-        </a>
-      </div>
-    </div>
-    <img src="/img/cubo.png" class="communityday-img">
   </section>
 
   <section class="home-section is-tickets dots" id="tickets">
