@@ -13,6 +13,10 @@
     margin: 0;
   }
 
+  li.is-separated {
+    margin-bottom: .5em;
+  }
+
   @media (max-width: 999px) {
     & ul {
       grid-row: 2;
