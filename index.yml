@@ -120,10 +120,18 @@ block_calendar:
 
             Además, vamos a intentar que haya opciones de restauración variadas y asequibles para todo el mundo. Aquí tienes un pequeño [video de la edición anterior](https://vimeo.com/836780949){target=_blank} para que sepas que puedes esperar.
 
-partners:
-  title: Partners
+  community_day:
+  title: Community day
   intro: |
-    Estas son las compañías que hacen que todo esto sea posible. Cada una de estas empresas ha decidido apoyarnos para que la TRG pueda contar con una mínima seguridad económica y así podamos centrarnos en ofrecer a la Comunidad la calidad y el espíritu de siempre. Si quieres ser parte de este esfuerzo, [consulta nuestras *awesómicas* oportunidades de patrocinio](https://www.dropbox.com/s/s7u9tmlnipx84zf/TRG23_sponsorship_deck_ES.pdf?dl=0){target=_blank} ¡graciñas!
+    El «Día de la Comunidad» es una jornada diseñada para que disfrutar relajadamente, sin una agenda marcada. No solo podrás participar en la TarugOff —nuestro open space— sino también traer a tu familia, amigos y compañeros de trabajo para compartir con ellos un buen rato con todas las actividades que hemos preparado y que disfrutarán por igual, mayores y pequeños.
+  cta:
+    text: Más información
+    url: /community-day/
+
+  partners:
+    title: Partners
+    intro: |
+      Estas son las compañías que hacen que todo esto sea posible. Cada una de estas empresas ha decidido apoyarnos para que la TRG pueda contar con una mínima seguridad económica y así podamos centrarnos en ofrecer a la Comunidad la calidad y el espíritu de siempre. Si quieres ser parte de este esfuerzo, [consulta nuestras *awesómicas* oportunidades de patrocinio](https://www.dropbox.com/s/s7u9tmlnipx84zf/TRG23_sponsorship_deck_ES.pdf?dl=0){target=_blank} ¡graciñas!
 
   main:
      img: /img/partners/Logo_DEISER_RGB_Positivo_1.svg
