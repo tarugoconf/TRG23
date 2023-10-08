@@ -21,8 +21,10 @@ menu:
   items:
     - text: Agenda
       url: "#calendar"
-    - text: "Sábado!"
+    - text: "¡Sábado!"
       url: "/community-day/"
+    - text: "¿Dónde?"
+      url: "#locatio"
     - text: Partners
       url: "#partners"
     - text: FAQ
