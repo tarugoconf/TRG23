@@ -21,12 +21,12 @@ menu:
   items:
     - text: Agenda
       url: "#calendar"
-    - text: Speakers
-      url: "#speakers"
+    - text: Sábado!
+      url: "/community-day/"
     - text: Partners
       url: "#partners"
-    - text: Blog
-      url: "/blog/"
+    - text: FAQ
+      url: "#faq"
 
 block_speakers:
   title: Speakers
