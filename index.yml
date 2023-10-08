@@ -24,7 +24,7 @@ menu:
     - text: "¡Sábado!"
       url: "/community-day/"
     - text: "¿Dónde?"
-      url: "#locatio"
+      url: "#location"
     - text: Partners
       url: "#partners"
     - text: FAQ
