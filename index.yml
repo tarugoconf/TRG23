@@ -133,7 +133,7 @@ community_day:
 partners:
   title: Partners
   intro: |
-    Estas son las compañías que hacen que todo esto sea posible. Cada una de estas empresas ha decidido apoyarnos para que la TRG pueda contar con una mínima seguridad económica y así podamos centrarnos en ofrecer a la Comunidad la calidad y el espíritu de siempre. Si quieres ser parte de este esfuerzo, [consulta nuestras *awesómicas* oportunidades de patrocinio](https://www.dropbox.com/s/s7u9tmlnipx84zf/TRG23_sponsorship_deck_ES.pdf?dl=0){target=_blank} ¡graciñas!
+    Estas son las compañías que hacen que todo esto sea posible. Cada una de estas empresas ha decidido apoyarnos para que la TRG pueda contar con una mínima seguridad económica y así podamos centrarnos en ofrecer a la Comunidad la calidad y el espíritu de siempre. Si quieres ser parte de este esfuerzo, en esta o en la edición de 2024, [consulta nuestras *awesómicas* oportunidades de patrocinio](https://www.dropbox.com/s/s7u9tmlnipx84zf/TRG23_sponsorship_deck_ES.pdf?dl=0){target=_blank} ¡graciñas!
 
   main:
      img: /img/partners/Logo_DEISER_RGB_Positivo_1.svg
@@ -355,13 +355,16 @@ contact:
 faq:
   title: What the FAQ?
   questions:
-    - question: ¿Cómo puedo comprar una entrada? 🎟️
+    - question: ¿A quién está dirigido este evento? ¿Es para mi?
       answer: |
-        Puedes comparar todos los tipos de entrada en [esta página](/tickets/) y —si aún quedan disponibles —adquirirlas en [Eventbrite](https://trg23.eventbrite.es){target=_blank}.          
-    - question:  Soy suscriptor/a de La Bonilista ¿tendré algún tipo de ventaja o descuento?
+         Intentamos que la TRG sea un punto de encuentro para gente que hace cosas (o que tiene ganas de hacerlas) en el sector digital. Nos desvivimos para que te sientas como en casa, tanto si tienes un perfil tecnológico como si trabajas en otras disciplinas.         
+    - question:  Soy suscriptor/a de La Bonilista ¿tengo algún tipo de ventaja o descuento?
       answer: |
-        Pues sí :) **El 25 de junio**, los suscriptores de [La Bonilista](https://www.bonilista.com/){target=_blank} recibireis instrucciones sobre cómo **acceder desde el mismo 2 de julio a las entradas *early bird***, que son limitadas y cuestan solo 165€. Un día después, —si quedan disponibles— se pondrán a disposición del público general.        
-    - question: ¿Ofrecéis descuentos en viajes y/o hoteles?
+        Pues sí. Los suscriptores de [La Bonilista](https://www.bonilista.com/){target=_blank} pudistéis **acceder a las entradas *early bird*, de preco reducido, un día antes que el público general**. Se agotaron en 24 horas, así que, os quedásteis con la inmensa mayoría :)
+    - question: ¿Qué es eso del Community Day del sábado? 🎉
+      answer: |
+        Una jornada abierta, a la que podréis traer a familia, compañeros y/o amigos, con un montón de actividades para niños y pequeños. Tenéis mucha más info en [esta página](/community-day/){target=_blank}.
+    - question: ¿Ofrecéis ayuda para gestionar viajes y/o hoteles?
       answer: |
         Sí, gracias a nuestro partnership con Vyootrip, podéis reservar vuestro viaje y estancia con interesantes descuentos. Tenéis más info en [esta página](https://www.vyootrip.com/trgcon/){target=_blank}.
     - question:  ¿Cómo puedo estar al día de todas las noticias y novedades del evento?
@@ -369,6 +372,12 @@ faq:
         Tenemos un [Blog](https://tarugoconf.com/blog){target=_blank} donde iremos colgando toda la información relevante, 
         pero no dejes de seguir [la cuenta en Twitter de la TRG](https://twitter.com/tarugoconf){target=_blank} y, 
         especialmente, el hashtag [#trg23](https://twitter.com/search?q=%23trg23&src=typed_query&f=live){target=_blank}.        
+    - question: ¿Todavía puedo comprar una entrada? 🎟️
+      answer: |
+        Puedes comparar los diferentes tipos de entrada en [esta página](/tickets/). Si aún quedan disponibles, puedes adquirirlas en [Eventbrite](https://trg23.eventbrite.es){target=_blank}. No quedan muchas, la verdad.          
+    - question:  Si mi empresa me paga la entrada ¿Hacéis factura?
+      answer: |
+        Por supuesto. En la TRG, lo único negro es el futuro de David Bonilla como cantante.
     - question: ¿Tenéis Código de Conducta?
       answer: |
         Por supuesto que tenemos [Código de Conducta](/codigo-de-conducta).
