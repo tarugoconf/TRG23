@@ -321,7 +321,7 @@ patrons:
 
 tickets:
   title: Entradas
-  intro: El <i>early bird</i> se agotó en un día, apenas quedan un puñado de entradas.
+  intro: El <i>early bird</i> se agotó en un día. Apenas queda un puñado de entradas ¡Corre!
   cta:
     text: Ver los tipos de entrada
     url: /tickets/
@@ -357,7 +357,7 @@ faq:
   questions:
     - question: ¿Cómo puedo comprar una entrada? 🎟️
       answer: |
-        En la página [Entradas](/tickets/) podrás comparar todos los tipos de entrada y, **a partir del día 2 de julio** podrás adquirirlas en [nuestra página de ticketing en Eventbrite](https://trg23.eventbrite.es){target=_blank}.          
+        Puedes comparar todos los tipos de entrada en [esta página](/tickets/) y —si aún quedan disponibles —adquirirlas en [Eventbrite](https://trg23.eventbrite.es){target=_blank}.          
     - question:  Soy suscriptor/a de La Bonilista ¿tendré algún tipo de ventaja o descuento?
       answer: |
         Pues sí :) **El 25 de junio**, los suscriptores de [La Bonilista](https://www.bonilista.com/){target=_blank} recibireis instrucciones sobre cómo **acceder desde el mismo 2 de julio a las entradas *early bird***, que son limitadas y cuestan solo 165€. Un día después, —si quedan disponibles— se pondrán a disposición del público general.        
