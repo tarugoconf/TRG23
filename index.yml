@@ -321,7 +321,7 @@ patrons:
 
 tickets:
   title: Entradas
-  intro: Las entradas se pondrán a la venta el día 2 de julio a las 11:00h GMT (Galician Mean Time).
+  intro: El <i>early bird</i> se agotó en un día, apenas quedan un puñado de entradas.
   cta:
     text: Ver los tipos de entrada
     url: /tickets/
