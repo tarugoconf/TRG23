@@ -37,9 +37,9 @@ block_speakers:
 
 block_location:
   title: ¿Dónde?
-  #caption: Powered by ![Extramile](/img/collaborators/extramile.png){height="22" style="vertical-align:top"}
+  caption: Powered by ![Extramile](/img/collaborators/extramile.png){height="22" style="vertical-align:top"}
   embed: |
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3040.763262250109!2d-3.698572022579844!3d40.34759737145079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4226dc6a64c46b%3A0x23e1b239d4aea935!2sLa%20Nave!5e0!3m2!1sgl!2ses!4v1696602708281!5m2!1sgl!2ses" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://tarugo-mapa.appspot.com/" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   intro: |
     Las tres jornadas del evento se celebrarán íntegramente [en La Nave,](https://www.lanavemadrid.com/) un awesómico espacio cubierto que acogerá todas las actividades.
   address: |
