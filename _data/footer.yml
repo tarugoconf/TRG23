@@ -4,6 +4,11 @@ copyright: |
   por Bonillaware SLU.<br>
   Web creada con [Lume](https://lume.land) / [humans.txt](/humans.txt)
 menu:
+- text: <strong>Blog</strong>
+  href: /blog/
+- text: <strong>Community day</strong>
+  href: /community-day/
+  separator: true
 - text: Aviso legal
   href: /aviso-legal/
 - text: Política de privacidad

@@ -1,0 +1,24 @@
+title: Débora Franco
+id: debora
+role: Fundadora y Directora de Negocio
+order: 1
+company:
+  name: Monet Viticultura
+  url: https://monet-ti.com/
+img: /img/speakers/debora-franco.png
+links:
+  - text: Twitter
+    icon: /img/icons/twitter-logo-duotone.svg
+    url: https://twitter.com/debfv7
+  - text: Linkedin
+    icon: /img/icons/linkedin-logo-duotone.svg
+    url: https://www.linkedin.com/in/deborafrancovazquez/
+bio: |
+  Débora es gallega e Ingeniera de Telecomunicaciones. Fue profesora e Ingeniera de Proyecto en la Universidad de Vigo hasta que decidió dar el salto y emprender para desarrollar con otros socios Monet, una plataforma tecnológica que ayuda a bodegueros de todo el mundo a cuidar sus viñedos y optimizar la cosecha de los mismos.
+conference:
+  title: Software que no se ejecuta en una nube sino en una viña
+  day: Viernes 27
+  description: |
+    Hoy por hoy, es mucho más probable que encuentres una aplicación de Inteligencia Artificial en una plantación que en una oficina. Sin embargo, esta es una realidad desconocida para la inmensa mayoría de la Comunidad ténica. En esta charla aprenderás las peculiaridades de un sector tan relevante economicamente como ignorado por los grandes fabricantes de software.
+    
+    Conoceremos el estado de la digitalización del campo, intentaremos acabar con falsos prejuicios sobre el mismo y las lecciones aprendidas —técnicas y de negocio— al trabajar para el mismo. Y es que, cuando desarrollas soluciones informáticas para el sector agroalimentario, lo más probable es que despliegues tu código en una granja de verdad antes que en una granja de servidores, con todo lo que eso implica.

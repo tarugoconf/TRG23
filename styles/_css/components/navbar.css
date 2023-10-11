@@ -94,7 +94,7 @@
   }
 }
 .navbar.is-responsive {
-  @media (max-width: 1200px) {
+  @media (max-width: 1280px) {
     .navbar-menu {
       position: absolute;
       flex-direction: column;
@@ -116,7 +116,7 @@
   }
 }
 body:not(.has-navbar-open) .navbar.is-responsive {
-  @media (max-width: 1200px) {
+  @media (max-width: 1280px) {
     .navbar-menu {
       display: none;
     }

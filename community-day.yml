@@ -3,7 +3,7 @@ title: 🎉 Community day
 
 menu:
   items:
-  - text: Portada
+  - text: Home
     url: /
   - text: FAQ
     url: "#faq"
@@ -11,7 +11,7 @@ menu:
 header:
   title: 🎉<br>Community Day
   intro: >
-    Después de la intensidad del viernes, el **sábado 28 de octubre —a partir de las 11:00h—** celebraremos el «Día de la Comunidad», una jornada diseñada para que disfrutar relajadamente, sin agenda marcada. No solo podrás participar en la TarugOff —nuestro *open space*— sino también **traer a tu familia, amigos y compañeros de trabajo** para compartir con ellos un buen rato con todas las actividades que hemos preparado y que disfrutarán por igual, mayores y pequeños.<br><br>Aquí tienes [un video-resumen de la edición anterior](https://vimeo.com/836780949) para que sepas que puedes esperar.
+    Después de la intensidad del viernes, el **sábado 28 de octubre —a partir de las 11:00h—** celebraremos el «Día de la Comunidad», una jornada diseñada para que disfrutar relajadamente, sin agenda marcada. No solo podrás participar en la TarugOff —nuestro *open space*— sino también **traer a tu familia, amigos y compañeros de trabajo** para compartir con ellos un buen rato con todas las actividades que hemos preparado y que disfrutarán por igual grandes y pequeños.<br><br>Aquí tienes [un video-resumen de la edición anterior](https://vimeo.com/836780949) para que sepas que puedes esperar.
 
 activities:
   tags:
@@ -34,7 +34,7 @@ activities:
         - mayor
     - title: Set de podcasting
       description: Podrás participar en la grabación en directo de algunos de tus
-        podcast favoritos como [Code on the Rocks](http://codeontherocks.fm/){target=_blank} o [Realworld](https://www.runroom.com/ca/realworld/podcast-realworld-todos-los-episodios){target=_blank}.
+        podcast favoritos como [Code on the Rocks](http://codeontherocks.fm/){target=_blank}.
       img: /img/community-day/TRG23_coderocks.png
       tags:
         - mayor
@@ -79,14 +79,12 @@ activities:
       img: /img/community-day/peques_pixelados2.jpg
       tags:
         - peque
-    - title: Taller de iniciación al ajedrez
-      description: Grandes y pequeños aprenderán a dar sus primeros pasos en el mundo
-        del ajedrez, impartido por el ex-futbolista Pablo Miñor.
-      img: /img/community-day/TRG23_ajedrez.jpeg
+    - title: Lectura y firma de libros de Mara Turing
+      description: Lectura en directo de algunos capítulos de las aventuras de Mara a cargo de su autor, [Javier Padilla](https://twitter.com/elpady){target=_blank}, con un coloquio sobre el proceso creativo de escritura de los libros y firma de los mismos.
+      img: /img/community-day/mara.jpg
       tags:
         - peque
         - joven
-        - mayor
     - title: Taller de dibujo para pequeños grandes artistas
       description: Aprende técnicas básicas de dibujo de la mano de [Hugo Tobio](https://twitter.com/HugoTobio){target=_blank} ¡El
         mismísimo ilustrador de la Bonilista!

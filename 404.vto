@@ -3,8 +3,16 @@ title: 404 - Esta página no existe
 url: /404.html
 ---
 
-<h1>Error 404</h1>
+<main style="padding-top: 10vh">
+  {{
+    include "templates/blocks/header.vto"
+    {
+      block: {
+        is_center: true,
+        subtitle: "Error 404",
+        intro: "**Eres un tarugo**, esta página no existe",
+      }
+    }
+  }}
 
-<p>
-  <strong>Eres un tarugo</strong>,<br> esta página no existe
-</p>
+</main>

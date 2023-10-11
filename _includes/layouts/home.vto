@@ -41,6 +41,39 @@ scripts: /js/home.js
     {{ include "templates/blocks/video.vto" {block: video} }}
   </section>
 
+  <section class="home-section is-location" id="location">
+    {{ include "templates/blocks/header.vto" {block: block_location} }}
+
+    <figure>
+      <div class="location-embed">
+        {{ block_location.embed }}
+
+        {{ if block_location.caption }}
+          {{ block_location.caption |> md }}
+        {{ /if }}
+      </div>
+
+      <figcaption>
+        <h2>{{ block_location.directions.title }}</h2>
+        <address>
+          <img src="/img/icons/map-pin-duotone.svg" alt="" width="32" height="32">
+          <div>{{ block_location.address |> md }}</div>
+        </address>
+        <ul class="locations">
+        {{ for item of block_location.directions.items }}
+          <li>
+            <img src="{{ item.icon }}" alt="" width="32" height="32">
+            <div>
+              <h3>{{ item.title }}</h3>
+              {{ item.description |> md }}
+            </div>
+          </li>
+        {{ /for }}
+        </ul>
+      </figcaption>
+    </figure>
+  </section>
+
   <section class="home-section is-speakers" id="speakers">
     {{ include "templates/blocks/header.vto" {block: block_speakers} }}
 
@@ -71,6 +104,23 @@ scripts: /js/home.js
     </ul>
   </section>
 
+  <section class="home-section is-communityday" id="community-day">
+    <div class="home-section-content">
+      <div class="communityday-text">
+        <h2 class="text-title">{{ community_day.title }}</h2>
+
+        <div class="text-body">
+          {{ community_day.intro |> md }}
+        </div>
+
+        <a href="{{community_day.cta.url}}" role="button" class="has-dotsShadow">
+          <strong>{{ community_day.cta.text }}</strong>
+        </a>
+      </div>
+    </div>
+    <img src="/img/cubo.png" class="communityday-img">
+  </section>
+
   <section class="home-section is-partners" id="partners">
     {{ include "templates/blocks/header.vto" {block: partners} }}
 
@@ -98,23 +148,6 @@ scripts: /js/home.js
     </header>
 
     {{ include "templates/blocks/img-grid.vto" {block: patrons.items, variant: "center"} }}
-  </section>
-
-  <section class="home-section is-communityday" id="community-day">
-    <div class="home-section-content">
-      <div class="communityday-text">
-        <h2 class="text-title">{{ community_day.title }}</h2>
-
-        <div class="text-body">
-          {{ community_day.intro |> md }}
-        </div>
-
-        <a href="{{community_day.cta.url}}" role="button" class="has-dotsShadow">
-          <strong>{{ community_day.cta.text }}</strong>
-        </a>
-      </div>
-    </div>
-    <img src="/img/cubo.png" class="communityday-img">
   </section>
 
   <section class="home-section is-tickets dots" id="tickets">

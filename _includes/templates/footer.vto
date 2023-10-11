@@ -5,7 +5,7 @@
 
   <ul>
     {{ for item of footer.menu }}
-    <li>
+    <li{{ item.separator ? ' class="is-separated"' : "" }}>
         <a href="{{ item.href }}">
             {{ item.text }}
         </a>

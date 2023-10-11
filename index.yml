@@ -9,10 +9,8 @@ about:
     de La Bonilista, con la idea de crear la mejor conferencia técnica del mundo (o, al menos, la más divertida).
 
   cta:
-    text: Descarga el deck de patrocinio
-    url: https://www.dropbox.com/s/s7u9tmlnipx84zf/TRG23_sponsorship_deck_ES.pdf?dl=0
-    footer: |
-      [Do you want to read it in English?](https://www.dropbox.com/s/5z5fzh5gjaz43px/TRG23_sponsorship_deck_EN.pdf?dl=0){target=_blank}
+    text: Comprar últimas entradas
+    url: /tickets/
 
 video:
   id: 829383642
@@ -23,17 +21,51 @@ menu:
   items:
     - text: Agenda
       url: "#calendar"
-    - text: Speakers
-      url: "#speakers"
+    - text: "¡Sábado!"
+      url: "/community-day/"
+    - text: "¿Dónde?"
+      url: "#location"
     - text: Partners
       url: "#partners"
-    - text: Blog
-      url: "/blog/"
+    - text: FAQ
+      url: "#faq"
 
 block_speakers:
   title: Speakers
   intro: |
     El «speaker» o ponente de la TRGCON no nace, [SE HACE](/speakers/). Estos son los awesómicos invitados con los que contaremos este año:
+
+block_location:
+  title: ¿Dónde?
+  caption: Powered by ![Extramile](/img/collaborators/extramile.png){height="22" style="vertical-align:top"}
+  embed: |
+    <iframe src="https://tarugo-mapa.appspot.com/" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  intro: |
+    Las tres jornadas del evento se celebrarán íntegramente [en La Nave,](https://www.lanavemadrid.com/) un awesómico espacio cubierto que acogerá todas las actividades.
+  address: |
+    ### La nave
+    Calle Cifuentes 5<br>
+    28021 Madrid
+
+    [lanavemadrid.com](https://www.lanavemadrid.com/)
+  directions:
+    title: ¿Cómo llegar?
+    items:
+      - title: En metro
+        icon: /img/icons/train-simple-duotone.svg
+        description: A 5 minutos andando de la parada [Villaverde Bajo - Cruce](https://www.metromadrid.es/es/linea/linea-3#estacion-355) <span class="badge" style="background:#fdd700;color:black">Línea 3</span>
+      - title: En tren
+        icon: /img/icons/train-duotone.svg
+        description: A 7 minutos andando de la [estación Puente Alcocer](https://es.wikipedia.org/wiki/Estaci%C3%B3n_de_Puente_Alcocer) <span class="badge" style="background:#fdd700;color:black">Línea C5</span>
+      - title: En taxi
+        icon: /img/icons/taxi-duotone.svg
+        description: |
+          Por teléfono: [915478200](tel:915478200)<br>
+
+          También puedes llamar desde [Cabify](https://cabify.com/es/pasajeros), [Bold](https://bolt.eu/es-es/cities/madrid/) o [Uber](https://www.uber.com/).
+      - title: En coche
+        icon: /img/icons/car-duotone.svg
+        description: Tienes sitio de sobra para aparcar.
 
 block_calendar:
   title: Agenda
@@ -90,10 +122,18 @@ block_calendar:
 
             Además, vamos a intentar que haya opciones de restauración variadas y asequibles para todo el mundo. Aquí tienes un pequeño [video de la edición anterior](https://vimeo.com/836780949){target=_blank} para que sepas que puedes esperar.
 
+community_day:
+  title: Community day
+  intro: |
+    El «Día de la Comunidad» es una jornada diseñada para que disfrutar relajadamente, sin una agenda marcada. No solo podrás participar en la TarugOff —nuestro open space— sino también traer a tu familia, amigos y compañeros de trabajo para compartir con ellos un buen rato con todas las actividades que hemos preparado y que disfrutarán por igual, mayores y pequeños.
+  cta:
+    text: Más información
+    url: /community-day/
+
 partners:
   title: Partners
   intro: |
-    Estas son las compañías que hacen que todo esto sea posible. Cada una de estas empresas ha decidido apoyarnos para que la TRG pueda contar con una mínima seguridad económica y así podamos centrarnos en ofrecer a la Comunidad la calidad y el espíritu de siempre. Si quieres ser parte de este esfuerzo, [consulta nuestras *awesómicas* oportunidades de patrocinio](https://www.dropbox.com/s/s7u9tmlnipx84zf/TRG23_sponsorship_deck_ES.pdf?dl=0){target=_blank} ¡graciñas!
+    Estas son las compañías que hacen que todo esto sea posible. Cada una de estas empresas ha decidido apoyarnos para que la TRG pueda contar con una mínima seguridad económica y así podamos centrarnos en ofrecer a la Comunidad la calidad y el espíritu de siempre. Si quieres ser parte de este esfuerzo, en esta o en la edición de 2024, [consulta nuestras *awesómicas* oportunidades de patrocinio](https://www.dropbox.com/s/s7u9tmlnipx84zf/TRG23_sponsorship_deck_ES.pdf?dl=0){target=_blank} ¡graciñas!
 
   main:
      img: /img/partners/Logo_DEISER_RGB_Positivo_1.svg
@@ -114,7 +154,7 @@ partners:
       url: https://www.velneo.com/
       alt: Velneo
       description: Desarrolla la aplicación que tu empresa necesita.
-    - img: /img/partners/autentia.png
+    - img: /img/partners/Autentia_Izertis_Azul-01.png
       url: https://www.autentia.com/
       alt: Autentia
       description: Pasión por el desarrollo de software.
@@ -122,14 +162,14 @@ partners:
       url: https://www.paradigmadigital.com/
       alt: Paradigma
       description: Tecnología con propósito para mejorar el mundo.
-    - img: /img/partners/stackscale-aire.png
+    - img: /img/partners/Stackscale-GrupoAire-negro.png
       url: https://www.stackscale.com/es/
       alt: Stackscale
       description: Soluciones de nube privada que te dan un rendimiento predecible.    
-    - img: /img/partners/avantgarde.png
-      url: http://www.avantgardeit.es/
-      alt: Avantgarde
-      description: Ayudamos a empresas que están transformando el mundo a resolver sus necesidades tecnológicas e ir más allá.
+    - img: /img/partners/diverger_transparente.png
+      url: https://diverger.ai/
+      alt: Diverger
+      description: Desarrollamos software con IA Generativa y el mejor talento humano.
     - img: /img/partners/tinybird.png
       url: https://www.tinybird.co/
       alt: Tinybird
@@ -145,11 +185,19 @@ partners:
     - img: /img/partners/logo_540_negro.png
       url: https://www.540deg.com/
       alt: 540
-      description: Desarrollo de software con pragmatismo.
+      description: Desarrollo de software de calidad con pragmatismo.
     - img: /img/partners/doit_logo.png
       url: https://www.doit.com/
       alt: DoIT
       description: The true promise of the cloud with ease, not cost.
+    - img: /img/partners/devengo-logo.png
+      url: https://devengo.com/
+      alt: Devengo
+      description: Incorpora pagos en tiempo real en tus productos para crear experiencias extraordinarias.
+    - img: /img/partners/logo_airzone.png
+      url: http://airzonecontrol.com/
+      alt: Airzone
+      description: Desarrollamos hardware y software para reducir el consumo energético de tu casa.
     - img: /img/partners/lanave_logo_footer.png
       url: https://www.lanavemadrid.com/
       alt: Ayuntamiento de Madrid
@@ -176,12 +224,18 @@ collaborators:
   - img: /img/collaborators/siteground.png
     url: https://www.siteground.es/
     alt: Siteground
+  - img: /img/collaborators/extramile.png
+    url: https://extramilecloud.com/
+    alt: Extramile
   - img: /img/collaborators/report-logo-metricool-1.png
     url: https://metricool.com/es/
     alt: Metricool
   - img: /img/collaborators/logo_vyootrip.png
     url: https://www.vyootrip.com/trgcon/
     alt: Vyootrip
+  - img: /img/collaborators/logo_ingka.png
+    url: https://join.ingka.com/
+    alt: INGKA
 
 patrons:
   title: Mecenas
@@ -249,21 +303,28 @@ patrons:
   - title: Daniel López
     url: http://twitter.com/vomkriege
     img: /img/patrons/daniel-lopez.jpeg
+  - title: Ricardo Bartolomé
+    url: https://www.linkedin.com/in/ricardobartolome/
+    img: /img/patrons/ricardo-bartolome.jpeg
+  - title: Álvaro Amor
+    url: https://www.linkedin.com/in/alvaroamor/
+    img: /img/patrons/alvaro-amor.jpeg
+  - title: Elisardo González
+    url: https://twitter.com/odrasile
+    img: /img/patrons/elisardo.jpg
+  - title: Guillermo de Haro
+    url: https://www.linkedin.com/in/guillermodeharo/
+    img: /img/patrons/guillermo-de-haro.jpeg
+  - title: Alejandro Gómez
+    url: https://twitter.com/agomezmoron
+    img: /img/patrons/alejandro_gomez.jpeg
 
 tickets:
   title: Entradas
-  intro: Las entradas se pondrán a la venta el día 2 de julio a las 11:00h GMT (Galician Mean Time).
+  intro: El <i>early bird</i> se agotó en un día. Apenas queda un puñado de entradas ¡Corre!
   cta:
     text: Ver los tipos de entrada
     url: /tickets/
-
-community_day:
-  title: Community day
-  intro: |
-    El «Día de la Comunidad» es una jornada diseñada para que disfrutar relajadamente, sin una agenda marcada. No solo podrás participar en la TarugOff —nuestro open space— sino también traer a tu familia, amigos y compañeros de trabajo para compartir con ellos un buen rato con todas las actividades que hemos preparado y que disfrutarán por igual, mayores y pequeños.
-  cta:
-    text: Más información
-    url: /community-day/
 
 contact:
   title: Contacto
@@ -294,13 +355,16 @@ contact:
 faq:
   title: What the FAQ?
   questions:
-    - question: ¿Cómo puedo comprar una entrada? 🎟️
+    - question: ¿A quién está dirigido este evento? ¿Es para mi?
       answer: |
-        En la página [Entradas](/tickets/) podrás comparar todos los tipos de entrada y, **a partir del día 2 de julio** podrás adquirirlas en [nuestra página de ticketing en Eventbrite](https://trg23.eventbrite.es){target=_blank}.          
-    - question:  Soy suscriptor/a de La Bonilista ¿tendré algún tipo de ventaja o descuento?
+         Intentamos que la TRG sea un punto de encuentro para gente que hace cosas (o que tiene ganas de hacerlas) en el sector digital. Nos desvivimos para que te sientas como en casa, tanto si tienes un perfil tecnológico como si trabajas en otras disciplinas.         
+    - question:  Soy suscriptor/a de La Bonilista ¿tengo algún tipo de ventaja o descuento?
       answer: |
-        Pues sí :) **El 25 de junio**, los suscriptores de [La Bonilista](https://www.bonilista.com/){target=_blank} recibireis instrucciones sobre cómo **acceder desde el mismo 2 de julio a las entradas *early bird***, que son limitadas y cuestan solo 165€. Un día después, —si quedan disponibles— se pondrán a disposición del público general.        
-    - question: ¿Ofrecéis descuentos en viajes y/o hoteles?
+        Pues sí. Los suscriptores de [La Bonilista](https://www.bonilista.com/){target=_blank} pudistéis **acceder a las entradas *early bird*, de precio reducido, un día antes que el público general**. Se agotaron en 24 horas, así que, os quedásteis con la mayoría :)
+    - question: ¿Qué es eso del Community Day del sábado? 🎉
+      answer: |
+        Una jornada abierta, a la que podréis traer a familia, compañeros y/o amigos, con un montón de actividades para grandes y pequeños. Tenéis mucha más info en [esta página](/community-day/){target=_blank}.
+    - question: ¿Ofrecéis ayuda para gestionar viajes y/o hoteles?
       answer: |
         Sí, gracias a nuestro partnership con Vyootrip, podéis reservar vuestro viaje y estancia con interesantes descuentos. Tenéis más info en [esta página](https://www.vyootrip.com/trgcon/){target=_blank}.
     - question:  ¿Cómo puedo estar al día de todas las noticias y novedades del evento?
@@ -308,6 +372,12 @@ faq:
         Tenemos un [Blog](https://tarugoconf.com/blog){target=_blank} donde iremos colgando toda la información relevante, 
         pero no dejes de seguir [la cuenta en Twitter de la TRG](https://twitter.com/tarugoconf){target=_blank} y, 
         especialmente, el hashtag [#trg23](https://twitter.com/search?q=%23trg23&src=typed_query&f=live){target=_blank}.        
+    - question: ¿Todavía puedo comprar una entrada? 🎟️
+      answer: |
+        Puedes comparar los diferentes tipos de entrada en [esta página](/tickets/). Si aún quedan disponibles, puedes adquirirlas en [Eventbrite](https://trg23.eventbrite.es){target=_blank}. No quedan muchas, la verdad.          
+    - question:  Si mi empresa me paga la entrada ¿Hacéis factura?
+      answer: |
+        Por supuesto. En la TRG, lo único negro es el futuro de David Bonilla como cantante.
     - question: ¿Tenéis Código de Conducta?
       answer: |
         Por supuesto que tenemos [Código de Conducta](/codigo-de-conducta).
