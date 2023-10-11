@@ -95,9 +95,10 @@ trg-timeline {
     margin-top: -40px;
     box-sizing: content-box;
   }
-  .vis-labelset .vis-label {
-    padding: 8px;
-    width: 120px;
+  .vis-labelset .vis-label .vis-inner {
+    display: block;
+    padding: 10px;
+    max-width: 100px;
     font-weight: bold;
     color: var(--color-black);
     text-align: right;
@@ -110,60 +111,5 @@ trg-timeline {
     color: var(--color-red);
     background-color: currentColor;
     box-shadow: 0 0 8px #0003;
-  }
-}
-
-
-.timeline-modal {
-  width: 800px;
-  max-width: 100%;
-  border: none;
-  display: grid;
-  row-gap: 1em;
-  background: var(--color-white);
-  color: var(--color-black);
-  padding: min(var(--column-gap), 4rem);
-  border: solid 1px var(--color-gray-xlight);
-  border-radius: var(--border-radius);
-  box-shadow: 0 1px 2px #3333,
-              0 2px 4px #3332,
-              0 4px 8px #3331,
-              0 8px 16px #3331;
-
-  &:not([open]) {
-    display: none;
-  }
-
-  .speaker-conference-header p {
-    display: flex;
-    column-gap: 4px;
-  }
-
-  @media (max-width: 800px) {
-    border-radius: 0;
-    height: 100%;
-    max-height: none;
-  }
-}
-.timeline-modal-close {
-  position: absolute;
-  top: 0;
-  right: 0;
-  border: none;
-  padding: 1rem;
-  border-bottom-left-radius: var(--border-radius);
-
-  & img {
-    width: 32px;
-    height: 32px;
-    display: block;
-  }
-
-  &:hover {
-    background-color: var(--color-gray-xlight);
-  }
-
-  &:focus {
-    outline: 0;
   }
 }

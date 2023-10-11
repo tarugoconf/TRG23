@@ -4,7 +4,9 @@ class TRGTimeline extends HTMLElement {
   connectedCallback() {
     const data = JSON.parse(this.dataset.events);
     const items = new DataSet(data);
-    const groups = this.dataset.groups ? JSON.parse(this.dataset.groups) : undefined;
+    const groups = this.dataset.groups
+      ? JSON.parse(this.dataset.groups)
+      : undefined;
     const first = new Date(data[0].start);
     const hours = window.innerWidth / 400;
 

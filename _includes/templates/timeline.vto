@@ -1,32 +1,54 @@
+{{ function modal (entry) }}
+  <section class="modal-content">
+    <header class="modal-header">
+      {{ if entry.badge }}  
+      <div>
+        <time class="badge">{{ entry.badge }}</time>
+      </div>
+      {{ /if }}
+
+      <h2 class="text-subtitle">{{ entry.title }}</h2>
+
+      {{ if entry.subtitle }}
+        {{ entry.subtitle |> md }}
+      {{ /if }}
+    </header>
+
+    <div class="modal-body text-body">
+      {{ entry.modal |> md }}
+    </div>
+  </section>
+{{ /function }}
+
 {{ function workshop (speaker) }}
-  <section class="speaker-conference" id="taller">
-    <header class="speaker-conference-header">
-      <p>
+  <section class="modal-content">
+    <header class="modal-header">
+      <div>
         <span class="badge is-black">Taller</span>
         <time class="badge is-white">{{ speaker.workshop.day }}</time>
-      </p>
+      </div>
 
       <h2 class="text-subtitle">{{ speaker.workshop.title }}</h2>
     </header>
 
-    <div class="speaker-conference-body text-body">
+    <div class="modal-body text-body">
       {{ speaker.workshop.description |> md }}
     </div>
   </section>
 {{ /function }}
 
 {{ function conference (speaker) }}
-  <section class="speaker-conference" id="taller">
-    <header class="speaker-conference-header">
-      <p>
+  <section class="modal-content">
+    <header class="modal-header">
+      <div>
         <span class="badge">Charla</span>
         <time class="badge is-white">{{ speaker.conference.day }}</time>
-      </p>
+      </div>
 
       <h2 class="text-subtitle">{{ speaker.conference.title }}</h2>
     </header>
 
-    <div class="speaker-conference-body text-body">
+    <div class="modal-body text-body">
       {{ speaker.conference.description |> md }}
     </div>
   </section>
@@ -73,8 +95,8 @@
               <strong>${speaker.workshop.title}</strong><br>
               por ${speaker?.title}
             </button>
-            <dialog id="dialog-${id}" class="timeline-modal">
-              <button class="timeline-modal-close" onclick="document.getElementById('dialog-${id}').close()" aria-label="Close">
+            <dialog id="dialog-${id}" class="modal">
+              <button class="modal-close" onclick="document.getElementById('dialog-${id}').close()" aria-label="Close">
                 <img src="/img/icons/x.svg">
               </button>
               ${workshop(speaker)}
@@ -88,18 +110,37 @@
               <strong>${speaker.conference.title}</strong><br>
               por ${speaker?.title}
             </button>
-            <dialog id="dialog-${id}" class="timeline-modal">
-              <button class="timeline-modal-close" onclick="document.getElementById('dialog-${id}').close()" aria-label="Close">
+            <dialog id="dialog-${id}" class="modal">
+              <button class="modal-close" onclick="document.getElementById('dialog-${id}').close()" aria-label="Close">
                 <img src="/img/icons/x.svg">
               </button>
               ${conference(speaker)}
             </dialog>
             `;
             break;
-          case "org":
-          case "event":
-          case "community":
-            entry.content = `<p>${event.content}</p>`;
+          default:
+            const badge = event.badge ? `<span class="badge">${event.badge}</span>` : "";
+
+            if (event.modal) {
+              entry.content = `
+              <button onclick="document.getElementById('dialog-${id}').showModal()">
+                ${badge}
+                <strong>${event.title}</strong>
+                ${event.subtitle || ""}
+              </button>
+              <dialog id="dialog-${id}" class="modal">
+                <button class="modal-close" onclick="document.getElementById('dialog-${id}').close()" aria-label="Close">
+                  <img src="/img/icons/x.svg">
+                </button>
+                ${modal(event)}
+              </dialog>
+              `;
+            } else {
+              const badge = event.badge ? `<span class="badge">${event.badge}</span>` : "";
+              const title = event.title ? `<strong>${event.title}</strong><br>` : "";
+              
+              entry.content = `${badge} ${title} ${event.subtitle || event.content || "" }`;
+            }
             break;
         }
         data.push(entry);

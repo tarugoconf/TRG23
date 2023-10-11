@@ -396,10 +396,12 @@ timeline:
         end: "18:00"
         type: workshop
         speaker: cris-busquets
+
       - start: "15:30"
         end: "18:00"
         type: workshop
         speaker: manuel-recena
+
       - start: "15:30"
         end: "18:00"
         type: workshop
@@ -411,30 +413,37 @@ timeline:
         end: "10:00"
         type: org
         content: Apertura de puertas y acreditación
+
       - start: "11:00"
         end: "18:00"
         type: org
         content: Networking en la zona X
+
       - start: "10:00"
         end: "10:15"
         type: event
         content: "Keynote: un año en tecnología"
+
       - start: "10:15"
         end: "11:00"
         type: conference
         speaker: isabel-garate
+
       - start: "11:00"
         end: "11:45"
         type: conference
         speaker: pablo-santos
+
       - start: "11:45"
         end: "12:00"
         type: event
         content: "<strong>Bonga!</strong>"
+
       - start: "13:00"
         end: "13:45"
         type: conference
         speaker: sandra-hernandez
+
       - start: "13:45"
         end: "14:30"
         type: conference
@@ -462,111 +471,149 @@ timeline:
         type: community
         content: "Futbolines"
         group: pasillo
+
       - start: "11:00"
         end: "16:00"
         type: community
         content: "Arcades y emuladores"
         group: pasillo
+
       - start: "11:00"
         end: "16:00"
         type: community
         content: "Juegos tradicionales de madera"
         group: pasillo
+
       - start: "11:00"
         end: "16:00"
         type: community
         content: "Scalextrix de 4 pistas"
         group: pasillo
+
       - start: "11:00"
         end: "16:00"
         type: community
         content: "Twister, Jenna, Conecta 4 y Damas GIGANTES"
         group: pasillo
+
       - start: "11:00"
         end: "16:00"
         type: community
         content: "Carrera de LEDs"
         group: pasillo
+
       - start: "11:30"
         end: "12:15"
         type: community
-        content: "Taller de fundamentos de programación para niños con David Bonilla"
+        badge: Taller
+        title: Fundamentos de programación para niños
+        subtitle: con David Bonilla
         group: daruma
+
       - start: "12:45"
         end: "15:28"
         type: community
         content: "Partidas de Juegos de Mesa (Penguin Arilines, Daruma y Tholos) dinamizadas por Jorge Barroso (@flipper83), autor de Daruma"
         group: daruma
+
       - start: "15:30"
         end: "16:30"
         type: community
         content: "Partida en directo de Moneyland"
         group: daruma
+
       - start: "11:15"
         end: "12:43"
         type: community
-        content: "Taller de dibujo para pequeños grandes artistas con Hugo Tobio"
+        badge: Taller
+        title: Dibujo para pequeños grandes artistas
+        subtitle: con Hugo Tobio
         group: aulas
+
       - start: "12:45"
         end: "14:13"
         type: community
-        content: "Taller de Sketchnoting con Javier Alfonso (@oyabun)"
+        badge: Taller
+        title: Sketchnoting
+        subtitle: con Javier Alfonso (@oyabun)
         group: aulas
+
       - start: "14:15"
         end: "15:13"
         type: community
-        content: "Taller de DJs con Guillermo Montoya y Don Robot"
+        badge: Taller
+        title: DJs
+        subtitle: con Guillermo Montoya y Don Robot
         group: aulas
+
       - start: "15:15"
         end: "16:15"
         type: community
         content: "Exhibición de magia informática con Juanto"
         group: aulas
+
       - start: "11:30"
         end: "12:28"
         type: community
-        content: "TARUGOFF Marketplace de ideas"
+        badge: TARUGOFF
+        content: Marketplace de ideas
         group: cafe
+
       - start: "12:30"
         end: "13:28"
         type: community
-        content: "TARUGOFF Sesiones"
+        badge: TARUGOFF
+        content: Sesiones
         group: cafe
+
       - start: "13:30"
         end: "14:30"
         type: community
-        content: "TARUGOFF Sesiones"
+        badge: TARUGOFF
+        content: Sesiones
         group: cafe
+
       - start: "11:00"
         end: "12:45"
         type: community
-        content: "PODCAST Code on the Rocks"
+        badge: Podcast
+        title: Code on the Rocks
         group: escenario
+        modal: |
+          Vamos a grabar un podcast en directo y bla bla bla
+
       - start: "13:00"
         end: "14:00"
         type: community
-        content: "Lectura de las aventuras de Mara Turing, con su autor Javi Padilla"
+        title: Lectura de las aventuras de Mara Turing
+        subtitle: Con su autor Javi Padilla
         group: escenario
+
       - start: "14:15"
         end: "15:45"
         type: community
-        content: "PODCAST Code on the Rocks"
+        badge: Podcast
+        title: Code on the Rocks
         group: escenario
+
       - start: "11:00"
         end: "16:00"
         type: community
         content: "Taller de chapas"
         group: autentia
+
       - start: "11:00"
         end: "16:00"
         type: community
         content: "Ludoteca"
         group: infantil
+
       - start: "11:00"
         end: "16:00"
         type: community
         content: "Pintacaras"
         group: infantil
+
       - start: "11:00"
         end: "16:00"
         type: community

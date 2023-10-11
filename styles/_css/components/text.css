@@ -12,7 +12,7 @@
 }
 .text-subtitle {
   font-size: var(--font-3-size);
-  line-height: var(--line-height-intro);
+  line-height: var(--line-height-medium);
   letter-spacing: var(--font-3-spacing);
   margin: .5em 0 0;
 }

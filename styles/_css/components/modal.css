@@ -1,0 +1,57 @@
+.modal {
+  width: 800px;
+  max-width: 100%;
+  border: none;
+  display: grid;
+  row-gap: 1em;
+  background: var(--color-white);
+  color: var(--color-black);
+  padding: min(var(--column-gap), 4rem);
+  border: solid 1px var(--color-gray-xlight);
+  border-radius: var(--border-radius);
+  box-shadow: 0 1px 2px #3333,
+              0 2px 4px #3332,
+              0 4px 8px #3331,
+              0 8px 16px #3331;
+
+  &:not([open]) {
+    display: none;
+  }
+
+  .modal-header > div {
+    display: flex;
+    column-gap: 4px;
+  }
+  .modal-body {
+    margin-top: 1em;
+  }
+
+  @media (max-width: 800px) {
+    border-radius: 0;
+    height: 100%;
+    max-height: none;
+  }
+}
+
+.modal-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+  padding: 1rem;
+  border-bottom-left-radius: var(--border-radius);
+
+  & img {
+    width: 32px;
+    height: 32px;
+    display: block;
+  }
+
+  &:hover {
+    background-color: var(--color-gray-xlight);
+  }
+
+  &:focus {
+    outline: 0;
+  }
+}

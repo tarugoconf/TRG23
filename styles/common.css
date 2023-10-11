@@ -16,6 +16,7 @@
 @import "components/text.css";
 @import "components/button.css";
 @import "components/badge.css";
+@import "components/modal.css";
 
 @import "blocks/header.css";
 @import "blocks/video.css";
