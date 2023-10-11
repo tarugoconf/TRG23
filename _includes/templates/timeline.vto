@@ -54,6 +54,7 @@
         start: `${date} ${event.start}`,
         end: `${date} ${event.end}`,
         className: `is-${event.type}`,
+        group: event.group,
       };
       }}
 
@@ -96,9 +97,8 @@
             `;
             break;
           case "org":
-            entry.content = `<p>${event.content}</p>`;
-            break;
           case "event":
+          case "community":
             entry.content = `<p>${event.content}</p>`;
             break;
         }
@@ -107,7 +107,12 @@
     {{ /for }}
 
     <section id="timeline-{{ date }}" aria-labelledby="timeline-{{ date }}-link" role="tabpanel">
-      <trg-timeline data-starts="{{ date }}" data-events="{{ data |> JSON.stringify |> escape }}"></trg-timeline>
+      <trg-timeline
+        data-starts="{{ date }}"
+        data-events="{{ data |> JSON.stringify |> escape }}"
+        data-groups="{{ day.groups || "" |> JSON.stringify |> escape }}"
+      >
+      </trg-timeline>
     </section>
   {{ /for }}
 </trg-tabs>

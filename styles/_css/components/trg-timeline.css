@@ -16,7 +16,6 @@ trg-timeline {
       letter-spacing: var(--font-1-spacing);
       line-height: var(--line-height-text);
       transition: background-color 200ms;
-      min-height: 5em;
       padding: .5rem;
       max-width: 100vw;
       white-space: normal;
@@ -31,6 +30,9 @@ trg-timeline {
         &:hover {
           text-decoration: underline;
         }
+      }
+      p {
+        margin: .25em 0;
       }
     }
 
@@ -47,6 +49,10 @@ trg-timeline {
       background-color: var(--color-sepia);
       color: var(--color-black);
       box-shadow: none;
+    }
+    &.is-community {
+      background-color: var(--color-white);
+      color: var(--color-black);
     }
 
     &:hover {
@@ -80,6 +86,21 @@ trg-timeline {
   }
   .vis-panel.vis-center {
     border-bottom: solid 4px var(--color-sepia);
+  }
+  .vis-panel.vis-left {
+    background: var(--color-sepia);
+    box-shadow: 0 0 8px #0003;
+    border: none;
+    border-top: solid 40px var(--color-sepia);
+    margin-top: -40px;
+    box-sizing: content-box;
+  }
+  .vis-labelset .vis-label {
+    padding: 8px;
+    width: 120px;
+    font-weight: bold;
+    color: var(--color-black);
+    text-align: right;
   }
   .vis-time-axis.vis-foreground {
     background-color: var(--color-sepia);
