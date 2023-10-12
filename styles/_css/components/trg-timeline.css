@@ -1,6 +1,6 @@
 trg-timeline {
   display: block;
-  background-color: var(--color-sepia-dark);
+  background-color: color-mix(in srgb, var(--color-sepia), black 5%);
 
   .vis-timeline {
     border: none;
@@ -8,8 +8,10 @@ trg-timeline {
   .vis-item.vis-range {
     border: none;
     color: white;
-    border-radius: 3px;
-    box-shadow: 0 0 0 1px #0002;
+    border-radius: 0;
+    border-bottom: solid 4px var(--color-line);
+    background-color: var(--color-bg, white);
+    color: var(--color-black);
 
     .vis-item-content {
       font-size: var(--font-1-size);
@@ -34,25 +36,6 @@ trg-timeline {
       p {
         margin: .25em 0;
       }
-    }
-
-    &.is-conference,
-    &.is-workshop {
-      background-color: var(--color-white);
-      color: var(--color-black);
-    }
-
-    &.is-event {
-      background-color: var(--color-black);
-    }
-    &.is-org {
-      background-color: var(--color-sepia);
-      color: var(--color-black);
-      box-shadow: none;
-    }
-    &.is-community {
-      background-color: var(--color-white);
-      color: var(--color-black);
     }
 
     &:hover {
@@ -111,5 +94,14 @@ trg-timeline {
     color: var(--color-red);
     background-color: currentColor;
     box-shadow: 0 0 8px #0003;
+  }
+
+  .vis-foreground {
+    > .vis-group {
+      border: none;
+    }
+    /* > .vis-group:nth-child(odd) {
+      background-color: color-mix(in srgb, var(--color-sepia-dark), transparent 60%);
+    } */
   }
 }

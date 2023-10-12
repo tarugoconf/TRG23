@@ -471,36 +471,42 @@ timeline:
         type: community
         content: "Futbolines"
         group: pasillo
+        color: darksalmon
 
       - start: "11:00"
         end: "16:00"
         type: community
         content: "Arcades y emuladores"
         group: pasillo
+        color: darksalmon
 
       - start: "11:00"
         end: "16:00"
         type: community
         content: "Juegos tradicionales de madera"
         group: pasillo
+        color: darksalmon
 
       - start: "11:00"
         end: "16:00"
         type: community
         content: "Scalextrix de 4 pistas"
         group: pasillo
+        color: darksalmon
 
       - start: "11:00"
         end: "16:00"
         type: community
         content: "Twister, Jenna, Conecta 4 y Damas GIGANTES"
         group: pasillo
+        color: darksalmon
 
       - start: "11:00"
         end: "16:00"
         type: community
         content: "Carrera de LEDs"
         group: pasillo
+        color: darksalmon
 
       - start: "11:30"
         end: "12:15"
@@ -509,18 +515,21 @@ timeline:
         title: Fundamentos de programación para niños
         subtitle: con David Bonilla
         group: daruma
+        color: indianred
 
       - start: "12:45"
         end: "15:28"
         type: community
         content: "Partidas de Juegos de Mesa (Penguin Arilines, Daruma y Tholos) dinamizadas por Jorge Barroso (@flipper83), autor de Daruma"
         group: daruma
+        color: indianred
 
       - start: "15:30"
         end: "16:30"
         type: community
         content: "Partida en directo de Moneyland"
         group: daruma
+        color: indianred
 
       - start: "11:15"
         end: "12:43"
@@ -529,6 +538,7 @@ timeline:
         title: Dibujo para pequeños grandes artistas
         subtitle: con Hugo Tobio
         group: aulas
+        color: powderblue
 
       - start: "12:45"
         end: "14:13"
@@ -537,6 +547,7 @@ timeline:
         title: Sketchnoting
         subtitle: con Javier Alfonso (@oyabun)
         group: aulas
+        color: powderblue
 
       - start: "14:15"
         end: "15:13"
@@ -545,12 +556,14 @@ timeline:
         title: DJs
         subtitle: con Guillermo Montoya y Don Robot
         group: aulas
+        color: powderblue
 
       - start: "15:15"
         end: "16:15"
         type: community
         content: "Exhibición de magia informática con Juanto"
         group: aulas
+        color: powderblue
 
       - start: "11:30"
         end: "12:28"
@@ -558,6 +571,7 @@ timeline:
         badge: TARUGOFF
         content: Marketplace de ideas
         group: cafe
+        color: pink
 
       - start: "12:30"
         end: "13:28"
@@ -565,6 +579,7 @@ timeline:
         badge: TARUGOFF
         content: Sesiones
         group: cafe
+        color: pink
 
       - start: "13:30"
         end: "14:30"
@@ -572,6 +587,7 @@ timeline:
         badge: TARUGOFF
         content: Sesiones
         group: cafe
+        color: pink
 
       - start: "11:00"
         end: "12:45"
@@ -579,6 +595,7 @@ timeline:
         badge: Podcast
         title: Code on the Rocks
         group: escenario
+        color: orange
         modal: |
           Vamos a grabar un podcast en directo y bla bla bla
 
@@ -588,6 +605,7 @@ timeline:
         title: Lectura de las aventuras de Mara Turing
         subtitle: Con su autor Javi Padilla
         group: escenario
+        color: orange
 
       - start: "14:15"
         end: "15:45"
@@ -595,28 +613,33 @@ timeline:
         badge: Podcast
         title: Code on the Rocks
         group: escenario
+        color: orange
 
       - start: "11:00"
         end: "16:00"
         type: community
         content: "Taller de chapas"
         group: autentia
+        color: violet
 
       - start: "11:00"
         end: "16:00"
         type: community
         content: "Ludoteca"
         group: infantil
+        color: lightgreen
 
       - start: "11:00"
         end: "16:00"
         type: community
         content: "Pintacaras"
         group: infantil
+        color: lightgreen
 
       - start: "11:00"
         end: "16:00"
         type: community
         content: "Juegos de Conos"
         group: infantil
+        color: lightgreen
 

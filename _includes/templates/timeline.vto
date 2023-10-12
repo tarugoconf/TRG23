@@ -3,7 +3,7 @@
     <header class="modal-header">
       {{ if entry.badge }}  
       <div>
-        <time class="badge">{{ entry.badge }}</time>
+        <time class="badge is-sepia">{{ entry.badge }}</time>
       </div>
       {{ /if }}
 
@@ -59,7 +59,7 @@
     {{ for index, day of timeline }}
     {{ set date = `2023-10-${day.day}` }}
     <li role="presentation">
-      <a href="#timeline-{{ date }}" role="tab" id="timeline-{{ date }}-link" {{ if index == 0}}aria-selected="true"{{ /if }}>
+      <a href="#timeline-{{ date }}" role="tab" id="timeline-{{ date }}-link" {{ if index == 1}}aria-selected="true"{{ /if }}>
         {{ day.title }}
       </a>
     </li>
@@ -75,9 +75,12 @@
       {{> const entry = {
         start: `${date} ${event.start}`,
         end: `${date} ${event.end}`,
-        className: `is-${event.type}`,
         group: event.group,
+        style: `--color-line: ${event.color}`,
       };
+      if (event.color || event.bg) {
+        entry.style = `--color-line: ${event.color}`;
+      }
       }}
 
       {{ set speaker = event.speaker
@@ -119,7 +122,7 @@
             `;
             break;
           default:
-            const badge = event.badge ? `<span class="badge">${event.badge}</span>` : "";
+            const badge = event.badge ? `<span class="badge is-sepia">${event.badge}</span>` : "";
 
             if (event.modal) {
               entry.content = `
@@ -136,7 +139,7 @@
               </dialog>
               `;
             } else {
-              const badge = event.badge ? `<span class="badge">${event.badge}</span>` : "";
+              const badge = event.badge ? `<span class="badge is-sepia">${event.badge}</span>` : "";
               const title = event.title ? `<strong>${event.title}</strong><br>` : "";
               
               entry.content = `${badge} ${title} ${event.subtitle || event.content || "" }`;

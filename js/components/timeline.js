@@ -1,4 +1,5 @@
 import { DataSet, Timeline } from "../deps/timeline.js";
+import today from "./today.js";
 
 class TRGTimeline extends HTMLElement {
   connectedCallback() {
@@ -10,15 +11,19 @@ class TRGTimeline extends HTMLElement {
     const first = new Date(data[0].start);
     const hours = window.innerWidth / 400;
 
+    const inTheEvent = today.getMonth() === first.getMonth() &&
+      today.getFullYear() === first.getFullYear() &&
+      today.getDate() === first.getDate();
+
     // Fake now
-    const now = new Date();
-    now.setDate(first.getDate());
-    now.setMonth(first.getMonth());
-    now.setFullYear(first.getFullYear());
-    now.setHours(15);
+    const now = new Date(today);
+
+    if (!inTheEvent) {
+      now.setTime(first.getTime());
+    }
 
     const start = new Date(now);
-    start.setTime(now.getTime() - 1000 * 60 * 60 * (hours / 2));
+    start.setTime(now.getTime() - 1000 * 60 * 60 * (hours * 0.3));
     const end = new Date(start);
     end.setTime(start.getTime() + 1000 * 60 * 60 * hours);
     const options = {
@@ -27,7 +32,6 @@ class TRGTimeline extends HTMLElement {
       end,
       minHeight: 400,
       groupHeightMode: "fixed",
-      // order: (a, b) => a.start.getTime() - b.start.getTime(),
       orientation: {
         axis: "top",
         item: "top",
@@ -41,7 +45,10 @@ class TRGTimeline extends HTMLElement {
     };
 
     this.timeline = new Timeline(this, items, groups, options);
-    this.timeline.addCustomTime(now);
+
+    if (inTheEvent) {
+      this.timeline.addCustomTime(now);
+    }
   }
 }
 
