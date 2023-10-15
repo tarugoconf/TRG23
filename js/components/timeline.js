@@ -23,7 +23,7 @@ class TRGTimeline extends HTMLElement {
     }
 
     const start = new Date(now);
-    start.setTime(now.getTime() - 1000 * 60 * 60 * (hours * 0.3));
+    start.setTime(start.getTime() - 1000 * 60 * 60 * (hours * 0.3));
     const end = new Date(start);
     end.setTime(start.getTime() + 1000 * 60 * 60 * hours);
     const options = {
@@ -43,7 +43,7 @@ class TRGTimeline extends HTMLElement {
       stackSubgroups: true,
       showMajorLabels: false,
     };
-
+    console.log(start, end);
     this.timeline = new Timeline(this, items, groups, options);
 
     if (inTheEvent) {

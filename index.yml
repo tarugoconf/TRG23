@@ -409,7 +409,7 @@ timeline:
   - day: 27
     title: Viernes 27
     events:
-      - start: "9:00"
+      - start: "09:00"
         end: "10:00"
         type: org
         content: Apertura de puertas y acreditación
