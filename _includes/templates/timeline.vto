@@ -3,7 +3,7 @@
     <header class="modal-header">
       {{ if entry.badge }}  
       <div>
-        <time class="badge is-sepia">{{ entry.badge }}</time>
+        <time class="badge {{ entry.badge_class || 'is-sepia' }}">{{ entry.badge }}</time>
       </div>
       {{ /if }}
 
