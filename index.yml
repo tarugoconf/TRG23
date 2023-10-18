@@ -406,8 +406,8 @@ timeline:
     groups:
       - id: planta1_2
         content: 1ª planta - Sala 2
-      - id: planta1_2
-        content: 1ª planta - Sala 2       
+      - id: planta1_1
+        content: 1ª planta - Sala 1       
       - id: aula2
         content: Planta Baja - Aula 2
       - id: aula5
