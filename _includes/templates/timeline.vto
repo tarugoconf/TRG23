@@ -129,7 +129,7 @@
               <button onclick="document.getElementById('dialog-${id}').showModal()">
                 ${badge}
                 <strong>${event.title}</strong>
-                ${event.subtitle || ""}
+                ${event.subtitle ? `<br>${event.subtitle}` : ""}
               </button>
               <dialog id="dialog-${id}" class="modal">
                 <button class="modal-close" onclick="document.getElementById('dialog-${id}').close()" aria-label="Close">
