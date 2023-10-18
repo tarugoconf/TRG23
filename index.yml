@@ -393,7 +393,9 @@ timeline:
     title: Jueves 26
     groups:
       - id: planta1_2
-        content: 1ª planta - Sala 2      
+        content: 1ª planta - Sala 2
+      - id: planta1_2
+        content: 1ª planta - Sala 2       
       - id: aula2
         content: Planta Baja - Aula 2
       - id: aula5
@@ -401,21 +403,18 @@ timeline:
       - id: planta2
         content: 2ª planta
     events:
-      - start: "15:30"
-        end: "18:00"
+      - start: "16:00"
+        end: "17:30"
         type: event
-        badge: Taller de patrocinador
+        badge: Taller
         badge_class: is-black    
         group: planta1_2
         color: "#FC3165"
-        title: Crear aplicaciones de IA Generativa con LLMs (Grandes modelos de lenguaje)
+        title: FinOps en Cloud, paz mental para CTOs sobre cómo evitar sorpresas en tu factura.
         subtitle: por DOiT        
         modal: |
-          En este taller, eminentemente práctico, vamos a aterrizar el uso de los LLMs en nuestros proyectos. Indagaremos en los fundamentos, buenas prácticas y arquitecturas comunes.</br></br>Desarrollaremos ejemplos prácticos como sistemas Retrieval Augmented Generation, que permiten desarrollar todo tipo de herramientas de consultas sobre datasets de cualquier tipo utilizando IA.</br></br>Repasaremos como utilizar bases de datos vectoriales, LangChain y técnicas como embeddings, 
-          fine tunning, cachés y demás prácticas comunes. Así mismo, indagaremos sobre los diferentes modelos y sus diferentes escenarios de aplicación.</br></br>También veremos algunas herramientas para ayudarnos a generar código y cómo acelerar los desarrollos.</br></br>ENFOQUE:</br></br>
-          * El taller pretende dar una visión práctica de los fundamentos y recomendaciones a la hora de construir aplicaciones profesionales de IA Generativa utilizando diferentes modelos LLMs.
-          * No solo se explicarán los fundamentos, sino que se crearán ejercicios prácticos. 
-          * El objetivo es reforzar los aspectos técnicos recomendados y enseñar técnicas comunes para abordar problemas típicos con estas tecnologías.
+          Un paseo por las mejores técnicas y herramientas para el gobierno y control de costes de tu factura de la nube pública, incluyendo casos reales de éxito.</br>          
+          ¡Todo lo que siempre quisiste saber y nunca te atreviste a preguntar a tu CTO! 
 
       - start: "15:30"
         end: "18:00"
@@ -431,7 +430,7 @@ timeline:
         group: aula2
         color: violet
 
-      - start: "15:30"
+      - start: "16:00"
         end: "18:00"
         type: event
         badge: Taller de patrocinador    
