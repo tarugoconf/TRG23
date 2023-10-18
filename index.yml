@@ -391,28 +391,67 @@ faq:
 timeline:
   - day: 26
     title: Jueves 26
+    groups:
+      - id: planta1_2
+        content: 1ª planta - Sala 2      
+      - id: aula2
+        content: Planta Baja - Aula 2
+      - id: aula5
+        content: Planta Baja - Aula 5
+      - id: planta2
+        content: 2ª planta
     events:
       - start: "15:30"
         end: "18:00"
-        type: workshop
-        speaker: cris-busquets
+        type: event
+        badge: Taller de patrocinador    
+        group: planta1_2
+        color: "#FC3165"
+        title: Crear aplicaciones de IA Generativa con LLMs (Grandes modelos de lenguaje)
+        subtitle: por DOiT        
+        modal: |
+          En este taller, eminentemente práctico, vamos a aterrizar el uso de los LLMs en nuestros proyectos. Indagaremos en los fundamentos, buenas prácticas y arquitecturas comunes.</br></br>Desarrollaremos ejemplos prácticos como sistemas Retrieval Augmented Generation, que permiten desarrollar todo tipo de herramientas de consultas sobre datasets de cualquier tipo utilizando IA.</br></br>Repasaremos como utilizar bases de datos vectoriales, LangChain y técnicas como embeddings, 
+          fine tunning, cachés y demás prácticas comunes. Así mismo, indagaremos sobre los diferentes modelos y sus diferentes escenarios de aplicación.</br></br>También veremos algunas herramientas para ayudarnos a generar código y cómo acelerar los desarrollos.</br></br>ENFOQUE:</br></br>
+          * El taller pretende dar una visión práctica de los fundamentos y recomendaciones a la hora de construir aplicaciones profesionales de IA Generativa utilizando diferentes modelos LLMs.
+          * No solo se explicarán los fundamentos, sino que se crearán ejercicios prácticos. 
+          * El objetivo es reforzar los aspectos técnicos recomendados y enseñar técnicas comunes para abordar problemas típicos con estas tecnologías.
 
       - start: "15:30"
         end: "18:00"
         type: workshop
         speaker: manuel-recena
+        group: planta2
+        color: red
 
       - start: "15:30"
         end: "18:00"
         type: workshop
         speaker: pablo-santos
+        group: aula2
+        color: violet
+
+      - start: "15:30"
+        end: "18:00"
+        type: event
+        badge: Taller de patrocinador    
+        group: aula5
+        color: darkblue
+        title: Crear aplicaciones de IA Generativa con LLMs (Grandes modelos de lenguaje)
+        subtitle: por Diverger        
+        modal: |
+          En este taller, eminentemente práctico, vamos a aterrizar el uso de los LLMs en nuestros proyectos. Indagaremos en los fundamentos, buenas prácticas y arquitecturas comunes.</br></br>Desarrollaremos ejemplos prácticos como sistemas Retrieval Augmented Generation, que permiten desarrollar todo tipo de herramientas de consultas sobre datasets de cualquier tipo utilizando IA.</br></br>Repasaremos como utilizar bases de datos vectoriales, LangChain y técnicas como embeddings, 
+          fine tunning, cachés y demás prácticas comunes. Así mismo, indagaremos sobre los diferentes modelos y sus diferentes escenarios de aplicación.</br></br>También veremos algunas herramientas para ayudarnos a generar código y cómo acelerar los desarrollos.</br></br>ENFOQUE:</br></br>
+          * El taller pretende dar una visión práctica de los fundamentos y recomendaciones a la hora de construir aplicaciones profesionales de IA Generativa utilizando diferentes modelos LLMs.
+          * No solo se explicarán los fundamentos, sino que se crearán ejercicios prácticos. 
+          * El objetivo es reforzar los aspectos técnicos recomendados y enseñar técnicas comunes para abordar problemas típicos con estas tecnologías.
+
   - day: 27
     title: Viernes 27
     events:
       - start: "09:00"
         end: "10:00"
         type: org
-        content: Apertura de puertas y acreditación
+        content: Apertura de puertas y acreditación en La Nave
 
       - start: "11:00"
         end: "18:00"
