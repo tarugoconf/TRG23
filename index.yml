@@ -404,7 +404,8 @@ timeline:
       - start: "15:30"
         end: "18:00"
         type: event
-        badge: Taller de patrocinador    
+        badge: Taller de patrocinador
+        badge_class: is-black    
         group: planta1_2
         color: "#FC3165"
         title: Crear aplicaciones de IA Generativa con LLMs (Grandes modelos de lenguaje)
