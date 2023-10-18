@@ -1,5 +1,6 @@
 import "./components/video.js";
 import "./components/carousel.js";
+import "./components/tab.js";
 
 // Menu
 document.body.addEventListener("click", () => {

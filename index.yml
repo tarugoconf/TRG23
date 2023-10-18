@@ -399,3 +399,298 @@ faq:
         donde encontrarás la información necesaria para contactar con nosotros por múltiples canales.
         </br></br>
         ¡Estaremos encantados de resolverte cualquier duda!
+
+timeline:
+  - day: 26
+    title: Jueves 26
+    groups:
+      - id: planta1_2
+        content: 1ª planta - Sala 2
+      - id: planta1_2
+        content: 1ª planta - Sala 2       
+      - id: aula2
+        content: Planta Baja - Aula 2
+      - id: aula5
+        content: Planta Baja - Aula 5
+      - id: planta2
+        content: 2ª planta
+    events:
+      - start: "16:00"
+        end: "17:30"
+        type: event
+        badge: Taller
+        badge_class: is-black    
+        group: planta1_2
+        color: "#FC3165"
+        title: FinOps en Cloud, paz mental para CTOs sobre cómo evitar sorpresas en tu factura.
+        subtitle: por DOiT        
+        modal: |
+          Un paseo por las mejores técnicas y herramientas para el gobierno y control de costes de tu factura de la nube pública, incluyendo casos reales de éxito.</br>          
+          ¡Todo lo que siempre quisiste saber y nunca te atreviste a preguntar a tu CTO! 
+
+      - start: "15:30"
+        end: "18:00"
+        type: workshop
+        speaker: manuel-recena
+        group: planta2
+        color: red
+
+      - start: "15:30"
+        end: "18:00"
+        type: workshop
+        speaker: pablo-santos
+        group: aula2
+        color: violet
+
+      - start: "16:00"
+        end: "18:00"
+        type: event
+        badge: Taller de patrocinador    
+        group: aula5
+        color: darkblue
+        title: Crear aplicaciones de IA Generativa con LLMs (Grandes modelos de lenguaje)
+        subtitle: por Diverger        
+        modal: |
+          En este taller, eminentemente práctico, vamos a aterrizar el uso de los LLMs en nuestros proyectos. Indagaremos en los fundamentos, buenas prácticas y arquitecturas comunes.</br></br>Desarrollaremos ejemplos prácticos como sistemas Retrieval Augmented Generation, que permiten desarrollar todo tipo de herramientas de consultas sobre datasets de cualquier tipo utilizando IA.</br></br>Repasaremos como utilizar bases de datos vectoriales, LangChain y técnicas como embeddings, 
+          fine tunning, cachés y demás prácticas comunes. Así mismo, indagaremos sobre los diferentes modelos y sus diferentes escenarios de aplicación.</br></br>También veremos algunas herramientas para ayudarnos a generar código y cómo acelerar los desarrollos.</br></br>ENFOQUE:</br></br>
+          * El taller pretende dar una visión práctica de los fundamentos y recomendaciones a la hora de construir aplicaciones profesionales de IA Generativa utilizando diferentes modelos LLMs.
+          * No solo se explicarán los fundamentos, sino que se crearán ejercicios prácticos. 
+          * El objetivo es reforzar los aspectos técnicos recomendados y enseñar técnicas comunes para abordar problemas típicos con estas tecnologías.
+
+  - day: 27
+    title: Viernes 27
+    events:
+      - start: "09:00"
+        end: "10:00"
+        type: org
+        content: Apertura de puertas y acreditación en La Nave
+
+      - start: "11:00"
+        end: "18:00"
+        type: org
+        content: Networking en la zona X
+
+      - start: "10:00"
+        end: "10:15"
+        type: event
+        content: "Keynote: un año en tecnología"
+
+      - start: "10:15"
+        end: "11:00"
+        type: conference
+        speaker: isabel-garate
+
+      - start: "11:00"
+        end: "11:45"
+        type: conference
+        speaker: pablo-santos
+
+      - start: "11:45"
+        end: "12:00"
+        type: event
+        content: "<strong>Bonga!</strong>"
+
+      - start: "13:00"
+        end: "13:45"
+        type: conference
+        speaker: sandra-hernandez
+
+      - start: "13:45"
+        end: "14:30"
+        type: conference
+        speaker: sergio-rodriguez
+  - day: 28
+    title: Sábado 28
+    groups:
+      - id: pasillo
+        content: Pasillo central
+      - id: daruma
+        content: Rincón Daruma
+      - id: aulas
+        content: Aulas
+      - id: cafe
+        content: Cafetería
+      - id: escenario
+        content: Escenario
+      - id: autentia
+        content: Stand Autentia
+      - id: infantil
+        content: Zona infantil
+    events: 
+      - start: "11:00"
+        end: "16:00"
+        type: community
+        content: "Futbolines"
+        group: pasillo
+        color: darksalmon
+
+      - start: "11:00"
+        end: "16:00"
+        type: community
+        content: "Arcades y emuladores"
+        group: pasillo
+        color: darksalmon
+
+      - start: "11:00"
+        end: "16:00"
+        type: community
+        content: "Juegos tradicionales de madera"
+        group: pasillo
+        color: darksalmon
+
+      - start: "11:00"
+        end: "16:00"
+        type: community
+        content: "Scalextrix de 4 pistas"
+        group: pasillo
+        color: darksalmon
+
+      - start: "11:00"
+        end: "16:00"
+        type: community
+        content: "Twister, Jenna, Conecta 4 y Damas GIGANTES"
+        group: pasillo
+        color: darksalmon
+
+      - start: "11:00"
+        end: "16:00"
+        type: community
+        content: "Carrera de LEDs"
+        group: pasillo
+        color: darksalmon
+
+      - start: "11:30"
+        end: "12:15"
+        type: community
+        badge: Taller
+        title: Fundamentos de programación para niños
+        subtitle: con David Bonilla
+        group: daruma
+        color: indianred
+
+      - start: "12:45"
+        end: "15:28"
+        type: community
+        content: "Partidas de Juegos de Mesa (Penguin Arilines, Daruma y Tholos) dinamizadas por Jorge Barroso (@flipper83), autor de Daruma"
+        group: daruma
+        color: indianred
+
+      - start: "15:30"
+        end: "16:30"
+        type: community
+        content: "Partida en directo de Moneyland"
+        group: daruma
+        color: indianred
+
+      - start: "11:15"
+        end: "12:43"
+        type: community
+        badge: Taller
+        title: Dibujo para pequeños grandes artistas
+        subtitle: con Hugo Tobio
+        group: aulas
+        color: powderblue
+
+      - start: "12:45"
+        end: "14:13"
+        type: community
+        badge: Taller
+        title: Sketchnoting
+        subtitle: con Javier Alfonso (@oyabun)
+        group: aulas
+        color: powderblue
+
+      - start: "14:15"
+        end: "15:13"
+        type: community
+        badge: Taller
+        title: DJs
+        subtitle: con Guillermo Montoya y Don Robot
+        group: aulas
+        color: powderblue
+
+      - start: "15:15"
+        end: "16:15"
+        type: community
+        content: "Exhibición de magia informática con Juanto"
+        group: aulas
+        color: powderblue
+
+      - start: "11:30"
+        end: "12:28"
+        type: community
+        badge: TARUGOFF
+        content: Marketplace de ideas
+        group: cafe
+        color: pink
+
+      - start: "12:30"
+        end: "13:28"
+        type: community
+        badge: TARUGOFF
+        content: Sesiones
+        group: cafe
+        color: pink
+
+      - start: "13:30"
+        end: "14:30"
+        type: community
+        badge: TARUGOFF
+        content: Sesiones
+        group: cafe
+        color: pink
+
+      - start: "11:00"
+        end: "12:45"
+        type: community
+        badge: Podcast
+        title: Code on the Rocks
+        group: escenario
+        color: orange
+        modal: |
+          Vamos a grabar un podcast en directo y bla bla bla
+
+      - start: "13:00"
+        end: "14:00"
+        type: community
+        title: Lectura de las aventuras de Mara Turing
+        subtitle: Con su autor Javi Padilla
+        group: escenario
+        color: orange
+
+      - start: "14:15"
+        end: "15:45"
+        type: community
+        badge: Podcast
+        title: Code on the Rocks
+        group: escenario
+        color: orange
+
+      - start: "11:00"
+        end: "16:00"
+        type: community
+        content: "Taller de chapas"
+        group: autentia
+        color: violet
+
+      - start: "11:00"
+        end: "16:00"
+        type: community
+        content: "Ludoteca"
+        group: infantil
+        color: lightgreen
+
+      - start: "11:00"
+        end: "16:00"
+        type: community
+        content: "Pintacaras"
+        group: infantil
+        color: lightgreen
+
+      - start: "11:00"
+        end: "16:00"
+        type: community
+        content: "Juegos de Conos"
+        group: infantil
+        color: lightgreen
+

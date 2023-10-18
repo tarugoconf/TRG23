@@ -1,0 +1,43 @@
+trg-tabs {
+  [role="tabpanel"]:not(:target) {
+    /* display: none; */
+  }
+
+  [role="tablist"] {
+      display: flex;
+      list-style: none;
+      padding: 0;
+      justify-content: center;
+      max-width: max-content;
+      margin: 2em auto;
+
+      > li {
+        
+      }
+
+      >li:first-child a {
+        border-top-left-radius: var(--border-radius);
+        border-bottom-left-radius: var(--border-radius);
+      }
+
+      >li:last-child a {
+        border-top-right-radius: var(--border-radius);
+        border-bottom-right-radius: var(--border-radius);
+      }
+
+      & a {
+        text-decoration: none;
+        font-size: var(--font-2-size);
+        font-weight: bold;
+        display: block;
+        background: var(--color-white);
+        padding: 1rem 1.25em;
+        box-shadow: 0 0 0 1px var(--color-gray-xlight);
+
+        &[aria-selected="true"] {
+          background: var(--color-black);
+          color: var(--color-white);
+        }
+      }
+  }
+}

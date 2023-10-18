@@ -16,4 +16,8 @@
     color: var(--color-gray);
     border: solid 1px var(--color-gray-xlight);
   }
+  &.is-sepia {
+    background: var(--color-sepia-dark);
+    color: var(--color-gray);
+  }
 }

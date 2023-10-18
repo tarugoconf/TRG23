@@ -10,10 +10,13 @@
 @import "components/footer.css";
 @import "components/trg-video.css";
 @import "components/trg-carousel.css";
+@import "components/trg-timeline.css";
+@import "components/trg-tabs.css";
 @import "components/faq.css";
 @import "components/text.css";
 @import "components/button.css";
 @import "components/badge.css";
+@import "components/modal.css";
 
 @import "blocks/header.css";
 @import "blocks/video.css";

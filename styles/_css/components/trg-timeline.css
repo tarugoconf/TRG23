@@ -1,0 +1,107 @@
+trg-timeline {
+  display: block;
+  background-color: color-mix(in srgb, var(--color-sepia), black 5%);
+
+  .vis-timeline {
+    border: none;
+  }
+  .vis-item.vis-range {
+    border: none;
+    color: white;
+    border-radius: 0;
+    border-bottom: solid 4px var(--color-line);
+    background-color: var(--color-bg, white);
+    color: var(--color-black);
+
+    .vis-item-content {
+      font-size: var(--font-1-size);
+      letter-spacing: var(--font-1-spacing);
+      line-height: var(--line-height-text);
+      transition: background-color 200ms;
+      padding: .5rem;
+      max-width: 100vw;
+      white-space: normal;
+
+      & > button {
+        border: none;
+        display: block;
+        padding: 0;
+        text-align: left;
+        line-height: 1.4;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+      p {
+        margin: .25em 0;
+      }
+    }
+
+    &:hover {
+      z-index: 2;
+    }
+  }
+  .vis-time-axis {
+    .vis-grid.vis-minor {
+      border: none;
+      border-left: solid 1px var(--color-sepia);
+    }
+    .vis-text {
+      padding: .5rem 0;
+      font-size: var(--font-0-size);
+      color: var(--color-gray);
+      margin-left: -16px;
+
+      & > div {
+        margin-left: 16px;
+        padding-left: 16px;
+        font-weight: bold;
+        font-size: var(--font-1-size);
+      }
+    }
+  }
+  .vis-item.vis-background {
+    background-color: color-mix(in srgb, var(--color-sepia), transparent 50%);
+    padding: .5rem;
+    font-weight: bold;
+    color: var(--color-gray);
+  }
+  .vis-panel.vis-center {
+    border-bottom: solid 4px var(--color-sepia);
+  }
+  .vis-panel.vis-left {
+    background: var(--color-sepia);
+    box-shadow: 0 0 8px #0003;
+    border: none;
+    border-top: solid 40px var(--color-sepia);
+    margin-top: -40px;
+    box-sizing: content-box;
+  }
+  .vis-labelset .vis-label .vis-inner {
+    display: block;
+    padding: 10px;
+    max-width: 100px;
+    font-weight: bold;
+    color: var(--color-black);
+    text-align: right;
+  }
+  .vis-time-axis.vis-foreground {
+    background-color: var(--color-sepia);
+  }
+
+  .vis-custom-time {
+    color: var(--color-red);
+    background-color: currentColor;
+    box-shadow: 0 0 8px #0003;
+  }
+
+  .vis-foreground {
+    > .vis-group {
+      border: none;
+    }
+    /* > .vis-group:nth-child(odd) {
+      background-color: color-mix(in srgb, var(--color-sepia-dark), transparent 60%);
+    } */
+  }
+}

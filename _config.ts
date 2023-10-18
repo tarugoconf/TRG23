@@ -44,6 +44,18 @@ const site = lume({
   .remoteFile(
     "js/deps/navigation.js",
     "https://unpkg.com/@oom/carousel@4.2.0/src/navigation.js",
+  )
+  .remoteFile(
+    "js/deps/timeline.js",
+    "https://unpkg.com/vis-timeline@7.7.2/standalone/esm/vis-timeline-graph2d.js",
+  )
+  .remoteFile(
+    "js/deps/timeline.css",
+    "https://unpkg.com/vis-timeline@7.7.2/styles/vis-timeline-graph2d.css",
+  )
+  .remoteFile(
+    "js/deps/tab.js",
+    "https://unpkg.com/@oom/tab@1.0.1/src/tab.js",
   );
 
 export default site;

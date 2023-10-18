@@ -38,7 +38,7 @@ styles: /styles/speaker.css
 
     <div class="speaker-conferences">
       {{ if it.workshop }}  
-      <section class="speaker-conference">
+      <section class="speaker-conference" id="taller">
         <header class="speaker-conference-header">
           <p>
             <span class="badge is-black">Taller</span>
@@ -55,7 +55,7 @@ styles: /styles/speaker.css
       {{ /if }}
 
       {{ if it.conference }}  
-      <section class="speaker-conference">
+      <section class="speaker-conference" id="charla">
         <header class="speaker-conference-header">
           <p>
             <span class="badge">Charla</span>
