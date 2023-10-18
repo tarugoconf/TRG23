@@ -122,7 +122,7 @@
             `;
             break;
           default:
-            const badge = event.badge ? `<span class="badge is-sepia">${event.badge}</span>` : "";
+            const badge = event.badge ? `<span class="badge ${event.badge_class||'is-sepia'}">${event.badge}</span>` : "";
 
             if (event.modal) {
               entry.content = `
