@@ -303,6 +303,14 @@
   }
 }
 
+.home-section.is-calendar {
+  grid-column: 1 / -1;
+
+  .block-header {
+    padding: 0 5vw;
+  }
+}
+
 .calendar-days {
   list-style: none;
   margin: 0;

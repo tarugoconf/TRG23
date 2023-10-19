@@ -17,8 +17,6 @@ scripts: /js/home.js
     </div>
   </div>
 
-  {{ include "templates/timeline.vto" }}
-
   <section class="home-section is-about">
     <div class="home-section-content">
       <header>
@@ -87,7 +85,9 @@ scripts: /js/home.js
   <section class="home-section is-calendar" id="calendar">
     {{ include "templates/blocks/header.vto" {block: block_calendar} }}
 
-    <ul class="calendar-days">
+    {{ include "templates/timeline.vto" }}
+
+    {{# <ul class="calendar-days">
       {{ for day of block_calendar.days }}
       <li class="calendar-day">
         <h4>{{ day.title }}</h4>
@@ -101,7 +101,7 @@ scripts: /js/home.js
         </dl>
       </li>
       {{ /for }}
-    </ul>
+    </ul> #}}
   </section>
 
   <section class="home-section is-communityday" id="community-day">
