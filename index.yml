@@ -640,6 +640,29 @@ timeline:
         color: red
         speaker: isabel-garate
 
+      - start: "16:30"
+        end: "16:43"
+        type: event
+        group: auditorio
+        badge: Video
+        badge_class: is-red                  
+        color: red
+        title: "¿Qué saben los Muggles?"        
+        modal: |
+          Nuestros intrépidos reporteros se lanzarán a la calle, micrófono en mano, para averiguar hasta qué punto el público general -sin experiencia técnica- conoce el día a día del sector informático.
+
+      - start: "16:45"
+        end: "17:28"
+        type: conference
+        group: auditorio
+        speaker: debora-franco
+
+      - start: "17:30"
+        end: "18:13"
+        type: conference
+        group: auditorio
+        speaker: pablo-santos
+
       - start: "09:00"
         end: "09:45"
         type: event
@@ -654,7 +677,7 @@ timeline:
         group: pasillo
         title: "☕ Coffe Break"
         modal: |
-          Café, zumo y bolleria, para recuperar fuerzas.
+          Café, snacks y pastitas para llenar las tripitas.</br></br>El intermedio estará amenizado por el DJ residente de la Tarugo -[Don Robot](https://www.youtube.com/watch?v=ltXX9Ab6vuo){target="_blank"}- que cargará el ambiente de ENERGÍA.
 
       - start: "14:30"
         end: "16:30"
@@ -664,37 +687,24 @@ timeline:
         modal: |
             4 *food trucks* con diferentes opciones gastronómicas, además de Anxo —nuestro pulpeiro de O Carballiño— que distribuirá **300 raciones de pulpo *a feira* recien hecho**, y muchas mas cosas distribuidas por las mesas ¡A zampar como si no hubiera mañana!</br></br>
             Y, por supuesto, contaremos con opciones veganas y sin gluten.
+
+      - start: "18:15"
+        end: "19:00"
+        type: event
+        group: pasillo
+        title: "🍪 Merienda"
+        modal: |
+          Café y bollería artesanal para aguantar hasta el final.
       
       - start: "09:00"
-        end: "20:00"
+        end: "20:30"
         type: event
         group: pasillo
         color: darkblue
         title: "Zona de Stands"
         modal: |
-            Una zona llena de sorpresas y actividades donde —un año más— los patrocinadores SE LO HAN CURRADO para aportar valor a todos los asistentes.                  
-
-      - start: "10:15"
-        end: "11:00"
-        type: conference
-        speaker: isabel-garate
-
-      - start: "11:00"
-        end: "11:45"
-        type: conference
-        speaker: pablo-santos
-
-      - start: "11:45"
-        end: "12:00"
-        type: event
-        content: "<strong>Bonga!</strong>"
-
+            Una zona llena de sorpresas y actividades donde —un año más— los patrocinadores SE LO HAN CURRADO para aportar valor a todos los asistentes.
       
-
-      - start: "13:45"
-        end: "14:30"
-        type: conference
-        speaker: sergio-rodriguez
   - day: 28
     title: Sábado 28
     groups:
