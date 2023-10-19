@@ -576,7 +576,8 @@ timeline:
         type: org
         group: escenario
         title: 🤭 Networking  
-        content: La zona frente al escenario, con suelo de madera, está destinada a la gente que está abierta a conocer gente y a que les conozcan ¡ No te cortes y habla con todos!
+        modal: | 
+          La zona frente al escenario, con suelo de madera, está destinada a la gente que está abierta a conocer gente y a que les conozcan ¡ No te cortes y habla con todos!
 
       - start: "20:30"
         end: "22:30"
