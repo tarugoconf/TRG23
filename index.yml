@@ -572,11 +572,19 @@ timeline:
           ¡Acredítate antes que nadie y evita las colas! Trae tu entrada, impresa o en el móvil, y disfruta de todas las actividades y contenido de la TRG ¡Bienvenidos!
 
       - start: "11:00"
-        end: "18:00"
+        end: "20:00"
         type: org
         group: escenario
         title: 🤭 Networking  
         content: La zona frente al escenario, con suelo de madera, está destinada a la gente que está abierta a conocer gente y a que les conozcan ¡ No te cortes y habla con todos!
+
+      - start: "20:30"
+        end: "22:30"
+        type: org
+        group: escenario
+        title: 🥳 Legendaria Fiesta Taruga  
+        modal: |
+          Transformaremos La Nave en una auténtica "Sesión Vermú" con comida y bebida, churros, música y las mejores conversaciones del planeta porque... LA VIDA PUEDE SER MARAVILLOSA.
 
       - start: "10:00"
         end: "10:13"
@@ -655,13 +663,46 @@ timeline:
         end: "17:28"
         type: conference
         group: auditorio
+        color: red
         speaker: debora-franco
 
       - start: "17:30"
         end: "18:13"
         type: conference
         group: auditorio
+        color: red
         speaker: pablo-santos
+
+      - start: "19:00"
+        end: "19:15"
+        type: event
+        group: auditorio
+        badge: Concurso
+        badge_class: is-red                  
+        color: red
+        title: "🎰 La Jerocleta"        
+        modal: |
+          Sorteo de jugosos premios entre todos los que hayan tuiteado con el hashtag [#trg23](https://twitter.com/search?q=trg23&src=typed_query&f=live){target="_blank"}, realizado con la mítica «Jerocleta» de **Jerónimo López**. Sin duda alguna, el software español más utilizado de la historía.</br></br>
+          Cuanto más tuitees, más posibilidades tendrás de ganar.
+
+      - start: "19:17"
+        end: "20:00"
+        type: conference
+        group: auditorio
+        color: red
+        speaker: antonio-alcaide
+
+      - start: "20:02"
+        end: "20:30"
+        type: event
+        group: auditorio
+        badge: Charla
+        badge_class: is-red                  
+        color: red
+        title: "Ajuste de Cuentas"        
+        subtitle: "por David Bonilla"
+        modal: |
+          Como ya es tradición, haremos públicas todas las cifras del evento -fuentes de ingresos, partidas de gastos y cuenta de resultados-, agradeceremos el esfuerzo a todo el equipo de profesionales y voluntarios que lo hacen posible y vislumbraremos qué podemos esperar para el año que viene.
 
       - start: "09:00"
         end: "09:45"
