@@ -548,21 +548,131 @@ timeline:
 
   - day: 27
     title: Viernes 27
+    groups:
+      - id: entrada
+        content: Entrada
+      - id: escenario
+        content: Zona Escenario                  
+      - id: auditorio
+        content: Auditorio
+      - id: pasillo
+        content: Pasillo Central
     events:
       - start: "09:00"
         end: "10:00"
         type: org
         content: Apertura de puertas y acreditación en La Nave
+      
+      - start: "09:00"
+        end: "21:00"
+        type: event                 
+        group: entrada                  
+        title: 🎟️ Apertura de puertas y acreditación de asistentes             
+        modal: |
+          ¡Acredítate antes que nadie y evita las colas! Trae tu entrada, impresa o en el móvil, y disfruta de todas las actividades y contenido de la TRG ¡Bienvenidos!
 
       - start: "11:00"
         end: "18:00"
         type: org
-        content: Networking en la zona X
+        group: escenario
+        title: 🤭 Networking  
+        content: La zona frente al escenario, con suelo de madera, está destinada a la gente que está abierta a conocer gente y a que les conozcan ¡ No te cortes y habla con todos!
 
       - start: "10:00"
-        end: "10:15"
+        end: "10:13"
         type: event
-        content: "Keynote: un año en tecnología"
+        group: auditorio
+        badge: Keynote
+        badge_class: is-red                  
+        color: red
+        title: "No será hoy"
+        modal: |
+          La apertura de la TRG siempre es... «diferente». Te podrá gustar más o menos, pero **no te dejará indiferente**.
+
+      - start: "10:15"
+        end: "10:58"
+        type: conference
+        group: auditorio
+        color: red
+        speaker: pau-garcia-mila
+
+      - start: "11:00"
+        end: "11:43"
+        type: conference
+        group: auditorio
+        color: red
+        speaker: sandra-hernandez
+
+      - start: "11:45"
+        end: "12:00"
+        type: event
+        group: auditorio
+        badge: Demo
+        badge_class: is-red                  
+        color: red
+        title: "Timeline!"
+        modal: |
+          En esta demo, aprenderemos a jugar al «Timeline», el juego de cartas de la TRG que podrán disfrutar grandes y pequeños... con **cartas exclusivas** que podréis conseguir en los stands de Deiser, Airzone, Stackscale, Velneo y SNGULAR.
+      
+      - start: "12:45"
+        end: "13:00"
+        type: event
+        group: auditorio
+        badge: Concurso
+        badge_class: is-red                  
+        color: red
+        title: "El Precio Justo"
+        subtitle: "ofrecido por Siteground"
+        modal: |
+          Un concursote de Lanzarote en el que los asistentes de la TRG podrán demostrar sus conocimientos sobre el bisnes de la Informática y ¡ganar suculentos premios!
+
+      - start: "13:02"
+        end: "13:43"
+        type: conference
+        group: auditorio
+        color: red
+        speaker: sergio-rodriguez
+
+      - start: "13:45"
+        end: "14:30"
+        type: conference
+        group: auditorio
+        color: red
+        speaker: isabel-garate
+
+      - start: "09:00"
+        end: "09:45"
+        type: event
+        group: pasillo
+        title: "☕ Café de Bienvenida"
+        modal: |
+          Un sencillo cafelito para entrar en calor antes de la awesómica keynote de la TRG.  
+
+      - start: "12:00"
+        end: "12:43"
+        type: event
+        group: pasillo
+        title: "☕ Coffe Break"
+        modal: |
+          Café, zumo y bolleria, para recuperar fuerzas.
+
+      - start: "14:30"
+        end: "16:30"
+        type: event
+        group: pasillo
+        title: "🐙 Comida y Pulpeirada"
+        modal: |
+            4 *food trucks* con diferentes opciones gastronómicas, además de Anxo —nuestro pulpeiro de O Carballiño— que distribuirá **300 raciones de pulpo *a feira* recien hecho**, y muchas mas cosas distribuidas por las mesas ¡A zampar como si no hubiera mañana!</br></br>
+            Y, por supuesto, contaremos con opciones veganas y sin gluten.
+      
+      - start: "09:00"
+        end: "20:00"
+        type: event
+        group: pasillo
+        color: darkblue
+        title: "Zona de Stands"
+        modal: |
+            Una zona llena de sorpresas y actividades donde —un año más— los patrocinadores SE LO HAN CURRADO para aportar valor a todos los asistentes.                  
 
       - start: "10:15"
         end: "11:00"
@@ -579,10 +689,7 @@ timeline:
         type: event
         content: "<strong>Bonga!</strong>"
 
-      - start: "13:00"
-        end: "13:45"
-        type: conference
-        speaker: sandra-hernandez
+      
 
       - start: "13:45"
         end: "14:30"
