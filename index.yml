@@ -77,8 +77,7 @@ block_calendar:
         - time: 15:30-18:00h
           title: <a href="/blog/talleres-trg23/">Talleres</a>
           description: |
-            Talleres prácticos (requieren la compra de una entrada complementaria a la del evento principal).<br><br>
-            - **Product Design para no-diseñadores** por [Cris Busquets](https://trgcon.com/speakers/cris-busquets/){target=_blank}
+            Talleres prácticos (requieren la compra de una entrada complementaria a la del evento principal).<br><br>            
             - **Cómo diseñar la arquitectura de tus repositorios de código** por [Pablo Santos](https://trgcon.com/speakers/pablo-santos/){target=_blank}
             - **Herramientas y procesos para equipos de desarrollo de alto rendimiento** por [Manuel Recena](https://trgcon.com/speakers/manuel-recena/){target=_blank}
 
@@ -419,14 +418,15 @@ timeline:
         end: "17:30"
         type: event
         badge: Taller
-        badge_class: is-black    
+        badge_class: is-black          
         group: planta1_2
         color: "#FC3165"
         title: FinOps en Cloud, paz mental para CTOs sobre cómo evitar sorpresas en tu factura.
         subtitle: por DOiT        
         modal: |
           Un paseo por las mejores técnicas y herramientas para el gobierno y control de costes de tu factura de la nube pública, incluyendo casos reales de éxito.</br>          
-          ¡Todo lo que siempre quisiste saber y nunca te atreviste a preguntar a tu CTO! 
+          ¡Todo lo que siempre quisiste saber y nunca te atreviste a preguntar a tu CTO!</br></br>
+          ¡Aún **quedán entradas gratuitas disponibles** (para los asistentes a la TRG)! Recuerda que solo tienes que ir a [la página de venta de entradas](https://www.eventbrite.es/e/entradas-trg23-662875547607?aff=oddtdtcreator){target=_blank}, escrolar hasta abajo del todo y seleccionar el taller como complemento.
 
       - start: "15:30"
         end: "18:00"
