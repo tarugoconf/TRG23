@@ -83,6 +83,7 @@ tickets:
   - name: Normal
     pricing: 250€ + IVA
     img: "/img/tickets/normal.svg"
+    sold_out: true
     conferences: true
     streaming: false
     workshop: false
@@ -100,6 +101,7 @@ tickets:
   - name: Killer Combo
     pricing: 350€ + IVA
     img: "/img/tickets/killer-combo.svg"
+    sold_out: true
     conferences: true
     streaming: false
     workshop: true
@@ -151,6 +153,7 @@ tickets:
   - name: Mecenas
     pricing: 500€ + IVA
     img: "/img/tickets/mecenas.svg"
+    sold_out: true
     conferences: true
     streaming: true
     workshop: false

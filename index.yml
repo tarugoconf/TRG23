@@ -403,17 +403,33 @@ timeline:
   - day: 26
     title: Jueves 26
     groups:
+      - id: entrada
+        content: Entrada
+      - id: escenario
+        content: Zona Escenario            
+      - id: aula2
+        content: Aula 2
+      - id: aula3
+        content: Aula 3
+      - id: aula5
+        content: Aula 5      
+      - id: planta1_1
+        content: 1ª planta - Sala 1
       - id: planta1_2
         content: 1ª planta - Sala 2
-      - id: planta1_1
-        content: 1ª planta - Sala 1       
-      - id: aula2
-        content: Planta Baja - Aula 2
-      - id: aula5
-        content: Planta Baja - Aula 5
       - id: planta2
         content: 2ª planta
+      - id: auditorio
+        content: Auditorio
     events:
+      - start: "15:00"
+        end: "20:00"
+        type: event                 
+        group: entrada      
+        title: 🎟️ Apertura de puertas y acreditación de asistentes             
+        modal: |
+          ¡Acredítate antes que nadie y evita las colas del viernes! Trae tu entrada, impresa o en el móvil, y recoge tu awesómico welcome pack antes de disfrutar de todas las actividades y contenido de la TRG ¡Bienvenidos!
+
       - start: "16:00"
         end: "17:30"
         type: event
@@ -426,6 +442,10 @@ timeline:
         modal: |
           Un paseo por las mejores técnicas y herramientas para el gobierno y control de costes de tu factura de la nube pública, incluyendo casos reales de éxito.</br>          
           ¡Todo lo que siempre quisiste saber y nunca te atreviste a preguntar a tu CTO!</br></br>
+          
+          **REQUISITOS:**</br>
+          * Estar familiarizados con algún vendor de nube pública (Google Cloud, AWS…)
+          
           ¡Aún **quedán entradas gratuitas disponibles** (para los asistentes a la TRG)! Recuerda que solo tienes que ir a [la página de venta de entradas](https://www.eventbrite.es/e/entradas-trg23-662875547607?aff=oddtdtcreator){target=_blank}, escrolar hasta abajo del todo y seleccionar el taller como complemento.
 
       - start: "15:30"
@@ -433,7 +453,7 @@ timeline:
         type: workshop
         speaker: manuel-recena
         group: planta2
-        color: red
+        color: green
 
       - start: "15:30"
         end: "18:00"
@@ -445,17 +465,83 @@ timeline:
       - start: "16:00"
         end: "18:00"
         type: event
-        badge: Taller de patrocinador    
+        badge: Taller
+        badge_class: is-black    
         group: aula5
         color: darkblue
         title: Crear aplicaciones de IA Generativa con LLMs (Grandes modelos de lenguaje)
         subtitle: por Diverger        
         modal: |
           En este taller, eminentemente práctico, vamos a aterrizar el uso de los LLMs en nuestros proyectos. Indagaremos en los fundamentos, buenas prácticas y arquitecturas comunes.</br></br>Desarrollaremos ejemplos prácticos como sistemas Retrieval Augmented Generation, que permiten desarrollar todo tipo de herramientas de consultas sobre datasets de cualquier tipo utilizando IA.</br></br>Repasaremos como utilizar bases de datos vectoriales, LangChain y técnicas como embeddings, 
-          fine tunning, cachés y demás prácticas comunes. Así mismo, indagaremos sobre los diferentes modelos y sus diferentes escenarios de aplicación.</br></br>También veremos algunas herramientas para ayudarnos a generar código y cómo acelerar los desarrollos.</br></br>ENFOQUE:</br></br>
+          fine tunning, cachés y demás prácticas comunes. Así mismo, indagaremos sobre los diferentes modelos y sus diferentes escenarios de aplicación.</br></br>También veremos algunas herramientas para ayudarnos a generar código y cómo acelerar los desarrollos.</br></br>**ENFOQUE:**</br>
           * El taller pretende dar una visión práctica de los fundamentos y recomendaciones a la hora de construir aplicaciones profesionales de IA Generativa utilizando diferentes modelos LLMs.
           * No solo se explicarán los fundamentos, sino que se crearán ejercicios prácticos. 
-          * El objetivo es reforzar los aspectos técnicos recomendados y enseñar técnicas comunes para abordar problemas típicos con estas tecnologías.
+          * El objetivo es reforzar los aspectos técnicos recomendados y enseñar técnicas comunes para abordar problemas típicos con estas tecnologías.</br>
+          
+          **REQUISITOS:**</br>
+          * Tener nociones de Node.js o Python, deseable haber visto algo de LangChain. 
+          * Los días previos al taller se enviarán los requisitos técnicos, frameworks y  demás que los asistentes deben instalar para aprovechar el taller en profundidad.</br>
+          
+          ¡Aún **quedán entradas gratuitas disponibles** (para los asistentes a la TRG)! Recuerda que solo tienes que ir a [la página de venta de entradas](https://www.eventbrite.es/e/entradas-trg23-662875547607?aff=oddtdtcreator){target=_blank}, escrolar hasta abajo del todo y seleccionar el taller como complemento.
+
+      - start: "16:00"
+        end: "17:30"
+        type: event
+        badge: Taller
+        badge_class: is-black          
+        group: planta1_1
+        color: orange
+        title: Usar cualquier aplicación desde ChatGPT es una realidad
+        subtitle: por Velneo        
+        modal: |
+          La IA artificial está afectando a muchas áreas de nuestro trabajo. Entre los usos casi infinitos se nos ha abierto la posibilidad de usar nuestras aplicaciones sin ni siquiera acceder a ellas. En este taller te enseñaremos cómo se puede desarrollar y desplegar un plugin de ChatGPT para que los usuarios de tus aplicaciones puedan interactuar directamente con sus datos.</br></br>
+          En este taller vamos a ver paso a paso cómo se desarrolla y despliega un plugin para ChatGPT y cómo debemos plantear nuestros procesos para facilitar al máximo su funcionalidad superando las limitaciones que la tecnología de OpenAI nos impone.</br></br>
+          Vamos a ver y probar un ejemplo de cómo un usuario por texto o voz puede consultar datos de contactos (clientes, proveedores, etc.) añadir o modificar datos relacionados (dirección, teléfono, emails), o incluso añadir o eliminar documentos de compra o ventas (presupuestos, pedido o facturas de venta).</br></br>
+
+          **REQUISITOS:**</br>
+          * Conexión a internet.
+          * Estar registrados en ChatGPT
+          * Comprobar que en ChatGPT tenemos posibilidad de añadir plugins (a fecha de hoy es una opción gratuita).</br>
+
+          **¡Plazas Agotadas!**
+
+      - start: "16:00"
+        end: "18:00"
+        type: event
+        badge: Taller
+        badge_class: is-black          
+        group: aula3
+        color: "#18B3EA"
+        title: ¿Quién se ha llevado mi pulpo? Una historia de mapas y charcos
+        subtitle: por Extramile        
+        modal: |
+          Un taller donde aprenderás a cómo mostrar todos tus datos en un mapa utilizando las diferentes herramientas que ofrece el ecosistema Google.</br></br>
+
+          ¡Aún **quedán entradas gratuitas disponibles** (para los asistentes a la TRG)! Recuerda que solo tienes que ir a [la página de venta de entradas](https://www.eventbrite.es/e/entradas-trg23-662875547607?aff=oddtdtcreator){target=_blank}, escrolar hasta abajo del todo y seleccionar el taller como complemento.
+
+      - start: "18:00"
+        end: "20:00"
+        type: event                
+        group: escenario
+        badge: Comunidad
+        badge_class: is-red 
+        color: red
+        title: 🤭 Networking Tarugo            
+        modal: |
+          Actividades y dinámicas divertidas para que los asistentes se conozcan entre sí en un ambiente distendido y seguro.</br></br>Si no conoces a nadie, saldrás con un grupo con el que compartir el resto de la conferencia y, si vienes acompañado, ampliarás el circulo con el que interactuarás durante el resto del evento.
+
+      - start: "20:00"
+        end: "22:00"
+        type: event
+        badge: Podcast
+        badge_class: is-red          
+        group: auditorio
+        color: red
+        title: "Heavy Mental x Mixx.io ¡el Crossover definitivo!"
+        subtitle: con el apoyo de Tinybird  
+        modal: |
+          Grabación en directo del **crossover definitivo** del mundo del podcasting tecnológico —[Heavy Mental](https://heavymental.es/){target=_blank} x [Mixx.io](https://mixx.io/){target=_blank}— en el que se repasarán las noticias tecnológicas más interesantes del año desde el humor y con una **constante interacción con el público** ¡No te lo pierdas!
+          
 
   - day: 27
     title: Viernes 27
