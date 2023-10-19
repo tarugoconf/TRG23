@@ -329,6 +329,9 @@ patrons:
   - title: Alejandro Gómez
     url: https://twitter.com/agomezmoron
     img: /img/patrons/alejandro_gomez.jpeg
+  - title: Juanjo Mata
+    url: https://twitter.com/jjmata
+    img: /img/patrons/juanjo.jpg
 
 tickets:
   title: Entradas
@@ -702,7 +705,7 @@ timeline:
         group: aulas
         color: powderblue
 
-      - start: "11:30"
+      - start: "11:15"
         end: "12:28"
         type: community
         badge: TARUGOFF
