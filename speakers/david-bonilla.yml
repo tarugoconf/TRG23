@@ -1,0 +1,16 @@
+title: David Bonilla
+id: david
+role: Nadie sabe qué hace
+order: 1
+img: /img/speakers/david-bonilla.png
+links:
+  - text: Public Inbox
+    icon: /img/icons/mypublicinbox-duotone.svg
+    url: https://mypublicinbox.com/dbonillaf
+bio: |
+  Se ha creado un perfil de Public Inbox.
+conference:
+  title: No será hoy
+  day: Viernes 27
+  description: |
+    La apertura de la TRG siempre es... «diferente». Te podrá gustar más o menos, pero **no te dejará indiferente**.

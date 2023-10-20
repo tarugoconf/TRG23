@@ -1,3 +1,22 @@
+.timeline-legend {
+  display: flex;
+  align-items: center;
+  column-gap: .5em;
+  justify-content: flex-end;
+  padding: 0 2em;
+  color: var(--color-gray);
+
+  svg {
+    animation: xmove .8s infinite alternate;
+  }
+}
+
+@keyframes xmove {
+  to {
+    transform: translateX(8px);
+  }
+}
+
 trg-timeline {
   display: block;
   background-color: color-mix(in srgb, var(--color-sepia), black 5%);

@@ -589,14 +589,11 @@ timeline:
 
       - start: "10:00"
         end: "10:13"
-        type: event
+        type: conference
         group: auditorio
         badge: Keynote
-        badge_class: is-red                  
         color: red
-        title: "No será hoy"
-        modal: |
-          La apertura de la TRG siempre es... «diferente». Te podrá gustar más o menos, pero **no te dejará indiferente**.
+        speaker: david-bonilla
 
       - start: "10:15"
         end: "10:58"

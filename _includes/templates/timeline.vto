@@ -29,6 +29,7 @@
       </div>
 
       <h2 class="text-subtitle">{{ speaker.workshop.title }}</h2>
+      <p class="text-body">Por <a href="{{ speaker.url }}">{{ speaker.title }}</a></p>
     </header>
 
     <div class="modal-body text-body">
@@ -37,15 +38,16 @@
   </section>
 {{ /function }}
 
-{{ function conference (speaker) }}
+{{ function conference (speaker, event) }}
   <section class="modal-content">
     <header class="modal-header">
       <div>
-        <span class="badge">Charla</span>
+        <span class="badge">{{ event.badge || "Charla" }}</span>
         <time class="badge is-white">{{ speaker.conference.day }}</time>
       </div>
 
       <h2 class="text-subtitle">{{ speaker.conference.title }}</h2>
+      <p class="text-body">Por <a href="{{ speaker.url }}">{{ speaker.title }}</a></p>
     </header>
 
     <div class="modal-body text-body">
@@ -109,7 +111,7 @@
           case "conference":
             entry.content = `
             <button onclick="document.getElementById('dialog-${id}').showModal()">
-              <span class="badge">Charla</span>
+              <span class="badge">${ event.badge || "Charla" }</span>
               <strong>${speaker.conference.title}</strong><br>
               por ${speaker?.title}
             </button>
@@ -117,7 +119,7 @@
               <button class="modal-close" onclick="document.getElementById('dialog-${id}').close()" aria-label="Close">
                 <img src="/img/icons/x.svg">
               </button>
-              ${conference(speaker)}
+              ${conference(speaker, event)}
             </dialog>
             `;
             break;
@@ -151,6 +153,10 @@
     {{ /for }}
 
     <section id="timeline-{{ date }}" aria-labelledby="timeline-{{ date }}-link" role="tabpanel">
+      <strong class="timeline-legend">
+        Arrastra para ver más
+        <img src="/img/icons/arrow-right-duotone.svg" inline>
+      </strong>
       <trg-timeline
         data-starts="{{ date }}"
         data-events="{{ data |> JSON.stringify |> escape }}"
