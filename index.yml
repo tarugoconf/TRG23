@@ -819,7 +819,7 @@ timeline:
         group: daruma
         color: indianred
         modal: |
-          "David explicará a los más pequeños (a partir de 4 años) los fundamentos básicos de la programación con la ayuda de un buen amigo... [¡Cubetto!](https://www.primotoys.com/){target="_blank"}"
+          David explicará a los más pequeños (a partir de 4 años) los fundamentos básicos de la programación con la ayuda de un buen amigo... [¡Cubetto!](https://www.primotoys.com/){target="_blank"}
 
       - start: "12:45"
         end: "15:28"
@@ -829,21 +829,25 @@ timeline:
         group: daruma
         color: indianred
         modal: |
-          Jorge, más conocido como [@flipper83](https://twitter.com/flipper83){target="_blank"} es un conocido programador, divulgador, emprendedor y —también— enamorado de los juegos de mesa. Este año ha lanzado Daruma, su primer juego comercial, y vendrá a la TRG con varias unidades y otros juegos para organizar y facilitar unas partidas mientras podrás charlar con él de todo el proceso de diseño del juego."        
+          Jorge, más conocido como [@flipper83](https://twitter.com/flipper83){target="_blank"} es un conocido programador, divulgador, emprendedor y —también— enamorado de los juegos de mesa. Este año ha lanzado Daruma, su primer juego comercial, y vendrá a la TRG con varias unidades y otros juegos para organizar y facilitar unas partidas mientras podrás charlar con él de todo el proceso de diseño del juego.
 
       - start: "11:15"
         end: "12:43"
         type: event
-        badge: Taller   
-        title: Dibujo para pequeños grandes artistasX
+        badge: Taller
+        badge_class: is-black   
+        title: Dibujo para pequeños grandes artistas
         subtitle: con Hugo Tobio
         group: aulas
         color: powderblue
+        modal: |
+          Aprende técnicas básicas de dibujo de la mano de [Hugo Tobio](https://twitter.com/HugoTobio){target="_blank"} ¡El mismísimo ilustrador de La Bonilista!
 
       - start: "12:45"
         end: "14:13"
         type: community
         badge: Taller
+        badge_class: is-black
         title: Sketchnoting
         subtitle: con Javier Alfonso (@oyabun)
         group: aulas
