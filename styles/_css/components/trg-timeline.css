@@ -5,6 +5,7 @@
   justify-content: flex-end;
   padding: 0 2em;
   color: var(--color-gray);
+  cursor: default;
 
   svg {
     animation: xmove .8s infinite alternate;
