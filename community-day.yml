@@ -130,6 +130,25 @@ activities:
         - mayor
       img: /img/community-day/TRG23_dj.jpg
       description: Taller de iniciación al pinchazo de discos, a cargo de [Guillermo Montoya](https://twitter.com/Gmfdsr){target=_blank} y el DJ oficial de la TRG ¡[Don Robot](https://twitter.com/xRx0xMx){target=_blank}!
+    - title: "Carrera de LEDs"
+      tags:
+        - peque
+        - joven
+        - mayor
+      img: /img/community-day/tar_led.jpg
+      description: El camarada del metal [Javi Pérez](https://twitter.com/JaviMostoles){target="_blank"}, se ha prestado a traernos el juego con el que LO HA PETADO en el cole de sus hijos. Un sencillo proyecto electrónico que puedes ver en [este video](https://media.slid.es/videos/969920/EWgX0-7p/olr.mp4){target="_blank"}.
+    - title: "Exhibición de Magia"
+      tags:
+        - joven
+        - mayor
+      img: /img/community-day/tar_magia.jpg
+      description: El mítico [Juan Tomas](https://twitter.com/juantomas){target="_blank"}, uno de los pocos magos grises aun en activo que conoció las tarjetas perforadas, nos obsequiará con unos trucos de ***magía informática*** que disfrutarán grandes y pequeños.
+    - title: "Partida en directo de Moneylands"
+      tags:
+        - joven
+        - mayor
+      img: /img/community-day/tar_moneyland.jpg
+      description: Moneylands, el juego que te enseña finanzas personales, organiza una partida con distintas personalidades del mundo empesarial y el sector económico para que todo el mundo aprenda cómo jugar.
 
 faq:
   title: FAQ

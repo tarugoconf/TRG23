@@ -807,7 +807,7 @@ timeline:
         group: pasillo
         color: darksalmon
         modal: |
-          El camarada del metal @javiMostoles, se ha prestado a traernos el juego con el que LO HA PETADO en el cole de sus hijos. Un sencillo proyecto electrónico que puedes ver en [este video](https://media.slid.es/videos/969920/EWgX0-7p/olr.mp4){target="_blank"}.
+          El camarada del metal [Javi Pérez](https://twitter.com/JaviMostoles){target="_blank"}, se ha prestado a traernos el juego con el que LO HA PETADO en el cole de sus hijos. Un sencillo proyecto electrónico que puedes ver en [este video](https://media.slid.es/videos/969920/EWgX0-7p/olr.mp4){target="_blank"}.
 
       - start: "11:30"
         end: "12:15"
@@ -857,12 +857,15 @@ timeline:
 
       - start: "14:15"
         end: "15:13"
-        type: community
-        badge: Taller        
-        title: DJs
+        type: event
+        badge: Taller
+        badge_class: is-black
+        title: Taller de DJs
         subtitle: con Guillermo Montoya y Don Robot
         group: aulas
-        color: powderblue      
+        color: powderblue
+        modal: |
+          Taller de iniciación al pinchazo de discos, a cargo de [Guillermo Montoya](https://twitter.com/Gmfdsr){target="_blank"} y el DJ oficial de la TRG ¡[Don Robot](https://twitter.com/xRx0xMx){target="_blank"}!      
 
       - start: "11:15"
         end: "12:28"
@@ -896,29 +899,37 @@ timeline:
         group: escenario
         color: orange
         modal: |
-          Vamos a grabar un podcast en directo y bla bla bla
+          Grabación en directo, con plena interacción con el público, del afamado podcast [Code on the Rocks](http://codeontherocks.fm/){target="_blank"}, el favorito de personalidades como Linus Torvalds o Isabel Pantoja.
       
       - start: "12:30"
         end: "13:58"
         type: community
-        content: "Partida en directo de Moneyland"
+        title: "💸 Partida en directo de Moneyland"
         group: escenario
         color: orange
+        modal: |
+          Moneyland, el juego que te enseña finanzas personales, organiza una partida con distintas personalidades del mundo empesarial y el sector económico para que todo el mundo aprenda cómo jugar.
 
       - start: "14:00"
         end: "14:58"
         type: community
         title: Lectura de las aventuras de Mara Turing
-        subtitle: con su autor Javi Padilla
+        subtitle: por su autor, Javi Padilla
         group: escenario
         color: orange
+        modal: |
+          Lectura en directo de algunos capítulos de las aventuras de Mara a cargo de su autor, [Javier Padilla](https://twitter.com/elpady){target="_blank"}, con un coloquio sobre el proceso creativo de escritura de los libros y firma de los mismos.
 
       - start: "15:00"
         end: "15:45"
-        type: community        
-        title: Exhibición de magia con Juanto 
+        type: event        
+        title: Exhibición de magia
+        subtitle: con Juanto
         group: escenario
         color: orange
+        modal: |
+          El mítico [Juan Tomas](https://twitter.com/juantomas){target="_blank"}, uno de los pocos magos grises aun en activo que conoció las tarjetas perforadas, nos obsequiará con unos trucos de ***magía informática*** que disfrutarán grandes y pequeños.
+        
 
       - start: "11:00"
         end: "16:00"
