@@ -1,4 +1,8 @@
 {
   "layout": "layouts/speaker.vto",
-  "type": "speaker"
+  "type": "speaker",
+  "metas": {
+    "image": "=img",
+    "description": "=bio"
+  }
 }
