@@ -835,7 +835,7 @@ timeline:
         end: "12:43"
         type: event
         badge: Taller
-        badge_class: is-black   
+        badge_class: is-black          
         title: Dibujo para pequeños grandes artistas
         subtitle: con Hugo Tobio
         group: aulas
@@ -845,13 +845,15 @@ timeline:
 
       - start: "12:45"
         end: "14:13"
-        type: community
+        type: event
         badge: Taller
-        badge_class: is-black
+        badge_class: is-black 
         title: Sketchnoting
         subtitle: con Javier Alfonso (@oyabun)
         group: aulas
         color: powderblue
+        modal: |
+          Impartido por el mítico [Javier «Oyabun» Alonso](https://twitter.com/oyabun){target="_blank"} ¡sketchnoter oficial de la TRG!
 
       - start: "14:15"
         end: "15:13"
