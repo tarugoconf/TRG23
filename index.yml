@@ -757,7 +757,7 @@ timeline:
       - id: aulas
         content: Aulas
       - id: cafe
-        content: Cafetería
+        content: Vestíbulo/Cafetería
       - id: escenario
         content: Escenario
       - id: autentia
@@ -766,75 +766,76 @@ timeline:
         content: Zona infantil
     events: 
       - start: "11:00"
-        end: "16:00"
+        end: "17:00"
         type: community
         content: "Futbolines"
         group: pasillo
         color: darksalmon
 
       - start: "11:00"
-        end: "16:00"
+        end: "17:00"
         type: community
         content: "Arcades y emuladores"
         group: pasillo
         color: darksalmon
 
       - start: "11:00"
-        end: "16:00"
+        end: "17:00"
         type: community
         content: "Juegos tradicionales de madera"
         group: pasillo
         color: darksalmon
 
       - start: "11:00"
-        end: "16:00"
+        end: "17:00"
         type: community
         content: "Scalextrix de 4 pistas"
         group: pasillo
         color: darksalmon
 
       - start: "11:00"
-        end: "16:00"
+        end: "17:00"
         type: community
         content: "Twister, Jenna, Conecta 4 y Damas GIGANTES"
         group: pasillo
         color: darksalmon
 
       - start: "11:00"
-        end: "16:00"
+        end: "17:00"
         type: community
-        content: "Carrera de LEDs"
+        title: "Carrera de LEDs"
         group: pasillo
         color: darksalmon
+        modal: |
+          El camarada del metal @javiMostoles, se ha prestado a traernos el juego con el que LO HA PETADO en el cole de sus hijos. Un sencillo proyecto electrónico que puedes ver en [este video](https://media.slid.es/videos/969920/EWgX0-7p/olr.mp4){target="_blank"}.
 
       - start: "11:30"
         end: "12:15"
         type: community
         badge: Taller
+        badge_class: is-black        
         title: Fundamentos de programación para niños
         subtitle: con David Bonilla
         group: daruma
         color: indianred
+        modal: |
+          "David explicará a los más pequeños (a partir de 4 años) los fundamentos básicos de la programación con la ayuda de un buen amigo... [¡Cubetto!](https://www.primotoys.com/){target="_blank"}"
 
       - start: "12:45"
         end: "15:28"
         type: community
-        content: "Partidas de Juegos de Mesa (Penguin Arilines, Daruma y Tholos) dinamizadas por Jorge Barroso (@flipper83), autor de Daruma"
+        title: 🃏 Partidas dinamizadas de Juegos de Mesa... ¡con su autor!
+        subtitle: con Jorge Barroso
         group: daruma
         color: indianred
-
-      - start: "15:30"
-        end: "16:30"
-        type: community
-        content: "Partida en directo de Moneyland"
-        group: daruma
-        color: indianred
+        modal: |
+          Jorge, más conocido como [@flipper83](https://twitter.com/flipper83){target="_blank"} es un conocido programador, divulgador, emprendedor y —también— enamorado de los juegos de mesa. Este año ha lanzado Daruma, su primer juego comercial, y vendrá a la TRG con varias unidades y otros juegos para organizar y facilitar unas partidas mientras podrás charlar con él de todo el proceso de diseño del juego."        
 
       - start: "11:15"
         end: "12:43"
-        type: community
-        badge: Taller
-        title: Dibujo para pequeños grandes artistas
+        type: event
+        badge: Taller   
+        title: Dibujo para pequeños grandes artistasX
         subtitle: con Hugo Tobio
         group: aulas
         color: powderblue
@@ -851,18 +852,11 @@ timeline:
       - start: "14:15"
         end: "15:13"
         type: community
-        badge: Taller
+        badge: Taller        
         title: DJs
         subtitle: con Guillermo Montoya y Don Robot
         group: aulas
-        color: powderblue
-
-      - start: "15:15"
-        end: "16:15"
-        type: community
-        content: "Exhibición de magia informática con Juanto"
-        group: aulas
-        color: powderblue
+        color: powderblue      
 
       - start: "11:15"
         end: "12:28"
@@ -889,7 +883,7 @@ timeline:
         color: pink
 
       - start: "11:00"
-        end: "12:45"
+        end: "12:28"
         type: community
         badge: Podcast
         title: Code on the Rocks
@@ -897,20 +891,26 @@ timeline:
         color: orange
         modal: |
           Vamos a grabar un podcast en directo y bla bla bla
-
-      - start: "13:00"
-        end: "14:00"
+      
+      - start: "12:30"
+        end: "13:58"
         type: community
-        title: Lectura de las aventuras de Mara Turing
-        subtitle: Con su autor Javi Padilla
+        content: "Partida en directo de Moneyland"
         group: escenario
         color: orange
 
-      - start: "14:15"
-        end: "15:45"
+      - start: "14:00"
+        end: "14:58"
         type: community
-        badge: Podcast
-        title: Code on the Rocks
+        title: Lectura de las aventuras de Mara Turing
+        subtitle: con su autor Javi Padilla
+        group: escenario
+        color: orange
+
+      - start: "15:00"
+        end: "15:45"
+        type: community        
+        title: Exhibición de magia con Juanto 
         group: escenario
         color: orange
 
