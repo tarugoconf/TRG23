@@ -1,16 +1,26 @@
 title: David Bonilla
 id: david
-role: Nadie sabe qué hace
-order: 1
+role: Co-organizador
+order: 7
+company:
+  name: TRG
 img: /img/speakers/david-bonilla.png
 links:
+  - text: Twitter
+    icon: /img/icons/twitter-logo-duotone.svg
+    url: https://twitter.com/david_bonilla
+  - text: Linkedin
+    icon: /img/icons/linkedin-logo-duotone.svg
+    url: https://www.linkedin.com/in/dbonillaf/
   - text: Public Inbox
     icon: /img/icons/mypublicinbox-duotone.svg
     url: https://mypublicinbox.com/dbonillaf
 bio: |
-  Se ha creado un perfil de Public Inbox.
+  David es el autor de [La Bonilista](https://www.bonilista.com/){target="_blank"}, una de las primeras newsletters sobre tecnología y negocios, que cuenta con más de 17000 suscriptores y es el germen y motor de la TRG.
+  </br></br>Aunque se siente «tan programador como emprendedor», actualmente trabaja como Director de Manfred, boutique de recruiting técnico que fundó y vendió al Grupo SNGULAR donde también obstenta el cargo de Chief People Officer.
 conference:
   title: No será hoy
   day: Viernes 27
   description: |
-    La apertura de la TRG siempre es... «diferente». Te podrá gustar más o menos, pero **no te dejará indiferente**.
+    La apertura de la TRG siempre es... «diferente». Te podrá gustar más o menos, pero **no te dejará indiferente**.</br></br>
+    En la keynote, David nos presentará uno de los mayores desafíos que ha conocido el mundo del desarrollo de software en toda su Historia. Algo que puede cambiarlo para siempre.

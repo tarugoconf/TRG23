@@ -150,6 +150,20 @@ activities:
         - mayor
       img: /img/community-day/tar_moneyland.jpg
       description: Moneylands, el juego que te enseña finanzas personales, organiza una partida con distintas personalidades del mundo empesarial y el sector económico para que todo el mundo aprenda cómo jugar.
+    - title: "🚚 Foodtrucks"
+      tags:
+        - peque
+        - joven
+        - mayor
+      img: /img/community-day/tar_foodtrucks.jpg
+      description: 4 foodtrucks con múltiples opciones de comida (hamburgesas, perritos, crepes...) y bebida para todos los asistentes al Community Day.
+    - title: "Simulación de conducción bajo los efectos de las drogas, a cargo de la Cruz Roja"
+      tags:
+        - peque
+        - joven
+        - mayor
+      img: /img/community-day/tar_cruzroja.jpg
+      description: Divertido circuito de patinetes con gafas de simulación de efectos de drogas, para concienciar a los jovenes de una forma lúdica.
 
 faq:
   title: FAQ

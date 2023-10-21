@@ -761,6 +761,8 @@ timeline:
         content: Stand Autentia
       - id: infantil
         content: Zona infantil
+      - id: parking
+        content: Parking Exterior
     events: 
       - start: "11:00"
         end: "17:00"
@@ -955,4 +957,23 @@ timeline:
         content: "Juegos de Conos"
         group: infantil
         color: lightgreen
+
+      - start: "11:00"
+        end: "16:00"
+        type: event
+        title: "🚚 Foodtrucks"
+        group: parking
+        color: purple
+        modal: |
+          4 foodtrucks con múltiples opciones de comida (hamburgesas, perritos, crepes...) y bebida para todos los asistentes al Community Day.
+
+      - start: "11:00"
+        end: "16:00"
+        type: event
+        title: "Simulación de conducción bajo los efectos del alcohol y las drogas"
+        subtitle: "a cargo de la Cruz Roja"
+        group: parking
+        color: purple
+        modal: |
+          La Cruz Roja gestionará un divertido circuito de patinetes con gafas de simulación de efectos de drogas, para concienciar a los jovenes de una forma lúdica.
 
