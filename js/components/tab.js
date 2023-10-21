@@ -1,6 +1,8 @@
 import Tab from "../deps/tab.js";
 import today from "./today.js";
 
+Tab.changeHistory = false;
+
 customElements.define("trg-tabs", Tab);
 
 const id_today = `#timeline-${today.getFullYear()}-${

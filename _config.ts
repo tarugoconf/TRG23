@@ -55,7 +55,7 @@ const site = lume({
   )
   .remoteFile(
     "js/deps/tab.js",
-    "https://unpkg.com/@oom/tab@1.0.1/src/tab.js",
+    "https://unpkg.com/@oom/tab@1.1.0/src/tab.js",
   );
 
 export default site;
