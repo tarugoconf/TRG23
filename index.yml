@@ -788,7 +788,7 @@ timeline:
       - start: "11:00"
         end: "17:00"
         type: community
-        content: "Scalextrix de 4 pistas"
+        content: "Scalextric de 4 pistas"
         group: pasillo
         color: darksalmon
 
@@ -848,7 +848,7 @@ timeline:
         badge: Taller
         badge_class: is-black 
         title: Sketchnoting
-        subtitle: con Javier Alfonso (@oyabun)
+        subtitle: con Javier Alonso (@oyabun)
         group: aulas
         color: powderblue
         modal: |
@@ -903,11 +903,11 @@ timeline:
       - start: "12:30"
         end: "13:58"
         type: community
-        title: "💸 Partida en directo de Moneyland"
+        title: "💸 Simulación en directo de MoneyLand"
         group: escenario
         color: orange
         modal: |
-          Moneyland, el juego que te enseña finanzas personales, organiza una partida con distintas personalidades del mundo empesarial y el sector económico para que todo el mundo aprenda cómo jugar.
+          Episodio 0 del videopodcast de MoneyLands. Dentro encontraras el primer parque temático del dinero, las finanzas personales y el emprendimiento. ¿Quieres ver en directo cómo es la primera visita a MoneyLand de algunas de las personalidades del mundo tecnológico y de la economía?
 
       - start: "14:00"
         end: "14:58"
