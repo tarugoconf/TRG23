@@ -42,12 +42,13 @@ class TRGTimeline extends HTMLElement {
       },
       stackSubgroups: true,
       showMajorLabels: false,
+      showCurrentTime: inTheEvent,
     };
-    console.log(start, end);
+
     this.timeline = new Timeline(this, items, groups, options);
 
     if (inTheEvent) {
-      this.timeline.addCustomTime(now);
+      this.timeline.setCurrentTime(now);
     }
   }
 }
