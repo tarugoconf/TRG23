@@ -388,6 +388,8 @@
   column-gap: 2rem;
   row-gap: 4rem;
   text-align: center;
+  border-bottom: solid 2px;
+  padding-bottom: var(--row-gap);
 
   @media (min-width: 1200px) {
     grid-template-columns: 300px 1fr;

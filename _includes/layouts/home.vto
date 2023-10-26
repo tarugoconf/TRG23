@@ -17,28 +17,6 @@ scripts: /js/home.js
     </div>
   </div>
 
-  <section class="home-section is-about">
-    <div class="home-section-content">
-      <header>
-        <h2 class="text-title-big">{{ about.title }}</h2>
-      </header>
-
-      <div class="text-intro">
-        {{ about.intro |> md }}
-
-        <p>
-          <a href="{{about.cta.url}}" role="button" class="has-dotsShadow" target=_blank>
-            <strong>{{ about.cta.text }}</strong>
-          </a>
-          <br>
-          <span class="text-base">{{ about.cta.footer |> md(true) }}</span>
-        </p>
-      </div>
-    </div>
-
-    {{ include "templates/blocks/video.vto" {block: video} }}
-  </section>
-
   <section class="home-section is-location" id="location">
     {{ include "templates/blocks/header.vto" {block: block_location} }}
 
@@ -72,16 +50,6 @@ scripts: /js/home.js
     </figure>
   </section>
 
-  <section class="home-section is-speakers" id="speakers">
-    {{ include "templates/blocks/header.vto" {block: block_speakers} }}
-
-    {{ include "templates/blocks/speaker-grid.vto" {block: search.pages("type=speaker", "order title")} }}
-  </section>
-
-  <div class="img-tentacle-container">
-    <img src="/img/tentaculo2.png" class="img-tentaculo">
-  </div>
-  
   <section class="home-section is-calendar" id="calendar">
     {{ include "templates/blocks/header.vto" {block: block_calendar} }}
 
@@ -121,6 +89,34 @@ scripts: /js/home.js
     <img src="/img/cubo.png" class="communityday-img">
   </section>
 
+  <section class="home-section is-about">
+    <div class="home-section-content">
+      <header>
+        <h2 class="text-title-big">{{ about.title }}</h2>
+      </header>
+
+      <div class="text-intro">
+        {{ about.intro |> md }}
+
+        {{ if about.cta }}
+        <p>
+          <a href="{{about.cta.url}}" role="button" class="has-dotsShadow" target=_blank>
+            <strong>{{ about.cta.text }}</strong>
+          </a>
+          <br>
+          <span class="text-base">{{ about.cta.footer |> md(true) }}</span>
+        </p>
+        {{ /if }}
+      </div>
+    </div>
+
+    {{ include "templates/blocks/video.vto" {block: video} }}
+  </section>
+
+  <div class="img-tentacle-container">
+    <img src="/img/tentaculo2.png" class="img-tentaculo">
+  </div>
+
   <section class="home-section is-partners" id="partners">
     {{ include "templates/blocks/header.vto" {block: partners} }}
 
@@ -150,7 +146,13 @@ scripts: /js/home.js
     {{ include "templates/blocks/img-grid.vto" {block: patrons.items, variant: "center"} }}
   </section>
 
-  <section class="home-section is-tickets dots" id="tickets">
+  <section class="home-section is-speakers" id="speakers">
+    {{ include "templates/blocks/header.vto" {block: block_speakers} }}
+
+    {{ include "templates/blocks/speaker-grid.vto" {block: search.pages("type=speaker", "order title")} }}
+  </section>
+
+  {{# <section class="home-section is-tickets dots" id="tickets">
     <div class="home-section-content">
       <div class="tickets-text">
         <h2 class="text-title">{{ tickets.title }}</h2>
@@ -159,9 +161,11 @@ scripts: /js/home.js
           {{ tickets.intro |> md }}
         </div>
 
+        {{ if tickets.cta }}  
         <a href="{{tickets.cta.url}}" role="button" class="has-dotsShadow">
           <strong>{{ tickets.cta.text }}</strong>
         </a>
+        {{ /if }}
       </div>
 
       {{> const data = search.data("/tickets/") }}
@@ -173,7 +177,7 @@ scripts: /js/home.js
       </div>
 
     </div>
-  </section>
+  </section> #}}
 
   <section class="home-section is-contact" id="contacto">
     <header>
