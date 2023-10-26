@@ -8,8 +8,8 @@ menu:
   position: sticky
   responsive: true
   cta:
-    text: Comprar entradas
-    url: /tickets/
+    text: Ver Agenda
+    url: /#calendar
 
 mergedKeys:
   menu: object

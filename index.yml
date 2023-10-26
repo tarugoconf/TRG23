@@ -672,7 +672,7 @@ timeline:
         type: conference
         group: auditorio
         color: red
-        speaker: pablo-santos
+        speaker: antonio-alcaide
 
       - start: "19:00"
         end: "19:15"
@@ -691,7 +691,7 @@ timeline:
         type: conference
         group: auditorio
         color: red
-        speaker: antonio-alcaide
+        speaker: pablo-santos
 
       - start: "20:02"
         end: "20:30"

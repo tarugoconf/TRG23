@@ -119,6 +119,7 @@ tickets:
   - name: Online
     pricing: 75€ + IVA
     img: "/img/tickets/online.svg"
+    sold_out: true
     conferences: false
     streaming: true
     workshop: false
@@ -136,6 +137,7 @@ tickets:
   - name: Taller
     pricing: 150€ + IVA
     img: "/img/tickets/taller.svg"
+    sold_out: true
     conferences: false
     streaming: false
     workshop: true
