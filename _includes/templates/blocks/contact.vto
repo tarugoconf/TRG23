@@ -1,0 +1,21 @@
+<section class="block-contact" id="{{ block.id || 'contact' }}">
+  <header>
+    <h2 class="text-title">{{ block.title }}</h2>
+  </header>
+
+  {{ for item of block.items }}
+  <address class="text-base">
+    <h3 class="text-intro">{{ item.title }}</h3>
+    {{ item.info |> md }}
+
+    <ul>
+    {{ for link of item.links }}
+      <li>
+        <img src="{{ link.icon }}" width=24 height=24>
+        <a href="{{ link.url }}">{{ link.text }}</a>
+      </li>
+    {{ /for }}
+    </ul>
+  </address>
+  {{ /for }}
+</section>

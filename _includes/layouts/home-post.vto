@@ -1,0 +1,40 @@
+---
+layout: ./base.vto
+styles: /styles/home-post.css
+---
+
+<main class="home-container">
+  <header class="home-logo">
+    <img src="/img/logo-trg24.svg" alt="{{ logo.alt }}">
+    <p class="text-intro">{{ logo.caption }}</p>
+  </header>
+
+  {{ include "templates/blocks/img-carousel.vto" { block: intro.images, id: "img-intro" }}}
+
+  <section class="home-intro" id="{{ intro.id }}">
+    <div class="intro-aside">{{ intro.aside |> md }}</div>
+
+    <div class="intro-text has-links">
+      {{ intro.text |> md }}
+    </div>
+  </section>
+
+  <section class="home-where" id="{{ where.id }}">
+    {{ include "templates/blocks/header.vto" {block: where} }}
+
+    {{ include "templates/blocks/img-carousel.vto" { block: where.images, id: "img-where" }}}
+  </section>
+
+  <section class="home-sponsors" id="{{ sponsors.id }}">
+    {{ include "templates/blocks/header.vto" {block: sponsors} }}
+
+    <h3 class="text-subtitle">{{ past_sponsors.subtitle }}</h3>
+
+    {{ include "templates/blocks/img-grid.vto" {block: past_sponsors.items} }}
+  </section>
+
+  {{ include "templates/blocks/faq.vto" {block:faq} }}
+  {{ include "templates/blocks/contact.vto" {block:contact} }}
+
+  {{ include "templates/footer.vto" }}
+</main>

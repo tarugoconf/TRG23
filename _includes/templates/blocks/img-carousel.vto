@@ -1,0 +1,14 @@
+<div class="block-img-carousel">
+  <trg-carousel class="block-img-carousel-items" id="{{ it.id || 'carousel' }}" role="region" aria-label="Images" tabindex="0">
+    {{ for item of block }}
+    <figure class="block-img-carousel-item">
+      <img src="{{ item.src }}" alt="{{ item.alt }}">
+    </figure>
+    {{ /for }}
+  </trg-carousel>
+
+  <trg-carousel-navigation for="{{ it.id || 'carousel' }}" class="block-img-carousel-nav">
+    <button type="button" value="prev" class="button">Anterior</button>
+    <button type="button" value="next" class="button">Siguiente</button>
+  </trg-carousel-navigation>
+</div>

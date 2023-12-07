@@ -21,6 +21,7 @@
 @import "blocks/header.css";
 @import "blocks/video.css";
 @import "blocks/img-grid.css"; 
+@import "blocks/img-carousel.css"; 
 @import "blocks/speaker-grid.css"; 
 @import "blocks/partners-grid.css"; 
 @import "blocks/activity-grid.css"; 
@@ -29,3 +30,4 @@
 @import "blocks/faq.css"; 
 @import "blocks/highlights.css"; 
 @import "blocks/cta.css"; 
+@import "blocks/contact.css";

@@ -5,11 +5,9 @@ metas:
   image: /img/social.jpg
 
 menu:
-  position: sticky
-  responsive: true
-  cta:
-    text: Ver Agenda
-    url: /#calendar
+  # position: sticky
+  # responsive: true
+  
 
 mergedKeys:
   menu: object

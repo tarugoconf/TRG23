@@ -1,0 +1,21 @@
+.block-img-carousel-items {
+  margin: 0 auto;
+}
+
+.block-img-carousel-nav {
+  margin-top: 2em;
+}
+
+.block-img-carousel-item {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  flex: 0 0 auto;
+  scroll-snap-align: center;
+
+  & img {
+    width: 100%;
+    height: auto;
+    flex: 0 0 auto;
+  }
+}

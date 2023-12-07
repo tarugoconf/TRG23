@@ -1,349 +1,103 @@
-metas:
-  description: =about.title
-title: TRG23
-layout: layouts/home.vto
-about:
-  title: Personas, tecnología y negocio.
-  intro: |
-    La TRG es un evento sobre diseño, desarrollo y comercialización de productos y servicios digitales que nace alrededor de la heterogénea Comunidad de suscriptores y suscriptoras 
-    de La Bonilista, con la idea de crear la mejor conferencia técnica del mundo (o, al menos, la más divertida).
-
-  # cta:
-  #   text: Comprar últimas entradas
-  #   url: /tickets/
-
-video:
-  id: 829383642
-  cover: /img/trg22-poster.jpg
-
+layout: layouts/home-post.vto
+title: Speakers
+description: >
+  Todas los requisitos y ventajas que conlleva ser speaker de la TRG, la
+  conferencia sobre diseño, construcción y comercialización de productos y
+  servicios digitales más awesómica del mundo.
 menu:
-  position: fixed
   items:
-    - text: Agenda
-      url: "#calendar"
-    - text: "¡Sábado!"
-      url: "/community-day/"
-    - text: "¿Dónde?"
-      url: "#location"
-    - text: Partners
-      url: "#partners"
-    - text: FAQ
-      url: "#faq"
+  - text: Qué es
+    url: "#what"
+  - text: Dónde
+    url: "#where"
+  - text: Cómo patrocinar
+    url: "#sponsors"
+  - text: FAQ
+    url: "#faq"
+  - text: Contacto
+    url: "#contact"
 
-block_speakers:
-  title: Speakers
-  intro: |
-    El «speaker» o ponente de la TRGCON no nace, [SE HACE](/speakers/). Estos son los awesómicos invitados con los que contaremos este año:
+logo:
+  alt: "#TRG24"
+  caption: Madrid, 14-16 Noviembre 2024
 
-block_location:
-  title: ¿Dónde?
-  caption: Powered by ![Extramile](/img/collaborators/extramile.png){height="22" style="vertical-align:top"}
-  embed: |
-    <iframe src="https://tarugo-mapa.appspot.com/" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-  intro: |
-    Las tres jornadas del evento se celebrarán íntegramente [en La Nave,](https://www.lanavemadrid.com/) un awesómico espacio cubierto que acogerá todas las actividades.
-  address: |
-    ### La nave
-    Calle Cifuentes 5<br>
-    28021 Madrid
+intro:
+  id: what
+  aside: |
+    - **3** días
+    - **8** charlas
+    - **6** talleres
+    - **700** asistentes
+    - **1** comunidad
 
-    [lanavemadrid.com](https://www.lanavemadrid.com/)
-  directions:
-    title: ¿Cómo llegar?
-    items:
-      - title: En metro
-        icon: /img/icons/train-simple-duotone.svg
-        description: A 5 minutos andando de la parada [Villaverde Bajo - Cruce](https://www.metromadrid.es/es/linea/linea-3#estacion-355) <span class="badge" style="background:#fdd700;color:black">Línea 3</span>
-      - title: En tren
-        icon: /img/icons/train-duotone.svg
-        description: A 7 minutos andando de la [estación Puente Alcocer](https://es.wikipedia.org/wiki/Estaci%C3%B3n_de_Puente_Alcocer) <span class="badge" style="background:#fdd700;color:black">Línea C5</span>
-      - title: En taxi
-        icon: /img/icons/taxi-duotone.svg
-        description: |
-          Por teléfono: [915478200](tel:915478200)<br>
+  text: |
+    La Tarugoconf es **una conferencia sobre diseño, construcción y comercialización de productos y servicios digitales** que nace alrededor de la heterogénea Comunidad de suscriptores y suscriptoras de La Bonilista, la newsletter semanal sobre emprendimiento tecnológico escrita por David Bonilla.
 
-          También puedes llamar desde [Cabify](https://cabify.com/es/pasajeros), [Bold](https://bolt.eu/es-es/cities/madrid/) o [Uber](https://www.uber.com/).
-      - title: En coche
-        icon: /img/icons/car-duotone.svg
-        description: Tienes sitio de sobra para aparcar.
+    Es ante todo, **un punto de encuentro para gente que «hace cosas»** alrededor del software, la innovación tecnológica e Internet: diseñadores, inversores, programadores, comerciales, gente de marketing o soporte, administradores de sistemas, recruiters... camaradas del metal, *tarugos* todos.
 
-block_calendar:
-  title: Agenda
-  intro: |
-    El **viernes 27 de octubre** se celebra el evento principal, el **jueves 26** se impartirán talleres y disfrutaremos de nuestro divertido networking. Finalmente, el **sábado 28** celebraremos nuestro Día de la Comunidad, al que los asistentes podrán acudir con familia y amigos.
-  days:
-    - title: Jueves 26
-      items:
-        - time: 15:30-18:00h
-          title: <a href="/blog/talleres-trg23/">Talleres</a>
-          description: |
-            Talleres prácticos (requieren la compra de una entrada complementaria a la del evento principal).<br><br>            
-            - **Cómo diseñar la arquitectura de tus repositorios de código** por [Pablo Santos](https://trgcon.com/speakers/pablo-santos/){target=_blank}
-            - **Herramientas y procesos para equipos de desarrollo de alto rendimiento** por [Manuel Recena](https://trgcon.com/speakers/manuel-recena/){target=_blank}
+    Organizada con un único objetivo: cuidar cada detalle del evento forma enfermiza - desde las acreditaciones hasta la oferta gastronómica- para **transformar la asistencia en una experiencia,** sin olvidar nunca que lo más importante de la Tarugoconf, lo que verdaderamente la diferencia, son sus charlas.
 
-            Podréis reservar vuestra plaza al comprar vuestra entrada. Tenéis toda la info [aquí](https://www.trgcon.com/blog/talleres-trg23/){target=_blank}.
-            
-            Y este año, como novedad, **contaremos con talleres patrocinados por nuestros sponsors** (requieren invitación de los mismos para poder acceder).
-        - time: 18:00-20:00h
-          title: Networking
-          description: |
-            Actividades y dinámicas divertidas para que los asistentes se conozcan entre sí en un ambiente distendido y seguro.
-            
-            Si no conoces a nadie, saldrás con un grupo con el que compartir el resto de la conferencia y, si vienes acompañado, ampliarás el circulo con el que interactuarás durante el resto del evento.
-        - time: 20:00-21:30h
-          title: Podcast en Directo
-          description: |
-            Grabación en directo del **crossover definitivo** del mundo del podcasting tecnológico —[Heavy Mental](https://heavymental.es/){target=_blank} x [Mixx.io](https://mixx.io/){target=_blank}— en el que se repasarán las noticias tecnológicas más interesantes del año desde el humor y **con una constante interacción con el público** ¡No te lo pierdas! 
-    - title: Viernes 27
-      items:
-        - time: 9:00-10:00h
-          title:  Apertura de puertas
-          description: |
-            Acude pronto para acreditarte sin prisas, tomarte un café y poder elegir tu sitio en el auditorio antes de que empiece la Keynote del evento.
-        - time: 10:00-20:30h
-          title: Conferencia
-          description: |
-            Agenda principal del evento, con 8 charlas, 2 coffee breaks de 45 minutos (a las 12:00h y a las 18:15), comida (a las 14:30h), concursos, sorteos y muchas, MUCHAS más sorpresas.
-        - time: 20:30-22:30h
-          title: Fiesta
-          description: |
-            Convertiremos La Nave en una auténtica "Verbena de la Paloma" con comida y bebida, churros, juegos, música y las mejores conversaciones del planeta porque... LA VIDA PUEDE SER MARAVILLOSA.
-    - title: Sábado 28
-      items:
-        - time: 11:00-18:00h
-          title: <a href="/community-day/">Community Day</a>
-          description: |
-            Como ya es tradición, el día después del evento principal, disfrutaremos de una **jornada relajada y abierta a todo el mundo, a la que podréis acudir acompañados por vuestra familia y/o amigos** para que tengáis una oportunidad de abrirles una ventana a vuestra profesión y a la increíble Comunidad que hay alrededor de la misma. 
+  images:
+    - src: /img/speakers/speaker.jpg
+      alt: Foto de una conferencia en la Tarugo4
+    - src: /img/speakers/speaker.jpg
+      alt: Foto de una conferencia en la Tarugo4
+    - src: /img/speakers/speaker.jpg
+      alt: Foto de una conferencia en la Tarugo4
+    - src: /img/speakers/speaker.jpg
+      alt: Foto de una conferencia en la Tarugo4
+    - src: /img/speakers/speaker.jpg
+      alt: Foto de una conferencia en la Tarugo4
 
-            Los más mayores contarán con la TarugOff, el open space de la TRG, donde los propios asistentes propondrán y votarán los contenidos del mismo. Además, nuestra zona de stands seguirá activa con muchas, MUCHAS sorpresas que nuestros partners se han currado para aportar valor a los asistentes.
+where:
+  id: where
+  subtitle: ¿Dónde?
+  intro: >
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  
+  images:
+    - src: /img/speakers/speaker.jpg
+      alt: Foto de una conferencia en la Tarugo4
+    - src: /img/speakers/speaker.jpg
+      alt: Foto de una conferencia en la Tarugo4
+    - src: /img/speakers/speaker.jpg
+      alt: Foto de una conferencia en la Tarugo4
+    - src: /img/speakers/speaker.jpg
+      alt: Foto de una conferencia en la Tarugo4
+    - src: /img/speakers/speaker.jpg
+      alt: Foto de una conferencia en la Tarugo4
 
-            Los más pequeños contarán con talleres STEM, actividades y juegos supervisados por monitores especializados que podrán disfrutar solos junto a sus familiares. 
+sponsors:
+  id: sponsors
+  subtitle: Cómo patrocinar
+  intro: >
+    En la tarugo intentamos huir de la figura del «sponsor» habitual y **queremos convertir a nuestros patrocinadores en verdaderos socios** que sean una parte más del evento: nos preocupamos por entender sus objetivos y personalizamos los paquetes de patrocinio para intentar alcanzarlos, trabajando mano a mano con ellos y creando relaciones que perduran a lo largo de los años.
 
-            Además, vamos a intentar que haya opciones de restauración variadas y asequibles para todo el mundo. Aquí tienes un pequeño [video de la edición anterior](https://vimeo.com/836780949){target=_blank} para que sepas que puedes esperar.
+    Si quieres ser parte de la próxima **#trg24** puedes mandarnos un mail a [tarugoconf@bonillaware.com](mailto:tarugoconf@bonillaware.com).
 
-community_day:
-  title: Community day
-  intro: |
-    El «Día de la Comunidad» es una jornada diseñada para que disfrutar relajadamente, sin una agenda marcada. No solo podrás participar en la TarugOff —nuestro open space— sino también traer a tu familia, amigos y compañeros de trabajo para compartir con ellos un buen rato con todas las actividades que hemos preparado y que disfrutarán por igual, mayores y pequeños.
-  cta:
-    text: Más información
-    url: /community-day/
-
-partners:
-  title: Partners
-  intro: |
-    Estas son las compañías que hacen que todo esto sea posible. Cada una de estas empresas ha decidido apoyarnos para que la TRG pueda contar con una mínima seguridad económica y así podamos centrarnos en ofrecer a la Comunidad la calidad y el espíritu de siempre. Si quieres ser parte de este esfuerzo, en esta o en la edición de 2024, [consulta nuestras *awesómicas* oportunidades de patrocinio](https://www.dropbox.com/s/s7u9tmlnipx84zf/TRG23_sponsorship_deck_ES.pdf?dl=0){target=_blank} ¡graciñas!
-
-  main:
-     img: /img/partners/Logo_DEISER_RGB_Positivo_1.svg
-     url: https://www.deiser.com/
-     alt: Deiser
-     description: Impulsamos tu éxito con Atlassian
-
+past_sponsors:
+  subtitle: Patrocinadores en pasadas ediciones
   items:
-    - img: /img/partners/panel.png
-      url: https://www.panel.es/
-      alt: Panel
-      description: El cambio empieza en TI.
-    - img: /img/partners/sngular-logo-big.png
-      url: https://www.sngular.com/
-      alt: SNGULAR
-      description: Ecosistema global de talento y tecnología.
-    - img: /img/partners/velneo.svg
-      url: https://www.velneo.com/
-      alt: Velneo
-      description: Desarrolla la aplicación que tu empresa necesita.
-    - img: /img/partners/Autentia_Izertis_Azul-01.png
-      url: https://www.autentia.com/
-      alt: Autentia
-      description: Pasión por el desarrollo de software.
-    - img: /img/partners/PRDG_logo_Horizontal_Blue.png
-      url: https://www.paradigmadigital.com/
-      alt: Paradigma
-      description: Tecnología con propósito para mejorar el mundo.
-    - img: /img/partners/Stackscale-GrupoAire-negro.png
-      url: https://www.stackscale.com/es/
-      alt: Stackscale
-      description: Soluciones de nube privada que te dan un rendimiento predecible.    
-    - img: /img/partners/diverger_transparente.png
-      url: https://diverger.ai/
-      alt: Diverger
-      description: Desarrollamos software con IA Generativa y el mejor talento humano.
-    - img: /img/partners/tinybird.png
-      url: https://www.tinybird.co/
-      alt: Tinybird
-      description: Construye proyectos de software basados en datos de forma sencilla y escalable.
-    - img: /img/partners/logo_alten.png
-      url: https://alten.es/
-      alt: Alten
-      description: Apoyamos a las empresas en sus transformaciones tecnológicas, construyendo juntos el mundo del mañana.
-    - img: /img/partners/cabify-logo-moradul-rgb.png
-      url: https://cabify.com/
-      alt: Cabify
-      description: Cabify es una plataforma de multi-movilidad. Tratamos de mejorar las ciudades reduciendo el uso del vehículo privado.
-    - img: /img/partners/logo_540_negro.png
-      url: https://www.540deg.com/
-      alt: 540
-      description: Desarrollo de software de calidad con pragmatismo.
-    - img: /img/partners/doit_logo.png
-      url: https://www.doit.com/
-      alt: DoIT
-      description: The true promise of the cloud with ease, not cost.
+    - img: /img/partners/autentia.png
+    - img: /img/partners/deiser.svg
     - img: /img/partners/devengo-logo.png
-      url: https://devengo.com/
-      alt: Devengo
-      description: Incorpora pagos en tiempo real en tus productos para crear experiencias extraordinarias.
-    - img: /img/partners/logo_airzone.png
-      url: http://airzonecontrol.com/
-      alt: Airzone
-      description: Desarrollamos hardware y software para reducir el consumo energético de tu casa.
-    - img: /img/partners/lanave_logo_footer.png
-      url: https://www.lanavemadrid.com/
-      alt: Ayuntamiento de Madrid
-      description: Ayuntamiento de Madrid.
-    - img: /img/partners/eventbrite_logo.png
-      url: https://www.eventbrite.es/
-      alt: Eventbrite
-      description: Proveedor Oficial de Ticketing de la TRG.
-    
+    - img: /img/partners/autentia.png
+    - img: /img/partners/deiser.svg
+    - img: /img/partners/devengo-logo.png
+    - img: /img/partners/autentia.png
+    - img: /img/partners/deiser.svg
+    - img: /img/partners/devengo-logo.png
 
-collaborators:
-  - img: /img/collaborators/manfred.png
-    url: https://www.getmanfred.com/
-    alt: Manfred
-  - img: /img/collaborators/google.png
-    url: https://www.campus.co/intl/es_es/madrid/
-    alt: Google for Startups
-  - img: /img/collaborators/logo2_str.png
-    url: https://www.strsistemas.com/
-    alt: STR Sistemas
-  - img: /img/collaborators/logo_billingham.png
-    url: https://www.grupobillingham.com/
-    alt: Grupo Billingham
-  - img: /img/collaborators/siteground.png
-    url: https://www.siteground.es/
-    alt: Siteground
-  - img: /img/collaborators/extramile.png
-    url: https://extramilecloud.com/
-    alt: Extramile
-  - img: /img/collaborators/report-logo-metricool-1.png
-    url: https://metricool.com/es/
-    alt: Metricool
-  - img: /img/collaborators/logo_vyootrip.png
-    url: https://www.vyootrip.com/trgcon/
-    alt: Vyootrip
-  - img: /img/collaborators/logo_ingka.png
-    url: https://join.ingka.com/
-    alt: INGKA
-  - img: /img/collaborators/moneylands.jpg
-    url: http://www.moneylands.world/
-    alt: Moneylands
-  - img: /img/collaborators/mypublicinbox_logo.png
-    url: https://mypublicinbox.com/
-    alt: My Public Inbox
-  - img: /img/collaborators/Logo_0xWord.png
-    url: https://0xword.com/
-    alt: 0xWord
-  - img: /img/collaborators/Singularity-Hackers.png
-    url: https://singularity-hackers.com/
-    alt: Singularity Hackers
-
-patrons:
-  title: Mecenas
-  intro: |
-    Estas personas han contribuido con su mecenazgo a que la
-    #TRG23 sea posible, asegurando la sostenibilidad del evento.
-  items:
-  - title: Daniel Ramos
-    url: https://twitter.com/danielramosl
-    img: /img/patrons/danielramos.jpg
-  - title: David Pardo
-    url: https://twitter.com/dei_biz
-    img: /img/patrons/davidpardo.jpg
-  - title: Daniel Torres-Burriel
-    url: https://twitter.com/torresburriel
-    img: /img/patrons/torres-burriel.png
-  - title: Guillermo Montoya
-    url: https://twitter.com/Gmfdsr
-    img: /img/patrons/GuillermoTRG_2.jpg
-  - title: Dimas Suarez
-    url: https://massuarez.es/
-    img: /img/patrons/dimas.jpg
-  - title: Fátima Ballesteros
-    url: https://www.linkedin.com/in/fatima-ballesteros-11b1183b/
-    img: /img/patrons/fatima.jpg
-  - title: Alejandro San Nicolás
-    url: https://www.linkedin.com/in/alejandrosnicolas/
-    img: /img/patrons/alejandro.jpg
-  - title: Juán Gil Miqueo
-    url: https://twitter.com/juan_miqueo
-    img: /img/patrons/juan-miqueo.jpeg
-  - title: Roberto Canales
-    url: https://www.linkedin.com/in/rcanales/
-    img: /img/patrons/roberto_canales.jpg
-  - title: Diego Mariño
-    url: https://twitter.com/diegomarino
-    img: /img/patrons/diego-marino.jpeg
-  - title: Jorge Galindo
-    url: https://twitter.com/Jorge__Galindo
-    img: /img/patrons/jorge-galindo.jpeg
-  - title: Jesús López
-    url: https://www.linkedin.com/in/jsulopzs
-    img: /img/patrons/jesus-lopez.jpeg
-  - title: Toño de la Torre
-    url: https://twitter.com/adelatorrefoss
-    img: /img/patrons/tono-de-la-torre.jpeg
-  - title: Juan Carlos Vez Vázquez
-    url: https://www.linkedin.com/in/juancarlosvezvazquez/
-    img: /img/patrons/juan-carlos.jpeg
-  - title: Jordi Mon Companys
-    url: https://twitter.com/JordiMonPMM
-    img: /img/patrons/jordi.jpeg
-  - title: Boris Gragera
-    url: https://www.linkedin.com/in/borisgragera/
-    img: /img/patrons/boris.jpeg
-  - title: Francisco José Gómez Rojo
-    url: https://www.linkedin.com/in/fjgomez/
-    img: /img/patrons/francisco-jose.jpeg
-  - title: Pablo Lara
-    url: https://twitter.com/_pablolc
-    img: /img/patrons/pablo_lara.jpeg
-  - title: Jose Luis Cases
-    url: http://twitter.com/jlcasesES
-    img: /img/patrons/jose-luis-cases.jpeg
-  - title: Daniel López
-    url: http://twitter.com/vomkriege
-    img: /img/patrons/daniel-lopez.jpeg
-  - title: Ricardo Bartolomé
-    url: https://www.linkedin.com/in/ricardobartolome/
-    img: /img/patrons/ricardo-bartolome.jpeg
-  - title: Álvaro Amor
-    url: https://www.linkedin.com/in/alvaroamor/
-    img: /img/patrons/alvaro-amor.jpeg
-  - title: Elisardo González
-    url: https://twitter.com/odrasile
-    img: /img/patrons/elisardo.jpg
-  - title: Guillermo de Haro
-    url: https://www.linkedin.com/in/guillermodeharo/
-    img: /img/patrons/guillermo-de-haro.jpeg
-  - title: Alejandro Gómez
-    url: https://twitter.com/agomezmoron
-    img: /img/patrons/alejandro_gomez.jpeg
-  - title: Juanjo Mata
-    url: https://twitter.com/jjmata
-    img: /img/patrons/juanjo.jpg
-  - title: Diego R. Losada
-    url: https://twitter.com/diegorlosada
-    img: /img/patrons/diego-losada.jpeg
-
-tickets:
-  title: Entradas
-  intro: El <i>early bird</i> se agotó en un día. Apenas queda un puñado de entradas ¡Corre!
-  cta:
-    text: Ver los tipos de entrada
-    url: /tickets/
+faq:
+  id: faq
+  title: FAQ
+  questions:
+    - question: ¿A quién está dirigido este evento? ¿Es para mi?
+      answer: |
+         Intentamos que la TRG sea un punto de encuentro para gente que hace cosas (o que tiene ganas de hacerlas) en el sector digital. Nos desvivimos para que te sientas como en casa, tanto si tienes un perfil tecnológico como si trabajas en otras disciplinas.         
 
 contact:
+  id: contact
   title: Contacto
   items:
     - title: Candela Milán Dopico
@@ -368,615 +122,3 @@ contact:
         - text: "@tarugoconf"
           icon: /img/icons/twitter-logo-duotone.svg
           url: https://twitter.com/tarugoconf
-
-faq:
-  title: What the FAQ?
-  questions:
-    - question: ¿A quién está dirigido este evento? ¿Es para mi?
-      answer: |
-         Intentamos que la TRG sea un punto de encuentro para gente que hace cosas (o que tiene ganas de hacerlas) en el sector digital. Nos desvivimos para que te sientas como en casa, tanto si tienes un perfil tecnológico como si trabajas en otras disciplinas.         
-    - question:  Soy suscriptor/a de La Bonilista ¿tengo algún tipo de ventaja o descuento?
-      answer: |
-        Pues sí. Los suscriptores de [La Bonilista](https://www.bonilista.com/){target=_blank} pudistéis **acceder a las entradas *early bird*, de precio reducido, un día antes que el público general**. Se agotaron en 24 horas, así que, os quedásteis con la mayoría :)
-    - question: ¿Qué es eso del Community Day del sábado? 🎉
-      answer: |
-        Una jornada abierta, a la que podréis traer a familia, compañeros y/o amigos, con un montón de actividades para grandes y pequeños. Tenéis mucha más info en [esta página](/community-day/){target=_blank}.
-    - question: ¿Ofrecéis ayuda para gestionar viajes y/o hoteles?
-      answer: |
-        Sí, gracias a nuestro partnership con Vyootrip, podéis reservar vuestro viaje y estancia con interesantes descuentos. Tenéis más info en [esta página](https://www.vyootrip.com/trgcon/){target=_blank}.
-    - question:  ¿Cómo puedo estar al día de todas las noticias y novedades del evento?
-      answer: |
-        Tenemos un [Blog](https://tarugoconf.com/blog){target=_blank} donde iremos colgando toda la información relevante, 
-        pero no dejes de seguir [la cuenta en Twitter de la TRG](https://twitter.com/tarugoconf){target=_blank} y, 
-        especialmente, el hashtag [#trg23](https://twitter.com/search?q=%23trg23&src=typed_query&f=live){target=_blank}.        
-    - question: ¿Todavía puedo comprar una entrada? 🎟️
-      answer: |
-        Puedes comparar los diferentes tipos de entrada en [esta página](/tickets/). Si aún quedan disponibles, puedes adquirirlas en [Eventbrite](https://trg23.eventbrite.es){target=_blank}. No quedan muchas, la verdad.          
-    - question:  Si mi empresa me paga la entrada ¿Hacéis factura?
-      answer: |
-        Por supuesto. En la TRG, lo único negro es el futuro de David Bonilla como cantante.
-    - question: ¿Tenéis Código de Conducta?
-      answer: |
-        Por supuesto que tenemos [Código de Conducta](/codigo-de-conducta).
-    - question: Sigo teniendo dudas ¿qué hago?
-      answer: |
-        No problemo. Visita la sección de [Contacto](/#contacto) de esta misma web 
-        donde encontrarás la información necesaria para contactar con nosotros por múltiples canales.
-        </br></br>
-        ¡Estaremos encantados de resolverte cualquier duda!
-
-timeline:
-  - day: 26
-    title: Jueves 26
-    groups:
-      - id: entrada
-        content: Entrada
-      - id: escenario
-        content: Zona Escenario            
-      - id: aula2
-        content: Aula 2
-      - id: aula3
-        content: Aula 3
-      - id: aula5
-        content: Aula 5      
-      - id: planta1_1
-        content: 1ª planta - Sala 1
-      - id: planta1_2
-        content: 1ª planta - Sala 2
-      - id: planta2
-        content: 2ª planta
-      - id: auditorio
-        content: Auditorio
-    events:
-      - start: "15:00"
-        end: "20:00"
-        type: event                 
-        group: entrada      
-        title: 🎟️ Apertura de puertas y acreditación de asistentes             
-        modal: |
-          ¡Acredítate antes que nadie y evita las colas del viernes! Trae tu entrada, impresa o en el móvil, y recoge tu awesómico welcome pack antes de disfrutar de todas las actividades y contenido de la TRG ¡Bienvenidos!
-
-      - start: "16:00"
-        end: "17:30"
-        type: event
-        badge: Taller
-        badge_class: is-black          
-        group: planta1_2
-        color: "#FC3165"
-        title: FinOps en Cloud, paz mental para CTOs sobre cómo evitar sorpresas en tu factura.
-        subtitle: por DOiT        
-        modal: |
-          Un paseo por las mejores técnicas y herramientas para el gobierno y control de costes de tu factura de la nube pública, incluyendo casos reales de éxito.</br>          
-          ¡Todo lo que siempre quisiste saber y nunca te atreviste a preguntar a tu CTO!</br></br>
-          
-          **REQUISITOS:**</br>
-          * Estar familiarizados con algún vendor de nube pública (Google Cloud, AWS…)
-          
-          ¡Aún **quedán entradas gratuitas disponibles** (para los asistentes a la TRG)! Recuerda que solo tienes que ir a [la página de venta de entradas](https://www.eventbrite.es/e/entradas-trg23-662875547607?aff=oddtdtcreator){target=_blank}, escrolar hasta abajo del todo y seleccionar el taller como complemento.
-
-      - start: "15:30"
-        end: "18:00"
-        type: workshop
-        speaker: manuel-recena
-        group: planta2
-        color: green
-
-      - start: "15:30"
-        end: "18:00"
-        type: workshop
-        speaker: pablo-santos
-        group: aula2
-        color: violet
-
-      - start: "16:00"
-        end: "18:00"
-        type: event
-        badge: Taller
-        badge_class: is-black    
-        group: aula5
-        color: darkblue
-        title: Crear aplicaciones de IA Generativa con LLMs (Grandes modelos de lenguaje)
-        subtitle: por Diverger        
-        modal: |
-          En este taller, eminentemente práctico, vamos a aterrizar el uso de los LLMs en nuestros proyectos. Indagaremos en los fundamentos, buenas prácticas y arquitecturas comunes.</br></br>Desarrollaremos ejemplos prácticos como sistemas Retrieval Augmented Generation, que permiten desarrollar todo tipo de herramientas de consultas sobre datasets de cualquier tipo utilizando IA.</br></br>Repasaremos como utilizar bases de datos vectoriales, LangChain y técnicas como embeddings, 
-          fine tunning, cachés y demás prácticas comunes. Así mismo, indagaremos sobre los diferentes modelos y sus diferentes escenarios de aplicación.</br></br>También veremos algunas herramientas para ayudarnos a generar código y cómo acelerar los desarrollos.</br></br>**ENFOQUE:**</br>
-          * El taller pretende dar una visión práctica de los fundamentos y recomendaciones a la hora de construir aplicaciones profesionales de IA Generativa utilizando diferentes modelos LLMs.
-          * No solo se explicarán los fundamentos, sino que se crearán ejercicios prácticos. 
-          * El objetivo es reforzar los aspectos técnicos recomendados y enseñar técnicas comunes para abordar problemas típicos con estas tecnologías.</br>
-          
-          **REQUISITOS:**</br>
-          * Tener nociones de Node.js o Python, deseable haber visto algo de LangChain. 
-          * Los días previos al taller se enviarán los requisitos técnicos, frameworks y  demás que los asistentes deben instalar para aprovechar el taller en profundidad.</br>
-          
-          ¡Aún **quedán entradas gratuitas disponibles** (para los asistentes a la TRG)! Recuerda que solo tienes que ir a [la página de venta de entradas](https://www.eventbrite.es/e/entradas-trg23-662875547607?aff=oddtdtcreator){target=_blank}, escrolar hasta abajo del todo y seleccionar el taller como complemento.
-
-      - start: "16:00"
-        end: "17:30"
-        type: event
-        badge: Taller
-        badge_class: is-black          
-        group: planta1_1
-        color: orange
-        title: Usar cualquier aplicación desde ChatGPT es una realidad
-        subtitle: por Velneo        
-        modal: |
-          La IA artificial está afectando a muchas áreas de nuestro trabajo. Entre los usos casi infinitos se nos ha abierto la posibilidad de usar nuestras aplicaciones sin ni siquiera acceder a ellas. En este taller te enseñaremos cómo se puede desarrollar y desplegar un plugin de ChatGPT para que los usuarios de tus aplicaciones puedan interactuar directamente con sus datos.</br></br>
-          En este taller vamos a ver paso a paso cómo se desarrolla y despliega un plugin para ChatGPT y cómo debemos plantear nuestros procesos para facilitar al máximo su funcionalidad superando las limitaciones que la tecnología de OpenAI nos impone.</br></br>
-          Vamos a ver y probar un ejemplo de cómo un usuario por texto o voz puede consultar datos de contactos (clientes, proveedores, etc.) añadir o modificar datos relacionados (dirección, teléfono, emails), o incluso añadir o eliminar documentos de compra o ventas (presupuestos, pedido o facturas de venta).</br></br>
-
-          **REQUISITOS:**</br>
-          * Conexión a internet.
-          * Estar registrados en ChatGPT
-          * Comprobar que en ChatGPT tenemos posibilidad de añadir plugins (a fecha de hoy es una opción gratuita).</br>
-
-          **¡Plazas Agotadas!**
-
-      - start: "16:00"
-        end: "18:00"
-        type: event
-        badge: Taller
-        badge_class: is-black          
-        group: aula3
-        color: "#18B3EA"
-        title: ¿Quién se ha llevado mi pulpo? Una historia de mapas y charcos
-        subtitle: por Extramile        
-        modal: |
-          Un taller donde aprenderás a cómo mostrar todos tus datos en un mapa utilizando las diferentes herramientas que ofrece el ecosistema Google.</br></br>
-
-          ¡Aún **quedán entradas gratuitas disponibles** (para los asistentes a la TRG)! Recuerda que solo tienes que ir a [la página de venta de entradas](https://www.eventbrite.es/e/entradas-trg23-662875547607?aff=oddtdtcreator){target=_blank}, escrolar hasta abajo del todo y seleccionar el taller como complemento.
-
-      - start: "18:00"
-        end: "20:00"
-        type: event                
-        group: escenario
-        badge: Comunidad
-        badge_class: is-red 
-        color: red
-        title: 🤭 Networking Tarugo            
-        modal: |
-          Actividades y dinámicas divertidas para que los asistentes se conozcan entre sí en un ambiente distendido y seguro.</br></br>Si no conoces a nadie, saldrás con un grupo con el que compartir el resto de la conferencia y, si vienes acompañado, ampliarás el circulo con el que interactuarás durante el resto del evento.
-
-      - start: "20:00"
-        end: "22:00"
-        type: event
-        badge: Podcast
-        badge_class: is-red          
-        group: auditorio
-        color: red
-        title: "Heavy Mental x Mixx.io ¡el Crossover definitivo!"
-        subtitle: con el apoyo de Tinybird  
-        modal: |
-          Grabación en directo del **crossover definitivo** del mundo del podcasting tecnológico —[Heavy Mental](https://heavymental.es/){target=_blank} x [Mixx.io](https://mixx.io/){target=_blank}— en el que se repasarán las noticias tecnológicas más interesantes del año desde el humor y con una **constante interacción con el público** ¡No te lo pierdas!
-          
-
-  - day: 27
-    title: Viernes 27
-    groups:
-      - id: entrada
-        content: Entrada
-      - id: escenario
-        content: Zona Escenario                  
-      - id: auditorio
-        content: Auditorio
-      - id: pasillo
-        content: Pasillo Central
-    events:
-      - start: "09:00"
-        end: "10:00"
-        type: org
-        content: Apertura de puertas y acreditación en La Nave
-      
-      - start: "09:00"
-        end: "21:00"
-        type: event                 
-        group: entrada                  
-        title: 🎟️ Apertura de puertas y acreditación de asistentes             
-        modal: |
-          ¡Acredítate antes que nadie y evita las colas! Trae tu entrada, impresa o en el móvil, y disfruta de todas las actividades y contenido de la TRG ¡Bienvenidos!
-
-      - start: "11:00"
-        end: "20:00"
-        type: org
-        group: escenario
-        title: 🤭 Networking  
-        modal: | 
-          La zona frente al escenario, con suelo de madera, está destinada a la gente que está abierta a conocer gente y a que les conozcan ¡ No te cortes y habla con todos!
-
-      - start: "20:30"
-        end: "22:30"
-        type: org
-        group: escenario
-        title: 🥳 Legendaria Fiesta Taruga  
-        modal: |
-          Transformaremos La Nave en una auténtica "Sesión Vermú" con comida y bebida, churros, música y las mejores conversaciones del planeta porque... LA VIDA PUEDE SER MARAVILLOSA.
-
-      - start: "10:00"
-        end: "10:13"
-        type: conference
-        group: auditorio
-        badge: Keynote
-        color: red
-        speaker: david-bonilla
-
-      - start: "10:15"
-        end: "10:58"
-        type: conference
-        group: auditorio
-        color: red
-        speaker: pau-garcia-mila
-
-      - start: "11:00"
-        end: "11:43"
-        type: conference
-        group: auditorio
-        color: red
-        speaker: sandra-hernandez
-
-      - start: "11:45"
-        end: "12:00"
-        type: event
-        group: auditorio
-        badge: Demo
-        badge_class: is-red                  
-        color: red
-        title: "Timeline!"
-        modal: |
-          En esta demo, aprenderemos a jugar al «Timeline», el juego de cartas de la TRG que podrán disfrutar grandes y pequeños... con **cartas exclusivas** que podréis conseguir en los stands de Deiser, Airzone, Stackscale, Velneo y SNGULAR.
-      
-      - start: "12:45"
-        end: "13:00"
-        type: event
-        group: auditorio
-        badge: Concurso
-        badge_class: is-red                  
-        color: red
-        title: "El Precio Justo"
-        subtitle: "ofrecido por Siteground"
-        modal: |
-          Un concursote de Lanzarote en el que los asistentes de la TRG podrán demostrar sus conocimientos sobre el bisnes de la Informática y ¡ganar suculentos premios!
-
-      - start: "13:02"
-        end: "13:43"
-        type: conference
-        group: auditorio
-        color: red
-        speaker: sergio-rodriguez
-
-      - start: "13:45"
-        end: "14:30"
-        type: conference
-        group: auditorio
-        color: red
-        speaker: isabel-garate
-
-      - start: "16:30"
-        end: "16:43"
-        type: event
-        group: auditorio
-        badge: Video
-        badge_class: is-red                  
-        color: red
-        title: "¿Qué saben los Muggles?"        
-        modal: |
-          Nuestros intrépidos reporteros se lanzarán a la calle, micrófono en mano, para averiguar hasta qué punto el público general -sin experiencia técnica- conoce el día a día del sector informático.
-
-      - start: "16:45"
-        end: "17:28"
-        type: conference
-        group: auditorio
-        color: red
-        speaker: debora-franco
-
-      - start: "17:30"
-        end: "18:13"
-        type: conference
-        group: auditorio
-        color: red
-        speaker: antonio-alcaide
-
-      - start: "19:00"
-        end: "19:15"
-        type: event
-        group: auditorio
-        badge: Concurso
-        badge_class: is-red                  
-        color: red
-        title: "🎰 La Jerocleta"        
-        modal: |
-          Sorteo de jugosos premios entre todos los que hayan tuiteado con el hashtag [#trg23](https://twitter.com/search?q=trg23&src=typed_query&f=live){target="_blank"}, realizado con la mítica «Jerocleta» de **Jerónimo López**. Sin duda alguna, el software español más utilizado de la historía.</br></br>
-          Cuanto más tuitees, más posibilidades tendrás de ganar.
-
-      - start: "19:17"
-        end: "20:00"
-        type: conference
-        group: auditorio
-        color: red
-        speaker: pablo-santos
-
-      - start: "20:02"
-        end: "20:30"
-        type: event
-        group: auditorio
-        badge: Charla
-        badge_class: is-red                  
-        color: red
-        title: "Ajuste de Cuentas"        
-        subtitle: "por David Bonilla"
-        modal: |
-          Como ya es tradición, haremos públicas todas las cifras del evento -fuentes de ingresos, partidas de gastos y cuenta de resultados-, agradeceremos el esfuerzo a todo el equipo de profesionales y voluntarios que lo hacen posible y vislumbraremos qué podemos esperar para el año que viene.
-
-      - start: "09:00"
-        end: "09:45"
-        type: event
-        group: pasillo
-        title: "☕ Café de Bienvenida"
-        modal: |
-          Un sencillo cafelito para entrar en calor antes de la awesómica keynote de la TRG.  
-
-      - start: "12:00"
-        end: "12:43"
-        type: event
-        group: pasillo
-        title: "☕ Coffe Break"
-        modal: |
-          Café, snacks y pastitas para llenar las tripitas.</br></br>El intermedio estará amenizado por el DJ residente de la Tarugo -[Don Robot](https://www.youtube.com/watch?v=ltXX9Ab6vuo){target="_blank"}- que cargará el ambiente de ENERGÍA.
-
-      - start: "14:30"
-        end: "16:30"
-        type: event
-        group: pasillo
-        title: "🐙 Comida y Pulpeirada"
-        modal: |
-            4 *food trucks* con diferentes opciones gastronómicas, además de Anxo —nuestro pulpeiro de O Carballiño— que distribuirá **300 raciones de pulpo *a feira* recien hecho**, y muchas mas cosas distribuidas por las mesas ¡A zampar como si no hubiera mañana!</br></br>
-            Y, por supuesto, contaremos con opciones veganas y sin gluten.
-
-      - start: "18:15"
-        end: "19:00"
-        type: event
-        group: pasillo
-        title: "🍪 Merienda"
-        modal: |
-          Café y bollería artesanal para aguantar hasta el final.
-      
-      - start: "09:00"
-        end: "20:30"
-        type: event
-        group: pasillo
-        color: darkblue
-        title: "Zona de Stands"
-        modal: |
-            Una zona llena de sorpresas y actividades donde —un año más— los patrocinadores SE LO HAN CURRADO para aportar valor a todos los asistentes.
-      
-  - day: 28
-    title: Sábado 28
-    groups:
-      - id: pasillo
-        content: Pasillo central
-      - id: daruma
-        content: Rincón Daruma
-      - id: aulas
-        content: Aulas
-      - id: cafe
-        content: Vestíbulo/Cafetería
-      - id: escenario
-        content: Escenario
-      - id: autentia
-        content: Stand Autentia
-      - id: infantil
-        content: Zona infantil
-      - id: parking
-        content: Parking Exterior
-    events: 
-      - start: "11:00"
-        end: "17:00"
-        type: community
-        content: "Futbolines"
-        group: pasillo
-        color: darksalmon
-
-      - start: "11:00"
-        end: "17:00"
-        type: community
-        content: "Arcades y emuladores"
-        group: pasillo
-        color: darksalmon
-
-      - start: "11:00"
-        end: "17:00"
-        type: community
-        content: "Juegos tradicionales de madera"
-        group: pasillo
-        color: darksalmon
-
-      - start: "11:00"
-        end: "17:00"
-        type: community
-        content: "Scalextric de 4 pistas"
-        group: pasillo
-        color: darksalmon
-
-      - start: "11:00"
-        end: "17:00"
-        type: community
-        content: "Twister, Jenna, Conecta 4 y Damas GIGANTES"
-        group: pasillo
-        color: darksalmon
-
-      - start: "11:00"
-        end: "17:00"
-        type: community
-        title: "Carrera de LEDs"
-        group: pasillo
-        color: darksalmon
-        modal: |
-          El camarada del metal [Javi Pérez](https://twitter.com/JaviMostoles){target="_blank"}, se ha prestado a traernos el juego con el que LO HA PETADO en el cole de sus hijos. Un sencillo proyecto electrónico que puedes ver en [este video](https://media.slid.es/videos/969920/EWgX0-7p/olr.mp4){target="_blank"}.
-
-      - start: "11:30"
-        end: "12:15"
-        type: community
-        badge: Taller
-        badge_class: is-black        
-        title: Fundamentos de programación para niños
-        subtitle: con David Bonilla
-        group: daruma
-        color: indianred
-        modal: |
-          David explicará a los más pequeños (a partir de 4 años) los fundamentos básicos de la programación con la ayuda de un buen amigo... [¡Cubetto!](https://www.primotoys.com/){target="_blank"}
-
-      - start: "12:45"
-        end: "15:28"
-        type: community
-        title: 🃏 Partidas dinamizadas de Juegos de Mesa... ¡con su autor!
-        subtitle: con Jorge Barroso
-        group: daruma
-        color: indianred
-        modal: |
-          Jorge, más conocido como [@flipper83](https://twitter.com/flipper83){target="_blank"} es un conocido programador, divulgador, emprendedor y —también— enamorado de los juegos de mesa. Este año ha lanzado Daruma, su primer juego comercial, y vendrá a la TRG con varias unidades y otros juegos para organizar y facilitar unas partidas mientras podrás charlar con él de todo el proceso de diseño del juego.
-
-      - start: "11:15"
-        end: "12:43"
-        type: event
-        badge: Taller
-        badge_class: is-black          
-        title: Dibujo para pequeños grandes artistas
-        subtitle: con Hugo Tobio
-        group: aulas
-        color: powderblue
-        modal: |
-          Aprende técnicas básicas de dibujo de la mano de [Hugo Tobio](https://twitter.com/HugoTobio){target="_blank"} ¡El mismísimo ilustrador de La Bonilista!
-
-      - start: "12:45"
-        end: "14:13"
-        type: event
-        badge: Taller
-        badge_class: is-black 
-        title: Sketchnoting
-        subtitle: con Javier Alonso (@oyabun)
-        group: aulas
-        color: powderblue
-        modal: |
-          Impartido por el mítico [Javier «Oyabun» Alonso](https://twitter.com/oyabun){target="_blank"} ¡sketchnoter oficial de la TRG!
-
-      - start: "14:15"
-        end: "15:13"
-        type: event
-        badge: Taller
-        badge_class: is-black
-        title: Taller de DJs
-        subtitle: con Guillermo Montoya y Don Robot
-        group: aulas
-        color: powderblue
-        modal: |
-          Taller de iniciación al pinchazo de discos, a cargo de [Guillermo Montoya](https://twitter.com/Gmfdsr){target="_blank"} y el DJ oficial de la TRG ¡[Don Robot](https://twitter.com/xRx0xMx){target="_blank"}!      
-
-      - start: "11:15"
-        end: "12:28"
-        type: community
-        badge: TARUGOFF
-        content: Marketplace de ideas
-        group: cafe
-        color: pink
-
-      - start: "12:30"
-        end: "13:28"
-        type: community
-        badge: TARUGOFF
-        content: Sesiones
-        group: cafe
-        color: pink
-
-      - start: "13:30"
-        end: "14:30"
-        type: community
-        badge: TARUGOFF
-        content: Sesiones
-        group: cafe
-        color: pink
-
-      - start: "11:00"
-        end: "12:28"
-        type: community
-        badge: Podcast
-        title: Code on the Rocks
-        group: escenario
-        color: orange
-        modal: |
-          Grabación en directo, con plena interacción con el público, del afamado podcast [Code on the Rocks](http://codeontherocks.fm/){target="_blank"}, el favorito de personalidades como Linus Torvalds o Isabel Pantoja.
-      
-      - start: "12:30"
-        end: "13:58"
-        type: community
-        title: "💸 Simulación en directo de MoneyLand"
-        group: escenario
-        color: orange
-        modal: |
-          Episodio 0 del videopodcast de MoneyLands. Dentro encontraras el primer parque temático del dinero, las finanzas personales y el emprendimiento. ¿Quieres ver en directo cómo es la primera visita a MoneyLand de algunas de las personalidades del mundo tecnológico y de la economía?
-
-      - start: "14:00"
-        end: "14:58"
-        type: community
-        title: Lectura de las aventuras de Mara Turing
-        subtitle: por su autor, Javi Padilla
-        group: escenario
-        color: orange
-        modal: |
-          Lectura en directo de algunos capítulos de las aventuras de Mara a cargo de su autor, [Javier Padilla](https://twitter.com/elpady){target="_blank"}, con un coloquio sobre el proceso creativo de escritura de los libros y firma de los mismos.
-
-      - start: "15:00"
-        end: "15:45"
-        type: event        
-        title: Exhibición de magia
-        subtitle: con Juanto
-        group: escenario
-        color: orange
-        modal: |
-          El mítico [Juan Tomas](https://twitter.com/juantomas){target="_blank"}, uno de los pocos magos grises aun en activo que conoció las tarjetas perforadas, nos obsequiará con unos trucos de ***magía informática*** que disfrutarán grandes y pequeños.
-        
-
-      - start: "11:00"
-        end: "16:00"
-        type: community
-        content: "Taller de chapas"
-        group: autentia
-        color: violet
-
-      - start: "11:00"
-        end: "16:00"
-        type: community
-        content: "Ludoteca"
-        group: infantil
-        color: lightgreen
-
-      - start: "11:00"
-        end: "16:00"
-        type: community
-        content: "Pintacaras"
-        group: infantil
-        color: lightgreen
-
-      - start: "11:00"
-        end: "16:00"
-        type: community
-        content: "Juegos de Conos"
-        group: infantil
-        color: lightgreen
-
-      - start: "11:00"
-        end: "16:00"
-        type: event
-        title: "🚚 Foodtrucks"
-        group: parking
-        color: purple
-        modal: |
-          4 foodtrucks con múltiples opciones de comida (hamburgesas, perritos, crepes...) y bebida para todos los asistentes al Community Day.
-
-      - start: "11:00"
-        end: "16:00"
-        type: event
-        title: "Simulación de conducción bajo los efectos del alcohol y las drogas"
-        subtitle: "a cargo de la Cruz Roja"
-        group: parking
-        color: purple
-        modal: |
-          La Cruz Roja gestionará un divertido circuito de patinetes con gafas de simulación de efectos de drogas, para concienciar a los jovenes de una forma lúdica.
-
