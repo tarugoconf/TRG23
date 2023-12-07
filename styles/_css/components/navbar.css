@@ -8,8 +8,8 @@
   padding: 0 1rem;
   min-height: 82px;
   z-index: 4;
-  background-color: color-mix(in srgb, var(--color-sepia), transparent 15%);
-  backdrop-filter: blur(8px);
+  /* background-color: color-mix(in srgb, var(--color-sepia), transparent 15%); */
+  /* backdrop-filter: blur(8px); */
   border-radius: var(--border-radius);
   max-width: calc(1224px + 4rem);
   width: calc(100% - 4rem);

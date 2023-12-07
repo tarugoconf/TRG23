@@ -6,8 +6,6 @@ copyright: |
 menu:
 - text: <strong>Blog</strong>
   href: /blog/
-- text: <strong>Community day</strong>
-  href: /community-day/
   separator: true
 - text: Aviso legal
   href: /aviso-legal/

@@ -2,20 +2,15 @@
   --color-sepia: #fff;
   --color-red: blue;
 }
-
-/* html {
-  background: var(--color-gray-xlight);
-}
 body {
-  background: white;
-  max-width: 1200px;
-  margin: 2em auto;
-} */
+  padding-top: 1px;
+  background: radial-gradient(circle at top left, #ffc500, #ffc500 40vw, white 40vw);
+}
 
 .home-logo {
   img {
     display: block;
-    max-width: 100%;
+    max-width: 90%;
     width: 500px;
     margin: 0 auto 1em;
   }
@@ -52,6 +47,11 @@ body {
   > .text-subtitle {
     text-align: center;
     margin: 4em 0;
+  }
+
+  footer {
+    text-align: center;
+    margin-top: 2em;
   }
 }
 
@@ -91,4 +91,12 @@ body {
     & p {
         margin: 0 0 1em;
     }
+}
+
+.home-pdf {
+  width: 100%;
+  aspect-ratio: 5 / 3;
+  max-height: 90vh;
+  border: solid 1px var(--color-gray-light);
+  border-radius: var(--border-radius-small);
 }

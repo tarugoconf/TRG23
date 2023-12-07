@@ -28,6 +28,16 @@ styles: /styles/home-post.css
   <section class="home-sponsors" id="{{ sponsors.id }}">
     {{ include "templates/blocks/header.vto" {block: sponsors} }}
 
+    <iframe class="home-pdf" src="{{ sponsors.cta.href }}">
+    </iframe>
+
+    <footer>
+      <a class="button" role="button" href="{{ sponsors.cta.href }}" download>
+        <strong>{{ sponsors.cta.text }}</strong>
+      </a>
+      <p><a href="{{ sponsors.link.href }}" download>{{ sponsors.link.text }}</a></p>
+    </footer>
+
     <h3 class="text-subtitle">{{ past_sponsors.subtitle }}</h3>
 
     {{ include "templates/blocks/img-grid.vto" {block: past_sponsors.items} }}

@@ -5,8 +5,14 @@
 
   {{ for item of block.items }}
   <address class="text-base">
-    <h3 class="text-intro">{{ item.title }}</h3>
-    {{ item.info |> md }}
+    <div class="block-contact-subheader">
+      {{ if item.img }}
+        <img class="block-contact-image" src="{{ item.img }}">
+      {{ /if }}
+
+      <h3 class="text-intro">{{ item.title }}</h3>
+      {{ item.info |> md }}
+    </div>
 
     <ul>
     {{ for link of item.links }}

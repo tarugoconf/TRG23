@@ -21,9 +21,7 @@ const site = lume({
   .copy("js")
   .copy("img")
   .copy("fonts")
-  .copy("favicon.ico")
-  .copy("favicon-32x32.png")
-  .copy("favicon-16x16.png")
+  .copy("deck")
   .data("cache", Date.now())
   .remoteFile(
     "styles/_css/normalize.css",

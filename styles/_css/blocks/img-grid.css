@@ -38,7 +38,6 @@
     width: var(--img-size);
     height: var(--img-size);
     object-fit: cover;
-    filter: saturate(0);
     border-radius: var(--border-radius);
   }
 }

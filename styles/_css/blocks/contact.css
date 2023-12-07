@@ -37,3 +37,13 @@
     }
   }
 }
+
+.block-contact-image {
+  width: 6em;
+  float: left;
+  margin: 0 1em 1em 0;
+  border-radius: var(--border-radius-small);
+}
+.block-contact-subheader {
+  display: flow-root;
+}
