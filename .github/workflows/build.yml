@@ -18,7 +18,7 @@ jobs:
 
       - name: Run lume
         run: |
-          deno task build --location=https://www.trgcon.com/
+          deno task build --location=https://2023.trgcon.com/
         env:
           API_KEY: ${{ secrets.API_KEY }}
           EVENT_ID: ${{ secrets.EVENT_ID }}
